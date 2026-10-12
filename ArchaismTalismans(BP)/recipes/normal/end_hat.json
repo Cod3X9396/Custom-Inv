@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:end_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			"CAC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"B": {
+				"item": "minecraft:diamond_helmet"
+			},
+			"C": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "arena:end_hat"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_shard"
+			}
+		]
+	}
+}

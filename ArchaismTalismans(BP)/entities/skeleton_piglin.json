@@ -1,0 +1,786 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "arena:skeleton_piglin",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "runtime_identifier": "minecraft:piglin"
+    },
+
+    "component_groups": {
+      "minecraft:start_damage_timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "randomInterval": true,
+          "time": [ 120, 240 ],
+          "time_down_event": {
+            "event": "minecraft:add_periodic_damage"
+          }
+        }
+      },
+      "minecraft:periodic_damage": {
+        "minecraft:damage_over_time": {
+          "damage_per_hurt": 2,
+          "time_between_hurt": 1.0
+        }
+      },
+      "arena:health+2": { "minecraft:health": { "value": 30, "max": 30 } },
+      "arena:health+4": { "minecraft:health": { "value": 34, "max": 34 } },
+      "arena:health+6": { "minecraft:health": { "value": 38, "max": 38 } },
+      "arena:health+8": { "minecraft:health": { "value": 42, "max": 42 } },
+      "arena:health+10": { "minecraft:health": { "value": 46, "max": 46 } },
+      "arena:health+12": { "minecraft:health": { "value": 50, "max": 50 } },
+      "arena:health+14": { "minecraft:health": { "value": 54, "max": 54 } },
+      "arena:health+16": { "minecraft:health": { "value": 58, "max": 58 } },
+      "arena:health+18": { "minecraft:health": { "value": 62, "max": 62 } },
+      "arena:health+20": { "minecraft:health": { "value": 66, "max": 66 } },
+      "arena:health+22": { "minecraft:health": { "value": 70, "max": 70 } },
+      "arena:health+24": { "minecraft:health": { "value": 74, "max": 74 } },
+      "arena:health+26": { "minecraft:health": { "value": 78, "max": 78 } },
+      "arena:health+28": { "minecraft:health": { "value": 82, "max": 82 } },
+      "arena:health+30": { "minecraft:health": { "value": 86, "max": 86 } },
+      "arena:health+32": { "minecraft:health": { "value": 90, "max": 90 } },
+      "arena:health+34": { "minecraft:health": { "value": 94, "max": 94 } },
+      "arena:health+36": { "minecraft:health": { "value": 98, "max": 98 } },
+      "arena:health+38": { "minecraft:health": { "value": 102, "max": 102 } },
+      "arena:health+40": { "minecraft:health": { "value": 106, "max": 106 } },
+      "ranged_unit": {
+        "minecraft:behavior.ranged_attack": {
+          "priority": 8,
+          "attack_interval_min": 1,
+          "attack_interval_max": 1,
+          "attack_radius": 8,
+          "attack_radius_min": 4,
+          "speed_multiplier": 1.0,
+          "target_in_sight_time": 0.1
+        },
+        "minecraft:shooter": {
+          "def": "minecraft:arrow"
+        },
+        "minecraft:behavior.charge_held_item": {
+          "priority": 3,
+          "items": [
+            "minecraft:arrow"
+          ]
+        },
+        "minecraft:equipment": {
+          "table": "loot_tables/entities/piglin_gear_ranged.json"
+        },
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "arena:ranged+1": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 4, "speed_multiplier": 1.05, "target_in_sight_time": 0.1 } },
+      "arena:ranged+2": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 4, "speed_multiplier": 1.1, "target_in_sight_time": 0.1 } },
+      "arena:ranged+3": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 5, "speed_multiplier": 1.15, "target_in_sight_time": 0.1 } },
+      "arena:ranged+4": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 5, "speed_multiplier": 1.2, "target_in_sight_time": 0.1 } },
+      "arena:ranged+5": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 6, "speed_multiplier": 1.25, "target_in_sight_time": 0.1 } },
+      "arena:ranged+6": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 6, "speed_multiplier": 1.3, "target_in_sight_time": 0.1 } },
+      "arena:ranged+7": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 7, "speed_multiplier": 1.35, "target_in_sight_time": 0.1 } },
+      "arena:ranged+8": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 7, "speed_multiplier": 1.4, "target_in_sight_time": 0.1 } },
+      "arena:ranged+9": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 8, "speed_multiplier": 1.45, "target_in_sight_time": 0.1 } },
+      "arena:ranged+10": { "minecraft:behavior.ranged_attack": { "priority": 8, "attack_interval_min": 0, "attack_interval_max": 1,
+        "attack_radius": 8, "attack_radius_min": 8, "speed_multiplier": 1.5, "target_in_sight_time": 0.1 } },
+      "melee_unit": {
+        "minecraft:behavior.use_kinetic_weapon": {
+          "priority": 8,
+          "track_target": true,
+          "approach_distance": 10.0,
+          "reposition_distance": {
+            "min": 6.0,
+            "max": 7.0
+          },
+          "cooldown_distance": {
+            "min": 9.0,
+            "max": 11.0
+          },
+          "weapon_reach_multiplier": 1,
+          "weapon_min_speed_multiplier": 0.2,
+          "hijack_mount_navigation": true
+        },
+        "minecraft:behavior.melee_box_attack": {
+          "priority": 9,
+          "speed_multiplier": 1.0,
+          "track_target": true
+        },
+        "minecraft:attack": {
+          "damage": 5
+        },
+        "minecraft:equipment": {
+          "table": "loot_tables/entities/piglin_gear_melee.json"
+        },
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "arena:attack+1": { "minecraft:attack": { "damage": 6 } },
+      "arena:attack+2": { "minecraft:attack": { "damage": 7 } },
+      "arena:attack+3": { "minecraft:attack": { "damage": 8 } },
+      "arena:attack+4": { "minecraft:attack": { "damage": 9 } },
+      "arena:attack+5": { "minecraft:attack": { "damage": 10 } },
+      "arena:attack+6": { "minecraft:attack": { "damage": 11 } },
+      "arena:attack+7": { "minecraft:attack": { "damage": 12 } },
+      "arena:attack+8": { "minecraft:attack": { "damage": 13 } },
+      "arena:attack+9": { "minecraft:attack": { "damage": 14 } },
+      "arena:attack+10": { "minecraft:attack": { "damage": 15 } },
+      "attack_cooldown": {
+        "minecraft:attack_cooldown": {
+          "attack_cooldown_time": [ 30.0, 120.0 ],
+          "attack_cooldown_complete_event": {
+            "event": "attack_cooldown_complete_event",
+            "target": "self"
+          }
+        }
+      },
+      "piglin_adult": {
+        "minecraft:scale": {
+          "value": 0.9
+        },
+        "minecraft:group_size": {
+          "radius": 32,
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_component",
+                "operator": "not",
+                "value": "minecraft:is_baby"
+              },
+              {
+                "test": "is_family",
+                "value": "piglin"
+              }
+            ]
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+        }
+      },
+      "hunter": {
+        "minecraft:type_family": {
+          "family": [
+            "piglin",
+            "piglin_hunter",
+            "monster",
+            "undead", 
+            "skeleton", 
+            "summon"
+          ]
+        }
+      },
+      "not_hunter": {
+        "minecraft:type_family": {
+          "family": [
+            "piglin",
+            "monster",
+            "undead", 
+            "skeleton", 
+            "summon"
+          ]
+        }
+      },
+      "piglin_jockey": {
+        "minecraft:behavior.find_mount": {
+          "priority": 1,
+          "within_radius": 16,
+          "start_delay": 15,
+          "max_failed_attempts": 20
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:tameable": {
+        "probability": 0.0
+      },
+      "minecraft:is_tamed": {},
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1,
+        "max_dist": 64
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2,
+        "max_dist": 64
+      },
+      "minecraft:behavior.follow_owner": {
+        "priority": 6,
+        "speed_multiplier": 1.0,
+        "start_distance": 8,
+        "stop_distance": 4
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:equip_item": {
+        "excluded_items": [
+          {
+            "item": "minecraft:banner:15"
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true
+      },
+      "minecraft:health": {
+        "value": 26,
+        "max": 26
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "can_open_doors": true
+      },
+      "minecraft:annotation.open_door": {
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:nameable": {},
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 4,
+        "remove_target": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zoglin"
+                }
+              ]
+            },
+            "max_dist": 6
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_target",
+                  "subject": "other"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "hoglin"
+                }
+              ]
+            },
+            "sprint_speed_multiplier": 1.2,
+            "check_if_outnumbered": true
+          }
+        ]
+      },
+      "minecraft:behavior.equip_item": {
+        "priority": 5
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 6,
+        "max_dist": 16,
+        "goal_radius": 2,
+        "speed_multiplier": 0.8,
+        "pickup_based_on_chance": false,
+        "can_pickup_any_item": false,
+        "cooldown_after_being_attacked": 20.0
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 10,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 12
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:follow_range": {
+        "value": 64
+      },
+      "minecraft:shareables": {
+        "singular_pickup": true,
+        "items": [
+          {
+            "item": "minecraft:golden_sword",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_spear",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_axe",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_hoe",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_pickaxe",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_shovel",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_helmet",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_chestplate",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_leggings",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_boots",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_apple",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:appleEnchanted",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_carrot",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:gold_block",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:gold_nugget",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:raw_gold",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:gold_ore",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:nether_gold_ore",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:deepslate_gold_ore",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:raw_gold_block",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:gilded_blackstone",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:horsearmorgold",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:golden_nautilus_armor",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:crossbow",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:netherite_helmet",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_helmet",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_helmet",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:chainmail_helmet",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:copper_helmet",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:leather_helmet",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:skull:0",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:skull:1",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:skull:2",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:skull:3",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:skull:4",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:skull:5",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:carved_pumpkin",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:turtle_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 9
+          },
+          {
+            "item": "minecraft:netherite_chestplate",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_chestplate",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_chestplate",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:chainmail_chestplate",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:copper_chestplate",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:elytra",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:netherite_leggings",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_leggings",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_leggings",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:chainmail_leggings",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:copper_leggings",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:netherite_boots",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_boots",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_boots",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:chainmail_boots",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:bell",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:clock",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:speckled_melon",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:light_weighted_pressure_plate",
+            "priority": 2
+          },
+          {
+            "item": "minecraft:copper_boots",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:netherite_sword",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_sword",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_sword",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:copper_sword",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:stone_sword",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:wooden_sword",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:netherite_spear",
+            "priority": 3
+          },
+          {
+            "item": "minecraft:diamond_spear",
+            "priority": 4
+          },
+          {
+            "item": "minecraft:iron_spear",
+            "priority": 5
+          },
+          {
+            "item": "minecraft:copper_spear",
+            "priority": 6
+          },
+          {
+            "item": "minecraft:stone_spear",
+            "priority": 7
+          },
+          {
+            "item": "minecraft:wooden_spear",
+            "priority": 8
+          },
+          {
+            "item": "minecraft:shield",
+            "priority": 9
+          },
+          {
+            "item": "minecraft:gold_ingot",
+            "priority": 1
+          }
+        ]
+      },
+      "minecraft:fire_immune": {
+      }
+    },
+
+    "events": {
+      "arena:health+2": { "add": { "component_groups": [ "arena:health+2" ] } },
+      "arena:health+4": { "add": { "component_groups": [ "arena:health+4" ] } },
+      "arena:health+6": { "add": { "component_groups": [ "arena:health+6" ] } },
+      "arena:health+8": { "add": { "component_groups": [ "arena:health+8" ] } },
+      "arena:health+10": { "add": { "component_groups": [ "arena:health+10" ] } },
+      "arena:health+12": { "add": { "component_groups": [ "arena:health+12" ] } },
+      "arena:health+14": { "add": { "component_groups": [ "arena:health+14" ] } },
+      "arena:health+16": { "add": { "component_groups": [ "arena:health+16" ] } },
+      "arena:health+18": { "add": { "component_groups": [ "arena:health+18" ] } },
+      "arena:health+20": { "add": { "component_groups": [ "arena:health+20" ] } },
+      "arena:health+22": { "add": { "component_groups": [ "arena:health+22" ] } },
+      "arena:health+24": { "add": { "component_groups": [ "arena:health+24" ] } },
+      "arena:health+26": { "add": { "component_groups": [ "arena:health+26" ] } },
+      "arena:health+28": { "add": { "component_groups": [ "arena:health+28" ] } },
+      "arena:health+30": { "add": { "component_groups": [ "arena:health+30" ] } },
+      "arena:health+32": { "add": { "component_groups": [ "arena:health+32" ] } },
+      "arena:health+34": { "add": { "component_groups": [ "arena:health+34" ] } },
+      "arena:health+36": { "add": { "component_groups": [ "arena:health+36" ] } },
+      "arena:health+38": { "add": { "component_groups": [ "arena:health+38" ] } },
+      "arena:health+40": { "add": { "component_groups": [ "arena:health+40" ] } },
+
+      "arena:ranged+1": { "add": { "component_groups": [ "arena:ranged+1" ] } },
+      "arena:ranged+2": { "add": { "component_groups": [ "arena:ranged+2" ] } },
+      "arena:ranged+3": { "add": { "component_groups": [ "arena:ranged+3" ] } },
+      "arena:ranged+4": { "add": { "component_groups": [ "arena:ranged+4" ] } },
+      "arena:ranged+5": { "add": { "component_groups": [ "arena:ranged+5" ] } },
+      "arena:ranged+6": { "add": { "component_groups": [ "arena:ranged+6" ] } },
+      "arena:ranged+7": { "add": { "component_groups": [ "arena:ranged+7" ] } },
+      "arena:ranged+8": { "add": { "component_groups": [ "arena:ranged+8" ] } },
+      "arena:ranged+9": { "add": { "component_groups": [ "arena:ranged+9" ] } },
+      "arena:ranged+10": { "add": { "component_groups": [ "arena:ranged+10" ] } },
+
+      "arena:attack+1": { "add": { "component_groups": [ "arena:attack+1" ] } },
+      "arena:attack+2": { "add": { "component_groups": [ "arena:attack+2" ] } },
+      "arena:attack+3": { "add": { "component_groups": [ "arena:attack+3" ] } },
+      "arena:attack+4": { "add": { "component_groups": [ "arena:attack+4" ] } },
+      "arena:attack+5": { "add": { "component_groups": [ "arena:attack+5" ] } },
+      "arena:attack+6": { "add": { "component_groups": [ "arena:attack+6" ] } },
+      "arena:attack+7": { "add": { "component_groups": [ "arena:attack+7" ] } },
+      "arena:attack+8": { "add": { "component_groups": [ "arena:attack+8" ] } },
+      "arena:attack+9": { "add": { "component_groups": [ "arena:attack+9" ] } },
+      "arena:attack+10": { "add": { "component_groups": [ "arena:attack+10" ] } },
+
+      "minecraft:add_damage_timer": {
+        "add": {
+          "component_groups": [ "minecraft:start_damage_timer" ]
+        }
+      },
+      "minecraft:add_periodic_damage": {
+        "add": {
+          "component_groups": [ "minecraft:periodic_damage" ]
+        },
+        "remove": {
+          "component_groups": [ "minecraft:start_damage_timer" ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "trigger": "spawn_adult"
+      },
+      "spawn_adult_no_hunting": {
+        "randomize": [
+          {
+            "weight": 1,
+            "trigger": "spawn_adult_ranged_no_hunting"
+          },
+          {
+            "weight": 1,
+            "trigger": "spawn_adult_melee_no_hunting"
+          }
+        ]
+      },
+      "spawn_adult": {
+        "randomize": [
+          {
+            "weight": 1,
+            "trigger": "spawn_adult_ranged"
+          },
+          {
+            "weight": 1,
+            "trigger": "spawn_adult_melee"
+          }
+        ]
+      },
+      "spawn_adult_ranged": {
+        "add": {
+          "component_groups": [
+            "piglin_adult",
+            "ranged_unit",
+            "attack_cooldown",
+            "hunter"
+          ]
+        }
+      },
+      "spawn_adult_ranged_no_hunting": {
+        "add": {
+          "component_groups": [
+            "piglin_adult",
+            "ranged_unit",
+            "attack_cooldown",
+            "not_hunter"
+          ]
+        }
+      },
+      "spawn_adult_melee": {
+        "add": {
+          "component_groups": [
+            "piglin_adult",
+            "melee_unit",
+            "attack_cooldown",
+            "hunter"
+          ]
+        }
+      },
+      "spawn_adult_melee_no_hunting": {
+        "add": {
+          "component_groups": [
+            "piglin_adult",
+            "melee_unit",
+            "attack_cooldown",
+            "not_hunter"
+          ]
+        }
+      },
+      "attack_cooldown_complete_event": {
+        "remove": {
+          "component_groups": [
+            "attack_cooldown"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marble_wing",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 1]
+				},
+				{
+					"name": "Chestplate_Body",
+					"parent": "body",
+					"pivot": [0, 24, 1]
+				},
+				{
+					"name": "Chestplate_Body_Parts",
+					"parent": "Chestplate_Body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Wings",
+					"parent": "Chestplate_Body_Parts",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-2, 17, 4], "size": [4, 4, 2], "pivot": [0, 19, 5], "rotation": [0, 0, 45], "uv": [144, 36]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_LeftWing",
+					"parent": "Chestplate_Body_Wings",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Alpha_Left_Wing",
+					"parent": "Chestplate_Body_LeftWing",
+					"pivot": [-2, 20, 6],
+					"rotation": [-30, 30, -27.5],
+					"cubes": [
+						{"origin": [-8, 18, 4], "size": [7, 2, 2], "uv": [25, 90]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_II",
+					"parent": "Chestplate_Body_Alpha_Left_Wing",
+					"pivot": [-8, 18, 4],
+					"rotation": [0, 0, 70],
+					"cubes": [
+						{"origin": [-21, 18, 4], "size": [13, 2, 2], "inflate": 0.005, "uv": [50, 105]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_III",
+					"parent": "Chestplate_Body_Left_Wing_II",
+					"pivot": [-22, 20, 5],
+					"rotation": [0, 0, -82.5],
+					"cubes": [
+						{"origin": [-39, 18, 4], "size": [20, 2, 2], "inflate": 0.007, "uv": [65, 29]},
+						{"origin": [-47, -2, 5], "size": [32, 20, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Omega_Left_Wing",
+					"parent": "Chestplate_Body_LeftWing",
+					"pivot": [-1, 21, 5],
+					"rotation": [2.5, 20, 25],
+					"cubes": [
+						{"origin": [-7, 19, 3], "size": [7, 2, 2], "uv": [127, 47]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_II2",
+					"parent": "Chestplate_Body_Omega_Left_Wing",
+					"pivot": [-7, 19, 4],
+					"rotation": [0, 0, 75],
+					"cubes": [
+						{"origin": [-17, 19, 3], "size": [10, 2, 2], "inflate": 0.005, "uv": [110, 30]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_III2",
+					"parent": "Chestplate_Body_Left_Wing_II2",
+					"pivot": [-18, 21, 4],
+					"rotation": [0, 0, -112.5],
+					"cubes": [
+						{"origin": [-32, 19, 3], "size": [15, 2, 2], "inflate": 0.007, "uv": [99, 86]},
+						{"origin": [-44, 3, 4], "size": [24, 16, 0], "uv": [0, 42]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Delta_Left_Wing",
+					"parent": "Chestplate_Body_LeftWing",
+					"pivot": [0, 17, 5],
+					"rotation": [-42.5, 40, -55],
+					"cubes": [
+						{"origin": [-4, 15, 3], "size": [5, 2, 2], "uv": [144, 31]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_II3",
+					"parent": "Chestplate_Body_Delta_Left_Wing",
+					"pivot": [-4, 15, 4],
+					"rotation": [0, 0, 67.5],
+					"cubes": [
+						{"origin": [-10, 15, 3], "size": [6, 2, 2], "inflate": 0.005, "uv": [140, 65]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Left_Wing_III3",
+					"parent": "Chestplate_Body_Left_Wing_II3",
+					"pivot": [-11, 17, 4],
+					"rotation": [0, 0, -70],
+					"cubes": [
+						{"origin": [-21, 15, 3], "size": [12, 2, 2], "inflate": 0.007, "uv": [110, 25]},
+						{"origin": [-28, 5, 4], "size": [20, 10, 0], "uv": [65, 0]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_RightWing",
+					"parent": "Chestplate_Body_Wings",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Alpha_Right_Wing",
+					"parent": "Chestplate_Body_RightWing",
+					"pivot": [2, 20, 6],
+					"rotation": [-30, -30, 27.5],
+					"cubes": [
+						{"origin": [1, 18, 4], "size": [7, 2, 2], "uv": [134, 91]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_II",
+					"parent": "Chestplate_Body_Alpha_Right_Wing",
+					"pivot": [8, 18, 4],
+					"rotation": [0, 0, -70],
+					"cubes": [
+						{"origin": [8, 18, 4], "size": [13, 2, 2], "inflate": 0.005, "uv": [106, 0]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_III",
+					"parent": "Chestplate_Body_Right_Wing_II",
+					"pivot": [22, 20, 5],
+					"rotation": [0, 0, 82.5],
+					"cubes": [
+						{"origin": [19, 18, 4], "size": [20, 2, 2], "inflate": 0.007, "uv": [65, 34]},
+						{"origin": [15, -2, 5], "size": [32, 20, 0], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Omega_Right_Wing",
+					"parent": "Chestplate_Body_RightWing",
+					"pivot": [1, 21, 5],
+					"rotation": [2.5, -20, -25],
+					"cubes": [
+						{"origin": [0, 19, 3], "size": [7, 2, 2], "uv": [135, 5]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_II2",
+					"parent": "Chestplate_Body_Omega_Right_Wing",
+					"pivot": [7, 19, 4],
+					"rotation": [0, 0, -75],
+					"cubes": [
+						{"origin": [7, 19, 3], "size": [10, 2, 2], "inflate": 0.005, "uv": [34, 127]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_III2",
+					"parent": "Chestplate_Body_Right_Wing_II2",
+					"pivot": [18, 21, 4],
+					"rotation": [0, 0, 112.5],
+					"cubes": [
+						{"origin": [17, 19, 3], "size": [15, 2, 2], "inflate": 0.007, "uv": [99, 91]},
+						{"origin": [20, 3, 4], "size": [24, 16, 0], "uv": [49, 42]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Delta_Right_Wing",
+					"parent": "Chestplate_Body_RightWing",
+					"pivot": [0, 17, 5],
+					"rotation": [-42.5, -40, 55],
+					"cubes": [
+						{"origin": [-1, 15, 3], "size": [5, 2, 2], "uv": [139, 143]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_II3",
+					"parent": "Chestplate_Body_Delta_Right_Wing",
+					"pivot": [4, 15, 4],
+					"rotation": [0, 0, -67.5],
+					"cubes": [
+						{"origin": [4, 15, 3], "size": [6, 2, 2], "inflate": 0.005, "uv": [137, 0]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Right_Wing_III3",
+					"parent": "Chestplate_Body_Right_Wing_II3",
+					"pivot": [11, 17, 4],
+					"rotation": [0, 0, 70],
+					"cubes": [
+						{"origin": [9, 15, 3], "size": [12, 2, 2], "inflate": 0.007, "uv": [106, 5]},
+						{"origin": [8, 5, 4], "size": [20, 10, 0], "uv": [49, 59]}
+					]
+				}
+			]
+		}
+	]
+}

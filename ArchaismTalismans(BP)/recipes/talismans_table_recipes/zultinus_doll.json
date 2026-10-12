@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:zultinus_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"CDA",
+			"CAE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:lapis_block"
+			},
+			"B": {
+				"item": "minecraft:diamond_pickaxe"
+			},
+			"C": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"result": {
+			"item": "arena:zultinus_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

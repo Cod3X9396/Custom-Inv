@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:golden_cursebreaker_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:iron_cursebreaker_earring"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:jelewer_upgrade_smithing_template_g"
+			}
+		},
+		"result": {
+			"item": "arena:golden_cursebreaker_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:iron_cursebreaker_earring"
+			}
+		]
+	}
+}

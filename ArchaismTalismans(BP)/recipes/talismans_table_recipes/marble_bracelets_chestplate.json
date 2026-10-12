@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_bracelets_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BBA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:piglin_bracelet_chestplate"
+			}
+		},
+		"result": {
+			"item": "arena:marble_bracelets_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "arena:piglin_bracelet_chestplate"
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "menu_category": {
+                "category": "equipment"
+            },
+            "identifier": "arena:trinket_i"
+        },
+        "components": {
+            "minecraft:icon": "trinket_tome_i",
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": false,
+            "minecraft:glint": false,
+            "minecraft:display_name": {
+                "value": "§o§eRotten book\n§9Stats: §7+5'/. defense \n§aLearn: §7+10'/. defense \n§aUnlock: §7Doll, body, feet\n§4Required: §716 Levels of Experience\n(Sneaking to upgrade)"
+            },
+            "minecraft:custom_components": [
+                "arena:learn"
+            ],
+            "minecraft:use_modifiers": {
+                "use_duration": 32
+            }
+        }
+    }
+}

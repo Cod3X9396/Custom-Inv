@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "arena:marble_ore_deepslate",
+        "menu_category": {
+            "category": "Nature",
+            "group": "itemGroup.name.ore"
+        }
+	   },
+	   "components": {
+		"tag:iron_pick_diggable": {},
+		"tag:ore_t3": {},
+		"minecraft:map_color": "#302A37",
+		"minecraft:loot": "loot_tables/blocks/fallen_marble_ore.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:iron": {},
+        "minecraft:destructible_by_explosion": {
+            "explosion_resistance": 1
+      }
+		}
+	}
+}

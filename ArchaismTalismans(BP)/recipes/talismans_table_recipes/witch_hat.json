@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:witch_hat"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"A  ",
+			" BA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:witch_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:witch_mask"
+			}
+		]
+	}
+}

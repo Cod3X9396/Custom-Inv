@@ -1,0 +1,43 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_soul_hand"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AB ",
+			"CDE",
+			"EEE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:poisonous_shard"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			},
+			"C": {
+				"item": "arena:wither_fire"
+			},
+			"D": {
+				"item": "arena:marble_hand"
+			},
+			"E": {
+				"item": "minecraft:soul_sand"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_soul_hand"
+		},
+		"unlock": [
+			{
+				"item": "arena:poisonous_shard",
+				"item": "arena:flammable_shard",
+				"item": "arena:marble_hand"
+			}
+		]
+	}
+}

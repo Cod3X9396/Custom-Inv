@@ -1,0 +1,44 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "arena:wither_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 355,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:icon": {
+        "texture": "m11"
+      },
+      "minecraft:wearable": {
+        "protection": 3,
+        "slot": "slot.armor.head"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "arena:wither_helmet"
+            ],
+            "repair_amount": "query.max_durability * 1"
+          }
+        ]
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:diamond_saber"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" AA",
+			" A ",
+			"BC "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:diamond_saber"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond"
+			}
+		]
+	}
+}

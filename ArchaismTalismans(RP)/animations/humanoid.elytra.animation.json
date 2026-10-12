@@ -1,0 +1,87 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.elytra.move": {
+			"animation_length": 0.25,
+			"bones": {
+				"root": {
+					"rotation": ["90+query.target_x_rotation", 0, "-query.target_y_rotation"]
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": ["-this", "-this", "-this"],
+						"0.25": ["-this", "-this", "-this"]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": ["-this", "-this", "-this"],
+						"0.25": ["-this", "-this", "-this"]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": ["-this", "-this", "-this"],
+						"0.25": ["-this", "-this", "-this"]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": ["-this", "-this", "-this"],
+						"0.25": ["-this", "-this", "-this"]
+					}
+				}
+			}
+		},
+		"animation.elytra.model.setup": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root": {
+					"position": [-6.5, -24, -1.5]
+				}
+			}
+		},
+		"animation.elytra.move.model": {
+			"animation_length": 0.25,
+			"bones": {
+				"root": {
+					"rotation": ["90+query.ride_head_x_rotation", 0, "query.ride_body_y_rotation-query.ride_head_y_rotation"]
+				}
+			}
+		},
+		"animation.elytra.model.gliding": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 1.067
+				},
+				"left_wing": {
+					"position": [2, 2, -2],
+					"rotation": [
+						"variable.ratio = (query.property('ena:y_rot') < 0) ? 1-math.pow(-query.property('ena:y_rot'), 1.5) : 1; return math.lerp(15, 20, variable.ratio);",
+						0,
+						"math.lerp(-15, -90, variable.ratio)"
+					],
+					"scale": [1, 1, 2]
+				},
+				"right_wing": {
+					"position": [-2, 2, -2],
+					"rotation": [
+						"variable.ratio = (query.property('ena:y_rot') < 0) ? 1-math.pow(-query.property('ena:y_rot'), 1.5) : 1;  return math.lerp(15, 20, variable.ratio);",
+						0,
+						"math.lerp(15, 90, variable.ratio)"
+					],
+					"scale": [1, 1, 2]
+				}
+			}
+		},
+		"animation.elytra.model.offset": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"body": {
+					"position": [0, 4, 2]
+				}
+			}
+		}
+	}
+}

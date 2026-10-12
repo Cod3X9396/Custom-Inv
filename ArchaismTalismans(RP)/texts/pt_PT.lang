@@ -1,0 +1,756 @@
+pack.name=Archaism Talismans (RP) Portugal!
+pack.description=(Talismãs arcaicos) v1.8.1 feito por Hamleth Arena #Hydra studio
+
+tile.arena:talismans_table.name=§fMesa do §9Talismãs
+tile.arena:reforgerd_jelewer.name=§fMesa do §djoias
+
+arena:itemGroup.name.equipment.hats=§r§gTeddys!
+arena:itemGroup.name.equipment.talisman=§9Talismã
+arena:itemGroup.name.equipment.charm=§uAmuleto
+arena:itemGroup.name.equipment.archaic=§aAmuleto aρχαϊκός
+arena:itemGroup.name.equipment.mask=§gMáscaras
+arena:itemGroup.name.equipment.doll=§cBonecos
+arena:itemGroup.name.equipment.witherring=§jAnel wither
+arena:itemGroup.name.equipment.rings=§dAnel
+arena:itemGroup.name.equipment.earrings=§5Argilas
+arena:itemGroup.name.equipment.necklace=§bColar
+arena:itemGroup.equipment.materials=(Use para receitas)
+arena:itemGroup.name.items.arena_smithing_templates=(Moldes)
+arena:itemGroup.name.equipment.books=§eLivros
+
+entity.arena:ignited_explosion.name=Explosão iniciada
+entity.arena:wither_skeleton.name=Σκελετός ακρώμματος
+entity.arena:calamity_wither_skeleton.name=Σκελετός μαραμένου κακοκαιριού
+entity.arena:arcane_vex.name=Αρκέιν Βέξ
+entity.arena:angelic_vex.name=Αγγελική Βέξ
+entity.arena:vex.name=Ερεθίζω
+entity.arena:endermite.name=ενδερμίτης
+entity.arena:skeleton.name=Σκελετός
+entity.arena:skeleton_illager.name=Σκελετός ιλάγκερ
+entity.arena:skeleton_piglin.name=Σκελετός Χοίρος
+entity.arena:stray.name=Περιπλανώμενος
+entity.arena:parched.name=Κατάξηρος
+entity.arena:bogged.name=Βουλωμένος
+
+item.arena:scroll=§r§gPergaminho do recuperar\n§r§7Recupere todos os seus\nTalismãs equipados\nNo sistema de versão antigo
+
+item.arena:marble_helmet_h=§2Capacete de mármore
+item.arena:marble_chestplate=§2Peitoral de mármore
+item.arena:marble_leggings=§2Calças de mármore
+item.arena:marble_boots=§2Botas de mármore
+item.arena:marble_axe=§2Machado de batalha de mármore
+item.arena:marble_sword=§2Espada de mármore
+item.arena:marble_spear=§2Lança de mármores
+
+item.arena:pure_marble_helmet=§eCapacete de mármore divino
+item.arena:pure_marble_chestplate=§ePeitoral de mármore divino
+item.arena:pure_marble_leggings=§eCalças de mármore divino
+item.arena:pure_marble_boots=§eBotas de mármore divino
+
+item.arena:pure_marble_spear=§eLança de mármore divino
+
+item.arena:cursed_axe=§aMachado amaldiçoado
+item.arena:blood_scythe_weapon=§mFoice vampírica
+item.arena:witch_hat=§uChapéu de necromante
+item.arena:mage_chestplate=§uCapuz de necromante
+item.arena:mage_leggings=§uCalças de necromante
+item.arena:witch_staff=§uCajado do dela
+item.arena:marble_staff=§eCajado de mármore
+item.arena:hemlock_staff=§uCajado de cicuta
+
+item.arena:runic_zweihander=§uZweihander rúnica
+item.arena:incandecent_zweihander=§uZweihander rúnica §cincandescente
+item.arena:frozen_zweihander=§uZweihander rúnica §bcongelada
+item.arena:electric_zweihander=§uZweihander rúnica §6elétrica
+item.arena:ender_zweihander=§uZweihander rúnica de §5levitação
+item.arena:venemous_zweihander=§uZweihander rúnica §2venenoso
+item.arena:desertic_zweihander=§uZweihander rúnica §edesértica
+item.arena:hemlock_zweihander=§uZweihander rúnica §ade cicuta
+item.arena:runic_twohanded_sword=§uEspada grande de cicuta
+item.arena:bamboo_bo=Boi de bambu
+
+item.arena:wooden_saber=Sabre de nuvens de madeira
+item.arena:golden_saber=Sabre de nuvens de ouro
+item.arena:stone_saber=Sabre de nuvens de pedra
+item.arena:copper_saber=Sabre de nuvens de cobre
+item.arena:iron_saber=Sabre de nuvens de ferro
+item.arena:diamond_saber=Sabre de nuvens de diamante
+item.arena:netherite_saber=Sabre de nuvens de netherite
+
+item.arena:apollo_chestplate=§ePeitoral de Apolo
+item.arena:apollo_leggings=§eCalças de Apolo
+item.arena:apollo_boots=§eBotas de Apolo
+
+item.arena:netherite_apollo_chestplate=§ePeitoral de Apolo de netherite
+item.arena:netherite_apollo_leggings=§eCalças de Apolo de netherite
+item.arena:netherite_apollo_boots=§eBotas de Apolo de netherite
+
+item.arena:nebulous_apollo_chestplate=§aPeitoral de Apolo nebuloso
+item.arena:nebulous_apollo_leggings=§aCalças de Apolo nebuloso
+item.arena:nebulous_apollo_boots=§aBotas de Apolo nebuloso
+
+item.arena:paladin_helmet=§eCapacete de paladino
+item.arena:paladin_chestplate=§ePeitoral de paladino
+item.arena:paladin_leggings=§eCalças de paladino 
+item.arena:paladin_boots=§eBotas de paladino
+
+item.arena:hades_helmet=§bCapacete de Hades
+item.arena:hades_chestplate=§bPeitoral de Hades
+item.arena:hades_leggings=§bCalças de Hades
+item.arena:hades_boots=§bBotas de Hades
+
+item.arena:artemis_helmet=§eCapacete de Artemis
+item.arena:artemis_chestplate=§ePeitoral de Artemis
+item.arena:artemis_leggings=§eCalças de Artemis
+item.arena:artemis_boots=§eBotas de Artemis
+
+item.arena:zeus_helmet=§eCapacete de Zeus
+item.arena:zeus_chestplate=§ePeitoral de Zeus
+item.arena:zeus_leggings=§eCalças de Zeus
+item.arena:zeus_boots=§eBotas de Zeus
+
+item.arena:poseidon_helmet=§bCapacete de Poseidon
+item.arena:poseidon_chestplate=§bPeitoral de Poseidon
+item.arena:poseidon_leggings=§bCalças de Poseidon
+item.arena:poseidon_boots=§bBotas de Poseidon
+
+item.arena:ichor_helmet=§bCapacete de Ichor
+item.arena:ichor_chestplate=§bPeitoral de Ichor
+item.arena:ichor_leggings=§bCalças de Ichor
+item.arena:ichor_boots=§bBotas de Ichor 
+
+item.arena:ethereal_ichor_helmet=§bCapacete de Icor etéreo
+item.arena:ethereal_ichor_chestplate=§bPeitoral de Icor etéreo
+item.arena:ethereal_ichor_leggings=§bCalças de Icor etéreo
+item.arena:ethereal_ichor_boots=§bBotas de Icor etéreo
+
+item.arena:broken_marble_helmet=Capacete de mármore quebrado
+item.arena:broken_marble_chestplate=Peitoral de mármore quebrado
+item.arena:broken_marble_leggings=Calças de mármore quebrado
+item.arena:broken_marble_boots=Botas de mármore quebrado
+
+item.arena:restored_marble_helmet=Capacete de mármore restaurado
+item.arena:restored_marble_chestplate=Peitoral de mármore restaurado
+item.arena:restored_marble_leggings=Calças de mármore restaurado
+item.arena:restored_marble_boots=Botas de mármore restaurado
+
+item.arena:fallen_marble_helmet=§uCapacete de mármore corrompido
+item.arena:fallen_marble_chestplate=§uPeitoral de mármore corrompido
+item.arena:fallen_marble_leggings=§uCalças de mármore corrompido
+item.arena:fallen_marble_boots=§uBotas de mármore corrompido
+
+item.arena:impious_marble_helmet=§uCapacete de mármore §eímpio
+item.arena:impious_marble_chestplate=§uPeitoral de mármore §eímpio
+item.arena:impious_marble_leggings=§uCalças de mármore §eímpio
+item.arena:impious_marble_boots=§uBotas de mármore §eímpio
+
+item.arena:zeta_hemlock_helmet=Capacete §u(ζ)§f de cicuta
+item.arena:zeta_hemlock_chestplate=Peitoral §u(ζ)§f de cicuta
+item.arena:zeta_hemlock_leggings=Calças §u(ζ)§f de cicuta
+item.arena:zeta_hemlock_boots=Botas §u(ζ)§f de cicuta
+
+item.arena:delta_hemlock_helmet=Capacete §u(δ)§f de cicuta
+item.arena:delta_hemlock_chestplate=Peitoral §u(δ)§f de cicuta
+item.arena:delta_hemlock_leggings=Calças §u(δ)§f de cicuta
+item.arena:delta_hemlock_boots=Botas §u(δ)§f de cicuta
+
+item.arena:ganma_hemlock_helmet=§uCapacete §c(γ)§u de cicuta
+item.arena:ganma_hemlock_chestplate=§uPeitoral §c(γ)§u de cicuta
+item.arena:ganma_hemlock_leggings=§uCalças §c(γ)§u de cicuta
+item.arena:ganma_hemlock_boots=§uBotas §c(γ)§u de cicuta
+
+item.arena:stigma_hemlock_helmet=§aCapacete §c(ς)§a de cicuta
+item.arena:stigma_hemlock_chestplate=§aPeitoral §c(ς)§a de cicuta
+item.arena:stigma_hemlock_leggings=§aCalças §c(ς)§a de cicuta
+item.arena:stigma_hemlock_boots=§aBotas §c(ς)§a de cicuta
+
+item.arena:alpha_hemlock_helmet=§aCapacete §c(α)§a de cicuta
+item.arena:alpha_hemlock_chestplate=§aPeitoral §c(α)§a de cicuta
+item.arena:alpha_hemlock_leggings=§aCalças §c(α)§a de cicuta
+item.arena:alpha_hemlock_boots=§aBotas §c(α)§a de cicuta
+
+item.arena:arena_chestplate=§r§gCapa de Arena
+item.arena:doll_had=§r§gHamleth-teddy
+item.arena:alaniz_hat=§r§gAlaniz-teddy
+item.arena:angeloso_hat=§r§gAnge-teddy
+item.arena:extreme_hat=§r§gPaladin-teddy
+item.arena:system_hat=§r§gSystem-teddy
+item.arena:vulkan_hat=§r§gVulkan-teddy
+
+item.arena:alpha_hat=§r§gAlpha-teddy
+item.arena:milo_hat=§r§gMilo-teddy
+item.arena:biggamer_hat=§r§gGamer-teddy
+item.arena:lotte_axolotle_hat=§r§gAxolotl-teddy
+item.arena:drak_hat=§r§gDraK-teddy
+
+item.arena:gold_hat=§r§gGold-teddy
+item.arena:ice_hat=§r§gIce-teddy
+item.arena:jesus_hat=§r§gJesus-teddy
+item.arena:kaiden_hat=§r§gKaiden-teddy
+item.arena:straw_hat=§r§gStraw-teddy
+
+item.arena:iluminated_hat=§r§gTeddy iluminado
+item.arena:blaze_hat=§r§gTeddy de fogo
+item.arena:bee_hat=§r§gTeddy de abelha
+item.arena:shulked_hat=§r§gTeddy de shulker
+item.arena:agustin_hat=§r§gTeddy de Agustin
+item.arena:alylicia_hat=§r§gTeddy de Alycia
+item.arena:cap_zweihander_hat=§r§gCapZweihander-teddy
+item.arena:laniraxia_hat=§r§gTeddy de Laniraxia
+item.arena:melunch_hat=§r§gTeddy de Melunch
+
+item.arena:masked_hat=§r§gTeddy enmascarado
+item.arena:armored_hat=§r§gTeddy protegido
+
+item.arena:extreme_chestplate=§mCapuz canibal
+item.arena:blood_hat=§mChapéu canibal
+item.arena:extreme_had=§gChapéu de sangue\n§r§7(Slot de cabeça)\n§o§8+ I, +5 roubo de vida
+
+item.arena:fox_helmet=§r§gMáscara de raposa
+item.arena:cat_helmet=§r§gMascara de gato
+item.arena:marble_helmet=§r§gMascara de mármore
+item.arena:blaze_helmet=§r§gCrânio de Fogo
+item.arena:ethereal_helmet=§r§gMáscara de Visão Etérea
+item.arena:wither_helmet=§r§gMáscara de Wither
+item.arena:axolotl_helmet=§r§gMáscara de axolote
+item.arena:end_hat=§r§uChapéu do Ender Temido
+
+item.arena:iron_crown=§r§eCoroa de Ferro
+item.arena:golden_crown=§r§eCoroa de Ouro
+item.arena:prismarine_crown=§r§eCoroa Prismática
+item.arena:netherite_crown=§r§eCoroa de Netherite
+item.arena:ender_crown=§r§eCoroa do Fim
+item.arena:calamity_crown=§Coroa da calamidade
+
+item.arena:marble_bracelets_chestplate=§r§aPulseiras marmorizadas
+item.arena:wing_chestplate=§r§eAsa de mármore
+item.arena:wing_fallen_chestplate=§r§uAsa de mármore corrompido
+item.arena:wing_hemlock_chestplate=§r§aAsa de cicuta
+item.arena:piglin_bracelet_chestplate=§r§uPulseira de porco
+item.arena:aureola_helmet=§r§9Auréola angelical
+
+tile.arena:cristal_gem_ore.name=Minério de cristal
+tile.arena:marble_ore.name=Minério de mármore
+tile.arena:hemlock_stone_ore.name=Minério de cicuta
+tile.arena:marble_ore_deepslate.name=Minério de mármore negro
+tile.arena:chiseled_marble.name=Mármore cinzelado
+tile.arena:marble_bricks.name=Tijolos de mármore
+tile.arena:marble_pilar.name=Pilar de mármore
+tile.arena:marble_raws.name=Ladrilho de mármore
+tile.arena:pulished_marble.name=Tijolos grandes de mármore
+tile.arena:pulish_marble.name=Mármore polido
+tile.arena:marble_ore_deepslate.name=Minério de mármore negro
+tile.arena:chiseled_black_marble.name=Mármore negro cinzelado
+tile.arena:black_marble_bricks.name=Tijolos de mármore negro
+tile.arena:black_marble_pillar.name=Pilar de mármore negro
+tile.arena:black_marble_tile.name=Ladrilho de mármore negro
+tile.arena:large_black_marble_bricks.name=Tijolos grandes de mármore negro
+tile.arena:polished_black_marble.name=Mármore negro polido
+tile.arena:shard_end_ore.name=Minério
+tile.arena:shard_fire_ore_blackstone.name=Minério
+tile.arena:shard_fire_ore_netherrack.name=Minério
+tile.arena:shard_light_ore.name=Minério
+tile.arena:shard_poison_ore.name=Minério
+tile.arena:shard_snow_ore.name=Minério
+
+item.arena:skull_heart=§mCoração de caveira\n§r§7(Slot coraçãos)\n§o§8+3 \n+Imunidade à 
+item.arena:demon_heart=§mTerraria coração demoníaco\n§r§7(Slot coraçãos)\n§o§8+5 , +1 , -100 (fogo)\n+Imunidade à , 
+item.arena:angelical_heart=§mCoração angelical\n§r§7(Slot coraçãos)\n§o§8+4 , +100 (fogo)\n-10 (projétil)
+item.arena:iron_golem_heart=§mCoração de golem de ferro\n§r§7(Slot coraçãos)\n§o§8+1 \n\n§7Obtido ao matar: 
+item.arena:sync_golem_heart=§mCoração de golem sincronizado\n§r§7(Slot coraçãos)\n§o§8+5 , +5 (corpo a corpo), -25 (queda)
+item.arena:infernal_heart=§mCoração infernal\n§r§7(Slot coraçãos)\n§o§8+2 , +, +40 \n+Feitiços (usar cajado):\n+Ataque em área de fogo (1m, 20s de recarga)
+item.arena:heart_of_judgment=§mCoração do julgamento\n§r§7(Slot coraçãos)\n§o§8+Aumentar  12 da saúde da entidade\n+Imunidade a , , , \n-10 (corpo a corpo), -10 (projétil)
+
+item.arena:iron_guantlet=§nManopla de ferro\n§r§7(Slot de mão)\n§o§8+1 , -2 , -10 (magia)
+item.arena:marble_guantlet=§nManopla de mármore\n§r§7(Slot de mão)\n§o§8+2 , -5 , +10 (magia)
+item.arena:fallen gauntlet=§nManopla de mármore corrompida\n§r§7(Slot de mão)\n§o§8+2 , -4 , -15 (magia)
+item.arena:hemlock_guantlet=§nManopla de cicuta\n§r§7(Slot de mão)\n§o§8+3 , -7 , -20 (magia)
+
+item.arena:spell_evocation=§eLivro de feitiços de Evocação\n§r§7(Slot de livro)\n§o§8+Feitiços:\n+Invocar presas de evocação\n(18s de cooldown)
+item.arena:spell_area_lifesteal=§eLivro de feitiços de Sede de Sangue\n§r§7(Slot de livro)\n§o§8+Feitiços:\n+Aplicar dano e restaurar vida\n(1m, 20s de cooldown)
+item.arena:spell_dead_teleport=§eLivro de feitiços de Retorno\n§r§7(Slot de livro)\n§o§8+Feitiços:\n+Teletransportar para o local da sua morte (1m de cooldown)\n+Teletransportar para o seu ponto de renascimento (1m cooldown)
+item.arena:spell_teleport=§eLivro de feitiços de Teleporte\n§r§7(Slot de livro)\n§o§8+Feitiços:\n+Teletransportar-se\n(15s de cooldown)
+item.arena:spell_light_bolt=§eLivro de feitiços de corrente de raio\n§r§7(Slot de livro)\n§o§8+Feitiços (usar cajado):\n+Evoca um raio nível 2\n(40s de cooldown)
+item.arena:spell_lightning_bolt=§eLivro de feitiços de raio\n§r§7(Slot de livro)\n§o§8+Feitiços (usar cajado):\n+Evoca uma tempestade de raios\n(20s de cooldown)
+item.arena:spell_supersonic=§eLivro de feitiços supersônico\n§r§7(Slot de livro)\n§o§8+Feitiços (usar cajado):\n+Evoca um guardião supersônico\n(30s de cooldown)
+
+item.arena:spell_engine=§eMotor de feitiços\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Reduz o cooldown em 10
+item.arena:rotten_brain=§eCérebro de motor podre\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Reduz o cooldown em 20
+item.arena:mind_electric=§eMente elétrica\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Reduz o cooldown em 25
+item.arena:spell_strength_engine=§eMecanismo de força mágica\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Aumenta o força da magia em +2
+item.arena:spell_duration_engine=§eMecanismo de duração de feitiços\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Aumenta a duração do efeito em 20
+
+item.arena:summoner_wand=§eAmuleto de varinha de invocador\n§r§7§o(Slot de charme)\n§o§8+Bônus de magias:\n+Aumenta invocações máximas(+1)
+item.arena:marble_summoner_wand=§eVarinha de invocação de mármore\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Aumenta invocações máximas(+2)
+item.arena:hemlock_summoner_wand=§evarinha de invocador de cicuta\n§r§7(Slot de charme)\n§o§8+Bônus de magias:\n+Aumenta invocações máximas(+3)
+
+item.arena:murders_skull=§9Crânio de obsidiana\n§r§7(Slot de talismã)\n§o§8+\n+20 
+item.arena:sacret_pendant=§9colar sagrado\n§r§7(Slot de talismã)\n§o§8+ II
+item.arena:villager_heart=§9Coração acorrentado\n§r§7(Slot de talismã)\n§o§8+ I, +1 \n\n§7Obtido ao matar:  
+item.arena:angelic_aurea=§9Auréola angelical\n§r§7(Slot de talismã)\n§o§8+ II
+item.arena:magnet=§9Ímã\n§r§7(Slot de talismã)\n§o§8+Atrai itens próximos
+item.arena:marble_feather=§9pena marmorizada\n§r§7(Slot de talismã)\n§o§8+ I
+item.arena:nautilus_star_pendant=§9Colar náutilo\n§r§7(Slot de talismã)\n§o§8+20 
+item.arena:rabbit_feet_pendant=§9Colar de coelho\n§r§7(Slot de talismã)\n§o§8+ III
+item.arena:cat_eye=§9Olho de gato\n§r§7(Slot de talismã)\n§o§8+ I
+item.arena:shadow_of_nobody=§9A sombra de ninguém\n§r§7(Slot de talismã)\n§o§8+\nMurders
+item.arena:nefrite_bracelet=§9Pulseira Earlking\n§r§7(Slot de talismã)\n§o§8+Imunidade à , 
+item.arena:extracted_heart=§9Coração extraído\n§r§7(Slot de talismã)\n§o§8+Reflete 25  recebido\n+Imunidade à , 
+item.arena:deformed_cross=§9Cruz deformada\n§r§7(Slot de talismã)\n§o§8+15 chance de evitar ataques
+item.arena:marble_emerald_pendant=§9Colar Esmeralda Marmorizado\n§r§7(Slot de talismã)\n§o§8+ I
+item.arena:rhetoric_skull=§9Crânio retórico\n§r§7(Slot de talismã)\n§o§8+1 \n(Quando você matar você se envenena)\n¿Ser ou não ser?\neis a questão
+item.arena:spectral_talisman=§9Talismã espectral\n§r§7(Slot de talismã)\n§o§8Se você estiver no escuro\n+ I, + I (queda)
+item.arena:nefrite_edged_sword=§9Espada de lâmina nefrita\n§r§7(Slot de talismã)\n§o§8+5 \n(Contador de acertos, 6 acertos)\n-5 (corpo a corpo)
+item.arena:artemisa_deer_antler=§9Chifre de veado\n§r§7(Slot de talismã)\n§o§8+2 , -10 (corpo a corpo)
+item.arena:deer_skull=§9Crânio incandescente\n§r§7(Slot de talismã)\n§o§8+Flechas causam 
+item.arena:midas_finger=§9Dedo de Midas\n§r§7(Slot de talismã)\n§o§8+Você ganha ouro quando mata
+item.arena:vexed_souls_lantern=§9Almas atormentadas lanterna\n§r§7(Slot de talismã)\n§o§8+Imunidade à , , \nInvocador (Máximo de 3, 35 chance)\n(Invoca vex após sofrer dano)
+item.arena:harmony_talisman=§9Talismã da Harmonia\n§r§7(Slot de talismã)\n§o§8+Invocador (Máximo de 3, 10 chance)\n(Invoca endermites após ser atingido)\n+ II
+item.arena:sync_sculk_talisman=§9Talismã do Sculk Sincronizado\n§r§7(Slot de talismã)\n§o§8+ I(ainda), -4 \n+Área de II(Tendo 5)
+item.arena:nocturnal_hood=§9Capuz noturno\n§r§7(Slot de talismã)\n§o§8+Inflige insônia \n(4 , 6s, à noite)\n+ durante o dia
+item.arena:witches_emblem=§9Emblema da bruxa\n§r§7(Slot de talismã)\n§o§8+Imunidade à \n+ II(consome olhos de aranha)
+item.arena:obsidian_knight_helmet=§9Capacete de cavaleiro assassino\n§r§7(Slot de talismã)\n§o§8+, +100 
+item.arena:fallen_feather=§9Pena de mármore corrompida\n§r§7(Slot de talismã)\n§o§8+Dash\n+Imunidade a 
+item.arena:ornate_curio=§9Curio ornamentado\n§r§7(slot de talismã)\n§o§8+Aumenta a pilha de ornamentados em +2
+item.arena:sealing_talis=§9Selando detritos\n§r§7(Slot de talismã)\n§o§8-12 \n+Bônus de magias:\n+Aumenta invocações máximas(+2)
+
+item.arena:marble_hand=§uMão de mármore\n§r§7(Slot de amuleto)\n§o§8+2 , + II\n-20 (corpo a corpo), -20 (projétil)
+item.arena:dragonic_heart=§uCoração demoníaco\n§r§7(Slot de amuleto)\n§o§8+10 , -2 , -20 \n-20 
+item.arena:night_siege_eye=§uOlho de cerco noturno\n§r§7(Slot de amuleto)\n§o§8+15 (corpo a corpo), +15 (projétil), -40  
+item.arena:nefrite_crow=§uCoroa Earlking\n§r§7(Slot de amuleto)\n§o§8+Imunidade à , , 
+item.arena:prismatic_heart_relic=§uRelíquia Prismática\n§r§7(Slot de amuleto)\n§o§8+ II, -20 (queda)
+item.arena:contracted_heart=§uCoração contraído\n§r§7(Slot de amuleto)\n§o§8+15 roubo de vida\n+Imunidade à , 
+item.arena:piglin_bracelet=§uPulseira de porco\n§r§7(Slot de amuleto)\n§o§8+1 , +10 (corpo a corpo)\n-30 (queda)\n\n§7Obtido ao matar: 
+item.arena:marble_rune=§uRuna de mármore\n§r§7(Slot de amuleto)\n§o§8+ II nearby hostile mobs\n+20 , +5 (corpo a corpo), +5 (projétil)
+item.arena:doble_edged=§uMão de dois gumes\n§r§7(Slot de amuleto)\n§o§8Causa +40 de \n+Sua vítima pega \n(Contador de acertos, 8 acertos)\n-10 (corpo a corpo), -10 (projétil)
+item.arena:marble_skull=§uMarble skull\n§r§7(Slot de amuleto)\n§o§8+ I\nVocê enterra monstros próximos\n(matar entidades)
+item.arena:netherite_rune=§uRuna do netherite\n§r§7(Slot de amuleto)\n§o§8+2 (ao recuo)\n+ III &  II\n(golens de ferro próximos)
+item.arena:piece_of_time=§uPeça de tempo\n§r§7(Slot de amuleto)\n§o§8+(na areia das almas)\n+5 (projétil), +5 (corpo a corpo)
+item.arena:artemisa_arrowhead=§uPonta de flecha\n§r§7(Slot de amuleto)\n§o§8+Flechas explosivas
+item.arena:cherry_blossom=§uFlor de cerejeira\n§r§7(Slot de amuleto)\n§o§8+2-10 (Depois de matar 7-34 entidades)
+item.arena:sacret_sword=§uEspada Sagrada\n§r§7(Slot de amuleto)\n§o§8+Assassino de mortos-vivos(+25  e )\n+10 (magia)
+item.arena:blood_scythe=§uFoice de Sangue\n§r§7(Slot de amuleto)\n§o§8+5 roubo de vida\n+10 chance de causar sangramento \n-10 (corpo a corpo)
+item.arena:pandoras_bracelet=§uPulseira da Pandora\n§r§7(Slot de amuleto)\n§o§8+Imunidade à \n+10 , + I, II(Tendo 5)\n+Saturação(Comer carne podre)
+item.arena:complexion_afinity_bracelet=§uAfinidade com a complexidade\n§r§7(Slot de amuleto)\n§o§8+Contador de acertos(6 acertos)\n(Infligir dano do vazio)\n-5 (corpo a corpo)
+item.arena:shrink_impressions_bracelet=§uImpressões de encolhimento\n§r§7(Slot de amuleto)\n§o§8-10 , -40 \n+ II(Receba 5 golpes)
+item.arena:divine_orb=§uOrbe Divino\n§r§7(Slot de amuleto)\n§o§8+5 (magia)\n+Assassino de mortos-vivos(+35 )\nBônus de magias:\n+Invocações, saúde +4 
+item.arena:tears_unshed=§uLágrimas não derramadas\n§r§7(Slot de amuleto)\n§o§8+Infligir insônia \n(40 chance, 6 , 10s, à noite)\n+ I(parado e furtivo)
+item.arena:fallen_hand=§uMão de mármore corrompida\n§r§7(Slot de amuleto)\n§o§8+2 , + II\n-20 (corpo a corpo), -20 (projétil)
+item.arena:end_of_the_time=§uTodo fim de tempo\n§r§7(Slot de amuleto)\n§o§8+Refletir (área)\n-5 (projétil), -5 (corpo a corpo)
+item.arena:cursed_sword=§uEspada amaldiçoada\n§r§7(Slot de amuleto)\n§o§8+Assassino de jogadores(+25  & )\n-10 (magia)
+item.arena:ornate_core=§uNúcleo ornamentado\n§r§7(Slot de amuleto)\n§o§8+Reduz o debuff de acúmulo ornamentado em -3
+item.arena:hellish_core=§uNúcleo infernal\n§r§7(Slot de amuleto)\n§o§8+Acerta duas vezes (50 )
+item.arena:cherry_sword=§uEspada de cereja\n§r§7(Slot de amuleto)\n§o§8Causa crítico (+50 )\n+Cura em área para ligas\n(Contador de acertos, 8 acertos)\n-10 (corpo a corpo), -10 (projétil)
+item.arena:overflowing_core=§uNúcleo transbordado\n§r§7(Slot de amuleto)\n§o§8+Bônus de magias:\n+Invocações, saúde +4 \n+Invocações à distância, recarga +1 \n+Invocações corpo a corpo, +1 \n+Mas aumentar cooldown +30
+item.arena:malingnant_orb=§uOrbe malignante\n§r§7(Slot de amuleto)\n§o§8-5 (magia)\n+Assassino de jogadores(+35 )\nBônus de magias:\n+Invocações à distância, recarga +1 \n+Invocações corpo a corpo, +1 
+
+item.arena:apolo_quiver=§sAljava de Apolo\n§r§7(Slot do corpo)\n§o§8+50 dano de área(Flechas)\n-40 (corpo a corpo)
+item.arena:apollo_replies_belt=§sCinto de Respostas de Apolo\n§r§7(Slot do corpo)\n§o§8+Dano em área(flechas) +\n-70 (corpo a corpo), -3 ,  I
+item.arena:tool_belt=§sCinto de ferramentas\n§r§7(Slot do corpo)\n§o§8+ III\n+ (quebrar blocos, máximo V)\n+Reparar ferramentas e armaduras
+item.arena:sighthood=§sCapuz do dia\n§r§7(Slot do corpo)\n§o§8+15 (corpo a corpo), +15 (projétil), -20 (queda)\n+Imunidade à \n+Proteção contra mortos-vivos & \n+ II, + III(Noite)
+item.arena:nighthood=§sCapuz noturno\n§r§7(Slot do corpo)\n§o§8+15 (corpo a corpo), +15 (projétil), -20 (queda)\n+Imunidade a \n+Proteção contra jogadores +\n II, + III(dia)
+item.arena:sculk_belt=§sCinto Sculk\n§r§7(Slot do corpo)\n§o§8+10 (corpo a corpo)\nAura de ,  I (recebe dano)\n+Aura de  I para aliados\n+ I (morte próxima)\n(consome XP)
+item.arena:dream_tatters_of_the_king=§sRetalhos dos Sonhos do Rei\n§r§7(Slot do corpo)\n§o§8+Contador de mortes (3 mortes)\n(+50, + II)\n+Morte instantânea (dormir)
+item.arena:ornate_belt=§sCinto ornamentado\n§r§7(Slot do corpo)\n§o§8+5 (corpo a corpo)(máx. +30 ), -1 \n(Acumula por item ornamentado)
+item.arena:extravagant_quiver=§sAljava extravagante\n§r§7(Slot do corpo)\n§o§8+Aumenta o saque de mortes com flechas
+item.arena:ifrits_mantle=§sManto de Ifrit\n§r§7(Slot do corpo)\n§o§8+ (Menos de 10 corações, máx. II)\n+ (Mais de 10 corações)
+
+item.arena:spawner_breaker=§nToque do gerador\n§r§7(Slot de mão)\n§o§8+mineração do gerador\n(Obtém fragmentos do gerador)
+item.arena:axe_heater=§nAquecedor de machado\n§r§7(Slot de mão)\n§o§8+Obtém Carvão
+item.arena:shovel_heater=§nAquecedor de pá\n§r§7(Slot de mão)\n§o§8+Obter vidro\n(Concreto e tijolos também)
+item.arena:ornate_guantle=§nManopla ornamentada\n§r§7(Slot de mão)\n§o§8+1 (máx. +4 ), -2  (mín. -10 )\n(Acumula por item ornamentado)
+item.arena:apollo_bracer=§nBraçadeira de Apolo\n§r§7(Slot de mão)\n§o§8+Aumenta o repulsão de arco\n+1 , -5 (corpo a corpo)
+
+item.arena:archaic_cursed_book=§aLivro amaldiçoado\n§r§7(Slot Αρχαϊκός)\n§o§8+ I, II, III(12-24-36 níveis de XP)\n-30 , +30 (mágico), + II\n+1  por 2 níveis de XP(máx. +50 )\n+Aprimorar livros encantados\n(Interagir com o livro)
+item.arena:archaic_cursed_skull=§aΚαταραμένο κρανίο\n§r§7(Slot Αρχαϊκός)\n§o§8+ II, +4 , -15 , -50 (magia)
+item.arena:archaic_blessed_shield=§aΙερή ασπίδα\n§r§7(slot Αρχαϊκός)\n§o§8-20 , -2 \n+30 (corpo a corpo), +30 (projétil)\n+30 (magia), +30 (explosões)\n+15 chance refletir 10\nEquipar escudo na mão inábil
+item.arena:archaic_marble_wings=§aΦτερά του Ίκαρου\n§r§7(Slot Αρχαϊκός)\n§o§8+10 , + III, + II\n(Equipar éltra)\n+Assassino de mortos-vivos(+50 )\n+(Cura aldeões zumbis)\n+3 saltos\n-200 (fogo), -10 (corpo a corpo)
+item.arena:archaic_inscript_paper=§aΕργασία με μεταγραφή\n§r§7(Slot Αρχαϊκός)\n§o§8+Imunidade a \n§o§8+25 de probabilidade de receber  ao acertar\n+Recebe 25 de  recebido como experiência
+item.arena:archaic_arnold=§aSelbstbildnis mit fiedelndem Tod\n§r§7(Slot Αρχαϊκός)\n§o§8-10 (corpo a corpo), -10 (projétil)\n+Marca da morte , + II, +30 , +2 , + III\n+Bônus de XP extra\nMorte que você sussurra
+item.arena:archaic_light_cepter=§aβέλος του Δία\n§r§7(Slot Αρχαϊκός)\n§o§8+35 chance ataque eletrostático\n+5 chance de infligir +150 \n-15 (corpo a corpo), -10 (projétil)\n+50 (relâmpago)
+item.arena:archaic_marble_bracelets=§aΜαρμάρινα βραχιόλια\n§r§7(Slot Αρχαϊκός)\n§o§8+ III (machado de ouro na mão)\n+2 , +20 (corpo a corpo)\n-60 (queda)
+item.arena:archaic_chained_soul=§aΑλυσοδεμένη μαραμένη ψυχή\n§r§7(Slot Αρχαϊκός)\n§o§8+ II, + I, + II, +80 , inflige  I\n(Quando você está prestes a morrer)
+item.arena:archaic_good_and_evil_flower=§aGood & Evil Flower\n§r§7(Slot Αρχαϊκός)\n§o§8+ I, + II, +10 \n+Imunidade a , \n+ II,  I (tendo menos de 7,5-2,5 )\n+Assassino de chefes (+80  & )
+item.arena:archaic_soul_hand=§aΧέρι ψυχής\n§r§7(Slot Αρχαϊκός)\n§o§8+3 , -9 \n+Imunidade a , \n+ I, +, inflige  &  I\n(Ter menos de 5 )\n+Aumenta  12 da saúde da entidade
+item.arena:archaic_ruler_of_prismas=§aRegente das coisas coloridas\n§r§7(Slot Αρχαϊκός) slot)\n§o§8+1 , +20 , + IV\n+ II,  I (no ar)\n-80 (queda)
+item.arena:archaic_dimensions_table=§aΠίνακας διαστάσεων\n§r§7(Slot Αρχαϊκός)\n§o§8+10 Chance de infligir  crítico\n+Acerto inflige  III (V no Nether)\n+Ataques causam \nAcerto inflige 6s  (9s no End)\n+Acerto inflige  III (V no Overworld)\n+10 (corpo a corpo), +10 (projétil)
+item.arena:archaic_dimensions_horn=§aDiastas kornas\n§r§7(Slot Αρχαϊκός)\n§o§8+4 roubo de vida (8 no Nether)\n+9 gera explosão\n+8 perfuração de armadura(+12 no End)\n+Imunidade a , \n+2 , +2 repulsão
+item.arena:archaic_sacret_skull=§aIρό κρανίο\n§r§7(Slot Αρχαϊκός)\n§o§8+Após matar uma entidade\n20 chance para infligir +100  
+item.arena:archaic_triple_edged_sword=§aTrikopo μαχαίρι\n§r§7(Slot Αρχαϊκός)\n§o§8Causa +100 \n+Causa  sua vítima\n+ II\n(Contador de golpes, 9 golpes)\n-15 (corpo a corpo), -15 (projétil)
+item.arena:archaic_sacret_heart=§aΑρχαϊκή ιερή καρδιά\n§r§7(Slot Αρχαϊκός)\n§o§8+Reflete 50 e rouba 25 do dano recebido
+item.arena:archaic_warden_claws=§aΝύχια φύλακα\n§r§7(slot Αρχαϊκός)\n§o§8+Assassino de monstros(+35 )\n-3 , +1 , golpe sônico\n-25 (corpo a corpo), -30 (projétil)
+item.arena:archaic_hemlock_wings=§aΦτερά του Ίκαρου\n§r§7(Slot Αρχαϊκός)\n§o§8+11 , + III, + II\n(Equipar éltra)\n+Assassino de mortos-vivos(+65 )\n+(Curar aldeões zumbis)\n+4 saltos\n-200 (fogo), -10 (corpo a corpo)
+item.arena:cursed_shield=§aΚαταραμένη ασπίδα\n§r§7(slot Αρχαϊκός)\n§o§8-20 , -2 \n+30 (corpo a corpo), +30 (projétil)\n+30 (magia), +30 (explosões)\n+Reflexo 15(Para jogadores) &  II (15 chance)\nEquipar escudo na mão inábil
+item.arena:fallen_wings=§aΠεσμένη μαρμάρινη πτέρυγα\n§r§7(Slot Αρχαϊκός)\n§o§8-30 (corpo a corpo), -30 (projétil)\n+3 , + II(Equipar éltra)\n+Assassino do jogadores(+50 )\n+3 saltos
+item.arena:conscious_star=§aΑστέρι της ψυχής\n§r§7(Slot Αρχαϊκός)\n§o§8+5 , -8 , + I\n-50 (corpo a corpo), -50 (projétil)\n+Imunidade a , , \n+Acertar inflige  e \n+20 de probabilidade de receber \n+30 de chance de infligir um choque eletrostático\n+50 multiplicador  crítico\n+Causa golpe sônico (+150 )\n(Contador de acertos, 10 acertos)\n+Shift + interagir\nPara ativar carregado modo
+item.arena:archaic_reckless_archer=§sΑπερίσκεπτος τοξότης\n§r§7(Slot Αρχαϊκός)\n§o§8+Aumenta +1  por acerto de flecha\n(Máx. +75 )\n-25 (corpo a corpo)
+item.arena:archaic_hemlock_shield=§aΑσπίδα από κώνειο\n§r§7(Slot Αρχαϊκός)\n§o§8-20 , -2 \n+35 (corpo a corpo), +35 (projétil)\n+35 (magia), +35 (explosões)\n+15 chance refletir 12\nEquipar escudo na mão inábil
+
+item.arena:ethereal_sight_mask=§gMáscara de visão etérea\n§r§7(Slot do rosto)\n§o§8, +1 , +100 (queda)\n+50 (projétil)\n-100 (fogo)\nSobrevive ao vazio\n+Teletransporte
+item.arena:fox_mask=§gMáscara de raposa\n§r§7(Slot do rosto)\n§o§8, +50 (queda), +20 , -3 \n+20 (projétil)\n(Saltos de dash)
+item.arena:blaze_skull_mask=§gCrânio de chamas\n§r§7(Slot do rosto)\n§o§8, +100 (fogo), +200 \n+Alérgico à água\n+ II no Nether\n+ II no Overworld\n+ pele, +Imunidade a \nMinérios de fundição
+item.arena:marble_mask=§gMáscara de mármore\n§r§7(Slot do rosto)\n§o§8, +6 , -150 (queda)\n+20 (corpo a corpo), +20 (projétil)\n+Imunidade a \n+3 (ao), +1 repulsão
+item.arena:poseidon_mask=§gMáscara de axolote\n§r§7(Slot do rosto)\n§o§8, +Respira água, +50 , + II na água\n-50 (fogo), -50 (queda)\n+Imunidade a \n+Assassino de  (+60  & )
+item.arena:kitsume_mask=§gMáscara de Kitsume\n§r§7(Slot do rosto)\n§o§8, +Invisível para mobs hostis\n+Imunidade a efeitos positivos\n-9 
+item.arena:natural_butterfly_mask=§gBorboleta natural máscara\n§r§7(Slot do rosto)\n§o§8, + I, +10 \n+Ataques infligem  VI\n+Aumenta a quantidade de itens obtidos
+item.arena:unnatural_mask=§gMáscara de coro-coral\n§r§7(Slot do rosto)\n§o§8, + III, +3 , +10 , + II\n-75 (magia), -20 (corpo a corpo)\n+Mobs mais agressivos\n+Aumenta a quantidade de minérios obtidos
+item.arena:demon_mask=§gMáscara demoníaca\n§r§7(Slot do rosto)\n§o§8, +2 , + I\n-50 (corpo a corpo), -50 (projétil)\n-50 (magia), -50 (explosões)\n+Queimaduras à luz do dia\n+Contador de acertos (10 acertos)\n(Inflige +200  & )\n( II/ I)
+item.arena:cat_mask=§gMáscara de gato\n§r§7(Slot do rosto)\n§o§8, -1 , -50 , +,  II\n+Agilidade natural ( , )\nConcede bônus de agilidade na escuridão\n( ao se esgueirar)\nCorrer é menos cansativo\nNadar é mais cansativo\n+1 pulo
+item.arena:wither_mask=§gMáscara do Wither\n§r§7(Slot do rosto)\n§o§8, +25 (projétil)\n+100 (explosões)\n-75 (magia)\n+1 , + II, +2 (ao)\n+ II,  I, , - II\n(ter menos vida 5-4 )\n+Imunidade a , , \n(invocar esqueletos wither após matar)\n+ flechas
+item.arena:necromancer_mask=§gMáscara do necromante\n§r§7(Slot do rosto)\n§o§8, +queima à luz do dia\n+Invocador, -5 (corpo a corpo), -2 \n(Invoca esqueleto após matar, 40)
+item.arena:feared_end_hat=§gChapéu do fim\n§r§7(Slot do rosto)\n§o§8, +Alérgico à água\n-10 (corpo a corpo), +50 (projétil)\n-2 , +teleporte\n+Flechas do Vazio\n+ I, II. + I, II (Metade da vida)
+item.arena:angelic_mask=§gMáscara angélica\n§r§7(Slot do rosto)\n§o§8, +3 pulos, + II, -50 \n-25 (corpo a corpo), -25 (projétil)\n+Assassino de mortos-vivos(+40  + )\n+, ,  I(noite)\n+Aura de (animais de estimação, invocações)
+item.arena:deep_knight_helmet=§gCapacete de cavaleiro profundo\n§r§7(Slot do rosto)\n§o§8, -20 \n-220 (queda), +15 (magia)\n+30 (corpo a corpo), +30 (projétil)\n+Imunidade a \n+Detecta entidades próximas\n(Agachado, +)
+item.arena:witch_mask=§gChapéu de bruxa encantado\n§r§7(Slot do rosto)\n§o§8, +50 (magia)\n-20 (corpo a corpo), -20 (projétil)\n+Feitiços (usar cajado):\n+ III(30s cooldown)\n+(na área) II(35s cooldown)\n+(na área) II(30s cooldown)\n+(na área) II(30s cooldown)\n+(na área) II(30s cooldown)\n+Dash (10s cooldown)\n+ II (na área)(30s cooldown)
+item.arena:nights_devouring_mask=§gMáscara devoradora noites\n§r§7(Slot do rosto)\n§o§8, +1 pulo, +5 (corpo a corpo), +1 \n+Contador de noites sem dormir(1-5)\n(+ I-II, + I-II, + I)\n+ III,  I,  I\n(durante o dia)\n+Inflige insônia \n(40 chance, 10 , 0,5s, durante a noite)
+item.arena:evoker_mask=§gMáscara do evocador\n§r§7(Slot do rosto)\n§o§8, +50 (magia)\n-20 (corpo a corpo), -20 (projétil)\n+Feitiços (usar cajado):\n+Invoca vexes (2 min cooldown)\n+Invoca presas circulares\n+Invoca presas em linha\n+Repulsão de vento em área\n+Invoca bola de fogo
+item.arena:deformed_mask=§gMáscara deformada\n§r§7(Slot do rosto)\n§o§8, +Piglins te evitam\n+1 , -30 , -50 , +80 \n+Seus impactos reduzem a durabilidade\n+ I-II(parado e mudança)\n+Assassino do jogador(+15 )
+item.arena:fallen_angel_mask=§gMáscara de anjo corrompido\n§r§7(Slot do rosto)\n§o§8, +3 Dash, -20 \n-25 (corpo a corpo), -25 (projétil)\n+Assassino do jogadores(+40  & )\n+, ,  I(dia)\n+Aura de (jogadores)
+item.arena:fallen_marble_mask=§gMáscara de mármore corrompida\n§r§7(Slot do rosto)\n§o§8, +6 , -150 (queda)\n+20 (corpo a corpo), +20 (projétil)\n+Imunidade a \n+3 (ao recuo), +1 repulsão\n+Feitiços (usar cajado):\n+Gigantismo(2min cooldown)
+item.arena:arcane_hood=§hCapuz arcano\n§r§7(Slot do rosto)\n§o§8, -10 (corpo a corpo), -10 (projétil)\n+Feitiços (usar cajado):\n+Invoca vexes arcanos(2min cooldown)\n+Proteção arcana( III 10s)
+
+item.arena:blossom_crown=§gcoroa de cerejas\n§r§7(Slot de cabeça)\n§o§8+Área de cura\n(Despues de matar entidads)
+item.arena:soul_taker=§gCoroa Lobachevskiana\n§r§7(Slot de cabeça)\n§o§8+Roubar almas\n(Apenas mobs de geradores)
+item.arena:depart_paladins_fate=§gCapacete do paladino partindo\n§r§7(Slot de cabeça)\n§o§8+Imunidade à \n-10 (corpo a corpo), +1 \n+Infligir maldição \n(75 chance, 5s)
+item.arena:deer_crown=§gCoroa de veado\n§r§7(Slot de cabeça)\n§o§8+5 , -1 , + II\n-25 (corpo a corpo)
+item.arena:ornate_helmet=§gCapacete ornamentado\n§r§7(Slot de cabeça)\n§o§8+1 (máx. +7 ), -5 (corpo a corpo)\n(Acumula por item ornamentado)
+item.arena:crown_of_calamity=§gCoroa da Calamidade\n§r§7(Slot de cabeça)\n§o§8+Feitiços (use cajado):\n+Invoca 2 esqueletos de Cavaleiro\n(2m cooldown)
+item.arena:robin_hat=§gChapéu de Robin\n§r§7(Slot de cabeça)\n§o§8+6 , +20 , +15 (projétil)\n-25 (corpo a corpo)
+item.arena:crown_of_expertise=§gCoroa da Serenidade\n§r§7(Slot de cabeça)\n§o§8+Feitiços (use cajado):\n+Invoca 2 vexes angelicais\n(1m, 20s cooldown)
+
+item.arena:harena_doll=§cBoneca de Hamleth\n§r§7(Slot de bonecos)\n§o§8+2 , + I\nOlá! Sou eu,\nEstou feliz que você tenha gostado do complemento\ne sinto muito, acabei de usar o .
+item.arena:illuminated_doll=§cBoneca iluminada\n§r§7(Slot de bonecos)\n§o§8+ (Depois de comer),  I
+item.arena:masked_doll=§cBoneca mascarada\n§r§7(Slot de bonecos)\n§o§8+ I, + I
+item.arena:shulked_doll=§cBoneca de shulker\n§r§7(Slot de bonecos)\n§o§8+1 , +Imunidade à 
+item.arena:bee_doll=§cBoneca de mel\n§r§7(Slot de bonecos)\n§o§8+10 \n+Imunidade à 
+item.arena:fire_doll=§cBoneca de fogo\n§r§7(Slot de bonecos)\n§o§8+ I, -2 
+item.arena:vulak_doll=§cBoneco de Vulak\n§r§7(Slot de bonecos)\n§o§8+5 (corpo a corpo), +10 (magia)\n+Imunidade à 
+item.arena:aplpha_doll=§cBoneco de Alpharius\n§r§7(Slot de bonecos)\n§o§8+ I (Agachado)\n+ I
+item.arena:gentrix_doll=§cBoneca de Strawberries\n§r§7(Slot de bonecos)\n§o§8+10 \n+Imunidade à 
+item.arena:zultinus_doll=§cBoneco de Milo\n§r§7(Slot de bonecos)\n§o§8+ I, -10'/ . \n-Somente para jogadores próximos
+item.arena:jesus_doll=§cBoneco de Jesus\n§r§7(Slot de bonecos)\n§o§8+ I, + I, + III\nEu dou a você a minha ,\nmas também meu metabolismo
+item.arena:alaniz_doll=§cBoneco de Alaniz\n§r§7(Slot de bonecos)\n§o§8+ I(Agachado)\n-15 (queda)
+item.arena:gold_doll=§cBoneco de Gold\n§r§7(Slot de bonecos)\n§o§8+ I(capacete dourado equipado)\n+Imunidade à 
+item.arena:angeloso_doll=§cBoneco de Angeloso\n§r§7(Slot de bonecos)\n§o§8+10 (queda)\n+Imunidade à 
+item.arena:jrice_doll=§cBoneco de Jr ice\n§r§7(Slot de bonecos)\n§o§8+ IV(tendo 10  )\n+ I,  I (tendo 5-2.5  )
+item.arena:sacronkaiden_doll=§cBoneco de Sacron Kaiden\n§r§7(Slot de bonecos)\n§o§8-1 \reflete 3 \n+Alérgico à água
+item.arena:paladin_doll=§cBoneco de extreme\n§r§7(Slot de bonecos)\n§o§8+1 , +10 \n -1 , -5 (corpo a corpo)
+item.arena:systemtv_doll=§cBoneco de systemTV\n§r§7(Slot de bonecos)\n§o§8+Efeito na área de  II, -1 
+item.arena:biggamer_doll=§cBoneco de BigGamer\n§r§7(Slot de bonecos)\n§o§8+40 , +Imunidade à 
+item.arena:agustin_doll=§cBoneco de Agustin\n§r§7(Slot de bonecos)\n§o§8+XP extra redundância\n+ I
+item.arena:alylicia_doll=§cBoneca de Alylica\n§r§7(Slot de bonecos)\n§o§8+1 salto\n+Imunidade à 
+item.arena:lotte_axolotle_doll=§cBoneco de axolote Lotte\n§r§7(Slot de bonecos)\n§o§8+5 chance de causar sangramento 
+item.arena:drak_doll=§cBoneco de DraK\n§r§7(Slot de bonecos)\n§o§8+Infligir insônia \n(2 , 3s, à noite)\n+Imunidade à 
+item.arena:cap_zweihander=§cBoneco de Cap Zweihander\n§r§7(Slot de bonecos)\n§o§8+2  (a cada 15 níveis de XP)\n+Imunidade a , , 
+item.arena:laniraxia_doll=§cBoneca de Laniraxia\n§r§7(Slot de bonecos)\n§o§8+2 , -10 (corpo a corpo)
+item.arena:melunch_doll=§c§cBoneco de Melunch\n§r§7(Slot de bonecos)\n§o§8+Ataques de área, 10 de dano\n-5 (corpo a corpo), -5 (projétil)
+
+item.arena:iron_vampiric_earring=§5Brinco- vampírico\n§r§7(Slot de brinco)\n§o§8+2 roubo de vida\n+Imunidade à , 
+item.arena:iron_spikes_earring=§5Brinco- de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete o 5 de dano\n+Imunidade à , 
+item.arena:iron_explosive_earring=§5Brinco- explosivo\n§r§7(Slot de brinco)\n§o§8+3 chance de gerar uma explosão
+item.arena:iron_penetration_earring=§5Brinco- de perfuração\n§r§7(Slot de brinco)\n§o§8+4 perfuração de armadura
+item.arena:iron_bleeding_earring=§5Brinco- do sangramento\n§r§7(Slot de brinco)\n§o§8+5 chance de causar sangramento 
+item.arena:iron_arrows_earring=§5Brinco- de arqueiro\n§r§7(Slot de brinco)\n§o§8+1 , -5 (corpo a corpo)
+item.arena:iron_insomnia_earring=§5Brinco de Insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia\n(5 chance, 4 , 15s, à noite)\n+Imunidade à , 
+
+item.arena:golden_vampiric_earring=§5Brinco- vampírico\n§r§7(Slot de brinco)\n§o§8+4 roubo de vida\n+Imunidade à , 
+item.arena:golden_spikes_earring=§5Brinco- de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete o 10 de dano\n+Imunidade à , 
+item.arena:golden_explosive_earring=§5Brinco- explosivo\n§r§7(Slot de brinco)\n§o§8+6 chance de gerar uma explosão
+item.arena:golden_penetration_earring=§5Brinco- de perfuração\n§r§7(Slot de brinco)\n§o§8+8 perfuração de armadura
+item.arena:golden_bleeding_earring=§5Brinco- do sangramento\n§r§7(Slot de brinco)\n§o§8+10 chance de causar sangramento 
+item.arena:golden_arrows_earring=§5Brinco- de arqueiro\n§r§7(Slot de brinco)\n§o§8+2 , -10 (corpo a corpo)
+item.arena:golden_insomnia_earring=§5Brinco de Insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia\n(10 chance, 6 , 12s, à noite)\n+Imunidade à , 
+
+item.arena:prismarine_vampiric_earring=§5Brinco- vampírico\n§r§7(Slot de brinco)\n§o§8+6 roubo de vida\n+Imunidade à , 
+item.arena:prismarine_spikes_earring=§5Brinco- de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete o 15 de dano\n+Imunidade à , 
+item.arena:prismarine_explosive_earring=§5Brinco- explosivo\n§r§7(Slot de brinco)\n§o§8+9 chance de gerar uma explosão
+item.arena:prismarine_penetration_earring=§5Brinco- de perfuração\n§r§7(Slot de brinco)\n§o§8+12 perfuração de armadura
+item.arena:prismarine_bleeding_earring=§5Brinco- do sangramento\n§r§7(Slot de brinco)\n§o§8+15 chance de causar sangramento 
+item.arena:prismarine_arrows_earring=§5Brinco- de arqueiro\n§r§7(Slot de brinco)\n§o§8+3 , -15 (corpo a corpo)
+item.arena:prismarine_insomnia_earring=§5Insônia Brinco de Insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia (15 chance, 8 , 9, à noite)\n+Imunidade à , 
+
+item.arena:netherite_vampiric_earring=§5Brinco- vampírico\n§r§7(Slot de brinco)\n§o§8+8 roubo de vida\n+Imunidade à , 
+item.arena:netherite_spikes_earring=§5Brinco- de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete o 20 de dano\n+Imunidade à , 
+item.arena:netherite_explosive_earring=§5Brinco- explosivo\n§r§7(Slot de brinco)\n§o§8+12 chance de gerar uma explosão
+item.arena:netherite_penetration_earring=§5Brinco- de perfuração\n§r§7(Slot de brinco)\n§o§8+16 perfuração de armadura
+item.arena:netherite_bleeding_earring=§5Brinco- do sangramento\n§r§7(Slot de brinco)\n§o§8+20 chance de causar sangramento 
+item.arena:netherite_arrows_earring=§5Brinco- de arqueiro\n§r§7(Slot de brinco)\n§o§8+4 , -20 (corpo a corpo)
+item.arena:netherite_insomnia_earring=§5Brinco de Insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia (20 chance, 10 , 6s, à noite)\n+Imunidade à , 
+
+item.arena:fallen_vampiric_earring=§5Brinco corrompido vampírico\n§r§7(Slot de brinco)\n§o§8+10 roubo de vida\n+Imunidade a , 
+item.arena:fallen_spikes_earring=§5Brinco corrompido de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete o 25 de dano\n+Imunidade a , 
+item.arena:fallen_explosive_earring=§5Brinco corrompido explosivo\n§r§7(Slot de brinco)\n§o§8+15 gerar uma explosão
+item.arena:fallen_penetration_earring=§5Brinco corrompido perfuração\n§r§7(Slot de brinco)\n§o§8+20 perfuração de armadura
+item.arena:fallen_bleeding_earring=§5Brinco corrompido sangrento\n§r§7(Slot de brinco)\n§o§8+25 chance de causar sangramento 
+item.arena:fallen_arrows_earring=§5Brinco corrompido de arqueiro\n§r§7(Slot de brinco)\n§o§8+5 , -25 (corpo a corpo)
+item.arena:fallen_insomnia_earring=§5Brinco corrompido de insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia \n(25 chance, 12 , 6s, à noite)\n+Imunidade a , 
+
+item.arena:iron_diamond_earring=§5Brinco- de diamante\n§r§7(Slot de brinco)\n§o§8+1 Chance de infligir  crítico
+item.arena:golden_diamond_earring=§5Brinco- de diamante\n§r§7(Slot de brinco)\n§o§8+2 Chance de infligir  crítico
+item.arena:prismarine_diamond_earring=§5Brinco- de diamante\n§r§7(Slot de brinco)\n§o§8+3 Chance de infligir  crítico
+item.arena:netherite_diamond_earring=§5Brinco- de diamante\n§r§7(Slot de brinco)\n§o§8+4 Chance de infligir  crítico
+item.arena:fallen_diamond_earring=§5Brinco corrompido de diamante\n§r§7(Slot de brinco)\n§o§8+5 Chance de infligir  crítico
+
+item.arena:iron_emerald_earring=§5Brinco- de esmeralda\n§r§7(Slot de brinco)\n§o§8+Recompensa de XP extra (+1)
+item.arena:golden_emerald_earring=§5Brinco- de esmeralda\n§r§7(Slot de brinco)\n§o§8+Recompensa de XP extra (+2)
+item.arena:prismarine_emerald_earring=§5Brinco- de esmeralda\n§r§7(Slot de brinco) slot)\n§o§8+Recompensa de XP extra (+3)
+item.arena:netherite_emerald_earring=§5Brinco- de esmeralda\n§r§7(Slot de brinco)\n§o§8+Recompensa de XP extra (+4)
+item.arena:fallen_emerald_earring=§5Brinco corrompido de esmeralda\n§r§7(Slot de brinco)\n§o§8+Recompensa de XP extra (+5)
+
+item.arena:iron_slayer_earring=§5Brinco- de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+3 )
+item.arena:golden_slayer_earring=§5Brinco- de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+6 )
+item.arena:prismarine_slayer_earring=§5Brinco- de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+9 )
+item.arena:netherite_slayer_earring=§5Brinco- de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+12 )
+item.arena:fallen_slayer_earring=§5Brinco corrompido de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+15 )
+
+item.arena:iron_hemlock_earring=§5Brinco- de cicuta\n§r§7(Slot de brinco)\n§o§8+3 multiplicador  crítico
+item.arena:golden_hemlock_earring=§5Brinco- de cicuta\n§r§7(Slot de brinco)\n§o§8+6 multiplicador  crítico
+item.arena:prismarine_hemlock_earring=§5Brinco- de cicuta\n§r§7(Slot de brinco)\n§o§8+9 multiplicador  crítico
+item.arena:netherite_hemlock_earring=§5Brinco- de cicuta \n§r§7(Slot de brinco)\n§o§8+12 multiplicador  crítico
+item.arena:fallen_hemlock_earring=§5Brinco corrompido de cicuta\n§r§7(Slot de brinco)\n§o§8+15 multiplicador  crítico
+
+item.arena:iron_paladin_earring=§5Brinco- de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+3 )
+item.arena:golden_paladin_earring=§5Brinco- de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+6 )
+item.arena:prismarine_paladin_earring=§5Brinco- de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+9 )
+item.arena:netherite_paladin_earring=§5Brinco- de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+12 )
+item.arena:fallen_paladin_earring=§5Brinco corrompido de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+15 )
+
+item.arena:iron_cursebreaker_earring=§5Brinco- quebra-maldições\n§r§7(Slot de brinco)\n§o§8+Aumenta  contra jogadores amaldiçoados (+5 )
+item.arena:golden_cursebreaker_earring=§5Brinco- quebra-maldições\n§r§7(Slot de brinco)\n§o§8+Aumenta  contra jogadores amaldiçoados (+10 )
+item.arena:prismarine_cursebreaker_earring=§5Brinco- quebra-maldições\n§r§7(Slot de brinco)\n§o§8+Aumenta  contra jogadores amaldiçoados (+15 )
+item.arena:netherite_cursebreaker_earring=§5Brinco- quebra-maldições\n§r§7(Brinco slot)\n§o§8+Aumenta  contra jogadores amaldiçoados (+20 )
+item.arena:fallen_cursebreaker_earring=§5Brinco corrompido quebra-maldições\n§r§7(Slot de brinco)\n§o§8+Aumenta  contra jogadores amaldiçoados (+25 )
+
+item.arena:pure_marble_vampiric_earring=§5Brinco divino vampírico\n§r§7(Slot de brinco)\n§o§8+12 roubo de vida\n+Imunidade a , 
+item.arena:pure_marble_spikes_earring=§5Brinco divino de espinhos\n§r§7(Slot de brinco)\n§o§8+Reflete 30 de dano\n+Imunidade a , 
+item.arena:pure_marble_explosive_earring=§5Brinco divino explosivo\n§r§7(Slot de brinco)\n§o§8+18 chance de gerar uma explosão
+item.arena:pure_marble_penetration_earring=§5Brinco divino perfuração\n§r§7(Slot de brinco)\n§o§8+24 perfuração de armadura
+item.arena:pure_marble_bleeding_earring=§5Brinco divino sangrante\n§r§7(Slot de brinco)\n§o§8+24 chance de causar sangramento 
+item.arena:pure_marble_arrows_earring=§5Brinco divino de arqueiro\n§r§7(Slot de brinco) slot)\n§o§8+6 , -25 (corpo a corpo)
+item.arena:pure_marble_insomnia_earring=§5Brinco divino da insônia\n§r§7(Slot de brinco)\n§o§8+Inflige insônia \n(30 chance, 14 , 5s, à noite)\n+Imunidade a , 
+item.arena:pure_marble_diamond_earring=§5Brinco divino de diamante\n§r§7(Slot de brinco)\n§o§8+6 Chance de infligir  crítico
+item.arena:pure_marble_emerald_earring=§5Brinco divino de esmeralda\n§r§7(Brinco slot)\n§o§8+Recompensa de XP extra (+6)
+item.arena:pure_marble_slayer_earring=§5Brinco divino de assassino\n§r§7(Slot de brinco)\n§o§8+Assassino de jogadores(+18 )
+item.arena:pure_marble_hemlock_earring=§5Brinco divino de cicuta\n§r§7(Slot de brinco)\n§o§8+18 multiplicador  crítico
+item.arena:pure_marble_paladin_earring=§5Brinco divino de paladino\n§r§7(Slot de brinco)\n§o§8+Assassino de mortos-vivos(+18 )
+item.arena:pure_marble_cursebreaker_earring=§5Brinco divino quebra-maldições\n§r§7(Slot de brinco)\n§o§8+Aumenta  contra jogadores amaldiçoados (+30 )
+
+item.arena:blazing_earring=§5Brinco flamejante\n§r§7(Slot de brinco)\n§o§8+Assassino de   (+25 )
+item.arena:ornate_earring=§5Brinco ornamentado\n§r§7(Slot de brinco)\n§o§8+1 , -5 (projétil)\n(Acumula por item ornamentado)
+item.arena:piercing_earring=§5Brinco perfurante\n§r§7(Slot de brinco)\n§o§8+Perfure um inimigo próximo adicional
+item.arena:infused_earring=§5Brinco infundido\n§r§7(Slot de brinco)\n§o§8+Bônus de magias:\n+Aumenta a força da magia em +1
+
+item.arena:damage_copper_wither_ring=§jAnel de dano \n§r§7(Slot para anel wither)\n§o§8+1 , -2 , +4 multiplicador  crítico
+item.arena:damage_iron_wither_ring=§jAnel de dano \n§r§7(Slot para anel wither)\n§o§8+1 , -2 , +8 multiplicador  crítico
+item.arena:damage_golden_wither_ring=§jAnel de dano \n§r§7(Slot para anel wither)\n§o§8+2 , -4 , +12 multiplicador  crítico
+item.arena:damage_prismarine_wither_ring=§jAnel de dano \n§r§7(Slot para anel wither)\n§o§8+2 , -4 , +16 multiplicador  crítico
+item.arena:damage_marble_wither_ring=§jAnel de dano \n§r§7(Slot para anel wither)\n§o§8+3 , -6 , +20 multiplicador  crítico
+
+item.arena:hearts_copper_wither_ring=§jAnel de corações \n§r§7(Slot para anel wither)\n§o§8+1 
+item.arena:hearts_iron_wither_ring=§jAnel de corações \n§r§7(Slot para anel wither)\n§o§8+2 
+item.arena:hearts_golden_wither_ring=§jAnel de corações \n§r§7(Slot para anel wither)\n§o§8+3 
+item.arena:hearts_prismarine_wither_ring=§jAnel de corações \n§r§7(Slot para anel wither)\n§o§8+4 , -10 
+item.arena:hearts_marble_wither_ring=§jAnel de corações \n§r§7(Slot para anel wither)\n§o§8+5 , -10 
+
+item.arena:movement_copper_wither_ring=§jAnel de velocidade \n§r§7(Slot para anel wither)\n§o§8+10 , -5 (corpo a corpo), -5 (projétil)
+item.arena:movement_iron_wither_ring=§jAnel de velocidade \n§r§7(Slot para anel wither)\n§o§8+20 , -10 (corpo a corpo), -10 (projétil)
+item.arena:movement_golden_wither_ring=§jAnel de velocidade \n§r§7(Slot para anel wither)\n§o§8+30 , -15 (corpo a corpo), -15 (projétil)
+item.arena:movement_prismarine_wither_ring=§jAnel de velocidade \n§r§7(Slot para anel wither)\n§o§8+40 , -20 (corpo a corpo), -20 (projétil)
+item.arena:movement_marble_wither_ring=§jAnel de velocidade \n§r§7(Slot para anel wither)\n§o§8+50 , -25 (corpo a corpo), -25 (projétil)
+
+item.arena:swiming_copper_wither_ring=§jAnel de natação \n§r§7(Slot para anel wither)\n§o§8+30 , +60 , -5 (queda)
+item.arena:swiming_iron_wither_ring=§jAnel de natação \n§r§7(Slot para anel wither)\n§o§8+40 , +80 , -10 (queda)
+item.arena:swiming_golden_wither_ring=§jAnel de natação \n§r§7(Slot para anel wither)\n§o§8+50 , +100 , -15 (queda)
+item.arena:swiming_prismarine_wither_ring=§jAnel de natação \n§r§7(Slot para anel wither)\n§o§8+60 , +120 , -20 (queda)
+item.arena:swiming_marble_wither_ring=§jAnel de natação \n§r§7(Slot para anel wither)\n§o§8+70 , +140 , -25 (queda)
+
+item.arena:jump_copper_wither_ring=§jAnel de salto \n§r§7(Slot para anel wither)\n§o§8+ II
+item.arena:jump_iron_wither_ring=§jAnel de salto \n§r§7(Slot para anel wither)\n§o§8+ III
+item.arena:jump_golden_wither_ring=§jAnel de salto \n§r§7(Slot para anel wither)\n§o§8+ IV
+item.arena:jump_prismarine_wither_ring=§jAnel de salto \n§r§7(Slot para anel wither)\n§o§8+ V
+item.arena:jump_marble_wither_ring=§jAnel de salto \n§r§7(Slot para anel wither)\n§o§8+ VI
+
+item.arena:defense_copper_wither_ring=§jAnel de defesa \n§r§7(Slot para anel wither)\n§o§8+5 (corpo a corpo), +5 (projétil), -10 
+item.arena:defense_iron_wither_ring=§jAnel de defesa \n§r§7(Slot para anel wither)\n§o§8+10 (corpo a corpo), +10 (projétil), -10 
+item.arena:defense_golden_wither_ring=§jAnel de defesa \n§r§7(Slot para anel wither)\n§o§8+15 (corpo a corpo), +15 (projétil), -20 
+item.arena:defense_prismarine_wither_ring=§jAnel de defesa \n§r§7(Slot para anel wither)\n§o§820 (corpo a corpo), +20 (projétil), -20 
+item.arena:defense_marble_wither_ring=§jAnel de defesa \n§r§7(Slot para anel wither)\n§o§8+25 (corpo a corpo), +25 (projétil), -30 
+
+item.arena:mage_copper_wither_ring=§jAnel de mago \n§r§7(Slot para anel wither)\n§o§8+5 (magia), -5 (corpo a corpo)
+item.arena:mage_iron_wither_ring=§jAnel de mago \n§r§7(Slot para anel wither)\n§o§8+10 (magia), -5 (corpo a corpo)
+item.arena:mage_golden_wither_ring=§jAnel de mago \n§r§7(Slot para anel wither)\n§o§8+15 (magia), -10 (corpo a corpo)
+item.arena:mage_prismarine_wither_ring=§jAnel de mago \n§r§7(Slot para anel wither)\n§o§8+20 (magia), -10 (corpo a corpo)
+item.arena:mage_marble_wither_ring=§jAnel de mago \n§r§7(Slot para anel wither)\n§o§8+25 (magia), -15 (corpo a corpo)
+
+item.arena:fire_wither_ring=§jAnel incandescente\n§r§7(Slot para anel wither)\n§o§8+2 , -4 , +14 multiplicador  crítico\n+Ataques causam 
+item.arena:end_wither_ring=§jAnel do fim\n§r§7(Slot para anel wither)\n§o§8+3 \nAcerto inflinge 6s \n+4 Chance de infligir  crítico
+item.arena:light_wither_ring=§jAnel elétrico\n§r§7(Slot para anel wither)\n§o§8+30 , -15 (corpo a corpo), -15 (projétil)\n+6 chance de infligir um choque eletrostático\n+8 Chance de infligir  crítico
+item.arena:snow_wither_ring=§jAnel gelado\n§r§7(Slot para anel wither)\n§o§8+50 , +100 , -15 (queda)\n+Acerto inflinge  III\n+4 Chance de infligir  crítico
+item.arena:venion_wither_ring=§jAnel de veneno\n§r§7(Slot para anel wither)\n§o§8+ IV\n+Acerto inflinge  III
+item.arena:hemlock_wither_ring=§jAnel de cicuta\n§r§7(Slot para anel wither)\n§o§8+15 (corpo a corpo), +15 (projétil), -20 \n+Acerto inflinge  II
+item.arena:desert_wither_ring=§jAnel do deserto\n§r§7(Slot para anel wither)\n§o§8+15 (mágico), -10 (corpo a corpo)\n+Acerto inflinge  III\n+4 Chance de infligir  crítico
+
+item.arena:silk_ring_jelewer=§dAnel de seda\n§r§7(Slot de anel)\n§o§8+Imunidade 
+item.arena:withered_ring_jelewer=§dAnel wither\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+item.arena:crimsom_amethyst_ring_jelewer=§dAnel de Ametista Deformado\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+item.arena:crimson_ring_jelewer=§dAnel deformado\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+item.arena:shadow_step_ring_jelewer=§dAnel escuro\n§r§7(Slot de anel)\n§o§8+Imunidade 
+item.arena:obsidian_ring_jelewer=§dAnel de Obsidiana\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+item.arena:blinding_of_shinning_ring_jelewer=§dAnel brilhante e ofuscante\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+item.arena:shulked_ring_jelewer=§dAnel de Shulker\n§r§7(Slot de anel)\n§o§8+Imunidade à 
+
+item.arena:haunted_ring=§dAnel Assombrado\n§r§7(Slot de anel)\n§o§8+Bônus de magias:\n+Invocações à distância, recarga +1 
+item.arena:hauled_ring=§dAnel encantado\n§r§7(Slot de anel)\n§o§8+Bônus de magias:\n+Invocações corpo a corpo, +1 
+item.arena:blazing_ring=§dAnel flamejante\n§r§7(Slot de anel)\n§o§8+Imunidade à sangramento 
+item.arena:ornate_band=§dFaixa ornamentada\n§r§7(Slot de anel)\n§o§8+5 (corpo a corpo) (máx. +20 )\n(Acumula por item ornamentado)
+item.arena:ornate_ring=§dAnel ornamentado\n§r§7(Slot de anel)\n§o§8+10  (máx. +30 )\n(Acumula por item ornamentado)
+item.arena:repeating_ring=§dAnel de repetição\n§r§7(Slot de anel)\n§o§8+Aumenta o dano do arco (+25 )
+item.arena:spirit_ring=§dAnel espiritual\n§r§7(Slot de anel)\n§o§8-5 (corpo a corpo)\n+Bônus de magias:\n+Reduz o cooldown em 10
+
+item.arena:amethyst_earring_jelewer=§5Brinco de Ametista\n§r§7(Slot de brinco)\n§o§8+Acertar inflige \n+reflete 
+item.arena:crimsom_amethyst_earring_jelewer=§5Brinco de Ametista Deformado\n§r§7(Slot de brinco)\n§o§8+Acerto inflige \n+ de reflete
+item.arena:crimsom_earring_jelewer=§5Brinco deformado\n§r§7(Slot de brinco)\n§o§8+Acerto inflige \n+reflete 
+
+item.arena:iron_blossom_ring=§dAnel do flor-\n§r§7(Slot de anel)\n§o§8+Aumenta o limite de §uFlor de cerejeira§8 em +4 
+item.arena:golden_blossom_ring=§dAnel do flor-\n§r§7(Slot de anel)\n§o§8+Aumenta o limite de §uFlor de cerejeira§8 em +6 
+item.arena:prismarine_blossom_ring=§dAnel do flor-\n§r§7(Slot de anel)\n§o§8+Aumenta o limite de §uFlor de cerejeira§8 em +8 
+item.arena:netherite_blossom_ring=§dAnel do flor-\n§r§7(Slot de anel)\n§o§8+Aumenta o limite de §uFlor de cerejeira§8 em +6 limite +10 
+item.arena:marble_blossom_ring=§dAnel do flor-\n§r§7(Slot de anel)\n§o§8+Aumenta o limite de §uFlor de cerejeira§8 +12 
+
+item.arena:iron_sculk_ring=§dSculk -anel\n§r§7(Slot de anel)\n§o§8+Aumenta +1  por morte\n(Máx +5 )\n-5 (corpo a corpo)
+item.arena:golden_sculk_ring=§dSculk -anel\n§r§7(Slot de anel)\n§o§8+Aumenta +1  por morte\n(Máx +10 )\n-10 (corpo a corpo)
+item.arena:prismarine_sculk_ring=§dSculk -anel\n§r§7(Slot de anel)\n§o§8+Aumenta +1  por morte\n(Máx +15 )\n-15 (corpo a corpo)
+item.arena:netherite_sculk_ring=§dSculk -anel\n§r§7(Slot de anel)\n§o§8+Aumenta +1  por morte\n(Máx +20 )\n-20 (corpo a corpo)
+item.arena:marble_sculk_ring=§dSculk -anel\n§r§7(Slot de anel)\n§o§8+Aumenta +1  por morte\n(Máx. +25 )\n-25 (corpo a corpo)
+
+item.arena:iron_fire_necklace_jelewer=§bColar incandescente \n§r§7(Slot de colar)\n§o§8+1 Chance de infligir  crítico\n+Ataques causam 
+item.arena:golden_fire_necklace_jelewer=§bColar incandescente \n§r§7(Slot de colar)\n§o§8+2 Chance de infligir  crítico\n+Ataques causam 
+item.arena:prismarine_fire_necklace_jelewer=§bColar incandescente \n§r§7(Slot de colar)\n§o§8+3 Chance de infligir  crítico\n+Ataques causam 
+item.arena:netherite_fire_necklace_jelewer=§bColar incandescente \n§r§7(Slot de colar)\n§o§8+4 Chance de infligir  crítico\n+Ataques causam 
+item.arena:fallen_fire_necklace=§bColar incandescente corrompido\n§r§7(Slot de colar)\n§o§8+5 Chance de infligir  crítico\n+Ataques causam 
+
+item.arena:iron_end_necklace_jelewer=§bcolar do fim \n§r§7(Slot de colar)\n§o§8+2 Chance de infligir  crítico\n§o§8Acerto inflinge 3s de 
+item.arena:golden_end_necklace_jelewer=§bcolar do fim \n§r§7(Slot de colar)\n§o§8+4 Chance de infligir  crítico\n§o§8Acerto inflinge 6s de 
+item.arena:prismarine_end_necklace_jelewer=§bcolar do fim \n§r§7(Slot de colar)\n§o§8+6 Chance de infligir  crítico\n+Acerto inflinge 7s de 
+item.arena:netherite_end_necklace_jelewer=§bcolar do fim \n§r§7(Slot de colar)\n§o§8+8 Chance de infligir  crítico\n+Acerto inflinge 8s de 
+item.arena:fallen_end_necklace=§bColar do fim corrompido\n§r§7(Slot de colar)\n§o§8+10 Chance de infligir  crítico\n+Acerto inflinge 9s 
+
+item.arena:iron_light_necklace_jelewer=§bColar elétrico \n§r§7(Slot de colar)\n§o§8+3 Chance de infligir  crítico\n+3 Chance de infligir um choque eletrostático
+item.arena:golden_light_necklace_jelewer=§bColar elétrico \n§r§7(Slot de colar)\n§o§8+6 Chance de infligir  crítico\n+6 Chance de infligir um choque eletrostático
+item.arena:prismarine_light_necklace_jelewer=§bColar elétrico \n§r§7(Slot de colar)\n§o§8+9 Chance de infligir  crítico\n+9 Chance de infligir um choque eletrostático
+item.arena:netherite_light_necklace_jelewer=§bColar elétrico \n§r§7(Slot de colar)\n§o§8+12 Chance de infligir  crítico\n+12 Chance de infligir um choque eletrostático
+item.arena:fallen_light_necklace=§bColar elétrico corrompido\n§r§7(Slot de colar)\n§o§8+15 Chance de infligir  crítico\n+15 Chance de infligir um choque eletrostático
+
+item.arena:iron_snow_necklace_jelewer=§bColar gelado \n§r§7(Slot de colar)\n§o§8+2 Chance de infligir  crítico\n+Acerto inflinge  II
+item.arena:golden_snow_necklace_jelewer=§bColar gelado \n§r§7(Slot de colar)\n§o§8+4 Chance de infligir  crítico\n+Acerto inflinge  III
+item.arena:prismarine_snow_necklace_jelewer=§bColar gelado \n§r§7(Slot de colar)\n§o§8+6 Chance de infligir  crítico\n+Acerto inflinge  IV
+item.arena:netherite_snow_necklace_jelewer=§bColar gelado \n§r§7(Slot de colar)\n§o§8+8 Chance de infligir  crítico\n+Acerto inflinge  V
+item.arena:fallen_snow_necklace=§bColar gelado corrompido\n§r§7(Slot de colar)\n§o§8+10 Chance de infligir  crítico\n+Acerto inflinge  VI
+
+item.arena:iron_poison_necklace_jelewer=§bColar de veneno \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  II
+item.arena:golden_poison_necklace_jelewer=§bColar de veneno \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  III
+item.arena:prismarine_poison_necklace_jelewer=§bColar de veneno \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  IV
+item.arena:netherite_poison_necklace_jelewer=§bColar de veneno \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  V
+item.arena:fallen_poison_necklace=§bColar de veneno corrompido\n§r§7(Slot de colar)\n§o§8+Acerto inflinge  VI
+
+item.arena:iron_hemlock_necklace=§bColar de cicuta \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  I
+item.arena:golden_hemlock_necklace=§bColar de cicuta \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  II
+item.arena:prismarine_hemlock_necklace=§bColar de cicuta \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  III
+item.arena:netherite_hemlock_necklace=§bColar de cicuta \n§r§7(Slot de colar)\n§o§8+Acerto inflinge  IV
+item.arena:fallen_hemlock_necklace=§bColar de cicuta corrompida\n§r§7(Slot de colar)\n§o§8+Acerto inflinge  V
+
+item.arena:iron_desert_necklace_jelewer=§bColar do deserto \n§r§7(Slot de colar)\n§o§8+2 Chance de infligir  crítico\n+Acerto inflinge  II
+item.arena:golden_desert_necklace_jelewer=§bColar do deserto \n§r§7(Slot de colar)\n§o§8+4 Chance de infligir  crítico\n+Acerto inflinge  III
+item.arena:prismarine_desert_necklace_jelewer=§bColar do deserto \n§r§7(Slot de colar)\n§o§8+6 Chance de infligir  crítico\n+Acerto inflinge  IV
+item.arena:netherite_desert_necklace_jelewer=§bColar do deserto \n§r§7(Slot de colar)\n§o§8+8 de Chance de infligir  crítico\n+Acerto inflinge  V
+item.arena:fallen_desert_necklace=§bColar do deserto corrompido\n§r§7(Slot de colar)\n§o§8+10 de Chance de infligir  crítico\n+Acerto inflinge  VI
+
+item.arena:pure_marble_fire_necklace=§bColar incandescente divino\n§r§7(Slot de colar)\n§o§8+6 de Chance de infligir  crítico\n+Ataques causam 
+item.arena:pure_marble_end_necklace=§bColar do fim divino\n§r§7(Slot de colar)\n§o§8+12 Chance de infligir  crítico\n+Acerto inflinge 10s 
+item.arena:pure_marble_light_necklace=§bColar elétrico divino\n§r§7(Slot de colar)\n§o§8+18 Chance de infligir  crítico\n+18 Chance de infligir um choque eletrostático
+item.arena:pure_marble_snow_necklace=§bColar gelado divino\n§r§7(Slot de colar)\n§o§8+12 Chance de infligir  crítico\n+Acerto inflinge  VII
+item.arena:pure_marble_poison_necklace=§bColar de veneno divino\n§r§7(Slot de colar)\n§o§8+Acerto inflinge  VII
+item.arena:pure_marble_desert_necklace=§bColar do deserto divino\n§r§7(Slot de colar)\n§o§8+12 Chance de infligir  crítico\n+Acerto inflinge  VII
+item.arena:pure_marble_hemlock_necklace=§bColar de cicuta divino\n§r§7(Slot de colar)\n§o§8+Acerto inflinge  VI
+
+item.arena:diamond_necklace=§bColar de diamantes\n§r§7(Slot de colar)\n§o§8+Ataques de área, 25 do dano\n-20 (corpo a corpo), -20 (projétil)
+item.arena:cursed_pendant=§bPingente Amaldiçoado\n§r§7(Slot de colar)\n§o§8+Imunidade à \n+5 (corpo a corpo), +5 (projétil),-1 \n+Infligir maldição \n(20 chance, 4s)
+item.arena:thine_eyes_pendant=§bPingente dos teus olhos\n§r§7(Slot de colar)\n§o§8+Pérolas do Fim não consomem\n-10 
+item.arena:catalyst_scarf=§bCachecol de catalisador\n§r§7(Slot de colar)\n§o§8+10 (corpo a corpo), +10 (projétil)\n+1 (ao recuo), -20 
+item.arena:bewitched_pendant=§bPingente Enfeitiçado\n§r§7(Slot de colar)\n§o§8+Feitiços (usar cajado):\n+Invoca 4 esqueletos\n(1m cooldown)
+item.arena:sweet_dreams_pendant=§bCachecol de doces sonhos\n§r§7(Slot de colar)\n§o§8+1 pulo\n+ III(dormir)\
+item.arena:obsidian_pendant=§bColar de obsidiana\n§r§7(Slot de colar)\n§o§8+10 , + II(em lava)
+item.arena:ornate_pendant=§bPingente ornamentado\n§r§7(Slot de colar)\n§o§8+2 Chance de infligir  crítico\n(Acumula por item ornamentado)
+
+item.arena:iron_crown_jelewer=§gCoroa de ferro\n§r§7(Slot de cabeça)\n§o§8+Dá  I aos animais de estimação
+item.arena:golden_crown_jelewer=§gCoroa de oro\n§r§7(Slot de cabeça)\n§o§8+Dá  II aos animais de estimação
+item.arena:prismarine_crown_jelewer=§gCorona prismatica\n§r§7(Slot de cabeça)\n§o§8+Dá  III aos animais de estimação
+item.arena:netherite_crown_jelewer=§gCoroa de netherite\n§r§7(Slot de cabeça)\n§o§8+Dá  IV aos animais de estimação
+
+item.arena:effect_cube=Jarra de efeitos
+item.arena:archaic_stone=§2Pedra arcaica
+item.arena:marble_fragment=Fragmento de mármore
+
+item.arena:jelewer_upgrade_smithing_template_n=Molde de mármore\n§r§7(Atualização de netherite)\n(jóiass->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_p=Molde de mármore\n§r§7(Atualização Prismática)\n(jóiass->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_g=Molde de mármore\n§r§7(Atualização de ouro)\n(jóiass->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_i=Molde de mármore\n§r§7(Atualização de ferro)\n(->)
+
+item.arena:archaic_upgrade_smithing_template=§bMolde arcaico
+item.arena:template_fallen=§bMolde de anjo corrompido
+item.arena:template_pure_marble=§eMolde de mármore Puro
+
+item.arena:template_artemis=§eMolde de Artemis
+item.arena:template_hades=§bMolde de Hades
+item.arena:template_poseidon=§bMolde de Poseidon
+item.arena:template_zeus=§eMolde de Zeus
+
+item.arena:doll_base=§r§cPuppet vodu
+item.arena:mask_base=§bBase para máscaras
+item.arena:elemental_wither_ring=§eAnel wither elemental
+item.arena:witherring=§eAnel wither
+item.arena:ring=§bAnel
+
+item.arena:gembase=Gema artificial
+item.arena:gem_fire=§bGema de Fogo
+item.arena:gem_light=§bGema Eletrificada
+item.arena:gem_poison=§bGema veneno
+item.arena:gem_snow=§bGema gelada
+item.arena:gem_void=§bGema do fim
+item.arena:gem_desert=§bGema do deserto
+item.arena:gem_hemlock=§bGema de cicuta
+item.arena:hemlock_stone=§bPedra de cicuta
+item.arena:crystal_gem=Cristal impuro
+item.arena:marble_dust=Mármore danificado\n§r§7(Use para receita)\n(mármore bruto)
+item.arena:raw_marble=Mármore bruto\n§r§7(cozinhe no fornalha potente)
+item.arena:chisel=Cinsel of minérios\n§r§7(Extrai mármore e minério de cristal)
+
+item.arena:fallen_marble=§bFragmento de mármore corrompido
+item.arena:black_marble_dust=§bMármore negro danificado\n§r§7(mármore corrompido bruto)
+item.arena:raw_black_marble=§bMármore corrompido bruto\n§r§7(cozinhe no fornalha potente)
+
+item.arena:ornate_fragment=§bFragmento ornamentado
+
+item.arena:dragon_scale=Escala de Dragão\n\n§7Obtido ao matar: 
+item.arena:wither_fire=Wither soul\n\n§7Obtido ao matar: 
+item.arena:warden_heart=Coração do Warden\n\n§7Obtido ao matar: 
+
+item.arena:cold_shard=§eFragmento frio\n\n§7Obtido ao matar:  
+item.arena:flammable_shard=§eFragmento inflamável\n\n§7Obtido ao matar:  
+item.arena:electric_shard=§eFragmento elétrico\n\n§7Obtido ao matar:   
+item.arena:poisonous_shard=§eFragmento venenoso\n\n§7Obtido ao matar:    
+item.arena:levitation_shard=§eFragmento de levitação\n\n§7Obtido ao matar:  
+item.arena:arid_shard=§eFragmento árido\n\n§7Obtido ao matar:   
+item.arena:wither_fragment=Fragmento de wither\n\n§7Obtido ao matar:  
+
+item.arena:zombie_soul=Alma de zumbi
+item.arena:skeleton_soul=Alma de esqueleto
+item.arena:blaze_soul=Alma de blaze
+item.arena:spider_soul=Alma de aranha
+item.arena:cave_spider_soul=Alma de aranha da caverna
+item.arena:magma_soul=Alma de Ccbo de magma
+
+item.arena:spawner_fragment=§bFragmento de Gerador de Mobs
+
+item.twm:scroll=Pergaminho do talismã\n§7§o(Abra o inventário do trinkets)
+item.arena:w=Debug item

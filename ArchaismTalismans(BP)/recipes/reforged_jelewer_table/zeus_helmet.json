@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:zeus_helmet"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:restored_marble_helmet"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:template_zeus"
+			}
+		},
+		"result": {
+			"item": "arena:zeus_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:restored_marble_helmet"
+			}
+		]
+	}
+}

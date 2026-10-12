@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:stone_saber"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" AA",
+			" A ",
+			"BC "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cobblestone"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:stone_saber"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:cobblestone"
+			}
+		]
+	}
+}

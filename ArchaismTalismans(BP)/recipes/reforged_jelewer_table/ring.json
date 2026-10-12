@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"B B",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_nugget"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "arena:ring"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:gold_ingot"
+			}
+		]
+	}
+}

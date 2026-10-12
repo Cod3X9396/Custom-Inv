@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ice_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:jrice_doll"
+			}
+		},
+		"result": {
+			"item": "arena:ice_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:jrice_doll"
+			}
+		]
+	}
+}

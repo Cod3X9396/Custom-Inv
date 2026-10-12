@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:alaniz_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:alaniz_doll"
+			}
+		},
+		"result": {
+			"item": "arena:alaniz_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:alaniz_doll"
+			}
+		]
+	}
+}

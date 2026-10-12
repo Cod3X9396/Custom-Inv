@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"category": "items",
+			"identifier": "arena:arcane_hood"
+		},
+    "components": {
+      		"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "arcane_hood"
+				
+			}
+		}
+	}
+}

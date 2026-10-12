@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:talismans_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCB",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:book"
+			},
+			"B": {
+				"item": "minecraft:wool"
+			},
+			"C": {
+				"item": "minecraft:crafting_table"
+			},
+			"D": {
+				"item": "minecraft:planks"
+			},
+			"E": {
+				"item": "arena:marble_dust"
+			}
+		},
+		"result": {
+			"item": "arena:talismans_table"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:crafting_table"
+			}
+		]
+	}
+}

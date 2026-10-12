@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:effect_cube_2"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "minecraft:potion"
+			}
+		},
+		"result": {
+			"item": "arena:effect_cube"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_marble"
+			}
+		]
+	}
+}

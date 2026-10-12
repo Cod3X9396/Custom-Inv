@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:artemisa_deer_antler"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DAA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:bow"
+			},
+			"C": {
+				"item": "minecraft:arrow"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:artemisa_deer_antler"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

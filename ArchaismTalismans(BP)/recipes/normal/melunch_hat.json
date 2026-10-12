@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:melunch_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:melunch_doll"
+			}
+		},
+		"result": {
+			"item": "arena:melunch_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:melunch_doll"
+			}
+		]
+	}
+}

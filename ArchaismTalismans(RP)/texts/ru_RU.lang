@@ -1,0 +1,756 @@
+pack.name=Archaism Talismans (RP) Россия!
+pack.description=v1.8.1 by Hamleth Arena #Hydra studio
+
+tile.arena:talismans_table.name=§9Стол талисманов§f
+tile.arena:reforgerd_jelewer.name=§dЮвелирный стол§f
+
+arena:itemGroup.name.equipment.hats=§r§gШляпы-игрушки!
+arena:itemGroup.name.equipment.talisman=§9Талисманы
+arena:itemGroup.name.equipment.charm=§uАмулеты
+arena:itemGroup.name.equipment.archaic=§aАрхаичное
+arena:itemGroup.name.equipment.mask=§gМаски
+arena:itemGroup.name.equipment.doll=§cКуклы
+arena:itemGroup.name.equipment.witherring=§jКольца иссушения
+arena:itemGroup.name.equipment.rings=§dКольца
+arena:itemGroup.name.equipment.earrings=§5Серьги
+arena:itemGroup.name.equipment.necklace=§bОжерелья
+arena:itemGroup.equipment.items.materials=(Материалы)
+arena:itemGroup.name.items.arena_smithing_templates=(Кузнечные шаблоны)
+arena:itemGroup.name.equipment.books=§eКниги
+
+entity.arena:ignited_explosion.name=Воспламенённый взрыв
+entity.arena:wither_skeleton.name=Иссушенный скелет
+entity.arena:calamity_wither_skeleton.name=Σκελετός μαραμένου κακοκαιριού
+entity.arena:arcane_vex.name=Αρκέιν Βέξ
+entity.arena:angelic_vex.name=Αγγελική Βέξ
+entity.arena:vex.name=Вредитель
+entity.arena:endermite.name=Эндермит
+entity.arena:skeleton.name=Скелет
+entity.arena:skeleton_illager.name=Скелет-разбойник
+entity.arena:skeleton_piglin.name=Скелет-пиглин
+entity.arena:stray.name=Бродяга
+entity.arena:parched.name=Иссушенный
+entity.arena:bogged.name=Болотник
+
+item.arena:scroll=§r§gСвиток восстановления\n§r§7Восстанавливает все надетые безделушки
+
+item.arena:marble_helmet_h=§2Мраморный шлем
+item.arena:marble_chestplate=§2Мраморный нагрудник
+item.arena:marble_leggings=§2Мраморные поножи
+item.arena:marble_boots=§2Мраморные ботинки
+item.arena:marble_axe=§2Мраморная боевая секира
+item.arena:marble_sword=§2Мраморный меч
+item.arena:marble_spear=§2Мраморное копьё
+
+item.arena:pure_marble_helmet=§eШлем Божественного мрамора
+item.arena:pure_marble_chestplate=§eНагрудник Божественного мрамора
+item.arena:pure_marble_leggings=§eПоножи Божественного мрамора
+item.arena:pure_marble_boots=§eБотинки Божественного мрамора
+
+item.arena:pure_marble_spear=§eКопьё Божественного мрамора
+
+item.arena:cursed_axe=§aПроклятая секира
+item.arena:blood_scythe_weapon=§mВампирская коса
+item.arena:witch_hat=§uШляпа некроманта
+item.arena:mage_chestplate=§uНагрудник некроманта
+item.arena:mage_leggings=§uПоножи некроманта
+item.arena:witch_staff=§uПосох со свечой
+item.arena:marble_staff=§eМраморный посох
+item.arena:hemlock_staff=§uБолиголовый посох
+
+item.arena:runic_zweihander=§uРунический цвайхандер
+item.arena:incandecent_zweihander=§cРаскалённый §uрунический цвайхандер
+item.arena:frozen_zweihander=§bЛедяной §uрунический цвайхандер
+item.arena:electric_zweihander=§6Электрический §uрунический цвайхандер
+item.arena:ender_zweihander=§5Левитационный §uрунический цвайхандер
+item.arena:venemous_zweihander=§2Ядовитый §uрунический цвайхандер
+item.arena:desertic_zweihander=§eПустынный §uРунический Цвайхандер
+item.arena:hemlock_zweihander=§aБолиголовый §uрунический цвайхандер
+item.arena:runic_twohanded_sword=§uБолиголовый Великий Меч
+item.arena:bamboo_bo=Бамбуковый бо
+
+item.arena:wooden_saber=Деревянная Облачная Сабля
+item.arena:golden_saber=Золотая Облачная Сабля
+item.arena:stone_saber=Каменная Облачная Сабля
+item.arena:copper_saber=Медная Облачная Сабля
+item.arena:iron_saber=Железная Облачная Сабля
+item.arena:diamond_saber=Алмазная Облачная Сабля
+item.arena:netherite_saber=Незеритовая Облачная Сабля
+
+item.arena:apollo_chestplate=§eНагрудник Аполлона
+item.arena:apollo_leggings=§eПоножи Аполлона
+item.arena:apollo_boots=§eБотинки Аполлона
+
+item.arena:netherite_apollo_chestplate=§eНезеритовый Нагрудник Аполлона
+item.arena:netherite_apollo_leggings=§eНезеритовые Поножи Аполлона
+item.arena:netherite_apollo_boots=§eНезеритовые Ботинки Аполлона
+
+item.arena:nebulous_apollo_chestplate=§aТуманный Нагрудник Аполлона
+item.arena:nebulous_apollo_leggings=§aТуманные Поножи Аполлона
+item.arena:nebulous_apollo_boots=§aТуманные Ботинки Аполлона
+
+item.arena:paladin_helmet=§eШлем Паладина
+item.arena:paladin_chestplate=§eНагрудник Паладина
+item.arena:paladin_leggings=§eПоножи Паладина
+item.arena:paladin_boots=§eБотинки Паладина
+
+item.arena:hades_helmet=§bШлем Аида
+item.arena:hades_chestplate=§bНагрудник Аида
+item.arena:hades_leggings=§bПоножи Аида
+item.arena:hades_boots=§bБотинки Аида
+
+item.arena:artemis_helmet=§eШлем Артемиды
+item.arena:artemis_chestplate=§eНагрудник Артемиды
+item.arena:artemis_leggings=§eПоножи Артемиды
+item.arena:artemis_boots=§eБотинки Артемиды
+
+item.arena:zeus_helmet=§eШлем Зевса
+item.arena:zeus_chestplate=§eНагрудник Зевса
+item.arena:zeus_leggings=§eПоножи Зевса
+item.arena:zeus_boots=§eБотинки Зевса
+
+item.arena:poseidon_helmet=§bШлем Посейдона
+item.arena:poseidon_chestplate=§bНагрудник Посейдона
+item.arena:poseidon_leggings=§bПоножи Посейдона
+item.arena:poseidon_boots=§bБотинки Посейдона
+
+item.arena:ichor_helmet=§bШлем Ихора
+item.arena:ichor_chestplate=§bНагрудник Ихора
+item.arena:ichor_leggings=§bПоножи Ихора
+item.arena:ichor_boots=§bБотинки Ихора
+
+item.arena:ethereal_ichor_helmet=§bШлем Эфирного Ихора
+item.arena:ethereal_ichor_chestplate=§bНагрудник Эфирного Ихора
+item.arena:ethereal_ichor_leggings=§bПоножи Эфирного Ихора
+item.arena:ethereal_ichor_boots=§bБотинки Эфирного Ихора
+
+item.arena:broken_marble_helmet=Сломанный мраморный шлем
+item.arena:broken_marble_chestplate=Сломанный мраморный нагрудник
+item.arena:broken_marble_leggings=Сломанные мраморные поножи
+item.arena:broken_marble_boots=Сломанные мраморные ботинки
+
+item.arena:restored_marble_helmet=Восстановленный мраморный шлем
+item.arena:restored_marble_chestplate=Восстановленный мраморный нагрудник
+item.arena:restored_marble_leggings=Восстановленные мраморные поножи
+item.arena:restored_marble_boots=Восстановленные мраморные ботинки
+
+item.arena:fallen_marble_helmet=§uШлем Падшего мрамора
+item.arena:fallen_marble_chestplate=§uНагрудник Падшего мрамора
+item.arena:fallen_marble_leggings=§uПоножи Падшего мрамора
+item.arena:fallen_marble_boots=§uБотинки Падшего мрамора
+
+item.arena:impious_marble_helmet=§uШлем §eнечестивый §uмрамора
+item.arena:impious_marble_chestplate=§uНагрудник §eнечестивый §uмрамора
+item.arena:impious_marble_leggings=§uПоножи §eнечестивый §uмрамора
+item.arena:impious_marble_boots=§uБотинки §eнечестивый §uмрамора
+
+item.arena:zeta_hemlock_helmet=Болиголовый §u(ζ)§f шлем
+item.arena:zeta_hemlock_chestplate=Болиголовый §u(ζ)§f нагрудник
+item.arena:zeta_hemlock_leggings=Болиголовые §u(ζ)§f поножи
+item.arena:zeta_hemlock_boots=Болиголовые §u(ζ)§f ботинки
+
+item.arena:delta_hemlock_helmet=Болиголовый §u(δ)§f шлем
+item.arena:delta_hemlock_chestplate=Болиголовый §u(δ)§f нагрудник
+item.arena:delta_hemlock_leggings=Болиголовые §u(δ)§f поножи
+item.arena:delta_hemlock_boots=Болиголовые §u(δ)§f ботинки
+
+item.arena:ganma_hemlock_helmet=§uБолиголовый §c(γ)§u шлем
+item.arena:ganma_hemlock_chestplate=§uБолиголовый §c(γ)§u нагрудник
+item.arena:ganma_hemlock_leggings=§uБолиголовые §c(γ)§u поножи
+item.arena:ganma_hemlock_boots=§uБолиголовые §c(γ)§u ботинки
+
+item.arena:stigma_hemlock_helmet=§aБолиголовый §c(ς)§a шлем
+item.arena:stigma_hemlock_chestplate=§aБолиголовый §c(ς)§a нагрудник
+item.arena:stigma_hemlock_leggings=§aБолиголовые §c(ς)§a поножи
+item.arena:stigma_hemlock_boots=§aБолиголовые §c(ς)§a ботинки
+
+item.arena:alpha_hemlock_helmet=§aБолиголовый §c(α)§a шлем
+item.arena:alpha_hemlock_chestplate=§aБолиголовый §c(α)§a нагрудник
+item.arena:alpha_hemlock_leggings=§aБолиголовые §c(α)§a поножи
+item.arena:alpha_hemlock_boots=§aБолиголовые §c(α)§a ботинки
+
+item.arena:arena_chestplate=§r§gОдеяние Арены
+item.arena:doll_had=§r§gПлюшевый Arena
+item.arena:alaniz_hat=§r§gПлюшевый Alaniz
+item.arena:angeloso_hat=§r§gПлюшевый Angeloso
+item.arena:extreme_hat=§r§gПлюшевый Extreme
+item.arena:system_hat=§r§gПлюшевый System
+item.arena:vulkan_hat=§r§gПлюшевый Vulkan
+
+item.arena:alpha_hat=§r§gПлюшевый Alpha
+item.arena:milo_hat=§r§gПлюшевый Milo
+item.arena:biggamer_hat=§r§gПлюшевый Big Gamer
+item.arena:lotte_axolotle_hat=§r§gПлюшевый Аксолотль
+item.arena:drak_hat=§r§gПлюшевый Drak
+
+item.arena:gold_hat=§r§gПлюшевый Gold
+item.arena:ice_hat=§r§gПлюшевый Jr Ice
+item.arena:jesus_hat=§r§gПлюшевый Jesus
+item.arena:kaiden_hat=§r§gПлюшевый Kaiden
+item.arena:straw_hat=§r§gПлюшевый Straw
+
+item.arena:iluminated_hat=§r§gПлюшевый Illuminated
+item.arena:blaze_hat=§r§gПлюшевый Blaze
+item.arena:bee_hat=§r§gПлюшевый Bee
+item.arena:shulked_hat=§r§gПлюшевый Shulked
+item.arena:agustin_hat=§r§gПлюшевый Agustin
+item.arena:alylicia_hat=§r§gПлюшевый Alycia
+item.arena:cap_zweihander_hat=§r§gПлюшевый CapZweihander
+item.arena:laniraxia_hat=§r§g§r§gПлюшевый Laniraxia
+item.arena:melunch_hat=§r§g§r§gПлюшевый Melunch
+
+item.arena:masked_hat=§r§gПлюшевый Masked
+item.arena:armored_hat=§r§gПлюшевый Armored
+
+item.arena:extreme_chestplate=§mКапуча Канибал
+item.arena:blood_hat=§mСомбреро Канибала
+item.arena:extreme_had=§gШляпа каннибала\n§r§7(Слот: Голова)\n§o§8+ I, +5 вампиризма
+
+item.arena:fox_helmet=§r§gМаска лисы
+item.arena:cat_helmet=§r§gМаска кошки
+item.arena:marble_helmet=§r§gМраморная маска
+item.arena:blaze_helmet=§r§gМаска черепа блейза
+item.arena:ethereal_helmet=§r§gМаска эфирного зрения
+item.arena:wither_helmet=§r§gМаска иссушения
+item.arena:axolotl_helmet=§r§gМаска аксолотля
+item.arena:end_hat=§r§uШляпа Ужасающего эндера
+
+item.arena:iron_crown=§r§eЖелезная корона
+item.arena:golden_crown=§r§eЗолотая корона
+item.arena:prismarine_crown=§r§eПризмариновая корона
+item.arena:netherite_crown=§r§eНезеритовая корона
+item.arena:ender_crown=§eКорона Эндера
+item.arena:calamity_crown=§bКорона Бедствия
+
+item.arena:marble_bracelets_chestplate=§r§aМраморный браслет
+item.arena:wing_chestplate=§r§eМраморное крыло
+item.arena:wing_fallen_chestplate=§r§uКрыло Падшего мрамора
+item.arena:wing_hemlock_chestplate=§r§aБолиголовое крыло
+item.arena:piglin_bracelet_chestplate=§r§uПиглинский браслет
+item.arena:aureola_helmet=§r§9Ореол
+
+tile.arena:cristal_gem_ore.name=Руда кристальных самоцветов
+tile.arena:marble_ore.name=Мраморная руда
+tile.arena:hemlock_stone_ore.name=Болиголовая руда
+tile.arena:chiseled_marble.name=Резной мрамор
+tile.arena:marble_bricks.name=Мраморные кирпичи
+tile.arena:marble_pilar.name=Мраморная колонна
+tile.arena:marble_raws.name=Мраморная плитка
+tile.arena:pulished_marble.name=Большие мраморные кирпичи
+tile.arena:pulish_marble.name=Полированный мрамор
+tile.arena:marble_ore_deepslate.name=Черная мраморная руда
+tile.arena:chiseled_black_marble.name=Резной чёрный мрамор
+tile.arena:black_marble_bricks.name=Кирпичи из чёрного мрамора
+tile.arena:black_marble_pillar.name=Колонна из чёрного мрамора
+tile.arena:black_marble_tile.name=Плитка из чёрного мрамора
+tile.arena:large_black_marble_bricks.name=Большие кирпичи из чёрного мрамора
+tile.arena:polished_black_marble.name=Полированный чёрный мрамор
+tile.arena:shard_end_ore.name=Руда левитации
+tile.arena:shard_fire_ore_blackstone.name=Огненная руда блэкстоуна
+tile.arena:shard_fire_ore_netherrack.name=Огненная руда незерака
+tile.arena:shard_light_ore.name=Глубинная электрическая руда
+tile.arena:shard_poison_ore.name=Глубинная ядовитая руда
+tile.arena:shard_snow_ore.name=Глубинная ледяная руда
+
+item.arena:skull_heart=§mСердце-череп\n§r§7(Слот: Сердца-амулеты)\n§o§8+3 , +Иммунитет к 
+item.arena:demon_heart=§mДемоническое сердце\n§r§7(Слот: Сердца-амулеты)\n§o§8+5 , +1 , -100 (огонь)\n+Иммунитет к , 
+item.arena:angelical_heart=§mАнгельское сердце\n§r§7(Слот: Сердца-амулеты)\n§o§8+4 , +100 (огонь)\n-10 (снаряды)
+item.arena:iron_golem_heart=§mСердце железного голема\n§r§7(Слот: Сердца-амулеты)\n§o§8+1 \n\n§7Получено путем убийства: 
+item.arena:sync_golem_heart=§mСердце синхро-голема\n§r§7(Слот: Сердца-амулеты)\n§o§8+5 , +5 (ближний бой), -25 (падение)
+item.arena:infernal_heart=§mИнфернальное сердце\n§r§7(Слот: Сердца-амулеты)\n§o§8+2 , +, +40 \nЗаклинания (используйте посох):\n+Огненная область поражения(перезарядка 1м 20с)
+item.arena:heart_of_judgment=§mСердце суждения\n§r§7(Слот: Сердца-амулеты)\n§o§8+Увеличение  10 уровня вредности для здоровья\n+Иммунитет к , , , \n-10 (ближний бой), -10 (снаряды)
+
+item.arena:iron_guantlet=§nЖелезная перчатка\n§r§7(Слот: Руки)\n§o§8+1 , -2 , -10 (магия)
+item.arena:marble_guantlet=§nМраморная перчатка\n§r§7(Слот: Руки)\n§o§8+2 , -5 , +10 (магия)
+item.arena:fallen_guantlet=§nПерчатка Падшего мрамора\n§r§7(Слот: Руки)\n§o§8+2 , -4 , -15 (магия)
+item.arena:hemlock_guantlet=§nБолиголовая перчатка\n§r§7(Слот: Руки)\n§o§8+3 , -7 , -20 (магия)
+
+item.arena:spell_evocation=§eКнига призыва\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Призыв клыков эвокации\n(18с перезарядка)
+item.arena:spell_area_lifesteal=§eКнига кровожадности\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Нанести урон и восстановить здоровье\n(1м 20с перезарядка)
+item.arena:spell_dead_teleport=§eКнига возврата\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Телепорт к месту смерти (1м перезарядка)\n+Телепорт на точку возрождения (1м перезарядка)
+item.arena:spell_teleport=§eКнига телепортации\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Телепортироваться\n(15с перезарядка)
+item.arena:spell_light_bolt=§eКнига цепной молнии\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Вызвать молнию 2 уровня\n(40с перезарядка)
+item.arena:spell_lightning_bolt=§eКнига грозовой стрелы\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Вызвать грозу\n(20с перезарядка)
+item.arena:spell_supersonic=§eКнига сверхзвука\n§r§7(Слот: Книга)\n§o§8+Заклинания (используйте посох):\n+Вызвать сверхзвуковую волну хранителя\n(30с перезарядка)
+
+item.arena:spell_engine=§eДвигатель заклинаний\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Сокращение перезарядки на 10
+item.arena:rotten_brain=§eГнилой мозг механизма\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Сокращение перезарядки на 20
+item.arena:mind_electric=§eЭлектрический разум\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Сокращение перезарядки на 25\nI've a good heart\nalbeit enasnI
+item.arena:spell_strength_engine=§eУсилитель заклинаний\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Увеличивает силу заклинаний на +2
+item.arena:spell_duration_engine=§eПродлитель заклинаний\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Увеличивает длительность эффектов на 20
+
+item.arena:summoner_wand=§eАмулет призывателя\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Увеличивает максимум призывов (+1)
+item.arena:marble_summoner_wand=§eМраморная волшебная палочка призывателя\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Максимальное количество призывов(+2)
+item.arena:hemlock_summoner_wand=§eЖезл призывателя болиголова\n§r§7(Слот: Шарм)\n§o§8+Бонус к заклинаниям:\n+Максимальное количество призывов(+3)
+
+item.arena:murders_skull=§9Череп убийцы\n§r§7(Слот: Талисман)\n§o§8+, +20 \nShe found the earlking
+item.arena:sacret_pendant=§9Святой кулон\n§r§7(Слот: Талисман)\n§o§8+ II\nOur mission is to\nslay the sacred beast
+item.arena:villager_heart=§9Сердце жителя\n§r§7(Слот: Талисман)\n§o§8+ I, +1 \n\n§7Получено путем убийства:  
+item.arena:angelic_aurea=§9Ангельская аура\n§r§7(Слот: Талисман)\n§o§8+ II\nUn ensemble d'enfants\nLa galaxie s'étend
+item.arena:magnet=§9Магнит\n§r§7(Слот: Талисман)\n§o§8+Притягивает ближайшие предметы
+item.arena:marble_feather=§9Мраморное перо\n§r§7(Слот: Талисман)\n§o§8+
+item.arena:nautilus_star_pendant=§9Кулон Наутилус-звезда\n§r§7(Слот: Талисман)\n§o§8+20 плавание
+item.arena:rabbit_feet_pendant=§9Кроличья лапка удачи\n§r§7(Слот: Талисман)\n§o§8+ III
+item.arena:cat_eye=§9Кошачий глаз\n§r§7(Слот: Талисман)\n§o§8+
+item.arena:shadow_of_nobody=§9Тень никого\n§r§7(Слот: Талисман)\n§o§8+\nFountain of infinite mirror
+item.arena:nefrite_bracelet=§9Нефритовый браслет\n§r§7(Слот: Талисман)\n§o§8+Иммунитет к , 
+item.arena:extracted_heart=§9Извлечённое сердце\n§r§7(Слот: Талисман)\n§o§8+Отражает 25 \n+Иммунитет к , 
+item.arena:deformed_cross=§9Искажённый крест\n§r§7(Слот: Талисман)\n§o§8+15 шанс уклониться от атак
+item.arena:marble_emerald_pendant=§9Мраморно-изумрудный кулон\n§r§7(Слот: Талисман)\n§o§8+ I
+item.arena:rhetoric_skull=§9Риторический череп\n§r§7(Слот: Талисман)\n§o§8+1 \n(При убийстве: отравление I)\nTo be, or not to be?
+item.arena:spectral_talisman=§9Призрачный талисман\n§r§7(Слот: Талисман)\n§o§8Если вы в темноте\n+ I, + I (падение)
+item.arena:nefrite_edged_sword=§9Нефритовый заточенный меч\n§r§7(Слот: Талисман)\n§o§8+5  (накапливается за 6 ударов)\n-5 (ближний бой)
+item.arena:artemisa_deer_antler=§9Рог оленя Артемиды\n§r§7(Слот: Талисман)\n§o§8+2 , -10  (ближний бой)
+item.arena:deer_skull=§9Раскалённый череп\n§r§7(Слот: Талисман)\n§o§8+ стрелы
+item.arena:midas_finger=§9Палец Мидаса\n§r§7(Слот: Талисман)\n§o§8+Золото после убийства
+item.arena:vexed_souls_lantern=§9Фонарь душ вредителей\n§r§7(Слот: Талисман)\n§o§8+Иммунитет к , , \nПризыватель (Макс 3, 35 шанс)\n(Призывает вредителя после получения урона)\nTell the truth and\nyour right hand
+item.arena:harmony_talisman=§9Талисман гармонии\n§r§7(Слот: Талисман)\n§o§8+Призыватель (Макс 3, 10 шанс)\n(Призывает эндермитов после удара)\n+ II
+item.arena:sync_sculk_talisman=§9Талисман синхро-скалка\n§r§7(Слот: Талисман)\n§o§8+ I (стоя), -4 \n+Аура  II (половина здоровья)
+item.arena:nocturnal_hood=§9Ноктюрнальная накидка\n§r§7(Слот: Талисман)\n§o§8+Насылает бессонницу \n(4 , 6с, ночью)\n+ днём
+item.arena:witches_emblem=§9Эмблема ведьмы\n§r§7(Слот: Талисман)\n§o§8+Иммунитет к \n+ II (поедание паучьих глаз)
+item.arena:obsidian_knight_helmet=§9Шлем обсидианового рыцаря\n§r§7(Слот: Талисман)\n§o§8+, +100 
+item.arena:fallen_feather=§9Перо Падшего мрамора\n§r§7(Слот: Талисман)\n§o§8+Рывок\nИммунитет к 
+item.arena:ornate_curio=§9Изысканный сувенир\n§r§7(Слот: Талисман)\n§o§8+Увеличивает набор Изысканных украшений на +2
+item.arena:sealing_talis=§9Герметизация мусора\n§r§7(Слот: Талисман)\n§o§8-12 \n+Бонус к заклинаниям:\n+Максимальное количество призывов(+2)
+
+item.arena:marble_hand=§uМраморная длань\n§r§7(Слот: Амулет)\n§o§8+2 , + II\n-20 (ближний бой), -20 (снаряды)
+item.arena:dragonic_heart=§uДраконье сердце\n§r§7(Слот: Амулет)\n§o§8+10 , -2 , -20 скорость\n-20 плавание
+item.arena:night_siege_eye=§uОко ночной осады\n§r§7(Слот: Амулет)\n§o§8+15 (ближний бой), +15 (снаряды), -40  
+item.arena:nefrite_crow=§uКорона Эрлкинга\n§r§7(Слот: Амулет)\n§o§8+Иммунитет к , , 
+item.arena:prismatic_heart_relic=§uРеликвия океанического сердца\n§r§7(Слот: Амулет)\n§o§8+ II, -20 сопротивление (падение)
+item.arena:contracted_heart=§uСжатое сердце\n§r§7(Слот: Амулет)\n§o§8+15 вампиризма\n+Иммунитет к , \nMind control, restart
+item.arena:piglin_bracelet=§uПиглинский браслет\n§r§7(Слот: Амулет)\n§o§8+1 , +10 (ближний бой)\n-30 сопротивление (падение)\n\n§7Получено путем убийства: 
+item.arena:marble_rune=§uМраморная руна\n§r§7(Слот: Амулет)\n§o§8+ II nearby hostile mobs\n+20 , +5 (ближний бой), +5 (снаряды)
+item.arena:doble_edged=§uДвойной взгляд\n§r§7(Слот: Амулет)\n§o§8Наносит критический урон\n+Вызывает  у жертвы\n(Счётчик ударов, 8 ударов)\n-10 (ближний бой), -10 (снаряды)
+item.arena:marble_skull=§uМраморный череп\n§r§7(Слот: Амулет)\n§o§8+ I\nВы хороните ближайших монстров\n(убийство сущностей)
+item.arena:netherite_rune=§uНезеритовая руна\n§r§7(Слот: Амулет)\n§o§8+2 (к отталкиванию)\n+ III и  II\n(Ближайшим железным големам)
+item.arena:piece_of_time=§uЕщё один кусочек времени\n§r§7(Слот: Амулет)\n§o§8+ (на песке душ)\n+5 (снаряды), +5 (ближний бой)
+item.arena:artemisa_arrowhead=§uНаконечник стрелы Артемиды\n§r§7(Слот: Амулет)\n§o§8+Взрывные стрелы
+item.arena:cherry_blossom=§uЦветение сакуры\n§r§7(Слот: Амулет)\n§o§8+2-10  (после убийства 7-34 мобов)
+item.arena:sacret_sword=§uСвятой меч\n§r§7(Слот: Амулет)\n§o§8+истребитель нежити (25  и )\n+10 (магия)
+item.arena:blood_scythe=§uКровавая коса\n§r§7(Слот: Амулет)\n§o§8+5 вампиризма\n+10 шанс вызвать кровотечение \n-10 (ближний бой)
+item.arena:pandoras_bracelet=§uБраслет Пандоры\n§r§7(Слот: Амулет)\n§o§8+Иммунитет к \n+10 скорость, + I, II (половина здоровья)\n+Насыщение (поедание гнилой плоти)
+item.arena:complexion_afinity_bracelet=§uБраслет духовной связи\n§r§7(Слот: Амулет)\n§o§8+Счётчик ударов (6 ударов)\n(Наносит урон пустотой)\n-5 (ближний бой)
+item.arena:shrink_impressions_bracelet=§uБраслет подавления впечатлений\n§r§7(Слот: Амулет)\n§o§8-10 скорость, -40 плавание\n+ II (Получить 5 ударов)
+item.arena:divine_orb=§uБожественная сфера\n§r§7(Слот: Амулет)\n§o§8+5 (магия)\n+истребитель нежити (35 )\nБонус к заклинаниям:\n+Призыв, здоровье +4 
+item.arena:tears_unshed=§uНепролитые слёзы\n§r§7(Слот: Амулет)\n§o§8+Насылает бессонницу \n(40 шанс, 6 , 10с, ночью)\n+ I (стоя и крадясь)
+item.arena:fallen_hand=§uДлань Падшего мрамора\n§r§7(Слот: Амулет)\n§o§8+2 , + II\n-20 (ближний бой), -20 (снаряды)
+item.arena:end_of_the_time=§uКаждый конец времени\n§r§7(Слот: Амулет)\n§o§8+Отражает  (по области)\n-5 (снаряды), -5 (ближний бой)
+item.arena:cursed_sword=§uПроклятый меч\n§r§7(Слот: Амулет)\n§o§8+Убийца игроков (25  и )\n-10 (магия)
+item.arena:ornate_core=§uЯдро украшений\n§r§7(Слот: Амулет)\n§o§8+Уменьшает дебафф от накопления украшений на -3
+item.arena:hellish_core=§uАдское ядро\n§r§7(Слот: Амулет)\n§o§8+Удар два раза (50 )
+item.arena:cherry_sword=§uВишневый меч\n§r§7(Слот: Амулет)\n§o§8Вызывает критику (+50 )\n+Лечение по области для сплавов\n(Счетчик ударов, 8 ударов)\n-10 (ближний бой), -10 (снаряды)
+item.arena:overflowing_core=§uПереполняющий ядро\n§r§7(Слот: Амулет)\n§o§8+Бонус к заклинаниям:\n+Призыв, здоровье +4 \n+Призыв из дальнего боя, перезарядка +1 \n+Призыв из ближнего боя, +1 \n+Но увеличение времени восстановления +30
+item.arena:malingant_orb=§uЗловещий шар\n§r§7(Слот: Амулет)\n§o§8-5 (магия)\n+Убийца игроков(+35 )\nБонус к заклинаниям:\n+Призыв из дальнего боя, перезарядка +1 \n+Призыв из ближнего боя, +1 
+
+item.arena:apolo_quiver=§sКолчан Аполлона\n§r§7(Слот: Тело)\n§o§8+50 урон по области (стрелы)\n-40  (ближний бой)\nI was a victim of
+item.arena:apollo_replies_belt=§sПояс ответов Аполлона\n§r§7(Слот: Тело)\n§o§8+Урон по области (стрелы) и \n-70  (ближний бой), -3 ,  I\nCatching my breath as
+item.arena:tool_belt=§sПояс инструментов\n§r§7(Слот: Тело)\n§o§8+ III\n+ (ломание блоков, макс V)\n+Починка инструментов и брони
+item.arena:sighthood=§sНакидка провидца\n§r§7(Слот: Тело)\n§o§8+15 (ближний бой), +15 (снаряды), -20 (падение)\n+Иммунитет к \n+Защита от нежити +\n  II, + III (ночью)
+item.arena:nighthood=§sНочная накидка\n§r§7(Слот: Тело)\n§o§8+15 (ближний бой), +15 (снаряды), -20 (падение)\n+Иммунитет к \n+Защита от игроков +\n  II, + III (днём)
+item.arena:sculk_belt=§sСкалк-пояс\n§r§7(Слот: Тело)\n§o§8+10 (ближний бой)\nАура ,  I (при получении урона)\n+Аура  I союзникам\n+ I (убийство рядом)\n(потребляет опыт)
+item.arena:dream_tatters_of_the_king=§sЛоскуты снов короля\n§r§7(Слот: Тело)\n§o§8+Счётчик убийств (3 убийства)\n(критический урон, + II)\n+Мгновенная смерть (сон)
+item.arena:ornate_belt=§sУкрашенный пояс\n§r§7(Слот: Тело)\n§o§8+5 (ближний бой)(макс. +30 ), -1 \n(Стаки за каждый украшенный предмет)
+item.arena:extravagant_quiver=§sУкрашенный колчан\n§r§7(Слот: Тело)\n§o§8+Увеличение добычи с стрел
+item.arena:ifrits_mantle=§sМантия Ифрита\n§r§7(Слот: Тело)\n§o§8+ (Менее 10 сердец, макс. II)\n+ (Более 10 сердец)
+
+item.arena:spawner_breaker=§nКасание спавнера\n§r§7(Слот: Руки)\n§o§8+Добыча спавнера\n(Получение фрагментов спавнера)
+item.arena:axe_heater=§nТопор-нагреватель\n§r§7(Слот: Руки)\n§o§8+Получение древесного угля
+item.arena:shovel_heater=§nЛопата-нагреватель\n§r§7(Слот: Руки)\n§o§8+Получение стекла\n(Бетон и кирпичи тоже)
+item.arena:ornate_guantlet=§nУкрашенная перчатка\n§r§7(Слот для руки)\n§o§8+1  (макс. +4), -2  (мин. -10 )\n(Количество стаков за каждый украшенный предмет)
+item.arena:apollo_bracer=§nНаручи Аполлона\n§r§7(Слот для руки)\n§o§8+Увеличение урона от удара\n+1 , -5 (ближний бой)
+
+item.arena:archaic_cursed_book=§aΚαταραμένο βιβλίο\n§r§7(Слот: Αρχαϊκός)\n§o§8+ I, II, III(12-24-36 уровни опыта)\n-30 , +30 (магия), + II\n+1  за каждые 2 уровня опыта(макс. +50 )\n+Улучшить книги чар (держать книгу)
+item.arena:archaic_cursed_skull=§aΚαταραμένο κρανίο\n§r§7(Слот: Αρχαϊκός)\n§o§8+ II, +4 , -15 , -50 (магия)\nПочему сделал убийцы\животные выжили?
+item.arena:archaic_blessed_shield=§aΙερή ασπίδα\n§r§7(Слот: Αρχαϊκός)\n§o§8-20 , -2 \n+30 (ближний бой), +30 (снаряды)\n+30 (магия), +30 (взрывы)\n+15 шанс отразить 10\nНаденьте щит в левой руке
+item.arena:archaic_marble_wings=§aΦτερά του Ίκαρου\n§r§7(Слот: Αρχαϊκός)\n§o§8+10 , + III, + II\n(Наденьте надкрылья)\n+истребитель нежити(+50 )\n+(Вылечить зомби-жителей)\n+3 прыжка\n-200 (огонь), -10 (ближний бой)
+item.arena:archaic_incript_paper=§aΕργασία με μεταγραφή\n§r§7(Слот: Αρχαϊκός)\n§o§8+Иммунитет к \n§o§8+25 шанс атаки дает \n+Получить 25 из  принято как опыт
+item.arena:archaic_arnold=§aSelbstbildnis mit fiedelndem Tod\n§r§7(Слот: Αρχαϊκός)\n§o§8-10 (ближний бой), -10 (снаряды)\n+Знак смерти , + II, +30 , +2 , + III\n+Дополнительная награда опыта\nСмерть шепчет тебе
+item.arena:archaic_light_cepter=§aβέλος του Δία\n§r§7(Слот: Αρχαϊκός)\n§o§8+35 шанс нанести урон\n+5 шанс вызвать +150 \n-15 (ближний бой), -10 (снаряды)\n+50 (молнии)
+item.arena:archaic_marble_bracelets=§aΜαρμάρινα βραχιόλια\n§r§7(Слот: Αρχαϊκός)\n§o§8+ III (золотой топор в руке)\n+2 , +20 (ближний) бой)\n-60 (падение)
+item.arena:archaic_chained_soul=§aΑλυσοδεμένη μαραμένη ψυχή\n§r§7(Слот: Αρχαϊκός)\n§o§8+ II, + I, + II, нанести  I\n(Когда вы собираетесь нанести удар умереть)\n+80 
+item.arena:archaic_good_and_evil_flower=§aGood & Evil Flower\n§r§7(Слот: Αρχαϊκός)\n§o§8+ I, + II, +10 \n+Иммунитет к , \n+ II,  I (имея меньше 7,5-2,5 )\n+Убийца боссов (+80  и )\nЯ знаю добрую и злую женщину
+item.arena:archaic_soul_hand=§aΧέρι ψυχής\n§r§7(Слот: Αρχαϊκός)\n§o§8+3 , -9 \n+Иммунитет к , \n+ I, +, причинить  &  I\n(имеющий меньше 5 )\n+Увеличение  12 уровня вредности для здоровья
+item.arena:archaic_ruler_of_prismas=§aЛинейка цветных вещей\n§r§7(Слот: Αρχαϊκός)\n§o§8+1 , +20 , + IV\n+ II,  I (В воздухе)\n-80 (падение)
+item.arena:archaic_dimensions_table=§aΠίνακας διαστάσεων\n§r§7(Слот: Αρχαϊκός)\n§o§8+10 шансов на попадание маленького урона\n+Атаки наклад  III(V в Пустоте)\n+Атаки вызывает \nАтаки наложил 6s (9s в End)\n+Атаки наложил  III(V в Overworld)\n+10 (ближний бой), +10 (снаряды)
+item.arena:archaic_dimensions_horn=§aΔιαστάσεις κόρνας\n§r§7(Слот: Αρχαϊκός)\n§o§8+4 вампиризма(8 в аду)\n+9 создать взрыв\n+8 пробующего броню урона(+12 в End)\n+Иммунитет к , \n+2 , +2 Отбрасывающий удар
+item.arena:archaic_sacret_skull=§aΙερό κρανίο\n§r§7(Слот: Αρχαϊκός)\n§o§8+После убийства сущности\n20 шанс нанести +100 
+item.arena:archaic_triple_edged_sword=§aΤρίκοπο μαχαίρι\n§r§7(Слот: Αρχαϊκός)\n§o§8Причина +100 \n+Причина  ваша жертва\n+ II\n(Счетчик попаданий, 9 хитов)\n-15 (ближний бой), -15 (снаряды)
+item.arena:archaic_sacret_heart=§aΑρχαϊκή ιερή καρδιά\n§r§7(Слот: Αρχαϊκός)\n§o§8+Отразить 50 и украсть 25 полученного урона
+item.arena:archaic_warden_claws=§aΝύχια φύλακα\n§r§7(Слот: Αρχαϊκός)\n§o§8+Убийца монстров(+35 )\n-3 , +1 , Соник попадает\n-25 (ближний бой), -30 (снаряды)
+item.arena:archaic_hemlock_wings=§aΦτερά του Ίκαρου\n§r§7(Слот: Αρχαϊκός)\n§o§8+11 , + III, + II\n(Наденьте надкрылья)\n+истребитель нежити(+65 )\n+(Вылечить зомби-жителей)\n+4 прыжка\n-200 (огонь), -10 (ближний бой)
+item.arena:cursed_shield=§aΚαταραμένη ασπίδα\n§r§7(Слот: Αρχαϊκός)\n§o§8-20 , -2 \n+30 (ближний бой), +30 (снаряды)\n+30 (магия), +30 (взрывы)\n+Отражение 15(Игрокам) &  II (шанс 15)\nНаденьте щит в левую руку
+item.arena:fallen_wings=§aΠεσμένη μαρμάρινη πτέρυγα\n§r§7(Слот: Αρχαϊκός)\n§o§8-30 (ближний бой), -30 (снаряды)\n+3 , + II(Одеть надкрылья)\n+Убийца игроков(+50 )\n+3 прыжка
+item.arena:conscious_star=§aΑστέρι της ψυχής\n§r§7(Слот: Αρχαϊκός)\n§o§8+5 , -8 , + I\n-50 (ближний бой), -50 (снаряды)\n+Иммунитет к , , \n+Атаки наложил  & \n+20 шанс получить \n+30 шанс нанести ударный урон\n+50 множитель критического урона\n+Вызвать звуковой удар (+150 )\n(Счетчик попаданий, 10 ударов)\n+Chift +удержание предмета в активном режиме зарядки
+item.arena:archaic_reckless_archer=§sΑπερίσκεπτος τοξότης\n§r§7(Слот: Αρχαϊκός)\n§o§8+Увеличение +1  за удар\n(Макс +75 )\n-25 (ближний бой)
+item.arena:archaic_hemlock_shield=§aΑσπίδα από κώνειο\n§r§7(Слот: Αρχαϊκός)\n§o§8-20 , -2 \n+35 (ближний бой), +35 (снаряды)\n+35 (магия), +35 (взрывы)\n+15 шанс отразить 12\nНаденьте щит в левой руке
+
+item.arena:ethereal_sight_mask=§gМаска эфирного прицела\n§r§7(Слот: лицо)\n§o§8, +1 , +100 (падение)\n+50 (снаряды)\n-100 (огонь)\nВыживает в пустоте\n+Телепорт
+item.arena:fox_mask=§gМаска лисы\n§r§7(Слот: лицо)\n§o§8, +50 (падение), +20 , -3 \n+20 (снаряды)\n(Рывок)
+item.arena:blaze_skull_mask=§gПылающий череп маска\n§r§7(Слот: лицо)\n§o§8, +100 (огонь), +200 \n+Аллергия на воду\n+ II в преисподней\n+ II в верхнем мире\n+ кожа, +Иммунитет к \nВыплавка руд
+item.arena:marble_mask=§gМраморная маска\n§r§7(Слот: лицо)\n§o§8, +6 , -150 (падение)\n+20 (ближний бой), +20 (снаряды)\n+Иммунитет к \n+3 (к отталкиванию), +1 Отбрасывающий удар
+item.arena:poseidon_mask=§gМаска аксолотля\n§r§7(Слот: лицо)\n§o§8, +Дыхание водой, +50 , + II в воде\n-50 (огонь), -50 (атака)\n+Иммунитет к \n+  убийца(+60  & )
+item.arena:kitsume_mask=§gМаска Китсуме\n§r§7(Слот: лицо)\n§o§8, +Невидимость для враждебных мобов\n+Иммунитет к положительным эффектам\n-9 
+item.arena:natural_butterfly_mask=§gБабочка маска\n§r§7(Слот: лицо)\n§o§8, + I, +10 \n+Атаки на сущности  VI\n+Увеличенное количество выпадающих культур
+item.arena:unnatural_mask=§gМаска из коралла с хорусом\n§r§7(Слот: лицо)\n§o§8, + III, +3 , +10 , + II\n-75 (магия), -20 (ближний бой)\n+Более агрессивные мобы\n+Увеличенное количество выпадающих руд
+item.arena:demon_mask=§gМаска демона\n§r§7(Слот: лицо)\n§o§8, +2 , + I\n-50 (ближний бой), -50 (снаряды)\n-50 (магия), -50 (взрывы)\n+ожоги при дневном свете\n+счетчик попаданий (10 попаданий)\n(Наносит +200  и )\n( II/ I)
+item.arena:cat_mask=§gМаска кошки\n§r§7(Слот: лицо)\n§o§8, -1 , -50 , +,  II\n+Естественная ловкость ( , )\nДает бафф ловкости в темноте\n( при скрытном передвижении)\nБег становится меньше утомительно\nПлавание утомительнее\n+1 прыжок
+item.arena:wither_mask=§gМаска иссушителя\n§r§7(Слот: лицо)\n§o§8, +25 (снаряды)\n+100 (взрывы)\n-75 (магия)\n+1 , + II, +2 (к отталкиванию)\n+ II,  I, , - II\n(меньше жизни 5-4 )\n+Иммунитет к , , \n(призывает скелетов иссушителя после убийства)\n+ стрелы
+item.arena:necromancer_mask=§gНекромант маска\n§r§7(Слот: лицо)\n§o§8, +ожоги при дневном свете\n+Призыватель, -5 (ближний бой), -2 \n(Призыв скелета после убийства, 40)
+item.arena:feared_end_hat=§gШляпа Устрашающего Конца\n§r§7(Слот: лицо)\n§o§8, +Аллергия на воду\n-10 (ближний бой), +50 (снаряды)\n-2 , +телепорт\n+Стрелы Пустоты\n+ I, II.+ I, II (Половина здоровья)
+item.arena:angelic_mask=§gАнгельская маска\n§r§7(Слот: лицо)\n§o§8, +3 прыжка, + II, -50 \n-25 (ближний бой), -25 (снаряды)\n+истребитель нежити(+40  +)\n+, ,  I(ночь)\n+Аура (питомцы, призывы)
+item.arena:deep_knight_helmet=§gШлем глубокого рыцаря\n§r§7(Слот: лицо)\n§o§8, -20 \n-220 (падение), +15 (магия)\n+30 (ближний бой), +30 (снаряды)\n+Иммунитет к \n+Обнаруживает ближайшие объекты\n(Скрытность, +)
+item.arena:witch_mask=§gЗачарованная шляпа ведьмы\n§r§7(Слот: лицо)\n§o§8, +50 (магия)\n-20 (ближний бой), -20 (снаряды)\n+Заклинания (используйте посох):\n+ III(30s) перезарядка)\n+(в области) II(перезарядка 35с)\n+(в области) II(перезарядка 30с)\n+(в области) II(перезарядка 30с)\n+(в области) II(перезарядка 30с)\n+тире (перезарядка 10 с)\n+ II (в области)(перезарядка 30 с)
+item.arena:nights_devouring_mask=§gМаска пожирания ночи\n§r§7(Слот: лицо)\n§o§8, +1 прыжок, +5 (ближний бой), +1 \n+Счетчик бессонницы (1-5)\n(+ I-II, + I-II, + I)\n+ III,  I,  I\n(днем)\n+Наложение бессонницы \n(40 шанс, 10 , 0,5 с, ночью)
+item.arena:evoker_mask=§gМаска заклинателя\n§r§7(Слот: лицо)\n§o§8, +50 (магия)\n-20 (ближний бой), -20 (снаряды)\n+Заклинания (используйте посох):\n+Призыв вексов (перезарядка 2 мин)\n+Вызов круговых клыков\n+Вызов линейных клыков\n+Область ветра Отбрасывающий удар\n+Призвать огненный шар
+item.arena:deformed_mask=§gДеформированная маска\n§r§7(Слот: лицо)\n§o§8, +Свиньи избегают вас\n+1 , -30 , -50 , +80 \n+Его воздействие снижает прочность\n+ I-II(Still & сдвиг)\n+Убийца игроков(+15 )
+item.arena:fallen_angel_mask=§gМаска падшего ангела\n§r§7(Слот: лицо)\n§o§8, +3 Рывок, -20 \n-25 (ближний бой), -25 (снаряды)\n+Убийца игроков(+40  & )\n+, ,  I(день)\n+Аура (игроков)
+item.arena:fallen_marble_mask=§gМаска упавшего мрамора\n§r§7(Слот: лицо)\n§o§8, +6 , -150 (падение)\n+20 (ближний бой), +20 (снаряды)\n+Иммунитет к \n+3 (к отталкиванию), +1 Отбрасывающий удар\n+Заклинания (используйте посох):\n+Гигантизм(перезарядка 2мин)
+item.arena:arcane_hood=§gЧародейский капюшон\n§r§7(Слот: лицо)\n§o§8, -10 (ближний бой), -10 (снаряды)\n+Заклинания (используйте посох):\n+Призыв чародейских досад (перезарядка 2 минуты)\n+Защита от тайной магии( III 10 с)
+
+item.arena:depart_paladins_fate=§gСудьба павшего паладина\n§r§7(Слот: Голова)\n§o§8+Иммунитет к \n-10 (ближний бой), +1 \n+Наносит проклятие \n(75 шанс, 5с)
+item.arena:blossom_crown=§gЦветочная корона\n§r§7(Слот: Голова)\n§o§8+Зоновое лечение союзников\n(после убийства)
+item.arena:soul_taker=§gКорона Лобачевского\n§r§7(Слот: Голова)\n§o§8+Крадёт души\n(Только мобов из спавнеров)
+item.arena:deer_crown=§gОленья корона\n§r§7(Слот: Голова)\n§o§8+5 , -1 , + II\n-25 (ближний бой)
+item.arena:ornate_helmet=§gИзысканный шлем\n§r§7(Слот: Голова)\n§o§8+1 (максимум +7 ), -5 (ближний бой)\n(Стопки на один декоративный предмет)
+item.arena:crown_of_calamity=§gКорона бедствия\n§r§7(Слот: Голова)\n§o§8+Заклинания (используйте посох):\n+Призвать 2 скелета рыцаря\n(перезарядка 2 мин)
+item.arena:robin_hat=§gШляпа Робина\n§r§7(Слот: Голова)\n§o§8+6 , +20 , +15 (снаряды)\n-25 (ближний бой)
+item.arena:crown_of_expertise=§gКорона умиротворенность\n§r§7(Слот: Голова)\n§o§8+Заклинания (используйте посох):\n+Призвать 2 ангельских досады\n(1м, время восстановления 20с)
+
+item.arena:harena_doll=§cКукла Hamleth\n§r§7(Слот: Куклы)\n§o§8+2 , + I\nПривет! Это я, Hamleth \nНадеюсь, тебе зашёл аддон.
+item.arena:illuminated_doll=§cКукла Illuminated\n§r§7(Слот: Куклы)\n§o§8+ (еда), + I
+item.arena:masked_doll=§cКукла Masked\n§r§7(Слот: Куклы)\n§o§8+ I, + I
+item.arena:shulked_doll=§cКукла Shulked\n§r§7(Слот: Куклы)\n§o§8+1 , +Иммунитет к  
+item.arena:bee_doll=§cКукла Bee\n§r§7(Слот: Куклы)\n§o§8+10 скорость, +Иммунитет к 
+item.arena:fire_doll=§cКукла Fire\n§r§7(Слот: Куклы)\n§o§8+ I, -2 
+item.arena:vulak_doll=§cКукла Vulak\n§r§7(Слот: Куклы)\n§o§8+5 (ближний бой), +10 (магия)\n+Иммунитет к 
+item.arena:aplpha_doll=§cКукла Alpharius\n§r§7(Слот: Куклы)\n§o§8+ I (крадясь), + I
+item.arena:gentrix_doll=§cКукла Straw Berries\n§r§7(Слот: Куклы)\n§o§8+10 плавание\n+Иммунитет к 
+item.arena:zultinus_doll=§cКукла Milo\n§r§7(Слот: Куклы)\n§o§8+Эффект  I по области\n-10 скорость
+item.arena:jesus_doll=§cКукла Jesus\n§r§7(Слот: Куклы)\n§o§8+ I, + I, + III
+item.arena:alaniz_doll=§cКукла Alaniz\n§r§7(Слот: Куклы)\n§o§8+ I(крадясь)\n-15 (падение)
+item.arena:gold_doll=§cКукла Gold\n§r§7(Слот: Куклы)\n§o§8+ I (надет золотой шлем)\n+Иммунитет к 
+item.arena:angeloso_doll=§cКукла Angeloso\n§r§7(Слот: Куклы)\n§o§8+10 сопротивление (падение)\n+Иммунитет к 
+item.arena:jrice_doll=§cКукла Jr Ice\n§r§7(Слот: Куклы)\n§o§8+ IV (при 10 )\n+ I,  I (при 5-2.5 )
+item.arena:sacronkaiden_doll=§cКукла Sacron Kaiden\n§r§7(Слот: Куклы)\n§o§8-1 , отражает 3 \n+Аллергия на воду
+item.arena:paladin_doll=§cКукла Extreme\n§r§7(Слот: Куклы)\n§o§8+1 , +10 скорость\n-1 , -5 (ближний бой)
+item.arena:systemtv_doll=§cКукла System TV\n§r§7(Слот: Куклы)\n§o§8+Эффект  II по области, -1 
+item.arena:biggamer_doll=§cКукла Big Gamer\n§r§7(Слот: Куклы)\n§o§8+40 , +Иммунитет к 
+item.arena:agustin_doll=§cКукла Agustin\n§r§7(Слот: Куклы)\n§o§8+Дополнительная награда опытом\n+ I
+item.arena:alylicia_doll=§cКукла Alycia\n§r§7(Слот: Куклы)\n§o§8+1 дополнительный прыжок\n+Иммунитет к 
+item.arena:lotte_axolotle_doll=§cКукла Lotte Axolotl\n§r§7(Слот: Куклы)\n§o§8+5 шанс вызвать кровотечение 
+item.arena:drak_doll=§cКукла DraK\n§r§7(Слот: Куклы)\n§o§8+Насылает бессонницу \n(2 , 3с, ночью)\n+Иммунитет к 
+item.arena:cap_zweihander=§cКукла CapZweihander\n§r§7(Слот: Куклы)\n§o§8+2  (за 15 уровней опыта)\n+Иммунитет к , , \nЭ-э, Гамлет, я снова сломал!
+item.arena:laniraxia_doll=§cКукла Laniraxia\n§r§7(Слот: Куклы)\n§o§8+2 , -10 (ближний бой)
+item.arena:melunch_doll=§cКукла Melunch\n§r§7(Слот: Куклы)\n§o§8+Атаки по площади, 10 урона\n-5 (ближний бой), -5 (снаряды)
+
+item.arena:iron_vampiric_earring=§5Вампирская -серьга\n§r§7(Слот: Серьги)\n§o§8+2 вампиризма\n+Иммунитет к , 
+item.arena:iron_spikes_earring=§5Шипастая -серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 5 урона\n+Иммунитет к , 
+item.arena:iron_explosive_earring=§5Взрывная -серьга\n§r§7(Слот: Серьги)\n§o§8+3 создать взрыв
+item.arena:iron_penetration_earring=§5Пронзающая -серьга\n§r§7(Слот: Серьги)\n§o§8+4 пробивающего броню урона
+item.arena:iron_bleeding_earring=§5Кровоточащая -серьга\n§r§7(Слот: Серьги)\n§o§8+5 шанс вызвать кровотечение 
+item.arena:iron_arrows_earring=§5Лучницкая -серьга\n§r§7(Слот: Серьги)\n§o§8+1 , -5 (ближний бой)
+item.arena:iron_insomnia_earring=§5Бессонная -серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(5 шанс, 4 , 15с, ночью)\n+Иммунитет к , 
+
+item.arena:golden_vampiric_earring=§5Вампирская -серьга\n§r§7(Слот: Серьги)\n§o§8+4 вампиризма\n+Иммунитет к , 
+item.arena:golden_spikes_earring=§5Шипастая -серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 10 урона\n+Иммунитет к , 
+item.arena:golden_explosive_earring=§5Взрывная -серьга\n§r§7(Слот: Серьги)\n§o§8+6 создать взрыв
+item.arena:golden_penetration_earring=§5Пронзающая -серьга\n§r§7(Слот: Серьги)\n§o§8+8 пробивающего броню урона
+item.arena:golden_bleeding_earring=§5Кровоточащая -серьга\n§r§7(Слот: Серьги)\n§o§8+10 шанс вызвать кровотечение 
+item.arena:golden_arrows_earring=§5Лучницкая -серьга\n§r§7(Слот: Серьги)\n§o§8+2 , -10 (ближний бой)
+item.arena:golden_insomnia_earring=§5Бессонная -серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(10 шанс, 6 , 12с, ночью)\n+Иммунитет к , 
+
+item.arena:prismarine_vampiric_earring=§5Вампирская -серьга\n§r§7(Слот: Серьги)\n§o§8+6 вампиризма\n+Иммунитет к , 
+item.arena:prismarine_spikes_earring=§5Шипастая -серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 15 урона\n+Иммунитет к , 
+item.arena:prismarine_explosive_earring=§5Взрывная -серьга\n§r§7(Слот: Серьги)\n§o§8+9 создать взрыв
+item.arena:prismarine_penetration_earring=§5Пронзающая -серьга\n§r§7(Слот: Серьги)\n§o§8+12 пробивающего броню урона
+item.arena:prismarine_bleeding_earring=§5Кровоточащая -серьга\n§r§7(Слот: Серьги)\n§o§8+15 шанс вызвать кровотечение 
+item.arena:prismarine_arrows_earring=§5Лучницкая -серьга\n§r§7(Слот: Серьги)\n§o§8+3 , -15 (ближний бой)
+item.arena:prismarine_insomnia_earring=§5Бессонная -серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(15 шанс, 8 , 9с, ночью)\n+Иммунитет к , 
+
+item.arena:netherite_vampiric_earring=§5Вампирская -серьга\n§r§7(Слот: Серьги)\n§o§8+8 вампиризма\n+Иммунитет к , 
+item.arena:netherite_spikes_earring=§5Шипастая -серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 20 урона\n+Иммунитет к , 
+item.arena:netherite_explosive_earring=§5Взрывная -серьга\n§r§7(Слот: Серьги)\n§o§8+12 создать взрыв
+item.arena:netherite_penetration_earring=§5Пронзающая -серьга\n§r§7(Слот: Серьги)\n§o§8+16 пробивающего броню урона
+item.arena:netherite_bleeding_earring=§5Кровоточащая -серьга\n§r§7(Слот: Серьги)\n§o§8+20 шанс вызвать кровотечение 
+item.arena:netherite_arrows_earring=§5Лучницкая -серьга\n§r§7(Слот: Серьги)\n§o§8+4 , -20 (ближний бой)
+item.arena:netherite_insomnia_earring=§5Бессонная -серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(20 шанс, 10 , 6с, ночью)\n+Иммунитет к , 
+
+item.arena:fallen_vampiric_earring=§5Вампирская падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+10 вампиризма\n+Иммунитет к , 
+item.arena:fallen_spikes_earring=§5Шипастая падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 25 урона\n+Иммунитет к , 
+item.arena:fallen_explosive_earring=§5Взрывная падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+15 создать взрыв
+item.arena:fallen_penetration_earring=§5Пронзающая падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+20 пробивающего броню урона
+item.arena:fallen_bleeding_earring=§5Кровоточащая падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+25 шанс вызвать кровотечение 
+item.arena:fallen_arrows_earring=§5Лучницкая падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+5 , -25 (ближний бой)
+item.arena:fallen_insomnia_earring=§5Бессонная падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(25 шанс, 12 , 6с, ночью)\n+Иммунитет к , 
+
+item.arena:pure_marble_vampiric_earring=§5Вампирская божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+12 вампиризма\n+Иммунитет к , 
+item.arena:pure_marble_spikes_earring=§5Шипастая божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+Отражает 30 урона\n+Иммунитет к , 
+item.arena:pure_marble_explosive_earring=§5Взрывная божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+18 создать взрыв
+item.arena:pure_marble_penetration_earring=§5Пронзающая божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+24 пробивающего броню урона
+item.arena:pure_marble_bleeding_earring=§5Кровоточащая божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+24 шанс вызвать кровотечение 
+item.arena:pure_marble_arrows_earring=§5Лучницкая божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+6 , -25 (ближний бой)
+item.arena:pure_marble_insomnia_earring=§5Бессонная божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+Насылает бессонницу \n(30 шанс, 14 , 5с, ночью)\n+Иммунитет к , 
+
+item.arena:iron_diamond_earring=§5Алмаз -серьга\n§r§7(Слот: Серьги)\n§o§8+1 шанс нанести критический урон
+item.arena:golden_diamond_earring=§5Алмаз -серьга\n§r§7(Слот: Серьги)\n§o§8+2 шанс нанести критический урон
+item.arena:prismarine_diamond_earring=§5Алмаз -серьга\n§r§7(Слот: Серьги)\n§o§8+3 шанс нанести критический урон
+item.arena:netherite_diamond_earring=§5Алмаз -серьга\n§r§7(Слот: Серьги)\n§o§8+4 шанс нанести критический урон
+item.arena:fallen_diamond_earring=§5Алмаз падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+5 шанс нанести критический урон
+
+item.arena:iron_emerald_earring=§5Изумруд -серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+1)
+item.arena:golden_emerald_earring=§5Изумруд -серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+2)
+item.arena:prismarine_emerald_earring=§5Изумруд -серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+3)
+item.arena:netherite_emerald_earring=§5Изумруд -серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+4)
+item.arena:fallen_emerald_earring=§5Изумруд падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+5)
+
+item.arena:iron_slayer_earring=§5Убийца -серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+3 )
+item.arena:golden_slayer_earring=§5Убийца -серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+6 )
+item.arena:prismarine_slayer_earring=§5Убийца -серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+9 )
+item.arena:netherite_slayer_earring=§5Убийца -серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+12 )
+item.arena:fallen_slayer_earring=§5Убийца падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+15 )
+
+item.arena:iron_hemlock_earring=§5Болиголов -серьга\n§r§7(Слот: Серьги)\n§o§8+3 множитель критика ущерб
+item.arena:golden_hemlock_earring=§5Болиголов -серьга\n§r§7(Слот: Серьги)\n§o§8+6 множитель критика ущерб
+item.arena:prismarine_hemlock_earring=§5Болиголов -серьга\n§r§7(Слот: Серьги)\n§o§8+9 множитель критика ущерб
+item.arena:netherite_hemlock_earring=§5Болиголов -серьга\n§r§7(Слот: Серьги)\n§o§8+12 множитель критика ущерб
+item.arena:fallen_hemlock_earring=§5Болиголов падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+15 множитель критика ущерб
+
+item.arena:iron_paladin_earring=§5Паладин -серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+3 )
+item.arena:golden_paladin_earring=§5Паладин -серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+6 )
+item.arena:prismarine_paladin_earring=§5Паладин -серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+9 )
+item.arena:netherite_paladin_earring=§5Паладин -серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+12 )
+item.arena:fallen_paladin_earring=§5Паладин падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+15 )
+
+item.arena:iron_cursebreaker_earring=5Разрушитель -серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+5 )
+item.arena:golden_cursebreaker_earring=5Разрушитель -серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+10 )
+item.arena:prismarine_cursebreaker_earring=5Разрушитель -серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+15 )
+item.arena:netherite_cursebreaker_earring=5Разрушитель -серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+20 )
+item.arena:fallen_cursebreaker_earring=5Разрушитель падшая-серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+25 )
+
+item.arena:pure_marble_diamond_earring=§5Алмаз божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+6 шанс нанести критический урон
+item.arena:pure_marble_emerald_earring=§5Изумруд божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+Дополнительная награда  опыта (+6)
+item.arena:pure_marble_slayer_earring=§5Убийца божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+Убийца игроков(+18 )
+item.arena:pure_marble_hemlock_earring=§5Болиголов божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+18 множитель критика ущерб
+item.arena:pure_marble_paladin_earring=§5Паладин божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+истребитель нежити(+18 )
+item.arena:pure_marble_cursebreaker_earring=5Разрушитель божественный-серьга\n§r§7(Слот: Серьги)\n§o§8+Увеличить урон, наносимый проклятым игрокам(+30 )
+
+item.arena:blazing_earring=§5Пылающая серьга\n§r§7(Слот: Серьги)\n§o§8+25 урон  
+item.arena:ornate_earring=§5Украшенная серьга\n§r§7(Слот для сережек)\n§o§8+1 , -5 (снаряды)\n(Стопки на один декоративный предмет)
+item.arena:piercing_earring=§5Серьга для прокола\n§r§7(Слот для сережек)\n§o§8+Прокалывает дополнительного ближайшего врага
+item.arena:infused_earring=§5Серьга с эффектом зачарования\n§r§7(Слот для сережек)\n§o§8+Бонус к заклинаниям:\n+Увеличивает силу заклинаний +1
+
+item.arena:damage_copper_wither_ring=§jИссушающе- кольцо урона\n§r§7(Слот: Кольцо иссушения)\n§o§8+1 , -2 , +4 множитель критика ущерб
+item.arena:damage_iron_wither_ring=§jИссушающе- кольцо урона\n§r§7(Слот: Кольцо иссушения)\n§o§8+1 , -2 , +8 множитель критика ущерб
+item.arena:damage_golden_wither_ring=§jИссушающе- кольцо урона\n§r§7(Слот: Кольцо иссушения)\n§o§8+2 , -4 , +12 множитель критика ущерб
+item.arena:damage_prismarine_wither_ring=§jИссушающе- кольцо урона\n§r§7(Слот: Кольцо иссушения)\n§o§8+2 , -4 , +16 множитель критика ущерб
+item.arena:damage_marble_wither_ring=§jИссушающе- кольцо урона\n§r§7(Слот: Кольцо иссушения)\n§o§8+3 , -6 , +20 множитель критика ущерб
+
+item.arena:hearts_copper_wither_ring=§jИссушающе- кольцо сердец\n§r§7(Слот: Кольцо иссушения)\n§o§8+1 
+item.arena:hearts_iron_wither_ring=§jИссушающе- кольцо сердец\n§r§7(Слот: Кольцо иссушения)\n§o§8+2 
+item.arena:hearts_golden_wither_ring=§jИссушающе- кольцо сердец\n§r§7(Слот: Кольцо иссушения)\n§o§8+3 
+item.arena:hearts_prismarine_wither_ring=§jИссушающе- кольцо сердец\n§r§7(Слот: Кольцо иссушения)\n§o§8+4 , -10 
+item.arena:hearts_marble_wither_ring=§jИссушающе- кольцо сердец\n§r§7(Слот: Кольцо иссушения)\n§o§8+5 , -10 
+
+item.arena:movement_copper_wither_ring=§jИссушающе- кольцо движения\n§r§7(Слот: Кольцо иссушения)\n§o§8+10 скорость, -5 (ближний бой), -5 (снаряды)
+item.arena:movement_iron_wither_ring=§jИссушающе- кольцо движения\n§r§7(Слот: Кольцо иссушения)\n§o§8+20 скорость, -10 (ближний бой), -10 (снаряды)
+item.arena:movement_golden_wither_ring=§jИссушающе- кольцо движения\n§r§7(Слот: Кольцо иссушения)\n§o§8+30 скорость, -15 (ближний бой), -15 (снаряды)
+item.arena:movement_prismarine_wither_ring=§jИссушающе- кольцо движения\n§r§7(Слот: Кольцо иссушения)\n§o§8+40 скорость, -20 (ближний бой), -20 (снаряды)
+item.arena:movement_marble_wither_ring=§jИссушающе- кольцо движения\n§r§7(Слот: Кольцо иссушения)\n§o§8+50 скорость, -25 (ближний бой), -25 (снаряды)
+
+item.arena:swiming_copper_wither_ring=§jИссушающе- кольцо плавания\n§r§7(Слот: Кольцо иссушения)\n§o§8+30 , +60 , -5 (падение)
+item.arena:swiming_iron_wither_ring=§jИссушающе- кольцо плавания\n§r§7(Слот: Кольцо иссушения)\n§o§8+40 , +80 , -10 (падение)
+item.arena:swiming_golden_wither_ring=§jИссушающе- кольцо плавания\n§r§7(Слот: Кольцо иссушения)\n§o§8+50 , +100 , -15 (падение)
+item.arena:swiming_prismarine_wither_ring=§jИссушающе- кольцо плавания\n§r§7(Слот: Кольцо иссушения)\n§o§8+60 , +120 , -20 (падение)
+item.arena:swiming_marble_wither_ring=§jИссушающе- кольцо плавания\n§r§7(Слот: Кольцо иссушения)\n§o§8+70 , +140 , -25 (падение)
+
+item.arena:jump_copper_wither_ring=§jИссушающе- кольцо прыгучести\n§r§7(Слот: Кольцо иссушения)\n§o§8+ II
+item.arena:jump_iron_wither_ring=§jИссушающе- кольцо прыгучести\n§r§7(Слот: Кольцо иссушения)\n§o§8+ III
+item.arena:jump_golden_wither_ring=§jИссушающе- кольцо прыгучести\n§r§7(Слот: Кольцо иссушения)\n§o§8+ IV
+item.arena:jump_prismarine_wither_ring=§jИссушающе- кольцо прыгучести\n§r§7(Слот: Кольцо иссушения)\n§o§8+ V
+item.arena:jump_marble_wither_ring=§jИссушающе- кольцо прыгучести\n§r§7(Слот: Кольцо иссушения)\n§o§8+ VI
+
+item.arena:defense_copper_wither_ring=§jИссушающе- кольцо защиты\n§r§7(Слот: Кольцо иссушения)\n§o§8+5 (ближний бой), +5 (снаряды), -10 
+item.arena:defense_iron_wither_ring=§jИссушающе- кольцо защиты\n§r§7(Слот: Кольцо иссушения)\n§o§8+10 (ближний бой), +10 (снаряды), -10 
+item.arena:defense_golden_wither_ring=§jИссушающе- кольцо защиты\n§r§7(Слот: Кольцо иссушения)\n§o§8+15 (ближний бой), +15 (снаряды), -20 
+item.arena:defense_prismarine_wither_ring=§jИссушающе- кольцо защиты\n§r§7(Слот: Кольцо иссушения)\n§o§8+20 (ближний бой), +20 (снаряды), -20 
+item.arena:defense_marble_wither_ring=§jИссушающе- кольцо защиты\n§r§7(Слот: Кольцо иссушения)\n§o§8+25 (ближний бой), +25 (снаряды), -30 
+
+item.arena:mage_copper_wither_ring=§jИссушающе- кольцо магов\n§r§7(Слот: Кольцо иссушения)\n§o§8+5 (магия), -5 (ближний бой)
+item.arena:mage_iron_wither_ring=§jИссушающе- кольцо магов\n§r§7(Слот: Кольцо иссушения)\n§o§8+10 (магия), -5 (ближний бой)
+item.arena:mage_golden_wither_ring=§jИссушающе- кольцо магов\n§r§7(Слот: Кольцо иссушения)\n§o§8+15 (магия), -10 (ближний бой)
+item.arena:mage_prismarine_wither_ring=§jИссушающе- кольцо магов\n§r§7(Слот: Кольцо иссушения)\n§o§8+20 (магия), -10 (ближний бой)
+item.arena:mage_marble_wither_ring=§jИссушающе- кольцо магов\n§r§7(Слот: Кольцо иссушения)\n§o§8+25 (магия), -15 (ближний бой)
+
+item.arena:fire_wither_ring=§jИссушающе-кольцо огненное\n§r§7(Слот: Кольцо иссушения)\n§o§8+2 , -4 , +14 множитель критика ущерб\n+Атаки вызывают 
+item.arena:end_wither_ring=§jИссушающе-кольцо Края\n§r§7(Слот: Кольцо иссушения)\n§o§8+3 \nАтаки накладывают 6s \n+4 шанс нанести критический урон
+item.arena:light_wither_ring=§jИссушающе-кольцо световое\n§r§7(Слот: Кольцо иссушения)\n§o§8+30 , -15 (ближний бой), -15 (снаряды)\n+6 шанс нанести критический урон\n+8 шанс нанести критический урон
+item.arena:snow_wither_ring=§jИссушающе-кольцо снежное\n§r§7(Слот: Кольцо иссушения)\n§o§8+50 , +100 , -15 (падение)\n+Атаки накладывают  III\n+4 шанс нанести критический урон
+item.arena:poision_wither_ring=§jИссушающе-кольцо ядовитое\n§r§7(Слот: Кольцо иссушения)\n§o§8+ IV\n+Атаки накладывают  III
+item.arena:hemlock_wither_ring=§jИссушающе-кольцо болиголовое\n§r§7(Слот: Кольцо иссушения)\n§o§8+15 (ближний бой), +15 (снаряды), -20 \n+Атаки накладывают  II
+item.arena:desert_wither_ring=§jИссушающе-кольцо пустыни\n§r§7(Слот: Кольцо иссушения)\n§o§8+15 (магия), -10 (ближний бой)\n+Атаки накладывают  III\n+4 шанс нанести критический урон
+
+item.arena:silk_ring_jelewer=§dШёлковое кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:withered_ring_jelewer=§dИссушенное кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:crimsom_amethyst_ring_jelewer=§dБагрово-аметистовое кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:crimson_ring_jelewer=§dБагровое кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:shadow_step_ring_jelewer=§dКольцо теневого шага\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:obsidian_ring_jelewer=§dОбсидиановое кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:blinding_of_shinning_ring_jelewer=§dСияющее кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+item.arena:shulked_ring_jelewer=§dШалкерное кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к 
+
+item.arena:haunted_ring=§dПризрачное кольцо\n§r§7(Слот: Кольцо)\n§o§8+Бонус к заклинаниям:\n+Призыв из дальнего боя, перезарядка +1 
+item.arena:hauled_ring=§dТянущее кольцо\n§r§7(Слот: Кольцо)\n§o§8+Бонус к заклинаниям:\n+Призыв из ближнего боя, +1 
+item.arena:blazing_ring=§dПылающее кольцо\n§r§7(Слот: Кольцо)\n§o§8+Иммунитет к кровотечению 
+item.arena:ornate_band=§dУкрашенная лента\n§r§7(Слот: Кольцо)\n§o§8+5 (ближний бой) (макс. +20 )\n(Стопки на один декоративный предмет)
+item.arena:ornate_ring=§dУкрашенное кольцо\n§r§7(Слот: Кольцо)\n§o§8+10  (макс. +30 )\n(Стопки на один декоративный предмет)
+item.arena:repeating_ring=§dПовторяющееся кольцо\n§r§7(Слот: Кольцо)\n§o§8+Increase bow damage(+25 )
+item.arena:spirit_ring=§dКольцо Духа\n§r§7(Слот: Кольцо)\n§o§8-5 (ближний бой)\n+Бонус к заклинаниям:\n+Сокращение перезарядки на 10
+
+item.arena:amethyst_earring_jelewer=§5Аметистовая серьга\n§r§7(Слот: Серьги)\n§o§8+Атаки накладывают \n+Отражает 
+item.arena:crimsom_amethyst_earring_jelewer=§5Багрово-аметистовая серьга\n§r§7(Слот: Серьги)\n§o§8+Атаки накладывают \n+Отражает 
+item.arena:crimsom_earring_jelewer=§5Багровая серьга\n§r§7(Слот: Серьги)\n§o§8+Атаки накладывают \n+Отражает 
+
+item.arena:iron_blossom_ring=§dКольцо Цветок \n§r§7(Слот: Серьги)\n§o§8+Увеличить лимит Цветущей сакуры +4 
+item.arena:golden_blossom_ring=§dКольцо Цветок \n§r§7(Слот: Серьги)\n§o§8+Увеличить лимит Цветущей сакуры +6 
+item.arena:prismarine_blossom_ring=§dКольцо Цветок \n§r§7(Слот: Серьги)\n§o§8+Увеличить лимит Цветущей сакуры +8 
+item.arena:netherite_blossom_ring=§dКольцо Цветок \n§r§7(Слот: Серьги)\n§o§8+Увеличить Лимит цветения сакуры +10 
+item.arena:marble_blossom_ring=§dКольцо цветения сакуры \n§r§7(Слот: Серьги)\n§o§8+Увеличение лимита цветения сакуры +12 
+
+item.arena:iron_sculk_ring=§dКольцо Скалка \n§r§7(Слот: Серьги)\n§o§8+Увеличение +1  за убийство\n(Макс +5 )\n-5 (ближний бой)
+item.arena:golden_sculk_ring=§dКольцо Скалка \n§r§7(Слот: Серьги)\n§o§8+Увеличение +1  за убийство\n(Макс +10 )\n-10 (ближний бой)
+item.arena:prismarine_sculk_ring=§dКольцо Скалка \n§r§7(Слот: Серьги)\n§o§8+Увеличение +1  за убийство\n(Макс +15 )\n-15 (ближний бой)
+item.arena:netherite_sculk_ring=§dКольцо Скалка \n§r§7(Слот: Серьги)\n§o§8+Увеличение +1  за убийство\n(Макс +20 )\n-20 (ближний бой)
+item.arena:marble_sculk_ring=§dКольцо Скалка \n§r§7(Слот: Серьги)\n§o§8+Увеличение +1  за убийство\n(Макс +25 )\n-25 (ближний бой)
+
+item.arena:iron_fire_necklace_jelewer=§b огненное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+1 шанс нанести критический урон\n+Атаки вызывают 
+item.arena:golden_fire_necklace_jelewer=§b огненное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+2 шанс нанести критический урон\n+Атаки вызывают 
+item.arena:prismarine_fire_necklace_jelewer=§b огненное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+3 шанс нанести критический урон\n+Атаки вызывают 
+item.arena:netherite_fire_necklace_jelewer=§b огненное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+4 шанс нанести критический урон\n+Атаки вызывают 
+item.arena:fallen_fire_necklace=§bПадшее огненное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+5 шанс нанести критический урон\n+Атаки вызывают 
+
+item.arena:iron_end_necklace_jelewer=§b ожерелье Края\n§r§7(Слот: Ожерелье)\n§o§8+2 шанс нанести критический урон\nАтаки накладывают 3с 
+item.arena:golden_end_necklace_jelewer=§b ожерелье Края\n§r§7(Слот: Ожерелье)\n§o§8+4 шанс нанести критический урон\nАтаки накладывают 6с 
+item.arena:prismarine_end_necklace_jelewer=§b ожерелье Края\n§r§7(Слот: Ожерелье)\n§o§8+6 шанс нанести критический урон\n+Атаки накладывают 7с 
+item.arena:netherite_end_necklace_jelewer=§b ожерелье Края\n§r§7(Слот: Ожерелье)\n§o§8+8 шанс нанести критический урон\n+Атаки накладывают 8с 
+item.arena:fallen_end_necklace=§bПадшее ожерелье Края\n§r§7(Слот: Ожерелье)\n§o§8+10 шанс нанести критический урон\n+Атаки накладывают 9с 
+
+item.arena:iron_light_necklace_jelewer=§b световое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+3 шанс нанести критический урон\n+3 шанс удара молнией
+item.arena:golden_light_necklace_jelewer=§b световое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+6 шанс нанести критический урон\n+6 шанс удара молнией
+item.arena:prismarine_light_necklace_jelewer=§b световое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+9 шанс нанести критический урон\n+9 шанс удара молнией
+item.arena:netherite_light_necklace_jelewer=§b световое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+12 шанс нанести критический урон\n+12 шанс удара молнией
+item.arena:fallen_light_necklace=§bПадшее световое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+15 шанс нанести критический урон\n+15 шанс удара молнией
+
+item.arena:iron_snow_necklace_jelewer=§b снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+2 шанс нанести критический урон\n+Атаки накладывают  II
+item.arena:golden_snow_necklace_jelewer=§b снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+4 шанс нанести критический урон\n+Атаки накладывают  III
+item.arena:prismarine_snow_necklace_jelewer=§b снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+6 шанс нанести критический урон\n+Атаки накладывают  IV
+item.arena:netherite_snow_necklace_jelewer=§b снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+8 шанс нанести критический урон\n+Атаки накладывают  V
+item.arena:fallen_snow_necklace=§bПадшее снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+10 шанс нанести критический урон\n+Атаки накладывают  VI
+
+item.arena:iron_poison_necklace_jelewer=§b ядовитое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  II
+item.arena:golden_poison_necklace_jelewer=§b ядовитое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  III
+item.arena:prismarine_poison_necklace_jelewer=§b ядовитое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  IV
+item.arena:netherite_poison_necklace_jelewer=§b ядовитое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  V
+item.arena:fallen_poison_necklace=§bПадшее ядовитое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  VI
+
+item.arena:iron_hemlock_necklace=§b болиголовое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  I
+item.arena:golden_hemlock_necklace=§b болиголовое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  II
+item.arena:prismarine_hemlock_necklace=§b болиголовое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  III
+item.arena:netherite_hemlock_necklace=§b болиголовое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  IV
+item.arena:fallen_hemlock_necklace=§bПадшее болиголовое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Атаки накладывают  V
+
+item.arena:iron_desert_necklace_jelewer=§b пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+2 шанс нанести урон средней степени урона\n+Атаки наложил  II
+item.arena:golden_desert_necklace_jelewer=§b пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+4 шанс нанести урон средней силы\n+Атаки накладывают  III
+item.arena:prismarine_desert_necklace_jelewer=§b пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+6 шанс случайного урона\n+Атаки наложен  IV
+item.arena:netherite_desert_necklace_jelewer=§b пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+8 шанс нанести ударный урон\n+Атаки наложил  V
+item.arena:fallen_desert_necklace=§bПадшее пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+10 шанс уменьшения максимального урона\n+Атаки наложил  VI
+
+item.arena:pure_marble_fire_necklace=§bОжерелье божественного огня\n§r§7(Слот: Ожерелье)\n§o§8+6 шанс уменьшить радиус урона\n+Атаки звонит 
+item.arena:pure_marble_end_necklace=§bDivine Ожерелье Эндера\n§r§7(Слот: Ожерелье)\n§o§8+12 шанс раневого урона\n+Атаки накладывают 10 с 
+item.arena:pure_marble_light_necklace=§bОжерелье божественной молнии\n§r§7(Слот: Ожерелье)\n§o§8+18 шанс нанести урон\n+18 шанс смертельного урона
+item.arena:pure_marble_snow_necklace=§bБожественное снежное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+12 шанс нанести урон\n+Атаки наложен  VII
+item.arena:pure_marble_poison_necklace=§bОжерелье с божественным ядом\n§r§7(Ожерелье слот)\n§o§8+Атаки накладка  VII
+item.arena:pure_marble_desert_necklace=§bБожественное пустыни ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+12 шанс нанести урон \n+Атаки наклад  VII
+item.arena:pure_marble_hemlock_necklace=§bОжерелье из божественного болиголова\n§r§7(Слот: Ожерелье)\n§o§8+Атаки наложена  VI
+
+item.arena:diamond_necklace=§bАлмазное ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+Зоновые атаки, 25 урона\n-20 (ближний бой), -20 (снаряды)
+item.arena:cursed_pendant=§bПроклятый кулон\n§r§7(Слот: Ожерелье)\n§o§8+Иммунитет к \n+5 (ближний бой), +5 (снаряды), -1 \n+Наносит проклятие \n(20 шанс, 4с)
+item.arena:thine_eyes_pendant=§bКулон Твоих Глаз\n§r§7(Слот: Ожерелье)\n§o§8+Жемчуг Края не расходуется\n-10 скорость
+item.arena:catalyst_scarf=§bШарф-катализатор\n§r§7(Слот: Ожерелье)\n§o§8+10 (ближний бой), +10 (снаряды)\n+1 (к отталкиванию), -20 
+item.arena:bewitched_pendant=§bЗаколдованный кулон\n§r§7(Слот: Ожерелье)\n§o§8+Заклинания (используйте посох):\n+Призыв 4 скелетов\n(1м перезарядка)
+item.arena:sweet_dreams_pendant=§bШарф Сладких Снов\n§r§7(Слот: Ожерелье)\n§o§8+1 прыжок\n+ III (во сне)\nВ си мажоре
+item.arena:obsidian_pendant=§bОбсидиановое ожерелье\n§r§7(Слот: Ожерелье)\n§o§8+10 скорость, + II (в лаве)
+item.arena:ornate_pendant=§bУкрашенный кулон\n§r§7(Слот: Ожерелье)\n§o§8+2 шанс нанести критический урон\n(Стопки на один декоративный предмет)
+
+item.arena:iron_crown_jelewer=§g-корона\n§r§7(Слот: Голова)\n§o§8+Даёт  I питомцам
+item.arena:golden_crown_jelewer=§g-корона\n§r§7(Слот: Голова)\n§o§8+Даёт  II питомцам
+item.arena:prismarine_crown_jelewer=§g-корона\n§r§7(Слот: Голова)\n§o§8+Даёт  III питомцам
+item.arena:netherite_crown_jelewer=§g-корона\n§r§7(Слот: Голова)\n§o§8+Даёт  IV питомцам
+
+item.arena:effect_cube=Эссенция эффектов
+item.arena:archaic_stone=§2Архаичный камень
+item.arena:marble_fragment=Мраморный фрагмент
+
+item.arena:jelewer_upgrade_smithing_template_n=Мраморный шаблон 
+item.arena:jelewer_upgrade_smithing_template_p=Мраморный шаблон 
+item.arena:jelewer_upgrade_smithing_template_g=Мраморный шаблон 
+item.arena:jelewer_upgrade_smithing_template_i=Мраморный шаблон 
+
+item.arena:archaic_upgrade_smithing_template=§bАрхаичный шаблон
+item.arena:template_fallen=§bШаблон падшего ангела
+item.arena:template_pure_marble=§eШаблон чистого мрамора
+
+item.arena:template_artemis=§eШаблон Артемиды
+item.arena:template_hades=§bШаблон Аида
+item.arena:template_poseidon=§bШаблон Посейдона
+item.arena:template_zeus=§eШаблон Зевса
+
+item.arena:doll_base=§r§cОснова куклы
+item.arena:mask_base=§bОснова маски
+item.arena:elemental_wither_ring=§eЭлементальный Иссушенное кольцо
+item.arena:witherring=§eИссушенное кольцо
+item.arena:ring=§bКольцо
+
+item.arena:gembase=Основа самоцвета
+item.arena:gem_fire=§bОгненный самоцвет
+item.arena:gem_light=§bСветовой самоцвет
+item.arena:gem_poison=§bЯдовитый самоцвет
+item.arena:gem_snow=§bСнежный самоцвет
+item.arena:gem_void=§bСамоцвет Края
+item.arena:gem_desert=§bСамоцвет пустыни
+item.arena:gem_hemlock=§bБолиголовый самоцвет
+item.arena:cristal_gem=Нечистый кристалл
+item.arena:hemlock_stone=§bБолиголовый камень
+item.arena:marble_dust=Мраморная пыль\n§7(сырой мрамор)
+item.arena:raw_marble=Рудной мрамор\n§7(Переплавьте)
+item.arena:chisel=Рудное долото\n§7(Ломает мраморную руду)\n§r§7(Ломает кристальную руду)
+
+item.arena:fallen_marble=Фрагмент падшего мрамора
+item.arena:black_marble_dust=Пыль чёрного мрамора\n§7(сырой падший мрамор)
+item.arena:raw_black_marble=Рудной падший мрамор\n§7(Переплавьте)
+
+item.arena:ornate_fragment=§bВитиеватый фрагмент
+
+item.arena:dragon_scale=§bЧешуя дракона\n\n§7Получено путем убийства: 
+item.arena:wither_fire=§bДуша иссушения\n\n§7Получено путем убийства: 
+item.arena:warden_heart=§bСердце хранителя\n\n§7Получено путем убийства: 
+
+item.arena:cold_shard=§eЛедяной осколок\n\n§7Получено путем убийства:  
+item.arena:flammable_shard=§eОгненный осколок\n\n§7Получено путем убийства:  
+item.arena:electric_shard=§eЭлектрический осколок\n\n§7Получено путем убийства:   
+item.arena:poisonous_shard=§eЯдовитый осколок\n\n§7Получено путем убийства:    
+item.arena:arid_shard=§eЗасушливый осколок\n\n§7Получено путем убийства:   
+item.arena:wither_fragment=§eОсколок иссушителя\n\n§7Получено путем убийства:  
+item.arena:levitation_shard=§eОсколок левитации\n\n§7Получено путем убийства:  
+
+item.arena:zombie_soul=Душа зомби
+item.arena:skeleton_soul=Душа скелета
+item.arena:blaze_soul=Душа блейза
+item.arena:spider_soul=Душа паука
+item.arena:cave_spider_soul=Душа пещерного паука
+item.arena:magma_soul=Душа магмового куба
+
+item.arena:spawner_fragment=§bФрагмент спавнера
+
+item.twm:scroll=Свиток талисманов\n§r§7(Открывает инвентарь талисманов)
+item.arena:w=Отладочный предмет

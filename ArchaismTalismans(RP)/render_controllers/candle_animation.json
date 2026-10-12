@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.candle_fire": {
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+                }
+            ],
+            "textures": [
+                "array.angytw[(query.anim_time * 9 )]",
+                "Texture.enchanted"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.angytw": [
+                        "texture.w_00",
+                        "texture.w_01",
+                        "texture.w_02",
+                        "texture.w_03",
+                        "texture.w_04",
+                        "texture.w_05",
+                        "texture.w_06",
+                        "texture.w_07",
+                        "texture.w_08",
+                        "texture.w_09"
+                    ]
+                }
+            },
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        }
+    }
+}

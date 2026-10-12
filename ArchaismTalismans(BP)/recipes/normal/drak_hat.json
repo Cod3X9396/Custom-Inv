@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:drak_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:drak_doll"
+			}
+		},
+		"result": {
+			"item": "arena:drak_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:drak_doll"
+			}
+		]
+	}
+}

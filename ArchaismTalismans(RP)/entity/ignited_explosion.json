@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "arena:ignited_explosion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/explosion"
+      },
+      "geometry": {
+        "default": "geometry.tnt"
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ]
+    }
+  }
+}

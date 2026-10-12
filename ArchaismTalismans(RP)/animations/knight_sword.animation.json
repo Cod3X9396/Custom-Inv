@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.knight_sword.first_person_attack": {
+			"animation_length": 0.3333,
+			"anim_time_update": "query.anim_time + query.delta_time",
+			"bones": {
+				"animation_axis": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0833": [7.5, 5, -22.5],
+						"0.1667": [32.5, 22.5, -50],
+						"0.25": [32.5, -22.5, -50],
+						"0.3333": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 4, 8],
+						"0.1667": [0, 2, -8],
+						"0.25": [0, 0, -8],
+						"0.3333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.knight_sword.first_person_attack2": {
+			"loop": false,
+			"animation_length": 0.5,
+			"anim_time_update": "query.anim_time + query.delta_time",
+			"bones": {
+				"animation_axis": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [-22.5, 75, -75],
+						"0.4583": [85.5115, -2.7755, 31.5547],
+						"0.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 0, 4],
+						"0.4583": [0, 0, -11],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.first_person": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": ["c.is_first_person ? -125 : 90", "c.is_first_person ? 120 : 0", "c.is_first_person ? 100 : 1"],
+					"position": ["c.is_first_person ? -6 : 0.3", "c.is_first_person ? 4.5 : -1", "c.is_first_person ? -5 : 1"],
+					"scale": "c.is_first_person ? 0.5 : 1"
+				},
+				"animation_axis": {
+					"rotation": {
+						"0.0": {
+							"post": [7.5, -10, 15],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 16],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:jelewer_upgrade_smithing_template_p"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:prismarine_crystals"
+			},
+			"C": {
+				"item": "minecraft:prismarine_shard"
+			},
+			"D": {
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		},
+		"result": {
+			"item": "arena:jelewer_upgrade_smithing_template_p"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

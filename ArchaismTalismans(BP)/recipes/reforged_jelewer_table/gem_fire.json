@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:gem_fire"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:flammable_shard"
+			},
+			"B": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:gem_fire"
+		},
+		"unlock": [
+			{
+				"item": "arena:flammable_shard"
+			}
+		]
+	}
+}

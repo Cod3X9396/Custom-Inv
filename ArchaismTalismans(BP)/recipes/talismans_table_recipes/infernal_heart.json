@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:infernal_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:flammable_shard"
+			},
+			"B": {
+				"item": "arena:skull_heart"
+			}
+		},
+		"result": {
+			"item": "arena:infernal_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:skull_heart"
+			}
+		]
+	}
+}

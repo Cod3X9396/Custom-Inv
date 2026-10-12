@@ -1,0 +1,15 @@
+{
+	"format_version": "1.26.30",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:marble_helmet_h_smithing_table"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "arena:archaic_upgrade_smithing_template",
+	  "base": "arena:restored_marble_helmet",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:marble_helmet_h"
+	}
+}

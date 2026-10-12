@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cursed_axe"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAB",
+			" CA",
+			"D A"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "minecraft:wither_skeleton_skull"
+			},
+			"C": {
+				"item": "minecraft:soul_sand"
+			},
+			"D": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"result": {
+			"item": "arena:cursed_axe"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond_axe"
+			}
+		]
+	}
+}

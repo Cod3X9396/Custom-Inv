@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:deformed_cross"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DED",
+			"CDC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:ender_pearl"
+			},
+			"B": {
+				"item": "minecraft:crying_obsidian"
+			},
+			"C": {
+				"item": "minecraft:crimson_fungus"
+			},
+			"D": {
+				"item": "minecraft:obsidian"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:deformed_cross"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "minecraft:ender_pearl"
+			}
+		]
+	}
+}

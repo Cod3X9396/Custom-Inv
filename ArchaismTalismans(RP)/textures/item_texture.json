@@ -1,0 +1,1751 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+      "w": {
+         "textures": "textures/items/w"
+      },
+      
+      "impious_marble_helmet": {
+         "textures": "textures/items/impious_marble_helmet"
+      },
+      "impious_marble_chestplate": {
+         "textures": "textures/items/impious_marble_chestplate"
+      },
+      "impious_marble_leggings": {
+         "textures": "textures/items/impious_marble_leggings"
+      },
+      "impious_marble_boots": {
+         "textures": "textures/items/impious_marble_boots"
+      },
+
+      "ifrits_mantle": {
+         "textures": "textures/items/ifrits_mantle"
+      },
+      "heart_of_judgment": {
+         "textures": "textures/items/heart_of_judgment"
+      },
+      "crown_of_expertise": {
+         "textures": "textures/items/crown_of_expertise"
+      }, 
+
+      "pure_marble_fire_necklace": {
+         "textures": "textures/items/pure_marble_fire_necklace"
+      }, 
+      "pure_marble_end_necklace": {
+         "textures": "textures/items/pure_marble_end_necklace"
+      }, 
+      "pure_marble_light_necklace": {
+         "textures": "textures/items/pure_marble_light_necklace"
+      }, 
+      "pure_marble_snow_necklace": {
+         "textures": "textures/items/pure_marble_snow_necklace"
+      }, 
+      "pure_marble_poison_necklace": {
+         "textures": "textures/items/pure_marble_poison_necklace"
+      }, 
+      "pure_marble_desert_necklace": {
+         "textures": "textures/items/pure_marble_desert_necklace"
+      }, 
+      "pure_marble_hemlock_necklace": {
+         "textures": "textures/items/pure_marble_hemlock_necklace"
+      }, 
+      
+      "pure_marble_vampiric_earring": {
+         "textures": "textures/items/pure_marble_vampiric_earring"
+      }, 
+      "pure_marble_spikes_earring": {
+         "textures": "textures/items/pure_marble_spikes_earring"
+      }, 
+      "pure_marble_explosive_earring": {
+         "textures": "textures/items/pure_marble_explosive_earring"
+      }, 
+      "pure_marble_penetration_earring": {
+         "textures": "textures/items/pure_marble_penetration_earring"
+      }, 
+      "pure_marble_bleeding_earring": {
+         "textures": "textures/items/pure_marble_bleeding_earring"
+      }, 
+      "pure_marble_arrows_earring": {
+         "textures": "textures/items/pure_marble_arrows_earring"
+      }, 
+      "pure_marble_insomnia_earring": {
+         "textures": "textures/items/pure_marble_insomnia_earring"
+      }, 
+      "pure_marble_diamond_earring": {
+         "textures": "textures/items/pure_marble_diamond_earring"
+      }, 
+      "pure_marble_emerald_earring": {
+         "textures": "textures/items/pure_marble_emerald_earring"
+      }, 
+      "pure_marble_slayer_earring": {
+         "textures": "textures/items/pure_marble_slayer_earring"
+      }, 
+      "pure_marble_hemlock_earring": {
+         "textures": "textures/items/pure_marble_hemlock_earring"
+      }, 
+      "pure_marble_paladin_earring": {
+         "textures": "textures/items/pure_marble_paladin_earring"
+      }, 
+      "pure_marble_cursebreaker_earring": {
+         "textures": "textures/items/pure_marble_cursebreaker_earring"
+      }, 
+
+      "elemental_wither_ring": {
+         "textures": "textures/items/elemental_wither_ring"
+      }, 
+      "fire_wither_ring": {
+         "textures": "textures/items/fire_wither_ring"
+      }, 
+      "end_wither_ring": {
+         "textures": "textures/items/end_wither_ring"
+      }, 
+      "light_wither_ring": {
+         "textures": "textures/items/light_wither_ring"
+      }, 
+      "snow_wither_ring": {
+         "textures": "textures/items/snow_wither_ring"
+      }, 
+      "poision_wither_ring": {
+         "textures": "textures/items/poision_wither_ring"
+      }, 
+      "desert_wither_ring": {
+         "textures": "textures/items/desert_wither_ring"
+      }, 
+      "hemlock_wither_ring": {
+         "textures": "textures/items/hemlock_wither_ring"
+      }, 
+
+      "wither_fragment": {
+         "textures": "textures/items/wither_fragment"
+      }, 
+
+      "template_artemis": {
+         "textures": "textures/items/template_artemis"
+      }, 
+      "template_hades": {
+         "textures": "textures/items/template_hades"
+      }, 
+      "template_poseidon": {
+         "textures": "textures/items/template_poseidon"
+      }, 
+      "template_zeus": {
+         "textures": "textures/items/template_zeus"
+      }, 
+      "template_pure_marble": {
+         "textures": "textures/items/template_pure_marble"
+      }, 
+
+      "hemlock_summoner_wand": {
+         "textures": "textures/items/hemlock_summoner_wand"
+      }, 
+      "marble_summoner_wand": {
+         "textures": "textures/items/marble_summoner_wand"
+      }, 
+      "archaic_hemlock_shield": {
+         "textures": "textures/items/archaic_hemlock_shield"
+      }, 
+      "marble_staff": {
+         "textures": "textures/items/marble_staff"
+      }, 
+      "marble_guantlet": {
+         "textures": "textures/items/marble_guantlet"
+      }, 
+
+      "iron_cursebreaker_earring": {
+         "textures": "textures/items/iron_cursebreaker_earring"
+      },
+      "golden_cursebreaker_earring": {
+         "textures": "textures/items/golden_cursebreaker_earring"
+      },
+      "prismarine_cursebreaker_earring": {
+         "textures": "textures/items/prismarine_cursebreaker_earring"
+      },
+      "netherite_cursebreaker_earring": {
+         "textures": "textures/items/netherite_cursebreaker_earring"
+      },
+      "fallen_cursebreaker_earring": {
+         "textures": "textures/items/fallen_cursebreaker_earring"
+      },
+      "mage_copper_wither_ring": {
+         "textures": "textures/items/mage_copper_wither_ring"
+      },
+      "mage_iron_wither_ring": {
+         "textures": "textures/items/mage_iron_wither_ring"
+      },
+      "mage_golden_wither_ring": {
+         "textures": "textures/items/mage_golden_wither_ring"
+      },
+      "mage_prismarine_wither_ring": {
+         "textures": "textures/items/mage_prismarine_wither_ring"
+      },
+      "mage_marble_wither_ring": {
+         "textures": "textures/items/mage_marble_wither_ring"
+      },
+      "iron_desert_necklace_jelewer": {
+         "textures": "textures/items/iron_desert_necklace_jelewer"
+      },
+      "golden_desert_necklace_jelewer": {
+         "textures": "textures/items/golden_desert_necklace_jelewer"
+      },
+      "prismarine_desert_necklace_jelewer": {
+         "textures": "textures/items/prismarine_desert_necklace_jelewer"
+      },
+      "netherite_desert_necklace_jelewer": {
+         "textures": "textures/items/netherite_desert_necklace_jelewer"
+      },
+      "fallen_desert_necklace": {
+         "textures": "textures/items/fallen_desert_necklace"
+      },
+
+      "gem_desert": {
+         "textures": "textures/items/gem_desert"
+      },
+      "arid_shard": {
+         "textures": "textures/items/arid_shard"
+      },
+
+      "ethereal_ichor_helmet": {
+         "textures": "textures/items/ethereal_ichor_helmet"
+      },
+      "ethereal_ichor_chestplate": {
+         "textures": "textures/items/ethereal_ichor_chestplate"
+      },
+      "ethereal_ichor_leggings": {
+         "textures": "textures/items/ethereal_ichor_leggings"
+      },
+      "ethereal_ichor_boots": {
+         "textures": "textures/items/ethereal_ichor_boots"
+      },
+
+      "pure_marble_helmet": {
+         "textures": "textures/items/pure_marble_helmet"
+      },
+      "pure_marble_chestplate": {
+         "textures": "textures/items/pure_marble_chestplate"
+      },
+      "pure_marble_leggings": {
+         "textures": "textures/items/pure_marble_leggings"
+      },
+      "pure_marble_boots": {
+         "textures": "textures/items/pure_marble_boots"
+      },
+      "pure_marble_spear": {
+         "textures": "textures/items/pure_marble_spear"
+      },
+
+      "nebulous_apollo_chestplate": {
+         "textures": "textures/items/nebulous_apollo_chestplate"
+      },
+      "nebulous_apollo_leggings": {
+         "textures": "textures/items/nebulous_apollo_leggings"
+      },
+      "nebulous_apollo_boots": {
+         "textures": "textures/items/nebulous_apollo_boots"
+      },
+
+      "infernal_heart": {
+         "textures": "textures/items/infernal_heart"
+      },
+      "fallen_marble_mask": {
+         "textures": "textures/items/fallen_marble_mask"
+      },
+      "malingnant_orb": {
+         "textures": "textures/items/malingnant_orb"
+      },
+      "archaic_reckless_archer": {
+         "textures": "textures/items/archaic_reckless_archer"
+      },
+      "ornate_fragment": {
+         "textures": "textures/items/ornate_fragment"
+      },
+
+      "calamity_crown": {
+         "textures": "textures/items/calamity_crown"
+      },
+      "ender_crown": {
+         "textures": "textures/items/ender_crown"
+      },
+
+      "arena_mage_chestplate": {
+         "textures": "textures/items/arena_mage_chestplate"
+      },
+      "arena_mage_leggings": {
+         "textures": "textures/items/arena_mage_leggings"
+      },
+
+      "iron_diamond_earring": {
+         "textures": "textures/items/iron_diamond_earring"
+      },
+      "golden_diamond_earring": {
+         "textures": "textures/items/golden_diamond_earring"
+      },
+      "prismarine_diamond_earring": {
+         "textures": "textures/items/prismarine_diamond_earring"
+      },
+      "netherite_diamond_earring": {
+         "textures": "textures/items/netherite_diamond_earring"
+      },
+      "fallen_diamond_earring": {
+         "textures": "textures/items/fallen_diamond_earring"
+      },
+      "iron_emerald_earring": {
+         "textures": "textures/items/iron_emerald_earring"
+      },
+      "golden_emerald_earring": {
+         "textures": "textures/items/golden_emerald_earring"
+      },
+      "prismarine_emerald_earring": {
+         "textures": "textures/items/prismarine_emerald_earring"
+      },
+      "netherite_emerald_earring": {
+         "textures": "textures/items/netherite_emerald_earring"
+      },
+      "fallen_emerald_earring": {
+         "textures": "textures/items/fallen_emerald_earring"
+      },
+      "iron_slayer_earring": {
+         "textures": "textures/items/iron_slayer_earring"
+      },
+      "golden_slayer_earring": {
+         "textures": "textures/items/golden_slayer_earring"
+      },
+      "prismarine_slayer_earring": {
+         "textures": "textures/items/prismarine_slayer_earring"
+      },
+      "netherite_slayer_earring": {
+         "textures": "textures/items/netherite_slayer_earring"
+      },
+      "fallen_slayer_earring": {
+         "textures": "textures/items/fallen_slayer_earring"
+      },
+      "iron_hemlock_earring": {
+         "textures": "textures/items/iron_hemlock_earring"
+      },
+      "golden_hemlock_earring": {
+         "textures": "textures/items/golden_hemlock_earring"
+      },
+      "prismarine_hemlock_earring": {
+         "textures": "textures/items/prismarine_hemlock_earring"
+      },
+      "netherite_hemlock_earring": {
+         "textures": "textures/items/netherite_hemlock_earring"
+      },
+      "fallen_hemlock_earring": {
+         "textures": "textures/items/fallen_hemlock_earring"
+      },
+      "iron_paladin_earring": {
+         "textures": "textures/items/iron_paladin_earring"
+      },
+      "golden_paladin_earring": {
+         "textures": "textures/items/golden_paladin_earring"
+      },
+      "prismarine_paladin_earring": {
+         "textures": "textures/items/prismarine_paladin_earring"
+      },
+      "netherite_paladin_earring": {
+         "textures": "textures/items/netherite_paladin_earring"
+      },
+      "fallen_paladin_earring": {
+         "textures": "textures/items/fallen_paladin_earring"
+      },
+
+      "iron_blossom_ring": {
+         "textures": "textures/items/iron_blossom_ring"
+      },
+      "golden_blossom_ring": {
+         "textures": "textures/items/golden_blossom_ring"
+      },
+      "prismarine_blossom_ring": {
+         "textures": "textures/items/prismarine_blossom_ring"
+      },
+      "netherite_blossom_ring": {
+         "textures": "textures/items/netherite_blossom_ring"
+      },
+      "marble_blossom_ring": {
+         "textures": "textures/items/marble_blossom_ring"
+      },
+      "iron_sculk_ring": {
+         "textures": "textures/items/iron_sculk_ring"
+      },
+      "golden_sculk_ring": {
+         "textures": "textures/items/golden_sculk_ring"
+      },
+      "prismarine_sculk_ring": {
+         "textures": "textures/items/prismarine_sculk_ring"
+      },
+      "netherite_sculk_ring": {
+         "textures": "textures/items/netherite_sculk_ring"
+      },
+      "marble_sculk_ring": {
+         "textures": "textures/items/marble_sculk_ring"
+      },
+
+      "wooden_saber": {
+         "textures": "textures/items/wooden_saber"
+      },
+      "stone_saber": {
+         "textures": "textures/items/stone_saber"
+      },
+      "copper_saber": {
+         "textures": "textures/items/copper_saber"
+      },
+      "golden_saber": {
+         "textures": "textures/items/golden_saber"
+      },
+      "iron_saber": {
+         "textures": "textures/items/iron_saber"
+      },
+      "diamond_saber": {
+         "textures": "textures/items/diamond_saber"
+      },
+      "netherite_saber": {
+         "textures": "textures/items/netherite_saber"
+      },
+
+      "paladin_helmet": {
+         "textures": "textures/items/paladin_helmet"
+      },
+      "paladin_chestplate": {
+         "textures": "textures/items/paladin_chestplate"
+      },
+      "paladin_leggings": {
+         "textures": "textures/items/paladin_leggings"
+      },
+      "paladin_boots": {
+         "textures": "textures/items/paladin_boots"
+      },
+
+      "runic_twohanded_sword": {
+         "textures": "textures/items/runic_twohanded_sword"
+      },
+
+      "ichor_helmet": {
+         "textures": "textures/items/ichor_helmet"
+      },
+      "ichor_chestplate": {
+         "textures": "textures/items/ichor_chestplate"
+      },
+      "ichor_leggings": {
+         "textures": "textures/items/ichor_leggings"
+      },
+      "ichor_boots": {
+         "textures": "textures/items/ichor_boots"
+      },
+      "poseidon_helmet": {
+         "textures": "textures/items/poseidon_helmet"
+      },
+      "poseidon_chestplate": {
+         "textures": "textures/items/poseidon_chestplate"
+      },
+      "poseidon_leggings": {
+         "textures": "textures/items/poseidon_leggings"
+      },
+      "poseidon_boots": {
+         "textures": "textures/items/poseidon_boots"
+      },
+      "zeus_helmet": {
+         "textures": "textures/items/zeus_helmet"
+      },
+      "zeus_chestplate": {
+         "textures": "textures/items/zeus_chestplate"
+      },
+      "zeus_leggings": {
+         "textures": "textures/items/zeus_leggings"
+      },
+      "zeus_boots": {
+         "textures": "textures/items/zeus_boots"
+      },
+      "artemis_helmet": {
+         "textures": "textures/items/artemis_helmet"
+      },
+      "artemis_chestplate": {
+         "textures": "textures/items/artemis_chestplate"
+      },
+      "artemis_leggings": {
+         "textures": "textures/items/artemis_leggings"
+      },
+      "artemis_boots": {
+         "textures": "textures/items/artemis_boots"
+      },
+      "hades_helmet": {
+         "textures": "textures/items/hades_helmet"
+      },
+      "hades_chestplate": {
+         "textures": "textures/items/hades_chestplate"
+      },
+      "hades_leggings": {
+         "textures": "textures/items/hades_leggings"
+      },
+      "hades_boots": {
+         "textures": "textures/items/hades_boots"
+      },
+
+      "spirit_ring": {
+         "textures": "textures/items/spirit_ring"
+      },
+      "sealing_talis": {
+         "textures": "textures/items/sealing_talis"
+      },
+      "infused_earring": {
+         "textures": "textures/items/infused_earring"
+      },
+      "overflowing_core": {
+         "textures": "textures/items/overflowing_core"
+      },
+      "arcane_hood": {
+         "textures": "textures/items/arcane_hood"
+      },
+
+      "piercing_earring": {
+         "textures": "textures/items/piercing_earring"
+      },
+      "extravagant_quiver": {
+         "textures": "textures/items/extravagant_quiver"
+      },
+      "robin_hat": {
+         "textures": "textures/items/robin_hat"
+      },
+      "repeating_ring": {
+         "textures": "textures/items/repeating_ring"
+      },
+      "apollo_bracer": {
+         "textures": "textures/items/apollo_bracer"
+      },
+
+      "conscious_star": {
+         "textures": "textures/items/conscious_star"
+      },
+      "cherry_sword": {
+         "textures": "textures/items/cherry_sword"
+      },
+      "crown_of_calamity": {
+         "textures": "textures/items/crown_of_calamity"
+      },
+      "hellish_core": {
+         "textures": "textures/items/hellish_core"
+      },
+      
+      "ornate_helmet": {
+         "textures": "textures/items/ornate_helmet"
+      },
+      "ornate_earring": {
+         "textures": "textures/items/ornate_earring"
+      },
+      "ornate_guantlet": {
+         "textures": "textures/items/ornate_gauntlet"
+      },
+      "ornate_curio": {
+         "textures": "textures/items/ornate_curio"
+      },
+      "ornate_band": {
+         "textures": "textures/items/ornate_band"
+      },
+      "ornate_pendant": {
+         "textures": "textures/items/ornate_pendant"
+      },
+      "ornate_core": {
+         "textures": "textures/items/ornate_core"
+      },
+      "ornate_ring": {
+         "textures": "textures/items/ornate_ring"
+      },
+      "ornate_belt": {
+         "textures": "textures/items/ornate_belt"
+      },
+
+      "netherite_apollo_chestplate": {
+         "textures": "textures/items/netherite_apollo_chestplate"
+      },
+      "netherite_apollo_leggings": {
+         "textures": "textures/items/netherite_apollo_leggings"
+      },
+      "netherite_apollo_boots": {
+         "textures": "textures/items/netherite_apollo_boots"
+      },
+
+      "laniraxia_doll": {
+         "textures": "textures/items/laniraxia_doll"
+      },
+      "melunch_doll": {
+         "textures": "textures/items/melunch_doll"
+      },
+      "arena_tool_belt": {
+         "textures": "textures/items/arena_tool_belt"
+      },
+      "apollo_chestplate": {
+         "textures": "textures/items/apollo_chestplate"
+      },
+      "apollo_leggings": {
+         "textures": "textures/items/apollo_leggings"
+      },
+      "apollo_boots": {
+         "textures": "textures/items/apollo_boots"
+      },
+      "cap_zweihander": {
+         "textures": "textures/items/cap_zweihander"
+      },
+      "cap_zweihander_hat": {
+         "textures": "textures/items/cap_zweihander_hat"
+      },
+      "mind_electric": {
+         "textures": "textures/items/mind_electric"
+      },
+      "summoner_wand": {
+         "textures": "textures/items/summoner_wand"
+      },
+      "spell_light_bolt": {
+         "textures": "textures/items/spell_light_bolt"
+      },
+      "spell_lightning_bolt": {
+         "textures": "textures/items/spell_lightning_bolt"
+      },
+      "spell_supersonic": {
+         "textures": "textures/items/spell_supersonic"
+      },
+      "fallen_arrows_earring": {
+         "textures": "textures/items/fallen_arrows_earring"
+      },
+      "fallen_bleeding_earring": {
+         "textures": "textures/items/fallen_bleeding_earring"
+      },
+      "fallen_explosive_earring": {
+         "textures": "textures/items/fallen_explosive_earring"
+      },
+      "fallen_insomnia_earring": {
+         "textures": "textures/items/fallen_insomnia_earring"
+      },
+      "fallen_penetration_earring": {
+         "textures": "textures/items/fallen_penetration_earring"
+      },
+      "fallen_spikes_earring": {
+         "textures": "textures/items/fallen_spikes_earring"
+      },
+      "fallen_vampiric_earring": {
+         "textures": "textures/items/fallen_vampiric_earring"
+      },
+      "fallen_hemlock_necklace": {
+         "textures": "textures/items/fallen_hemlock_necklace"
+      },
+      "fallen_fire_necklace": {
+         "textures": "textures/items/fallen_fire_necklace"
+      },
+      "fallen_end_necklace": {
+         "textures": "textures/items/fallen_end_necklace"
+      },
+      "fallen_light_necklace": {
+         "textures": "textures/items/fallen_light_necklace"
+      },
+      "fallen_snow_necklace": {
+         "textures": "textures/items/fallen_snow_necklace"
+      },
+      "fallen_poison_necklace": {
+         "textures": "textures/items/fallen_poison_necklace"
+      },
+      "template_fallen": {
+         "textures": "textures/items/template_fallen"
+      },
+      "cursed_shield": {
+         "textures": "textures/items/cursed_shield"
+      },
+      "cursed_sword": {
+         "textures": "textures/items/cursed_sword"
+      },
+      "fallen_angel_mask": {
+         "textures": "textures/items/fallen_angel_mask"
+      },
+      "fallen_feather": {
+         "textures": "textures/items/fallen_feather"
+      },
+      "fallen_guantlet": {
+         "textures": "textures/items/fallen_guantlet"
+      },
+      "fallen_hand": {
+         "textures": "textures/items/fallen_hand"
+      },
+      "fallen_wings": {
+         "textures": "textures/items/fallen_wings"
+      },
+      "nighthood": {
+         "textures": "textures/items/nighthood"
+      },
+      "end_of_the_time": {
+         "textures": "textures/items/end_of_the_time"
+      },
+      "raw_black_marble": {
+         "textures": "textures/items/raw_black_marble"
+      },
+      "fallen_marble": {
+         "textures": "textures/items/fallen_marble"
+      },
+      "black_marble_dust": {
+         "textures": "textures/items/black_marble_dust"
+      },
+      "hemlock_guantlet": {
+         "textures": "textures/items/hemlock_guantlet"
+      },
+      "hemlock_staff": {
+         "textures": "textures/items/hemlock_staff"
+      },
+      "spell_duration_engine": {
+         "textures": "textures/items/spell_duration_engine"
+      },
+      "spell_strength_engine": {
+         "textures": "textures/items/spell_strength_engine"
+      },
+      "rotten_brain": {
+         "textures": "textures/items/rotten_brain"
+      },
+      "spell_engine": {
+         "textures": "textures/items/spell_engine"
+      },
+      "spell_evocation": {
+         "textures": "textures/items/spell_evocation"
+      },
+      "spell_area_lifesteal": {
+         "textures": "textures/items/spell_area_lifesteal"
+      },
+      "spell_dead_teleport": {
+         "textures": "textures/items/spell_dead_teleport"
+      },
+      "spell_teleport": {
+         "textures": "textures/items/spell_teleport"
+      },
+      "deer_crown": {
+         "textures": "textures/items/deer_crown"
+      },
+      "archaic_hemlock_wings": {
+         "textures": "textures/items/archaic_hemlock_wings"
+      },
+      "hemlock_stone": {
+         "textures": "textures/items/hemlock_stone"
+      },
+      "gem6": {
+         "textures": "textures/items/gem6"
+      },
+      "iron_hemlock_necklace": {
+         "textures": "textures/items/iron_hemlock_necklace"
+      },
+      "golden_hemlock_necklace": {
+         "textures": "textures/items/golden_hemlock_necklace"
+      },
+      "prismarine_hemlock_necklace": {
+         "textures": "textures/items/prismarine_hemlock_necklace"
+      },
+      "netherite_hemlock_necklace": {
+         "textures": "textures/items/netherite_hemlock_necklace"
+      },
+      "iron_insomnia_earring": {
+         "textures": "textures/items/iron_insomnia_earring"
+      },
+      "golden_insomnia_earring": {
+         "textures": "textures/items/golden_insomnia_earring"
+      },
+      "prismarine_insomnia_earring": {
+         "textures": "textures/items/prismarine_insomnia_earring"
+      },
+      "netherite_insomnia_earring": {
+         "textures": "textures/items/netherite_insomnia_earring"
+      },
+      "defense_copper_wither_ring": {
+         "textures": "textures/items/defense_copper_wither_ring"
+      },
+      "defense_iron_wither_ring": {
+         "textures": "textures/items/defense_iron_wither_ring"
+      },
+      "defense_golden_wither_ring": {
+         "textures": "textures/items/defense_golden_wither_ring"
+      },
+      "defense_prismarine_wither_ring": {
+         "textures": "textures/items/defense_prismarine_wither_ring"
+      },
+      "defense_marble_wither_ring": {
+         "textures": "textures/items/defense_marble_wither_ring"
+      },
+
+      "hemlock_tier1_helmet": {
+         "textures": "textures/items/hemlock_tier1_helmet"
+      },
+      "hemlock_tier1_chestplate": {
+         "textures": "textures/items/hemlock_tier1_chestplate"
+      },
+      "hemlock_tier1_leggings": {
+         "textures": "textures/items/hemlock_tier1_leggings"
+      },
+      "hemlock_tier1_boots": {
+         "textures": "textures/items/hemlock_tier1_boots"
+      },
+      "hemlock_tier2_helmet": {
+         "textures": "textures/items/hemlock_tier2_helmet"
+      },
+      "hemlock_tier2_chestplate": {
+         "textures": "textures/items/hemlock_tier2_chestplate"
+      },
+      "hemlock_tier2_leggings": {
+         "textures": "textures/items/hemlock_tier2_leggings"
+      },
+      "hemlock_tier2_boots": {
+         "textures": "textures/items/hemlock_tier2_boots"
+      },
+      "hemlock_tier3_helmet": {
+         "textures": "textures/items/hemlock_tier3_helmet"
+      },
+      "hemlock_tier3_chestplate": {
+         "textures": "textures/items/hemlock_tier3_chestplate"
+      },
+      "hemlock_tier3_leggings": {
+         "textures": "textures/items/hemlock_tier3_leggings"
+      },
+      "hemlock_tier3_boots": {
+         "textures": "textures/items/hemlock_tier3_boots"
+      },
+      "hemlock_tier4_helmet": {
+         "textures": "textures/items/hemlock_tier4_helmet"
+      },
+      "hemlock_tier4_chestplate": {
+         "textures": "textures/items/hemlock_tier4_chestplate"
+      },
+      "hemlock_tier4_leggings": {
+         "textures": "textures/items/hemlock_tier4_leggings"
+      },
+      "hemlock_tier4_boots": {
+         "textures": "textures/items/hemlock_tier4_boots"
+      },
+      "fallen_marble_helmet": {
+         "textures": "textures/items/fallen_marble_helmet"
+      },
+      "fallen_marble_chestplate": {
+         "textures": "textures/items/fallen_marble_chestplate"
+      },
+      "fallen_marble_leggings": {
+         "textures": "textures/items/fallen_marble_leggings"
+      },
+      "fallen_marble_boots": {
+         "textures": "textures/items/fallen_marble_boots"
+      },
+      "lotte_axolotle_doll": {
+         "textures": "textures/items/lotte_axolotle_doll"
+      },
+      "lotte_axolotle_hat": {
+         "textures": "textures/items/lotte_axolotle_hat"
+      },
+      "drak_doll": {
+         "textures": "textures/items/drak_doll"
+      },
+      "drak_hat": {
+         "textures": "textures/items/drak_hat"
+      },
+      "obsidian_knight_helmet": {
+         "textures": "textures/items/obsidian_knight_helmet"
+      },
+      "blazing_ring": {
+         "textures": "textures/items/blazing_ring"
+      },
+      "obsidian_pendant": {
+         "textures": "textures/items/obsidian_pendant"
+      },
+      "obsidian_board": {
+         "textures": "textures/items/obsidian_board"
+      },
+      "blazing_earring": {
+         "textures": "textures/items/blazing_earring"
+      },
+      "iron_guantlet": {
+         "textures": "textures/items/iron_guantlet"
+      },
+      "iron_golem_heart": {
+         "textures": "textures/items/iron_golem_heart"
+      },
+      "sync_golem_heart": {
+         "textures": "textures/items/sync_golem_heart"
+      },
+      "bamboo_bo": {
+         "textures": "textures/items/weapons/bamboo_bo"
+      },
+      "deformed_mask": {
+         "textures": "textures/items/deformed_mask"
+      },
+      "evoker_mask": {
+         "textures": "textures/items/evoker_mask"
+      },
+      "runic_zweihander": {
+         "textures": "textures/items/weapons/runic_zweihander"
+      },
+      "divine_orb": {
+         "textures": "textures/items/divine_orb"
+      },
+      "haunted_ring": {
+         "textures": "textures/items/haunted_ring"
+      },
+      "hauled_ring": {
+         "textures": "textures/items/hauled_ring"
+      },
+      "bewitched_pendant": {
+         "textures": "textures/items/bewitched_pendant"
+      },
+      "witch_mask": {
+         "textures": "textures/items/witch_mask"
+      },
+      "witches_emblem": {
+         "textures": "textures/items/witches_emblem"
+      },
+      "blood_scythe_weapon": {
+         "textures": "textures/items/blood_scythe_weapon"
+      },
+      "witch_hat": {
+         "textures": "textures/items/witch_hat"
+      },
+      "witch_staff": {
+         "textures": "textures/items/witch_staff"
+      },
+      "cursed_axe": {
+         "textures": "textures/items/cursed_axe"
+      },
+      "nights_devouring_mask": {
+         "textures": "textures/items/nights_devouring_mask"
+      },
+      "nocturnal_hood": {
+         "textures": "textures/items/nocturnal_hood"
+      },
+      "sweet_dreams_pendant": {
+         "textures": "textures/items/sweet_dreams_pendant"
+      },
+      "dream_tatters_of_the_king": {
+         "textures": "textures/items/dream_tatters_of_the_king"
+      },
+      "tears_unshed": {
+         "textures": "textures/items/tears_unshed"
+      },
+      "catalyst_scarf": {
+         "textures": "textures/items/catalyst_scarf"
+      },
+      "shrink_impressions_bracelet": {
+         "textures": "textures/items/shrink_impressions_bracelet"
+      },
+      "sync_sculk_talisman": {
+         "textures": "textures/items/sync_sculk_talisman"
+      },
+      "sculk_belt": {
+         "textures": "textures/items/sculk_belt"
+      },
+      "deep_knight_helmet": {
+         "textures": "textures/items/deep_knight_helmet"
+      },
+      "tool_belt": {
+         "textures": "textures/items/tool_belt"
+      },
+      "angelic_mask": {
+         "textures": "textures/items/angelic_mask"
+      },
+      "sighthood": {
+         "textures": "textures/items/sighthood"
+      },
+      "feared_end_hat": {
+         "textures": "textures/items/feared_end_hat"
+      },
+      "apollo_replies_belt": {
+         "textures": "textures/items/apollo_replies_belt"
+      },
+      "thine_eyes_pendant": {
+         "textures": "textures/items/thine_eyes_pendant"
+      },
+      "complexion_afinity_bracelet": {
+         "textures": "textures/items/complexion_afinity_bracelet"
+      },
+      "harmony_talisman": {
+         "textures": "textures/items/harmony_talisman"
+      },
+      "depart_paladins_fate": {
+         "textures": "textures/items/depart_paladins_fate"
+      },
+      "pandoras_bracelet": {
+         "textures": "textures/items/pandoras_bracelet"
+      },
+      "vexed_souls_lantern": {
+         "textures": "textures/items/vexed_souls_lantern"
+      },
+      "necromancer_mask": {
+         "textures": "textures/items/necromancer_mask"
+      },
+      "cursed_pendant": {
+         "textures": "textures/items/cursed_pendant"
+      },
+      "axe_heater": {
+         "textures": "textures/items/axe_heater"
+      },
+      "shovel_heater": {
+         "textures": "textures/items/shovel_heater"
+      },
+      "mobs_soul_spawner": {
+         "textures": "textures/items/mobs_soul_spawner"
+      },
+      "soul_taker": {
+         "textures": "textures/items/soul_taker"
+      },
+      "spawner_breaker": {
+         "textures": "textures/items/spawner_breaker"
+      },
+      "spawner_fragment": {
+         "textures": "textures/items/spawner_fragment"
+      },
+      "agustin_doll": {
+         "textures": "textures/items/agustin_doll"
+      },
+      "alylicia_doll": {
+         "textures": "textures/items/alylicia_doll"
+      },
+      "agustin_hat": {
+         "textures": "textures/items/agustin_hat"
+      },
+      "alylicia_hat": {
+         "textures": "textures/items/alylicia_hat"
+      },
+      "alaniz_hat": {
+         "textures": "textures/items/alaniz_hat"
+      },
+      "angeloso_hat": {
+         "textures": "textures/items/angeloso_hat"
+      },
+      "extreme_hat": {
+         "textures": "textures/items/extreme_hat"
+      },
+      "system_hat": {
+         "textures": "textures/items/system_hat"
+      },
+      "vulkan_hat": {
+         "textures": "textures/items/vulkan_hat"
+      },
+      "gold_hat": {
+         "textures": "textures/items/gold_hat"
+      },
+      "ice_hat": {
+         "textures": "textures/items/ice_hat"
+      },
+      "iluminated_hat": {
+         "textures": "textures/items/iluminated_hat"
+      },
+      "blaze_hat": {
+         "textures": "textures/items/blaze_hat"
+      },
+      "jesus_hat": {
+         "textures": "textures/items/jesus_hat"
+      },
+      "masked_hat": {
+         "textures": "textures/items/masked_hat"
+      },
+      "kaiden_hat": {
+         "textures": "textures/items/kaiden_hat"
+      },
+      "alpha_hat": {
+         "textures": "textures/items/alpha_hat"
+      },
+      "milo_hat": {
+         "textures": "textures/items/milo_hat"
+      },
+      "shulked_hat": {
+         "textures": "textures/items/shulked_hat"
+      },
+      "armored_hat": {
+         "textures": "textures/items/armored_hat"
+      },
+      "bee_hat": {
+         "textures": "textures/items/bee_hat"
+      },
+      "straw_hat": {
+         "textures": "textures/items/straw_hat"
+      },
+      "biggamer_hat": {
+         "textures": "textures/items/biggamer_hat"
+      },
+      "trinket_tome_i": {
+         "textures": "textures/items/trinket_tome_i"
+      },
+      "trinket_tome_ii": {
+         "textures": "textures/items/trinket_tome_ii"
+      },
+      "trinket_tome_iii": {
+         "textures": "textures/items/trinket_tome_iii"
+      },
+      "trinket_tome_iv": {
+         "textures": "textures/items/trinket_tome_iv"
+      },
+      "marble_helmet": {
+         "textures": "textures/items/armors/marble/marble_helmet"
+      },
+      "marble_chestplate": {
+         "textures": "textures/items/armors/marble/marble_chestplate"
+      },
+      "marble_leggings": {
+         "textures": "textures/items/armors/marble/marble_leggings"
+      },
+     "marble_boots": {
+         "textures": "textures/items/armors/marble/marble_boots"
+      },
+      "marble_helmet2": {
+         "textures": "textures/items/marble_helmet2"
+      },
+      "marble_chestplate2": {
+         "textures": "textures/items/marble_chestplate2"
+      },
+      "marble_leggings2": {
+         "textures": "textures/items/marble_leggings2"
+      },
+      "marble_boots2": {
+         "textures": "textures/items/marble_boots2"
+      },
+      "marble_helmet3": {
+         "textures": "textures/items/marble_helmet3"
+      },
+      "marble_chestplate3": {
+         "textures": "textures/items/marble_chestplate3"
+      },
+      "marble_leggings3": {
+         "textures": "textures/items/marble_leggings3"
+      },
+      "marble_boots3": {
+         "textures": "textures/items/marble_boots3"
+      },
+      "marble_spear": {
+         "textures": "textures/items/weapons/marble/marble_spear"
+      },
+      "marble_sword": {
+         "textures": "textures/items/weapons/marble/marble_sword"
+      },
+      "marble_axe": {
+         "textures": "textures/items/weapons/marble/marble_axe"
+      },
+      "paladin_doll": {
+         "textures": "textures/items/paladin_doll"
+      },
+      "systemtv_doll": {
+         "textures": "textures/items/systemtv_doll"
+      },
+      "biggamer_doll": {
+         "textures": "textures/items/biggamer_doll"
+      },
+      "iron_vampiric_earring": {
+         "textures": "textures/items/iron_vampiric_earring"
+      },
+      "iron_spikes_earring": {
+         "textures": "textures/items/iron_spikes_earring"
+      },
+      "iron_explosive_earring": {
+         "textures": "textures/items/iron_explosive_earring"
+      },
+      "iron_penetration_earring": {
+         "textures": "textures/items/iron_penetration_earring"
+      },
+      "iron_bleeding_earring": {
+         "textures": "textures/items/iron_bleeding_earring"
+      },
+      "iron_arrows_earring": {
+         "textures": "textures/items/iron_arrows_earring"
+      },
+      "golden_vampiric_earring": {
+         "textures": "textures/items/golden_vampiric_earring"
+      },
+      "golden_spikes_earring": {
+         "textures": "textures/items/golden_spikes_earring"
+      },
+      "golden_explosive_earring": {
+         "textures": "textures/items/golden_explosive_earring"
+      },
+      "golden_penetration_earring": {
+         "textures": "textures/items/golden_penetration_earring"
+      },
+      "golden_bleeding_earring": {
+         "textures": "textures/items/golden_bleeding_earring"
+      },
+      "golden_arrows_earring": {
+         "textures": "textures/items/golden_arrows_earring"
+      },
+      "prismarine_vampiric_earring": {
+         "textures": "textures/items/prismarine_vampiric_earring"
+      },
+      "prismarine_spikes_earring": {
+         "textures": "textures/items/prismarine_spikes_earring"
+      },
+      "prismarine_explosive_earring": {
+         "textures": "textures/items/prismarine_explosive_earring"
+      },
+      "prismarine_penetration_earring": {
+         "textures": "textures/items/prismarine_penetration_earring"
+      },
+      "prismarine_bleeding_earring": {
+         "textures": "textures/items/prismarine_bleeding_earring"
+      },
+      "prismarine_arrows_earring": {
+         "textures": "textures/items/prismarine_arrows_earring"
+      },
+      "netherite_vampiric_earring": {
+         "textures": "textures/items/netherite_vampiric_earring"
+      },
+      "netherite_spikes_earring": {
+         "textures": "textures/items/netherite_spikes_earring"
+      },
+      "netherite_explosive_earring": {
+         "textures": "textures/items/netherite_explosive_earring"
+      },
+      "netherite_penetration_earring": {
+         "textures": "textures/items/netherite_penetration_earring"
+      },
+      "netherite_bleeding_earring": {
+         "textures": "textures/items/netherite_bleeding_earring"
+      },
+      "netherite_arrows_earring": {
+         "textures": "textures/items/netherite_arrows_earring"
+      },
+      "diamond_necklace": {
+         "textures": "textures/items/diamond_necklace"
+      },
+      "blossom_crown": {
+         "textures": "textures/items/blossom_crown"
+      },
+      "angelical_heart": {
+         "textures": "textures/items/angelical_heart"
+      },
+      "artemisa_deer_antler": {
+         "textures": "textures/items/artemisa_deer_antler"
+      },
+      "deer_skull": {
+         "textures": "textures/items/deer_skull"
+      },
+      "midas_finger": {
+         "textures": "textures/items/midas_finger"
+      },
+      "archaic_sacret_heart": {
+         "textures": "textures/items/archaic_sacret_heart"
+      },
+      "archaic_warden_claws": {
+         "textures": "textures/items/archaic_warden_claws"
+      },
+      "netherite_rune_charm": {
+         "textures": "textures/items/netherite_rune_charm"
+      },
+      "piece_of_time": {
+         "textures": "textures/items/piece_of_time"
+      },
+      "artemisa_arrowhead": {
+         "textures": "textures/items/artemisa_arrowhead"
+      },
+      "cherry_blossom": {
+         "textures": "textures/items/cherry_blossom"
+      },
+      "sacret_sword": {
+         "textures": "textures/items/sacret_sword"
+      },
+      "blood_scythe": {
+         "textures": "textures/items/blood_scythe"
+      },
+      "apolo_quiver": {
+         "textures": "textures/items/apolo_quiver"
+      },
+      "effect_essence": {
+         "textures": "textures/items/effect_essence"
+      },
+      "gem": {
+         "textures": "textures/items/gem"
+      },
+      "extreme_had": {
+         "textures": "textures/items/extreme_had"
+      },
+     "extreme_chestplate": {
+         "textures": "textures/items/extreme_chestplate"
+      },
+      "doll_had": {
+         "textures": "textures/items/doll_had"
+      },
+     "arena_chestplate": {
+         "textures": "textures/items/arena_chestplate"
+      },
+     "template_archaic": {
+         "textures": "textures/items/template_archaic"
+      },
+     "twm_scroll": {
+         "textures": "textures/items/twm_scroll"
+      },
+     "rc_scroll": {
+         "textures": "textures/items/rc_scroll"
+      },
+      "chisel": {
+         "textures": "textures/items/chisel"
+      },
+      "marble_dust": {
+         "textures": "textures/items/marble_dust"
+      },
+      "dsacle": {
+         "textures": "textures/items/dsacle"
+      },
+      "wheart": {
+         "textures": "textures/items/wheart"
+      },
+      "wfire": {
+        "textures": "textures/items/wfire"
+      },
+      "raw_marble": {
+         "textures": "textures/items/raw_marble"
+      },
+      "cristal": {
+         "textures": "textures/items/cristal"
+      },
+      "h1": {
+         "textures": "textures/items/h1"
+      },
+      "h2": {
+         "textures": "textures/items/h2"
+      },
+      "ha1": {
+         "textures": "textures/items/ha1"
+      },
+      "ha2": {
+         "textures": "textures/items/ha2"
+      },
+      "ha3": {
+         "textures": "textures/items/ha3"
+      },
+      "ha4": {
+         "textures": "textures/items/ha4"
+      },
+      "ha5": {
+         "textures": "textures/items/ha5"
+      },
+      "ha6": {
+         "textures": "textures/items/ha6"
+      },
+      "ha7": {
+         "textures": "textures/items/ha7"
+      },
+      "ha8": {
+         "textures": "textures/items/ha8"
+      },
+      "ha9": {
+         "textures": "textures/items/ha9"
+      },
+      "ha10": {
+         "textures": "textures/items/ha10"
+      },
+      "ha11": {
+         "textures": "textures/items/ha11"
+      },
+      "ha12": {
+         "textures": "textures/items/ha12"
+      },
+      "ha13": {
+         "textures": "textures/items/ha13"
+      },
+      "ha14": {
+         "textures": "textures/items/ha14"
+      },
+      "ha15": {
+         "textures": "textures/items/ha15"
+      },
+      "ha16": {
+         "textures": "textures/items/ha16"
+      },
+      "ha17": {
+         "textures": "textures/items/ha17"
+      },
+      "hb1": {
+         "textures": "textures/items/hb1"
+      },
+      "hb2": {
+         "textures": "textures/items/hb2"
+      },
+      "hb3": {
+         "textures": "textures/items/hb3"
+      },
+      "hb4": {
+         "textures": "textures/items/hb4"
+      },
+      "hb5": {
+         "textures": "textures/items/hb5"
+      },
+      "hb6": {
+         "textures": "textures/items/hb6"
+      },
+      "hb7": {
+         "textures": "textures/items/hb7"
+      },
+      "hb8": {
+         "textures": "textures/items/hb8"
+      },
+      "hb9": {
+         "textures": "textures/items/hb9"
+      },
+      "hb10": {
+         "textures": "textures/items/hb10"
+      },
+      "n1": {
+         "textures": "textures/items/n1"
+      },
+      "n2": {
+         "textures": "textures/items/n2"
+      },
+      "n3": {
+         "textures": "textures/items/n3"
+      },
+      "n4": {
+         "textures": "textures/items/n4"
+      },
+      "n5": {
+         "textures": "textures/items/n5"
+      },
+      "n6": {
+         "textures": "textures/items/n6"
+      },
+      "n7": {
+         "textures": "textures/items/n7"
+      },
+      "n8": {
+         "textures": "textures/items/n8"
+      },
+      "n9": {
+         "textures": "textures/items/n9"
+      },
+      "n10": {
+         "textures": "textures/items/n10"
+      },
+      "n11": {
+         "textures": "textures/items/n11"
+      },
+      "n12": {
+         "textures": "textures/items/n12"
+      },
+      "n13": {
+         "textures": "textures/items/n13"
+      },
+      "n14": {
+         "textures": "textures/items/n14"
+      },
+      "n15": {
+         "textures": "textures/items/n15"
+      },
+      "n16": {
+         "textures": "textures/items/n16"
+      },
+      "map": {
+         "textures": "textures/items/map"
+      },
+      "m1": {
+         "textures": "textures/items/m1"
+      },
+      "m2": {
+         "textures": "textures/items/m2"
+      },
+      "m3": {
+         "textures": "textures/items/m3"
+      },
+      "m4": {
+         "textures": "textures/items/m4"
+      },
+      "m5": {
+         "textures": "textures/items/m5"
+      },
+      "m6": {
+         "textures": "textures/items/m6"
+      },
+      "m7": {
+         "textures": "textures/items/m7"
+      },
+      "m8": {
+         "textures": "textures/items/m8"
+      },
+       "m9": {
+         "textures": "textures/items/m9"
+      },
+      "m10": {
+         "textures": "textures/items/m10"
+      },
+      "m11": {
+         "textures": "textures/items/m11"
+      },
+        "doll": {
+         "textures": "textures/items/doll"
+      },
+      "d1": {
+         "textures": "textures/items/d1"
+      },
+      "d2": {
+         "textures": "textures/items/d2"
+      },
+      "d3": {
+         "textures": "textures/items/d3"
+      },
+      "d4": {
+         "textures": "textures/items/d4"
+      },
+      "d5": {
+         "textures": "textures/items/d5"
+      },
+      "d6": {
+         "textures": "textures/items/d6"
+      },
+      "d7": {
+         "textures": "textures/items/d7"
+      },
+      "d8": {
+         "textures": "textures/items/d8"
+      },
+      "d9": {
+        "textures": "textures/items/d9"
+            },
+      "d10": {
+         "textures": "textures/items/d10"
+      },
+      "d11": {
+         "textures": "textures/items/d11"
+      },
+      "d12": {
+         "textures": "textures/items/d12"
+      },
+      "d13": {
+         "textures": "textures/items/d13"
+      },
+      "d14": {
+         "textures": "textures/items/d14"
+      },
+      "d15": {
+         "textures": "textures/items/d15"
+      },
+      "d16": {
+         "textures": "textures/items/d16"
+      },
+      "j1": {
+         "textures": "textures/items/j1"
+      },
+      "j2": {
+         "textures": "textures/items/j2"
+      },
+      "j3": {
+         "textures": "textures/items/j3"
+      },
+      "j4": {
+         "textures": "textures/items/j4"
+      },
+      "j5": {
+         "textures": "textures/items/j5"
+      },
+      "j6": {
+         "textures": "textures/items/j6"
+      },
+      "j7": {
+         "textures": "textures/items/j7"
+      },
+      "j8": {
+         "textures": "textures/items/j8"
+      },
+      "j9": {
+         "textures": "textures/items/j9"
+      },
+      "j10": {
+         "textures": "textures/items/j10"
+      },
+      "j11": {
+         "textures": "textures/items/j11"
+      },
+      "j12": {
+         "textures": "textures/items/j12"
+      },
+      "j13": {
+         "textures": "textures/items/j13"
+      },
+      "j14": {
+         "textures": "textures/items/j14"
+      },
+      "j15": {
+         "textures": "textures/items/j15"
+      },
+      "j16": {
+         "textures": "textures/items/j16"
+      },
+      "j17": {
+         "textures": "textures/items/j17"
+      },
+      "j18": {
+         "textures": "textures/items/j18"
+      },
+      "j19": {
+         "textures": "textures/items/j19"
+      },
+      "j20": {
+         "textures": "textures/items/j20"
+      },
+      "j21": {
+         "textures": "textures/items/j21"
+      },
+      "j22": {
+         "textures": "textures/items/j22"
+      },
+      "j23": {
+         "textures": "textures/items/j23"
+      },
+      "j24": {
+         "textures": "textures/items/j24"
+      },
+      "j25": {
+         "textures": "textures/items/j25"
+      },
+      "j26": {
+         "textures": "textures/items/j26"
+      },
+      "j27": {
+         "textures": "textures/items/j27"
+      },
+      "j28": {
+         "textures": "textures/items/j28"
+      },
+      "j29": {
+         "textures": "textures/items/j29"
+      },
+      "j30": {
+         "textures": "textures/items/j30"
+      },
+      "j31": {
+         "textures": "textures/items/j31"
+      },
+      "j32": {
+         "textures": "textures/items/j32"
+      },
+      "j33": {
+         "textures": "textures/items/j33"
+      },
+      "j34": {
+         "textures": "textures/items/j34"
+      },
+      "j35": {
+         "textures": "textures/items/j35"
+      },
+     "ring": {
+         "textures": "textures/items/ring"
+      },
+      "witherring": {
+         "textures": "textures/items/witherring"
+      },
+         "template_n": {
+         "textures": "textures/items/template_n"
+      },
+       "template_p": {
+         "textures": "textures/items/template_p"
+      },
+       "template_g": {
+         "textures": "textures/items/template_g"
+      },
+       "template_i": {
+         "textures": "textures/items/template_i"
+      },
+      "r1": {
+         "textures": "textures/items/r1"
+      },
+      "r2": {
+         "textures": "textures/items/r2"
+      },
+      "r3": {
+         "textures": "textures/items/r3"
+      },
+      "r4": {
+         "textures": "textures/items/r4"
+      },
+      "r5": {
+         "textures": "textures/items/r5"
+      },
+      "r6": {
+         "textures": "textures/items/r6"
+      },
+      "r7": {
+         "textures": "textures/items/r7"
+      },
+      "r8": {
+         "textures": "textures/items/r8"
+      },
+      "r9": {
+         "textures": "textures/items/r9"
+      },
+      "r10": {
+         "textures": "textures/items/r10"
+      },
+      "r11": {
+         "textures": "textures/items/r11"
+      },
+      "r12": {
+         "textures": "textures/items/r12"
+      },
+      "r13": {
+         "textures": "textures/items/r13"
+      },
+      "r14": {
+         "textures": "textures/items/r14"
+      },
+      "r15": {
+         "textures": "textures/items/r15"
+      },
+      "r16": {
+         "textures": "textures/items/r16"
+      },
+      "r17": {
+         "textures": "textures/items/r17"
+      },
+      "r18": {
+         "textures": "textures/items/r18"
+      },
+      "r19": {
+         "textures": "textures/items/r19"
+      },
+      "r20": {
+         "textures": "textures/items/r20"
+      },
+      "r21": {
+         "textures": "textures/items/r21"
+      },
+      "r22": {
+         "textures": "textures/items/r22"
+      },
+      "r23": {
+         "textures": "textures/items/r23"
+      },
+      "r24": {
+         "textures": "textures/items/r24"
+      },
+      "r25": {
+         "textures": "textures/items/r25"
+      },
+      "gembase": {
+         "textures": "textures/items/gembase"
+      },
+      "gem1": {
+         "textures": "textures/items/gem1"
+      },
+      "gem2": {
+         "textures": "textures/items/gem2"
+      },
+      "gem3": {
+         "textures": "textures/items/gem3"
+      },
+      "gem4": {
+         "textures": "textures/items/gem4"
+      },
+      "gem5": {
+         "textures": "textures/items/gem5"
+      },
+      "marble": {
+         "textures": "textures/items/marble"
+      },
+      "mask_base": {
+         "textures": "textures/items/mask_base"
+      },
+      "poisonous_shard": {
+         "textures": "textures/items/poisonous_shard"
+      },
+      "electric_shard": {
+         "textures": "textures/items/electric_shard"
+      },
+      "cold_shard": {
+         "textures": "textures/items/cold_shard"
+      },
+      "flammable_shard": {
+         "textures": "textures/items/flammable_shard"
+      },
+      "levitation_shard": {
+         "textures": "textures/items/levitation_shard"
+      }
+   }
+}

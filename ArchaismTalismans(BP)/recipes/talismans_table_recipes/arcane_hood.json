@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:arcane_hood"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ECE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "arena:tears_unshed"
+			},
+			"C": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"D": {
+				"item": "arena:evoker_mask"
+			},
+			"E": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:arcane_hood"
+		},
+		"unlock": [
+			{
+				"item": "arena:evoker_mask"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:spell_lightning_bolt"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:copper_ingot"
+			},
+			"B": {
+				"item": "minecraft:lightning_rod"
+			},
+			"C": {
+				"item": "arena:electric_shard"
+			},
+			"D": {
+				"item": "minecraft:book"
+			}
+		},
+		"result": {
+			"item": "arena:spell_lightning_bolt"
+		},
+		"unlock": [
+			{
+				"item": "arena:sacret_pendant"
+			}
+		]
+	}
+}

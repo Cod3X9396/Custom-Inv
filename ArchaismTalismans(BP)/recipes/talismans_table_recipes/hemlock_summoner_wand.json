@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hemlock_summoner_wand"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:marble_summoner_wand"
+			}
+		},
+		"result": {
+			"item": "arena:hemlock_summoner_wand"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_summoner_wand",
+				"item": "arena:hemlock_stone"
+			}
+		]
+	}
+}

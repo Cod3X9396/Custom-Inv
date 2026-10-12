@@ -1,0 +1,48 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cat_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"FGF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:salmon"
+			},
+			"B": {
+				"item": "arena:shadow_of_nobody"
+			},
+			"C": {
+				"item": "arena:marble_rune"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:marble_feather"
+			},			
+			"F": {
+				"item": "arena:cat_eye"
+			},			
+			"G": {
+				"item": "minecraft:string"
+			}
+		},
+		"result": {
+			"item": "arena:cat_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:cat_eye"
+			}
+		]
+	}
+}

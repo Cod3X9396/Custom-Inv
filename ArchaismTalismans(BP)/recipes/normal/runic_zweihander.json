@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:runic_zweihander"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"  A",
+			"BA ",
+			"CB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:crying_obsidian"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			},
+			"C": {
+				"item": "arena:fallen_marble"
+			}
+		},
+		"result": {
+			"item": "arena:runic_zweihander"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

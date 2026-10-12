@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:artemis_helmet"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:restored_marble_helmet"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:template_artemis"
+			}
+		},
+		"result": {
+			"item": "arena:artemis_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:restored_marble_helmet"
+			}
+		]
+	}
+}

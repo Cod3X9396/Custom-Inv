@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:lotte_axolotle_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:lotte_axolotle_doll"
+			}
+		},
+		"result": {
+			"item": "arena:lotte_axolotle_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:lotte_axolotle_doll"
+			}
+		]
+	}
+}

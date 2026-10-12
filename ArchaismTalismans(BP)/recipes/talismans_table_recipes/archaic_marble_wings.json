@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_marble_wings"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"CBA",
+			"DEA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_feather"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "arena:demon_heart"
+			},
+			"D": {
+				"item": "arena:infernal_heart"
+			},
+			"E": {
+				"item": "arena:angelical_heart"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_marble_wings"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}

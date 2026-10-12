@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "arena:alpha_hemlock_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 1,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 955,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:icon": "hemlock_tier4_helmet",
+      "minecraft:wearable": {
+        "protection": 5,
+        "slot": "slot.armor.head"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "arena:alpha_hemlock_helmet"
+            ],
+            "repair_amount": "query.max_durability * 1"
+          }
+        ]
+      },
+      "minecraft:fire_resistant": {
+          "value": true
+      }
+    }
+  }
+}

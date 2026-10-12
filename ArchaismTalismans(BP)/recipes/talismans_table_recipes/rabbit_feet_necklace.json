@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:rabbit_feet_pendant"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"A A",
+			" C "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"result": {
+			"item": "arena:rabbit_feet_pendant"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "minecraft:rabbit_foot"
+			}
+		]
+	}
+}

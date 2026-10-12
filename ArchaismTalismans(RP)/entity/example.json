@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10",
+	
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "arena:dummy_soul",
+			"materials": {
+				"base": "example.base",
+				"outline": "example.outline"
+			},
+			"textures": {
+				"default": "textures/entity/example"
+			},
+			"geometry": {
+				"default": "geometry.example"
+			},
+			"render_controllers": [
+				"controller.render.example.base",
+				"controller.render.example.outline"
+			],
+			
+			"scripts": {
+				"pre_animation": [
+					"query.mark_variant == 0 ? {t.red = 0.906; t.green = 0.184; t.blue = 0.102;};"
+				],
+				
+				"animate": ["spin"]
+			},
+			"animations": {
+				"spin": "animation.entity.rotate"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "chiseled_black_marble"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "arena:marble_ore_deepslate"
+      }
+    ],
+    "result": {
+      "item": "arena:chiseled_black_marble",
+      "count": 4
+    }
+  }
+  
+}

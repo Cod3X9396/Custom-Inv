@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:template_pure_marble"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"AEA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:gembase"
+			},
+			"C": {
+				"item": "minecraft:golden_apple"
+			},
+			"D": {
+				"item": "arena:archaic_upgrade_smithing_template"
+			},
+			"E": {
+				"item": "arena:dragon_scale"
+			}
+		},
+		"result": {
+			"item": "arena:template_pure_marble"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_upgrade_smithing_template"
+			}
+		]
+	}
+}

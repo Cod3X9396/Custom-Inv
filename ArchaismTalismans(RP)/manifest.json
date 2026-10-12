@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "dfe1e274-3422-4cbb-8815-15d08453d529",
+		"version": [ 1, 8, 1 ],
+		"min_engine_version": [
+			1,
+			20,
+			10
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "46be29d9-3d88-466b-8785-d29c68738657",
+			"version": [ 1, 8, 1 ]
+		}
+	],
+    "subpacks": [
+        {
+          "folder_name": "fallenmarble",
+          "name": "Fallen Marble UI",
+          "memory_tier": 0
+        },
+        {
+          "folder_name": "marble",
+          "name": "Marble UI",
+          "memory_tier": 1
+        },
+        {
+          "folder_name": "normal",
+          "name": "Normal UI",
+          "memory_tier": 2
+        }
+    ],
+	"metadata": {
+      "authors": ["Hamleth Arena"]
+  }
+}

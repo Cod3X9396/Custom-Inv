@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:venemous_zweihander"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:poisonous_shard"
+			},
+			"B": {
+				"item": "arena:runic_zweihander"
+			}
+		},
+		"result": {
+			"item": "arena:venemous_zweihander"
+		},
+		"unlock": [
+			{
+				"item": "arena:runic_zweihander"
+			}
+		]
+	}
+}

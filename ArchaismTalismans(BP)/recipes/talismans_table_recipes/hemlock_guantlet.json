@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hemlock_guantlet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:iron_guantlet"
+			}
+		},
+		"result": {
+			"item": "arena:hemlock_guantlet"
+		},
+		"unlock": [
+			{
+				"item": "arena:iron_guantlet"
+			}
+		]
+	}
+}

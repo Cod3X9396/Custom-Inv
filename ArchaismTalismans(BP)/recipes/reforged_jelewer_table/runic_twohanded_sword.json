@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:runic_twohanded_sword"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"CAC"
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:runic_zweihander"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:runic_twohanded_sword"
+		},
+		"unlock": [
+			{
+				"item": "arena:runic_zweihander"
+			}
+		]
+	}
+}

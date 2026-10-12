@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:netherite_emerald_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:prismarine_emerald_earring"
+			},
+			"B": {
+				"item": "minecraft:netherite_ingot"
+			},
+			"C": {
+				"item": "arena:jelewer_upgrade_smithing_template_n"
+			}
+		},
+		"result": {
+			"item": "arena:netherite_emerald_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:prismarine_emerald_earring"
+			}
+		]
+	}
+}

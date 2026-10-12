@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:artemisa_arrowhead"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			"CDA",
+			"EC "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:arrow"
+			},
+			"C": {
+				"item": "minecraft:tnt"
+			},
+			"D": {
+				"item": "minecraft:gold_block"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:artemisa_arrowhead"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_blessed_shield"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ECF"
+		],
+		"key": {
+			"A": {
+				"item": "arena:dragon_scale"
+			},
+			"B": {
+				"item": "arena:night_siege_eye"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:archaic_stone"
+			},
+			"E": {
+				"item": "minecraft:skull",
+				"data": 5
+			},
+			"F": {
+				"item": "arena:extracted_heart"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_blessed_shield"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:night_siege_eye"
+			}
+		]
+	}
+}

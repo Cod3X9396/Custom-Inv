@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:angelical_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"A A",
+			"BCB",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_feather"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:skull_heart"
+			}
+		},
+		"result": {
+			"item": "arena:angelical_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:skull_heart"
+			}
+		]
+	}
+}

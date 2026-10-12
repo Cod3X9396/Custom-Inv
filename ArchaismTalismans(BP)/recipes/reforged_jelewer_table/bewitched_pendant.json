@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:bewitched_pendant"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AAB",
+			"ABA",
+			"CAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "minecraft:bone"
+			},
+			"C": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:bewitched_pendant"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:aureola_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"B B",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:marble_feather"
+			}
+		},
+		"result": {
+			"item": "arena:aureola_helmet"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:gold_ingot"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:masked_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"FEC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:mossy_cobblestone"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:nether_wart"
+			},
+			"F": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "arena:masked_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

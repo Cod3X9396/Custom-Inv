@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:necromancer_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEA",
+			"BCF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wither_skeleton_skull"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:wither_fragment"
+			},
+			"D": {
+				"item": "arena:shadow_of_nobody"
+			},
+			"E": {
+				"item": "arena:mask_base"
+			},			
+			"F": {
+				"item": "minecraft:soul_lantern"
+			},			
+			"G": {
+				"item": "minecraft:soul_sand"			
+			}
+		},
+		"result": {
+			"item": "arena:necromancer_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_sacret_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:contracted_heart"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "arena:extracted_heart"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_sacret_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:contracted_heart",
+				"item": "arena:extracted_heart",
+				"item": "arena:archaic_stone"
+			}
+		]
+	}
+}

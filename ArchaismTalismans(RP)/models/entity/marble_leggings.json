@@ -1,0 +1,112 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.marble_leggings",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Legging_Body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.05, "uv": [98, 53]}
+					]
+				},
+				{
+					"name": "LeggingBody_CenterFront_Tasset",
+					"parent": "Legging_Body",
+					"pivot": [0, 12, -2.5],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 5, -3], "size": [4, 7, 1], "uv": [145, 70]},
+						{"origin": [-1.4, 10.5, -3.5], "size": [3, 3, 2], "pivot": [0, 12, -3], "rotation": [0, 0, 45], "uv": [148, 148]}
+					]
+				},
+				{
+					"name": "LeggingBody_CenterBack_Tasset",
+					"parent": "Legging_Body",
+					"pivot": [0, 12, 2.5],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 5, 2], "size": [4, 7, 1], "uv": [146, 10]},
+						{"origin": [-1.6, 10.5, 1.5], "size": [3, 3, 2], "pivot": [0, 12, 2], "rotation": [0, 0, -45], "uv": [149, 134]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 12, 4], "inflate": 0.075, "uv": [115, 126]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Parts",
+					"parent": "Legging_RightLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Tasset",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [4.125, 13.625, 0],
+					"rotation": [0, 0, -20],
+					"cubes": [
+						{"origin": [1, 3.5, -1.5], "size": [3, 10, 3], "inflate": 0.125, "pivot": [4.125, 13.625, 0], "rotation": [0, 0, -7.5], "uv": [53, 132]},
+						{"origin": [1, 5.5, 0.5], "size": [3, 8, 2], "inflate": 0.125, "pivot": [4.125, 13.625, 1.625], "rotation": [15, 0, 0], "uv": [117, 143]},
+						{"origin": [1, 5.5, -2.5], "size": [3, 8, 2], "inflate": 0.125, "pivot": [4.125, 13.625, -1.625], "rotation": [-15, 0, 0], "uv": [128, 143]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "inflate": 0.075, "uv": [67, 123]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Parts",
+					"parent": "Legging_LeftLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Tasset",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-4.125, 13.625, 0],
+					"rotation": [0, 0, 20],
+					"cubes": [
+						{"origin": [-4, 3.5, -1.5], "size": [3, 10, 3], "inflate": 0.125, "pivot": [-4.125, 13.625, 0], "rotation": [0, 0, 7.5], "uv": [84, 123]},
+						{"origin": [-4, 5.5, 0.5], "size": [3, 8, 2], "inflate": 0.125, "pivot": [-4.125, 13.625, 1.625], "rotation": [15, 0, 0], "uv": [143, 96]},
+						{"origin": [-4, 5.5, -2.5], "size": [3, 8, 2], "inflate": 0.125, "pivot": [-4.125, 13.625, -1.625], "rotation": [-15, 0, 0], "uv": [106, 143]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,135 @@
+{
+  "format_version": "1.18",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "arena:dummy_soul",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "inanimate"
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:timer": {
+        "time": 5,
+        "looping": false,
+        "time_down_event": {
+          "event": "despawn",
+          "target": "self"
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      }
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {
+          "remove_child_entities": false
+        }
+      },
+      "status.inactive": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "status.active": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "type.red": {
+        "minecraft:mark_variant": {
+          "value": 0
+        }
+      },
+      "type.blue": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "type.yellow": {
+        "minecraft:mark_variant": {
+          "value": 2
+        }
+      },
+      "type.green": {
+        "minecraft:mark_variant": {
+          "value": 3
+        }
+      }
+    },
+    "events": {
+      "despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "trigger": "status.inactive.set"
+          },
+          {
+            "trigger": "type.red.set"
+          }
+        ]
+      },
+      "status.inactive.set": {
+        "add": {
+          "component_groups": [
+            "status.inactive"
+          ]
+        }
+      },
+      "status.active.set": {
+        "add": {
+          "component_groups": [
+            "status.active"
+          ]
+        }
+      },
+      "type.red.set": {
+        "add": {
+          "component_groups": [
+            "type.red"
+          ]
+        }
+      },
+      "type.blue.set": {
+        "add": {
+          "component_groups": [
+            "type.blue"
+          ]
+        }
+      },
+      "type.yellow.set": {
+        "add": {
+          "component_groups": [
+            "type.yellow"
+          ]
+        }
+      },
+      "type.green.set": {
+        "add": {
+          "component_groups": [
+            "type.green"
+          ]
+        }
+      }
+    }
+  }
+}

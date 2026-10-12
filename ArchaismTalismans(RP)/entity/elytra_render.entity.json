@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+			"identifier": "arena:elytra_render",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/models/armor/elytra"
+      },
+      "geometry": {
+        "default": "geometry.elytra_model"
+      },
+      "animations": {
+        "controller": "controller.animation.elytra.model.default",
+        "setup": "animation.elytra.model.setup",
+        "default": "animation.elytra.default",
+        "gliding": "animation.elytra.model.gliding",
+        "sneaking": "animation.elytra.sneaking",
+        "sleeping": "animation.elytra.sleeping",
+        "swimming": "animation.elytra.swimming",
+        "player_sneaking": "animation.player.sneaking",
+        "offset": "animation.elytra.model.offset",
+        "back.swim": "animation.back_model.swim"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          "controller",
+          {
+            "player_sneaking": "query.property('arena:sneaking') && !query.property('arena:gliding')"
+          },
+          {
+            "offset": "(query.property('arena:sneaking') && !query.property('arena:gliding')) || query.property('arena:swimming')"
+          },
+          {
+            "back.swim": "query.property('arena:swimming')"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

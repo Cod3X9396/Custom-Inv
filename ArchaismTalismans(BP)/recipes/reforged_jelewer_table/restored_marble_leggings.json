@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:restored_marble_leggings"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			" C ",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:broken_marble_leggings"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:restored_marble_leggings"
+		},
+		"unlock": [
+			{
+				"item": "arena:broken_marble_leggings"
+			}
+		]
+	}
+}

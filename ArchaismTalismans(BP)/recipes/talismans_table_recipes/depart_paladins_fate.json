@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:depart_paladins_fate"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"CDE",
+			"FGH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wither_skeleton_skull"
+			},
+			"B": {
+				"item": "arena:cursed_pendant"
+			},
+			"C": {
+				"item": "arena:wither_fragment"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			},			
+			"F": {
+				"item": "arena:rhetoric_skull"
+			},			
+			"G": {
+				"item": "arena:fallen_marble"			
+			},			
+			"H": {
+				"item": "minecraft:soul_lantern"
+			}
+		},
+		"result": {
+			"item": "arena:depart_paladins_fate"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

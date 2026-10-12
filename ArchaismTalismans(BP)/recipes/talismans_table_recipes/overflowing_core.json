@@ -1,0 +1,48 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:overflowing_core"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"EFG"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"B": {
+				"item": "minecraft:skull",
+				"data": 1
+			},
+			"C": {
+				"item": "arena:fallen_marble"
+			},
+			"D": {
+				"item": "minecraft:heavy_core"
+			},
+			"E": {
+				"item": "arena:haunted_ring"
+			},
+			"F": {
+				"item": "arena:effect_cube"
+			},
+			"G": {
+				"item": "arena:hauled_ring"
+			}
+		},
+		"result": {
+			"item": "arena:overflowing_core"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_marble"
+			}
+		]
+	}
+}

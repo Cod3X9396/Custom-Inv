@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sighthood"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEA",
+			"FGA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:extracted_heart"
+			},
+			"C": {
+				"item": "arena:flammable_shard"
+			},
+			"D": {
+				"item": "arena:sacret_sword"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			},
+			"F": {
+				"item": "arena:marble_feather"
+			},
+			"G": {
+				"item": "arena:piece_of_time"
+			}
+		},
+		"result": {
+			"item": "arena:sighthood"
+		},
+		"unlock": [
+			{
+				"item": "arena:sacret_sword"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:obsidian_knight_helmet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AA",
+			"BCB",
+			"ABB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:blaze_rod"
+			},
+			"B": {
+				"item": "minecraft:obsidian"
+			},
+			"C": {
+				"item": "arena:murders_skull"
+			}
+		},
+		"result": {
+			"item": "arena:obsidian_knight_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:murders_skull"
+			}
+		]
+	}
+}

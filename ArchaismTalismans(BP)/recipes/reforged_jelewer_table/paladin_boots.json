@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:paladin_boots"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"A A",
+			"BCB",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "minecraft:diamond_boots"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:paladin_boots"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

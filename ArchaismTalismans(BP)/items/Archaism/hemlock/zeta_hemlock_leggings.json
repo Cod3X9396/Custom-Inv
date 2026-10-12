@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "arena:zeta_hemlock_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:tags": {
+          "tags": [
+              "minecraft:is_armor"
+          ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 6,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 225,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:icon": "hemlock_tier1_leggings",
+      "minecraft:wearable": {
+        "protection": 5,
+        "slot": "slot.armor.legs"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "arena:zeta_hemlock_leggings"
+            ],
+            "repair_amount": "query.max_durability * 1"
+          }
+        ]
+      },
+      "minecraft:fire_resistant": {
+          "value": true
+      }
+    }
+  }
+}

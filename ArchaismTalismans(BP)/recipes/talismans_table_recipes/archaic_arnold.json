@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_arnold"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAH",
+			"BCD",
+			"AEF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:bone_block"
+			},
+			"B": {
+				"item": "arena:marble_hand"
+			},
+			"C": {
+				"item": "arena:archaic_stone"
+			},
+			"D": {
+				"item": "minecraft:dark_oak_log"
+			},
+			"E": {
+				"item": "minecraft:oak_log"
+			},
+			"F": {
+				"item": "minecraft:spruce_log"
+			},
+			"H": {
+				"item": "arena:poisonous_shard"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_arnold"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:marble_hand",
+				"item": "arena:poisonous_shard"
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:reforgerd_jelewer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA ",
+			"BB ",
+			"BB "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": {
+			"item": "arena:reforgerd_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_fragment",
+				"item": "minecraft:gold_block"
+			}
+		]
+	}
+}

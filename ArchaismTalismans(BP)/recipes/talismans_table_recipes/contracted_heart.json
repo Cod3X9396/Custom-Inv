@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:contracted_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AB ",
+			"   ",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:villager_heart"
+			},
+			"B": {
+				"item": "arena:extracted_heart"
+			}
+		},
+		"result": {
+			"item": "arena:contracted_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:extracted_heart",
+				"item": "arena:villager_heart"
+			}
+		]
+	}
+}

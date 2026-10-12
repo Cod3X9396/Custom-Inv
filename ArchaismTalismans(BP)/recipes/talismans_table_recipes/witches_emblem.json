@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:witches_emblem"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABB",
+			"CDC",
+			"BBA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:poisonous_shard"
+			},
+			"B": {
+				"item": "minecraft:obsidian"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:witches_emblem"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

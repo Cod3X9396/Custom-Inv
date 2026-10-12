@@ -1,0 +1,236 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "arena:bogged" : {
+         "events" : {
+            "ambient" : "mob.bogged.ambient",
+            "death" : "mob.bogged.death",
+            "hurt" : "mob.bogged.hurt",
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.bogged.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:endermite" : {
+         "events" : {
+            "ambient" : "mob.endermite.say",
+            "death" : "mob.endermite.kill",
+            "hurt" : "mob.endermite.hit",
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.endermite.step",
+              "volume" : 0.150
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:parched" : {
+         "events" : {
+            "ambient" : "mob.parched.ambient",
+            "death" : "mob.parched.death",
+            "hurt" : "mob.parched.hurt",
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.parched.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:skeleton" : {
+         "events" : {
+            "ambient" : "mob.skeleton.say",
+            "death" : "mob.skeleton.death",
+              "hurt" : {
+              "sound" : "mob.skeleton.hurt",
+              "volume" : 0.70
+            },
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.skeleton.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:skeleton_illager" : {
+         "events" : {
+            "ambient" : "mob.skeleton.say",
+            "death" : "mob.skeleton.death",
+              "hurt" : {
+              "sound" : "mob.skeleton.hurt",
+              "volume" : 0.70
+            },
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.skeleton.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:skeleton_piglin" : {
+         "events" : {
+            "admire" : "mob.piglin.admiring_item",
+            "angry" : "mob.piglin.angry",
+            "attack" : "mob.piglin.attack",
+            "celebrate" : "mob.piglin.celebrate",
+            "retreat" : "mob.piglin.retreat",
+            "ambient" : "mob.skeleton.say",
+            "death" : "mob.skeleton.death",
+            "hurt" : {
+              "sound" : "mob.skeleton.hurt",
+              "volume" : 0.70
+            },
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.skeleton.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:stray" : {
+         "events" : {
+            "ambient" : "mob.stray.ambient",
+            "death" : "mob.stray.death",
+            "hurt" : "mob.stray.hurt",
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "mob.stray.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:vex" : {
+         "events" : {
+            "ambient" : "mob.vex.ambient",
+            "charge" : "mob.vex.charge",
+            "death" : "mob.vex.death",
+            "hurt" : "mob.vex.hurt"
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:arcane_vex" : {
+         "events" : {
+            "ambient" : "mob.vex.ambient",
+            "charge" : "mob.vex.charge",
+            "death" : "mob.vex.death",
+            "hurt" : "mob.vex.hurt"
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:angelic_vex" : {
+         "events" : {
+            "ambient" : "mob.allay.idle",
+            "charge" : "mob.allay.idle_holding",
+            "death" : "mob.allay.death",
+            "hurt" : "mob.allay.hurt"
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:wither_skeleton" : {
+         "events" : {
+            "ambient" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.ambient",
+              "volume" : 1.0
+            },
+            "death" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.death",
+              "volume" : 1.0
+            },
+            "hurt" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.hurt",
+              "volume" : 1.0
+            },
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "entity.wither_skeleton.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      },
+      "arena:calamity_wither_skeleton" : {
+         "events" : {
+            "ambient" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.ambient",
+              "volume" : 1.0
+            },
+            "death" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.death",
+              "volume" : 1.0
+            },
+            "hurt" : {
+              "pitch" : [ 0.80, 1.20 ],
+              "sound" : "entity.wither_skeleton.hurt",
+              "volume" : 1.0
+            },
+            "step" : {
+              "pitch" : 1.0,
+              "sound" : "entity.wither_skeleton.step",
+              "volume" : 1.0
+            }
+         },
+         "pitch" : [ 0.80, 1.20 ],
+         "variants" : {
+            "key" : null
+         },
+         "volume" : 1.0
+      }
+    }
+  }
+}

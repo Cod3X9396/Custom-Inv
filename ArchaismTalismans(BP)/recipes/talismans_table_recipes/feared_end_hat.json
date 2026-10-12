@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:feared_end_hat"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"CDE",
+			"BFG"
+		],
+		"key": {
+			"A": {
+				"item": "arena:gem_snow"
+			},
+			"B": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"C": {
+				"item": "arena:levitation_shard"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:gem_void"
+			},
+			"F": {
+				"item": "arena:deformed_cross"
+			},
+			"F": {
+				"item": "arena:artemisa_arrowhead"
+			}
+		},
+		"result": {
+			"item": "arena:feared_end_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

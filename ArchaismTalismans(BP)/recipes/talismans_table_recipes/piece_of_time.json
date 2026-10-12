@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:piece_of_time"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAB",
+			"ACD",
+			"BAE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:soul_sand"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "minecraft:ghast_tear"
+			},
+			"E": {
+				"item": "arena:levitation_shard"
+			}
+		},
+		"result": {
+			"item": "arena:piece_of_time"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:levitation_shard"
+			}
+		]
+	}
+}

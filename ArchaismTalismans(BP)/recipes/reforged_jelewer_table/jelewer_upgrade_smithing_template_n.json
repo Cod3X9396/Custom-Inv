@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:jelewer_upgrade_smithing_template_n"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:gilded_blackstone"
+			},
+			"C": {
+				"item": "minecraft:netherite_scrap"
+			},
+			"D": {
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		},
+		"result": {
+			"item": "arena:jelewer_upgrade_smithing_template_n"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sculk_belt"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "arena:sync_sculk_talisman"
+			},
+			"C": {
+				"item": "minecraft:sculk_catalyst"
+			},
+			"D": {
+				"item": "arena:catalyst_scarf"
+			}
+		},
+		"result": {
+			"item": "arena:sculk_belt"
+		},
+		"unlock": [
+			{
+				"item": "arena:catalyst_scarf"
+			}
+		]
+	}
+}

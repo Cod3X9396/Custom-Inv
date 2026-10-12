@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:night_siege_eye"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"CDE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "arena:shadow_of_nobody"
+			},
+			"C": {
+				"item": "minecraft:ender_pearl"
+			},
+			"D": {
+				"item": "arena:cat_eye"
+			},
+			"E": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "arena:night_siege_eye"
+		},
+		"unlock": [
+			{
+				"item": "arena:shadow_of_nobody",
+				"item": "arena:cat_eye"
+			}
+		]
+	}
+}

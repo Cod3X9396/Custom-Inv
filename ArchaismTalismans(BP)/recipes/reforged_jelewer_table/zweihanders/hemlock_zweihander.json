@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hemlock_zweihander"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:runic_zweihander"
+			}
+		},
+		"result": {
+			"item": "arena:hemlock_zweihander"
+		},
+		"unlock": [
+			{
+				"item": "arena:runic_zweihander"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_guantlet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AA",
+			"ABA",
+			"AA "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:iron_guantlet"
+			}
+		},
+		"result": {
+			"item": "arena:marble_guantlet"
+		},
+		"unlock": [
+			{
+				"item": "arena:iron_guantlet"
+			}
+		]
+	}
+}

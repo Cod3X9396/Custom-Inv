@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:witch_staff"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			" CA",
+			"D  "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:soul_sand"
+			},
+			"B": {
+				"item": "minecraft:candle"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": {
+			"item": "arena:witch_staff"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

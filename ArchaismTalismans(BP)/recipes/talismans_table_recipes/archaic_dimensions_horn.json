@@ -1,0 +1,48 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_dimensions_horn"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"ACD",
+			"EFG"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:gem_void"
+			},
+			"C": {
+				"item": "arena:archaic_stone"
+			},
+			"D": {
+				"item": "arena:gem_snow"
+			},
+			"E": {
+				"item": "minecraft:goat_horn"
+			},
+			"F": {
+				"item": "arena:gem_fire"
+			},
+			"G": {
+				"item": "arena:marble_hand"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_dimensions_horn"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:marble_hand"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_hemlock_wings"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AA ",
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:archaic_marble_wings"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_hemlock_wings"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_marble_wings"
+			}
+		]
+	}
+}

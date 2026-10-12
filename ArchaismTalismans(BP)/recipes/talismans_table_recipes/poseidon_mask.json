@@ -1,0 +1,48 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:poseidon_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEA",
+			"FAG"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:seagrass"
+			},
+			"B": {
+				"item": "minecraft:axolotl_bucket"
+			},
+			"C": {
+				"item": "minecraft:waterlily"
+			},
+			"D": {
+				"item": "minecraft:nautilus_shell"
+			},
+			"E": {
+				"item": "arena:nautilus_star_pendant"
+			},			
+			"F": {
+				"item": "minecraft:kelp"
+			},			
+			"G": {
+				"item": "arena:mask_base"			
+			}
+		},
+		"result": {
+			"item": "arena:poseidon_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:nautilus_star_pendant"
+			}
+		]
+	}
+}

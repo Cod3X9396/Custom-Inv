@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:demon_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCD",
+			" E "
+		],
+		"key": {
+			"A": {
+				"item": "arena:poisonous_shard"
+			},
+			"B": {
+				"item": "arena:levitation_shard"
+			},
+			"C": {
+				"item": "arena:skull_heart"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			},
+			"E": {
+				"item": "arena:cold_shard"
+			}
+		},
+		"result": {
+			"item": "arena:demon_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:skull_heart"
+			}
+		]
+	}
+}

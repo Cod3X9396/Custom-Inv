@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_summoner_wand"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"  A",
+			"BCB",
+			"BB "
+		],
+		"key": {
+			"A": {
+				"item": "arena:archaic_stone"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:summoner_wand"
+			}
+		},
+		"result": {
+			"item": "arena:marble_summoner_wand"
+		},
+		"unlock": [
+			{
+				"item": "arena:summoner_wand",
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

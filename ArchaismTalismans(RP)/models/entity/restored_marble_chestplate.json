@@ -1,0 +1,186 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.restored_marble_chestplate",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.255, "uv": [0, 48]},
+						{"origin": [-4.5, 14, -2.5], "size": [9, 10, 5], "inflate": 0.275, "uv": [33, 41]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Parts",
+					"parent": "Chestplate_Body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Plackart",
+					"parent": "Chestplate_Body_Parts",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Plackart_Front",
+					"parent": "Chestplate_Body_Plackart",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Chestplate_Body_Plackart_Front_X",
+					"parent": "Chestplate_Body_Plackart_Front",
+					"pivot": [0, 17.5, -7],
+					"rotation": [60, 0, 0],
+					"cubes": [
+						{"origin": [-5, 13.5, -7], "size": [5, 4, 5], "pivot": [0, 14, -7], "rotation": [0, 45, 0], "uv": [79, 71]},
+						{"origin": [-8, 13.5, -7], "size": [3, 4, 4], "pivot": [0, 14, -7], "rotation": [0, 45, 0], "uv": [97, 9]},
+						{"origin": [-4, 13.5, -2], "size": [4, 4, 3], "pivot": [0, 14, -7], "rotation": [0, 45, 0], "uv": [24, 99]}
+					]
+				},
+				{
+					"name": "Chestplate_Body_Plackart_Back",
+					"parent": "Chestplate_Body_Plackart",
+					"pivot": [0, 15, 3],
+					"rotation": [-107.5, 0, 0]
+				},
+				{
+					"name": "Chestplate_Body_Plackart_Back_X",
+					"parent": "Chestplate_Body_Plackart_Back",
+					"pivot": [0, 15, 3],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{"origin": [-5, 12, 3], "size": [5, 3, 5], "pivot": [0, 11, 3], "rotation": [0, 45, 0], "uv": [82, 0]},
+						{"origin": [-8, 12, 3], "size": [3, 3, 5], "pivot": [0, 11, 3], "rotation": [0, 45, 0], "uv": [96, 61]},
+						{"origin": [-5, 12, 8], "size": [5, 3, 3], "pivot": [0, 11, 3], "rotation": [0, 45, 0], "uv": [98, 81]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "waist",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "Chestplate_RightArm",
+					"parent": "leftArm",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "inflate": 0.275, "uv": [62, 69]}
+					]
+				},
+				{
+					"name": "Chestplate_RightArm_Parts",
+					"parent": "Chestplate_RightArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "Chestplate_RightArm_ShoulderPad",
+					"parent": "Chestplate_RightArm_Parts",
+					"pivot": [5, 24, 0],
+					"rotation": [0, 0, -20],
+					"cubes": [
+						{"origin": [4, 20.5, -3.5], "size": [6, 4, 7], "uv": [52, 57]},
+						{"origin": [8, 21.5, -3.5], "size": [4, 3, 7], "inflate": 0.005, "pivot": [8, 24.5, 0], "rotation": [0, 0, -20], "uv": [74, 10]}
+					]
+				},
+				{
+					"name": "Chestplate_RightArm_SubShoulderPad",
+					"parent": "Chestplate_RightArm_Parts",
+					"pivot": [5, 24, 0],
+					"rotation": [0, 0, -12.5],
+					"cubes": [
+						{"origin": [4, 18, -2.5], "size": [4, 6, 5], "inflate": 0.255, "uv": [79, 81]}
+					]
+				},
+				{
+					"name": "Chestplate_RightArm_Gauntlet",
+					"parent": "Chestplate_RightArm_Parts",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 5, 4], "inflate": 0.275, "uv": [96, 51]}
+					]
+				},
+				{
+					"name": "Chestplate_RightArm_Gaunlet_Ornament",
+					"parent": "Chestplate_RightArm_Gauntlet",
+					"pivot": [9, 13, 0],
+					"rotation": [0, 0, 15],
+					"cubes": [
+						{"origin": [8, 13, -1.4], "size": [1, 3, 3], "pivot": [8, 14.5, 0], "rotation": [45, 0, 0], "uv": [24, 107]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "waist",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "Chestplate_LeftArm",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "inflate": 0.275, "uv": [22, 69]}
+					]
+				},
+				{
+					"name": "Chestplate_LeftArm_Parts",
+					"parent": "Chestplate_LeftArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "Chestplate_LeftArm_ShoulderPad",
+					"parent": "Chestplate_LeftArm_Parts",
+					"pivot": [-5, 24, 0],
+					"rotation": [0, 0, 20],
+					"cubes": [
+						{"origin": [-10, 20.5, -3.5], "size": [6, 4, 7], "uv": [25, 57]},
+						{"origin": [-12, 21.5, -3.5], "size": [4, 3, 7], "inflate": 0.005, "pivot": [-8, 24.5, 0], "rotation": [0, 0, 20], "uv": [39, 69]}
+					]
+				},
+				{
+					"name": "Chestplate_LeftArm_SubShoulderPad",
+					"parent": "Chestplate_LeftArm_Parts",
+					"pivot": [-5, 24, 0],
+					"rotation": [0, 0, 12.5],
+					"cubes": [
+						{"origin": [-8, 18, -2.5], "size": [4, 6, 5], "inflate": 0.255, "uv": [39, 80]}
+					]
+				},
+				{
+					"name": "Chestplate_LeftArm_Gaunlet",
+					"parent": "Chestplate_LeftArm_Parts",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 5, 4], "inflate": 0.275, "uv": [92, 93]}
+					]
+				},
+				{
+					"name": "Chestplate_LeftArm_Gaunlet_Ornament2",
+					"parent": "Chestplate_LeftArm_Gaunlet",
+					"pivot": [-9, 13, 0],
+					"rotation": [0, 0, -15],
+					"cubes": [
+						{"origin": [-9, 13, -1.4], "size": [1, 3, 3], "pivot": [-8, 14.5, 0], "rotation": [45, 0, 0], "uv": [83, 105]}
+					]
+				}
+			]
+		}
+	]
+}

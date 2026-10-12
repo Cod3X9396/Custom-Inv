@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_hemlock_shield"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:archaic_blessed_shield"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_hemlock_shield"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_blessed_shield",
+				"item": "arena:hemlock_stone"
+			}
+		]
+	}
+}

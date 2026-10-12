@@ -1,0 +1,145 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.alpha_hemlock_boots",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "boot_rightleg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 4, 4], "inflate": 0.55, "uv": [24, 190]}
+					]
+				},
+				{
+					"name": "boot_rightleg_parts",
+					"parent": "boot_rightleg",
+					"pivot": [2, 3.25, -3.25]
+				},
+				{
+					"name": "boot_rightleg_ornaments",
+					"parent": "boot_rightleg_parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "boot_rightleg_ornament_left",
+					"parent": "boot_rightleg_ornaments",
+					"pivot": [4.5, 3.25, -1.25],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [4.5, 1.25, -1.25], "size": [2, 2, 1], "inflate": 0.005, "uv": [30, 172]},
+						{"origin": [4.5, -0.75, -1.25], "size": [6, 5, 0], "uv": [200, 71]}
+					]
+				},
+				{
+					"name": "boot_rightleg_ornament_right",
+					"parent": "boot_rightleg_ornaments",
+					"pivot": [-0.5, 3.25, -1.25],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [-2.5, 1.25, -1.25], "size": [2, 2, 1], "inflate": 0.005, "uv": [8, 174]},
+						{"origin": [-6.5, -0.75, -1.25], "size": [6, 5, 0], "uv": [200, 76]}
+					]
+				},
+				{
+					"name": "boot_rightleg_ornament_center",
+					"parent": "boot_rightleg_ornaments",
+					"pivot": [2, 3.25, -2.25],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [0, 1.25, -3.25], "size": [4, 4, 2], "pivot": [2, 3.25, -2.25], "rotation": [0, 0, 45], "uv": [198, 48]}
+					]
+				},
+				{
+					"name": "boot_rightleg_ornament_center_back",
+					"parent": "boot_rightleg_ornaments",
+					"pivot": [2, 0.25, 2.5],
+					"rotation": [35, 0, 0],
+					"cubes": [
+						{"origin": [2, -0.75, 2.5], "size": [0, 6, 8], "uv": [142, 174]},
+						{"origin": [1.5, 0.25, 2.5], "size": [1, 3, 3], "uv": [44, 201]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "boot_leftleg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 4, 4], "inflate": 0.55, "uv": [120, 189]}
+					]
+				},
+				{
+					"name": "boot_leftleg_parts",
+					"parent": "boot_leftleg",
+					"pivot": [-2, 3.25, -3.25]
+				},
+				{
+					"name": "boot_leftleg_ornaments",
+					"parent": "boot_leftleg_parts",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "boot_leftleg_ornament_left",
+					"parent": "boot_leftleg_ornaments",
+					"pivot": [-4.5, 3.25, -1.25],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [-6.5, 1.25, -1.25], "size": [2, 2, 1], "inflate": 0.005, "uv": [30, 169]},
+						{"origin": [-10.5, -0.75, -1.25], "size": [6, 5, 0], "uv": [198, 199]}
+					]
+				},
+				{
+					"name": "boot_leftleg_ornament_right",
+					"parent": "boot_leftleg_ornaments",
+					"pivot": [0.5, 3.25, -1.25],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [0.5, 1.25, -1.25], "size": [2, 2, 1], "inflate": 0.005, "uv": [8, 171]},
+						{"origin": [0.5, -0.75, -1.25], "size": [6, 5, 0], "uv": [200, 66]}
+					]
+				},
+				{
+					"name": "boot_leftleg_ornament_center",
+					"parent": "boot_leftleg_ornaments",
+					"pivot": [-2, 3.25, -2.25],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-4, 1.25, -3.25], "size": [4, 4, 2], "pivot": [-2, 3.25, -2.25], "rotation": [0, 0, -45], "uv": [198, 42]}
+					]
+				},
+				{
+					"name": "boot_leftleg_ornament_center_back",
+					"parent": "boot_leftleg_ornaments",
+					"pivot": [-2, 0.25, 2.5],
+					"rotation": [35, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 0.25, 2.5], "size": [1, 3, 3], "uv": [36, 201]},
+						{"origin": [-2, -0.75, 2.5], "size": [0, 6, 8], "uv": [174, 138]}
+					]
+				}
+			]
+		}
+	]
+}

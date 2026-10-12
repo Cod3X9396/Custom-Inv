@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fire_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"EFB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:lava_bucket"
+			},
+			"B": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"C": {
+				"item": "minecraft:diamond"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:nether_wart"
+			},
+			"F": {
+				"item": "minecraft:soul_lantern"
+			}
+		},
+		"result": {
+			"item": "arena:fire_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

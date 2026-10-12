@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cap_zweihander"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "arena:ring"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "minecraft:chain"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"G": {
+				"item": "minecraft:basalt"
+			},
+			"H": {
+				"item": "arena:electric_shard"
+			}
+		},
+		"result": {
+			"item": "arena:cap_zweihander"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

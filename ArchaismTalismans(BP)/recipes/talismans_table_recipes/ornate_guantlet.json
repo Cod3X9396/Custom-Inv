@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ornate_guantlet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:flammable_shard"
+			},
+			"B": {
+				"item": "arena:ornate_fragment"
+			},
+			"C": {
+				"item": "arena:iron_guantlet"
+			}
+		},
+		"result": {
+			"item": "arena:ornate_guantlet"
+		},
+		"unlock": [
+			{
+				"item": "arena:ornate_fragment"
+			}
+		]
+	}
+}

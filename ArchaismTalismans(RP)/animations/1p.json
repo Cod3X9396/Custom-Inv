@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.1p": {
+			"loop": true,
+			"animation_length": 0.3333,
+			"bones": {
+				"rightarm": {
+					"rotation": [-7.5, 67.5, -50],
+					"position": [-4.21114, -0.1834, 3.90265],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

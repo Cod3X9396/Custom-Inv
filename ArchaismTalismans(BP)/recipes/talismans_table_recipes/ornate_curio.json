@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ornate_curio"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:ornate_fragment"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:ornate_curio"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

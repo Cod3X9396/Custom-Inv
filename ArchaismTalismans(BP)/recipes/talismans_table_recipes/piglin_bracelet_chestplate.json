@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:piglin_bracelet_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A  ",
+			"BC ",
+			"B  "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "minecraft:leather"
+			}
+		},
+		"result": {
+			"item": "arena:piglin_bracelet_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:gold_ingot"
+			}
+		]
+	}
+}

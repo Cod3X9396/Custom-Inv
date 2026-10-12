@@ -1,0 +1,674 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:doll_had",
+                            "name": "arena:itemGroup.name.equipment.hats"
+                        },
+                        "items": [
+                            "arena:doll_had",
+                            "arena:armored_hat",
+                            "arena:iluminated_hat",
+                            "arena:masked_hat",
+                            "arena:shulked_hat",
+                            "arena:bee_hat",
+                            "arena:blaze_hat",
+                            "arena:vulkan_hat",
+                            "arena:alpha_hat",
+                            "arena:straw_hat",
+                            "arena:milo_hat",
+                            "arena:jesus_hat",
+                            "arena:alaniz_hat",
+                            "arena:gold_hat",
+                            "arena:angeloso_hat",
+                            "arena:ice_hat",
+                            "arena:kaiden_hat",
+                            "arena:extreme_hat",
+                            "arena:system_hat",
+                            "arena:biggamer_hat",
+                            "arena:agustin_hat",
+                            "arena:alylicia_hat",
+                            "arena:lotte_axolotle_hat",
+                            "arena:drak_hat",
+                            "arena:cap_zweihander_hat",
+                            "arena:laniraxia_hat",
+                            "arena:melunch_hat"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:marble_feather",
+                            "name": "arena:itemGroup.name.equipment.talisman"
+                        },
+                        "items": [
+                            "arena:murders_skull",
+                            "arena:sacret_pendant",
+                            "arena:villager_heart",
+                            "arena:angelic_aurea",
+                            "arena:magnet",
+                            "arena:marble_feather",
+                            "arena:nautilus_star_pendant",
+                            "arena:rabbit_feet_pendant",
+                            "arena:cat_eye",
+                            "arena:shadow_of_nobody",
+                            "arena:nefrite_bracelet",
+                            "arena:extracted_heart",
+                            "arena:deformed_cross",
+                            "arena:marble_emerald_pendant",
+                            "arena:rhetoric_skull",
+                            "arena:spectral_talisman",
+                            "arena:nefrite_edged_sword",
+                            "arena:artemisa_deer_antler",
+                            "arena:deer_skull",
+                            "arena:midas_finger",
+                            "arena:vexed_souls_lantern",
+                            "arena:harmony_talisman",
+                            "arena:sync_sculk_talisman",
+                            "arena:nocturnal_hood",
+                            "arena:witches_emblem",
+                            "arena:obsidian_knight_helmet",
+                            "arena:fallen_feather",
+                            "arena:ornate_curio",
+                            "arena:sealing_talis"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:marble_hand",
+                            "name": "arena:itemGroup.name.equipment.charm"
+                        },
+                        "items": [
+                            "arena:marble_hand",
+                            "arena:dragonic_heart",
+                            "arena:night_siege_eye",
+                            "arena:nefrite_crow",
+                            "arena:prismatic_heart_relic",
+                            "arena:contracted_heart",
+                            "arena:piglin_bracelet",
+                            "arena:marble_rune",
+                            "arena:doble_edged",
+                            "arena:marble_skull",
+                            "arena:netherite_rune",
+                            "arena:piece_of_time",
+                            "arena:artemisa_arrowhead",
+                            "arena:cherry_blossom",
+                            "arena:sacret_sword",
+                            "arena:blood_scythe",
+                            "arena:pandoras_bracelet",
+                            "arena:complexion_afinity_bracelet",
+                            "arena:shrink_impressions_bracelet",
+                            "arena:tears_unshed",
+                            "arena:fallen_hand",
+                            "arena:end_of_the_time",
+                            "arena:cursed_sword",
+                            "arena:ornate_core",
+                            "arena:hellish_core",
+                            "arena:cherry_sword",
+                            "arena:overflowing_core",
+
+                            "arena:apolo_quiver",
+                            "arena:apollo_replies_belt",
+                            "arena:tool_belt",
+                            "arena:sighthood",
+                            "arena:nighthood",
+                            "arena:sculk_belt",
+                            "arena:dream_tatters_of_the_king",
+                            "arena:ornate_belt",
+                            "arena:extravagant_quiver",
+                            
+                            "arena:skull_heart",
+                            "arena:demon_heart",
+                            "arena:angelical_heart",
+                            "arena:iron_golem_heart",
+                            "arena:sync_golem_heart",
+                            "arena:infernal_heart",
+
+                            "arena:spawner_breaker",
+                            "arena:axe_heater",
+                            "arena:shovel_heater",
+                            "arena:ornate_guantlet",
+                            "arena:apollo_bracer",
+                            "arena:iron_guantlet",
+                            "arena:marble_guantlet",
+                            "arena:fallen_guantlet",
+                            "arena:hemlock_guantlet"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:archaic_marble_wings",
+                            "name": "arena:itemGroup.name.equipment.archaic"
+                        },
+                        "items": [
+                            "arena:archaic_cursed_book",
+                            "arena:archaic_cursed_skull",
+                            "arena:archaic_blessed_shield",
+                            "arena:archaic_marble_wings",
+                            "arena:archaic_incript_paper",
+                            "arena:archaic_arnold",
+                            "arena:archaic_light_cepter",
+                            "arena:archaic_marble_bracelets",
+                            "arena:archaic_chained_soul",
+                            "arena:archaic_good_and_evil_flower",
+                            "arena:archaic_soul_hand",
+                            "arena:archaic_ruler_of_prismas",
+                            "arena:archaic_dimensions_table",
+                            "arena:archaic_dimensions_horn",
+                            "arena:archaic_sacret_skull",
+                            "arena:archaic_triple_edged_sword",
+                            "arena:archaic_sacret_heart",
+                            "arena:archaic_warden_claws",
+                            "arena:archaic_hemlock_wings",
+                            "arena:cursed_shield",
+                            "arena:fallen_wings",
+                            "arena:conscious_star",
+                            "arena:archaic_reckless_archer",
+                            "arena:archaic_hemlock_shield"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:fox_mask",
+                            "name": "arena:itemGroup.name.equipment.mask"
+                        },
+                        "items": [
+                            "arena:ethereal_sight_mask",
+                            "arena:fox_mask",
+                            "arena:blaze_skull_mask",
+                            "arena:marble_mask",
+                            "arena:poseidon_mask",
+                            "arena:kitsume_mask",
+                            "arena:natural_butterfly_mask",
+                            "arena:unnatural_mask",
+                            "arena:demon_mask",
+                            "arena:cat_mask",
+                            "arena:wither_mask",
+                            "arena:necromancer_mask",
+                            "arena:feared_end_hat",
+                            "arena:angelic_mask",
+                            "arena:deep_knight_helmet",
+                            "arena:witch_mask",
+                            "arena:nights_devouring_mask",
+                            "arena:evoker_mask",
+                            "arena:deformed_mask",
+                            "arena:fallen_angel_mask",
+                            "arena:fallen_marble_mask",
+                            "arena:arcane_hood",
+
+                            "arena:iron_crown_jelewer",
+                            "arena:golden_crown_jelewer",
+                            "arena:prismarine_crown_jelewer",
+                            "arena:netherite_crown_jelewer",
+                            "arena:extreme_had",
+                            "arena:blossom_crown",
+                            "arena:soul_taker",
+                            "arena:depart_paladins_fate",
+                            "arena:deer_crown",
+                            "arena:ornate_helmet",
+                            "arena:crown_of_calamity",
+                            "arena:crown_of_expertise",
+                            "arena:robin_hat"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:harena_doll",
+                            "name": "arena:itemGroup.name.equipment.doll"
+                        },
+                        "items": [
+                            "arena:harena_doll",
+                            "arena:illuminated_doll",
+                            "arena:masked_doll",
+                            "arena:shulked_doll",
+                            "arena:bee_doll",
+                            "arena:fire_doll",
+                            "arena:vulak_doll",
+                            "arena:aplpha_doll",
+                            "arena:gentrix_doll",
+                            "arena:zultinus_doll",
+                            "arena:jesus_doll",
+                            "arena:alaniz_doll",
+                            "arena:gold_doll",
+                            "arena:angeloso_doll",
+                            "arena:jrice_doll",
+                            "arena:sacronkaiden_doll",
+                            "arena:paladin_doll",
+                            "arena:systemtv_doll",
+                            "arena:biggamer_doll",
+                            "arena:agustin_doll",
+                            "arena:alylicia_doll",
+                            "arena:lotte_axolotle_doll",
+                            "arena:drak_doll",
+                            "arena:cap_zweihander",
+                            "arena:laniraxia_doll",
+                            "arena:melunch_doll"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:witherring",
+                            "name": "arena:itemGroup.name.equipment.witherring"
+                        },
+                        "items": [
+                            "arena:damage_copper_wither_ring",
+                            "arena:damage_iron_wither_ring",
+                            "arena:damage_golden_wither_ring",
+                            "arena:damage_prismarine_wither_ring",
+                            "arena:damage_marble_wither_ring",
+                            "arena:hearts_copper_wither_ring",
+                            "arena:hearts_iron_wither_ring",
+                            "arena:hearts_golden_wither_ring",
+                            "arena:hearts_prismarine_wither_ring",
+                            "arena:hearts_marble_wither_ring",
+                            "arena:movement_copper_wither_ring",
+                            "arena:movement_iron_wither_ring",
+                            "arena:movement_golden_wither_ring",
+                            "arena:movement_prismarine_wither_ring",
+                            "arena:movement_marble_wither_ring",
+                            "arena:swiming_copper_wither_ring",
+                            "arena:swiming_iron_wither_ring",
+                            "arena:swiming_golden_wither_ring",
+                            "arena:swiming_prismarine_wither_ring",
+                            "arena:swiming_marble_wither_ring",
+                            "arena:jump_copper_wither_ring",
+                            "arena:jump_iron_wither_ring",
+                            "arena:jump_golden_wither_ring",
+                            "arena:jump_prismarine_wither_ring",
+                            "arena:jump_marble_wither_ring",
+                            "arena:defense_copper_wither_ring",
+                            "arena:defense_iron_wither_ring",
+                            "arena:defense_golden_wither_ring",
+                            "arena:defense_prismarine_wither_ring",
+                            "arena:defense_marble_wither_ring",
+                            "arena:mage_copper_wither_ring",
+                            "arena:mage_iron_wither_ring",
+                            "arena:mage_golden_wither_ring",
+                            "arena:mage_prismarine_wither_ring",
+                            "arena:mage_marble_wither_ring",
+
+                            "arena:fire_wither_ring",
+                            "arena:end_wither_ring",
+                            "arena:light_wither_ring",
+                            "arena:snow_wither_ring",
+                            "arena:poision_wither_ring",
+                            "arena:desert_wither_ring",
+                            "arena:hemlock_wither_ring"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:silk_ring_jelewer",
+                            "name": "arena:itemGroup.name.equipment.rings"
+                        },
+                        "items": [
+                            "arena:silk_ring_jelewer",
+                            "arena:withered_ring_jelewer",
+                            "arena:crimsom_amethyst_ring_jelewer",
+                            "arena:crimson_ring_jelewer",
+                            "arena:shadow_step_ring_jelewer",
+                            "arena:obsidian_ring_jelewer",
+                            "arena:blinding_of_shinning_ring_jelewer",
+                            "arena:shulked_ring_jelewer",
+                            "arena:blazing_ring",
+                            "arena:ornate_band",
+                            "arena:ornate_ring",
+                            "arena:repeating_ring",
+                            "arena:spirit_ring",
+
+                            "arena:iron_blossom_ring",
+                            "arena:golden_blossom_ring",
+                            "arena:prismarine_blossom_ring",
+                            "arena:netherite_blossom_ring",
+                            "arena:marble_blossom_ring",
+                            
+                            "arena:iron_sculk_ring",
+                            "arena:golden_sculk_ring",
+                            "arena:prismarine_sculk_ring",
+                            "arena:netherite_sculk_ring",
+                            "arena:marble_sculk_ring"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:iron_arrows_earring",
+                            "name": "arena:itemGroup.name.equipment.earrings"
+                        },
+                        "items": [
+                            "arena:crimsom_amethyst_earring_jelewer",
+                            "arena:crimsom_earring_jelewer",
+                            "arena:amethyst_earring_jelewer",
+
+                            "arena:iron_vampiric_earring",
+                            "arena:iron_spikes_earring",
+                            "arena:iron_explosive_earring",
+                            "arena:iron_penetration_earring",
+                            "arena:iron_bleeding_earring",
+                            "arena:iron_cursebreaker_earring",
+                            "arena:iron_arrows_earring",
+                            "arena:iron_insomnia_earring",
+                            "arena:iron_diamond_earring",
+                            "arena:iron_emerald_earring",
+                            "arena:iron_slayer_earring",
+                            "arena:iron_hemlock_earring",
+                            "arena:iron_paladin_earring",
+
+                            "arena:golden_vampiric_earring",
+                            "arena:golden_spikes_earring",
+                            "arena:golden_explosive_earring",
+                            "arena:golden_penetration_earring",
+                            "arena:golden_bleeding_earring",
+                            "arena:golden_cursebreaker_earring",
+                            "arena:golden_arrows_earring",
+                            "arena:golden_insomnia_earring",
+                            "arena:golden_diamond_earring",
+                            "arena:golden_emerald_earring",
+                            "arena:golden_slayer_earring",
+                            "arena:golden_hemlock_earring",
+                            "arena:golden_paladin_earring",
+
+                            "arena:prismarine_vampiric_earring",
+                            "arena:prismarine_spikes_earring",
+                            "arena:prismarine_explosive_earring",
+                            "arena:prismarine_penetration_earring",
+                            "arena:prismarine_bleeding_earring",
+                            "arena:prismarine_cursebreaker_earring",
+                            "arena:prismarine_arrows_earring",
+                            "arena:prismarine_insomnia_earring",
+                            "arena:prismarine_diamond_earring",
+                            "arena:prismarine_emerald_earring",
+                            "arena:prismarine_slayer_earring",
+                            "arena:prismarine_hemlock_earring",
+                            "arena:prismarine_paladin_earring",
+                            
+                            "arena:netherite_vampiric_earring",
+                            "arena:netherite_spikes_earring",
+                            "arena:netherite_explosive_earring",
+                            "arena:netherite_penetration_earring",
+                            "arena:netherite_bleeding_earring",
+                            "arena:netherite_cursebreaker_earring",
+                            "arena:netherite_arrows_earring",
+                            "arena:netherite_insomnia_earring",
+                            "arena:netherite_diamond_earring",
+                            "arena:netherite_emerald_earring",
+                            "arena:netherite_slayer_earring",
+                            "arena:netherite_hemlock_earring",
+                            "arena:netherite_paladin_earring",
+                            
+                            "arena:fallen_vampiric_earring",
+                            "arena:fallen_spikes_earring",
+                            "arena:fallen_explosive_earring",
+                            "arena:fallen_penetration_earring",
+                            "arena:fallen_bleeding_earring",
+                            "arena:fallen_cursebreaker_earring",
+                            "arena:fallen_arrows_earring",
+                            "arena:fallen_insomnia_earring",
+                            "arena:fallen_diamond_earring",
+                            "arena:fallen_emerald_earring",
+                            "arena:fallen_slayer_earring",
+                            "arena:fallen_hemlock_earring",
+                            "arena:fallen_paladin_earring",
+
+                            "arena:pure_marble_vampiric_earring",
+                            "arena:pure_marble_spikes_earring",
+                            "arena:pure_marble_explosive_earring",
+                            "arena:pure_marble_penetration_earring",
+                            "arena:pure_marble_bleeding_earring",
+                            "arena:pure_marble_cursebreaker_earring",
+                            "arena:pure_marble_arrows_earring",
+                            "arena:pure_marble_insomnia_earring",
+                            "arena:pure_marble_diamond_earring",
+                            "arena:pure_marble_emerald_earring",
+                            "arena:pure_marble_slayer_earring",
+                            "arena:pure_marble_hemlock_earring",
+                            "arena:pure_marble_paladin_earring",
+
+                            "arena:blazing_earring",
+                            "arena:ornate_earring",
+                            "arena:piercing_earring",
+                            "arena:infused_earring"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:iron_fire_necklace_jelewer",
+                            "name": "arena:itemGroup.name.equipment.necklace"
+                        },
+                        "items": [
+                            "arena:iron_fire_necklace_jelewer",
+                            "arena:golden_fire_necklace_jelewer",
+                            "arena:prismarine_fire_necklace_jelewer",
+                            "arena:netherite_fire_necklace_jelewer",
+                            "arena:fallen_fire_necklace",
+                            "arena:pure_marble_fire_necklace",
+
+                            "arena:iron_end_necklace_jelewer",
+                            "arena:golden_end_necklace_jelewer",
+                            "arena:prismarine_end_necklace_jelewer",
+                            "arena:netherite_end_necklace_jelewer",
+                            "arena:fallen_end_necklace",
+                            "arena:pure_marble_end_necklace",
+
+                            "arena:iron_light_necklace_jelewer",
+                            "arena:golden_light_necklace_jelewer",
+                            "arena:prismarine_light_necklace_jelewer",
+                            "arena:netherite_light_necklace_jelewer",
+                            "arena:fallen_light_necklace",
+                            "arena:pure_marble_light_necklace",
+
+                            "arena:iron_snow_necklace_jelewer",
+                            "arena:golden_snow_necklace_jelewer",
+                            "arena:prismarine_snow_necklace_jelewer",
+                            "arena:netherite_snow_necklace_jelewer",
+                            "arena:fallen_snow_necklace",
+                            "arena:pure_marble_snow_necklace",
+
+                            "arena:iron_poison_necklace_jelewer",
+                            "arena:golden_poison_necklace_jelewer",
+                            "arena:prismarine_poison_necklace_jelewer",
+                            "arena:netherite_poison_necklace_jelewer",
+                            "arena:fallen_poison_necklace",
+                            "arena:pure_marble_poison_necklace",
+
+                            "arena:iron_desert_necklace_jelewer",
+                            "arena:golden_desert_necklace_jelewer",
+                            "arena:prismarine_desert_necklace_jelewer",
+                            "arena:netherite_desert_necklace_jelewer",
+                            "arena:fallen_desert_necklace",
+                            "arena:pure_marble_desert_necklace",
+
+                            "arena:iron_hemlock_necklace",
+                            "arena:golden_hemlock_necklace",
+                            "arena:prismarine_hemlock_necklace",
+                            "arena:netherite_hemlock_necklace",
+                            "arena:fallen_hemlock_necklace",
+                            "arena:pure_marble_hemlock_necklace",
+
+                            "arena:diamond_necklace",
+                            "arena:cursed_pendant",
+                            "arena:thine_eyes_pendant",
+                            "arena:catalyst_scarf",
+                            "arena:sweet_dreams_pendant",
+                            "arena:obsidian_pendant",
+                            "arena:ornate_pendant"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:spell_evocation",
+                            "name": "arena:itemGroup.name.equipment.books"
+                        },
+                        "items": [
+                            "arena:divine_orb",
+                            "arena:malingnant_orb",
+                            "arena:haunted_ring",
+                            "arena:hauled_ring",
+                            "arena:bewitched_pendant",
+                            "arena:spell_evocation",
+                            "arena:spell_area_lifesteal",
+                            "arena:spell_dead_teleport",
+                            "arena:spell_teleport",
+                            "arena:spell_light_bolt",
+                            "arena:spell_lightning_bolt",
+                            "arena:spell_supersonic",
+
+                            "arena:spell_engine",
+                            "arena:rotten_brain",
+                            "arena:mind_electric",
+                            "arena:spell_strength_engine",
+                            "arena:spell_duration_engine",
+                            "arena:summoner_wand",
+                            "arena:marble_summoner_wand",
+                            "arena:hemlock_summoner_wand"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:effect_cube",
+                            "name": "arena:itemGroup.equipment.items.materials"
+                        },
+                        "items": [
+                            "arena:effect_cube",
+                            "arena:archaic_stone",
+                            "arena:ornate_fragment",
+                            "arena:marble_fragment",
+                            "arena:fallen_marble",
+                            "arena:raw_marble",
+                            "arena:raw_black_marble",
+                            "arena:marble_dust",
+                            "arena:black_marble_dust",
+                            "arena:doll_base",
+                            "arena:mask_base",
+                            "arena:elemental_wither_ring",
+                            "arena:witherring",
+                            "arena:ring",
+                            "arena:dragon_scale",
+                            "arena:wither_fire",
+                            "arena:warden_heart",
+                            "arena:gembase",
+                            "arena:gem_fire",
+                            "arena:gem_light",
+                            "arena:gem_poison",
+                            "arena:gem_snow",
+                            "arena:gem_void",
+                            "arena:gem_desert",
+                            "arena:gem_hemlock",
+                            "arena:cristal_gem",
+                            "arena:cold_shard",
+                            "arena:flammable_shard",
+                            "arena:electric_shard",
+                            "arena:poisonous_shard",
+                            "arena:levitation_shard",
+                            "arena:arid_shard",
+                            "arena:wither_fragment",
+                            "arena:hemlock_stone",
+                            "arena:spawner_fragment",
+                            "arena:zombie_soul",
+                            "arena:skeleton_soul",
+                            "arena:blaze_soul",
+                            "arena:spider_soul",
+                            "arena:cave_spider_soul",
+                            "arena:magma_soul"
+                         
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "arena:archaic_upgrade_smithing_template",
+                            "name": "arena:itemGroup.name.items.arena_smithing_templates"
+                        },
+                        "items": [
+                            "arena:jelewer_upgrade_smithing_template_n",
+                            "arena:jelewer_upgrade_smithing_template_p",
+                            "arena:jelewer_upgrade_smithing_template_g",
+                            "arena:jelewer_upgrade_smithing_template_i",
+                            "arena:archaic_upgrade_smithing_template",
+                            "arena:template_fallen",
+                            "arena:template_pure_marble",
+                            "arena:template_hades",
+                            "arena:template_poseidon",
+                            "arena:template_zeus",
+                            "arena:template_artemis"
+                         
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

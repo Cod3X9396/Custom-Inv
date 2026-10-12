@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:divine_orb"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABC",
+			"ACD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "arena:cat_eye"
+			},
+			"C": {
+				"item": "minecraft:gold_ingot"
+			},
+			"D": {
+				"item": "arena:marble_feather"
+			}
+		},
+		"result": {
+			"item": "arena:divine_orb"
+		},
+		"unlock": [
+			{
+				"item": "arena:cat_eye"
+			}
+		]
+	}
+}

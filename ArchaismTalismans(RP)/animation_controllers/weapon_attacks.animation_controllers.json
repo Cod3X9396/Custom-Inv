@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.angyt.weapon_attack": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "attack": "v.attack_time > 0.0"
+            }
+          ],
+          "blend_transition": 0.0
+        },
+        "attack": {
+          "animations": [
+            { "attack_fps": "c.is_first_person" },
+            { "attack_tps": "!c.is_first_person" }
+          ],
+          "transitions": [
+            {
+              "idle": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.0,
+          "blend_via_shortest_path": true
+        }
+      }
+    }
+  }
+}

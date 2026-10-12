@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:pure_marble_end_necklace"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_end_necklace"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:template_pure_marble"
+			}
+		},
+		"result": {
+			"item": "arena:pure_marble_end_necklace"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_end_necklace"
+			}
+		]
+	}
+}

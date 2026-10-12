@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:demon_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"AEA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:dragon_scale"
+			},
+			"B": {
+				"item": "arena:fallen_hand"
+			},
+			"C": {
+				"item": "arena:flammable_shard"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:warden_heart"
+			}
+		},
+		"result": {
+			"item": "arena:demon_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:dragon_scale",
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

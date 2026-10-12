@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:mask_base"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "minecraft:quartz"
+			},
+			"D": {
+				"item": "minecraft:leather_helmet"
+			}
+		},
+		"result": {
+			"item": "arena:mask_base"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "minecraft:leather_helmet"
+			}
+		]
+	}
+}

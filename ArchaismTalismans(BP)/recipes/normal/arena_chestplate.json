@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:arena_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:cyan_wool"
+			},
+			"C": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"result": {
+			"item": "arena:arena_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond_chestplate"
+			}
+		]
+	}
+}

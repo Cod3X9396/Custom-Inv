@@ -1,0 +1,75 @@
+{
+    "format_version": "1.21.130",
+    "minecraft:item": {
+        "description": {
+            "identifier": "arena:pure_marble_spear",
+            "menu_category": {
+                "category": "Equipment",
+                "group": "minecraft:itemGroup.name.spear"
+            }
+        },
+        "components": {
+            "minecraft:stacked_by_data": false,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:netherite_tier",
+                    "minecraft:is_sword"
+                ]
+            },
+            "minecraft:icon": "pure_marble_spear",
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:can_destroy_in_creative": {
+                "value": false
+            },
+            "minecraft:hand_equipped": {
+                "value": true
+            },
+            "minecraft:durability": {
+                "max_durability": 2031,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 100
+                }
+            },
+            "minecraft:cooldown": {
+                "category": "spear",
+                // Should match "swing_duration"'s "value".
+                "duration": 1.15,
+                "type": "attack"
+            },
+            "minecraft:damage": {
+                "value": 11
+            },
+            "minecraft:piercing_weapon": {
+                "reach": {
+                    "min": 1.0,
+                    "max": 6.5
+                },
+                "creative_reach": {
+                    "min": 2.0,
+                    "max": 89
+                },
+                "hitbox_margin": 0.25
+            },
+            "minecraft:enchantable": {
+                "value": 25,
+                "slot": "sword"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "arena:pure_marble_spear"
+                        ],
+                        "repair_amount": "c.other -> q.remaining_durability + 0.12 * c.other -> q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:fire_resistant": {
+                "value": true
+            }
+        }
+    }
+}

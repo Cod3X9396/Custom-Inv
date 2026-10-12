@@ -1,0 +1,755 @@
+pack.name=Archaism Talismans (RP) Usa!
+pack.description=v1.8.1 by Hamleth Arena #Hydra studio
+
+tile.arena:talismans_table.name=§9Talismans §fTable
+tile.arena:reforgerd_jelewer.name=§dJelewer §fTable
+
+arena:itemGroup.name.equipment.hats=§r§gDoll Hats!
+arena:itemGroup.name.equipment.talisman=§9Talismans
+arena:itemGroup.name.equipment.charm=§uCharms
+arena:itemGroup.name.equipment.archaic=§aΑρχαϊκός
+arena:itemGroup.name.equipment.mask=§gMasks
+arena:itemGroup.name.equipment.doll=§cDolls
+arena:itemGroup.name.equipment.witherring=§jWither-rings
+arena:itemGroup.name.equipment.rings=§dRings
+arena:itemGroup.name.equipment.earrings=§5Earrings
+arena:itemGroup.name.equipment.necklace=§bNecklaces
+arena:itemGroup.equipment.items.materials=(Materials)
+arena:itemGroup.name.items.arena_smithing_templates=(Smithing Templates)
+arena:itemGroup.name.equipment.books=§eBooks
+
+entity.arena:ignited_explosion.name=Ignited Explosion
+entity.arena:wither_skeleton.name=Σκελετός ακρώμματος
+entity.arena:calamity_wither_skeleton.name=Σκελετός μαραμένου κακοκαιριού
+entity.arena:arcane_vex.name=Αρκέιν Βέξ
+entity.arena:angelic_vex.name=Αγγελική Βέξ
+entity.arena:vex.name=Ερεθίζω
+entity.arena:endermite.name=ενδερμίτης
+entity.arena:skeleton.name=Σκελετός
+entity.arena:skeleton_illager.name=Σκελετός ιλάγκερ
+entity.arena:skeleton_piglin.name=Σκελετός Χοίρος
+entity.arena:stray.name=Περιπλανώμενος
+entity.arena:parched.name=Κατάξηρος
+entity.arena:bogged.name=Βουλωμένος
+
+item.arena:scroll=§r§gRecover Scroll\n§r§7Recover all your equipped trinkets
+
+item.arena:marble_helmet_h=§2Marble Helmet
+item.arena:marble_chestplate=§2Marble Chestplate
+item.arena:marble_leggings=§2Marble Leggings
+item.arena:marble_boots=§2Marble Boots
+item.arena:marble_axe=§2Marble Battle Axe
+item.arena:marble_sword=§2Marble Sword
+item.arena:marble_spear=§2Marble spear
+
+item.arena:pure_marble_helmet=§eDivine Marble Helmet
+item.arena:pure_marble_chestplate=§eDivine Marble Chestplate
+item.arena:pure_marble_leggings=§eDivine Marble Leggings
+item.arena:pure_marble_boots=§eDivine Marble Boots
+
+item.arena:pure_marble_spear=§eDivine Marble spear
+
+item.arena:cursed_axe=§aCursed axe
+item.arena:blood_scythe_weapon=§mVampiric Scythe
+item.arena:witch_hat=§uNecromancer Hat
+item.arena:mage_chestplate=§uNecromancer hood
+item.arena:mage_leggings=§uNecromancer leggings
+item.arena:witch_staff=§uCandle Staff
+item.arena:marble_staff=§eMarble Staff
+item.arena:hemlock_staff=§uHemlock Staff
+
+item.arena:runic_zweihander=§uRunic Zweihander
+item.arena:incandecent_zweihander=§cIncandecent §uRunic Zweihander
+item.arena:frozen_zweihander=§bFrozen §uRunic Zweihander
+item.arena:electric_zweihander=§6Electric §uRunic Zweihander
+item.arena:ender_zweihander=§5Levitation §uRunic Zweihander
+item.arena:venemous_zweihander=§2Venemous §uRunic Zweihander
+item.arena:desertic_zweihander=§eDesertic §uRunic Zweihander
+item.arena:hemlock_zweihander=§aHemlock §uRunic Zweihander
+item.arena:runic_twohanded_sword=§uHemlock Great Sword
+item.arena:bamboo_bo=Bamboo Bo
+
+item.arena:wooden_saber=Wooden Clouds Saber
+item.arena:golden_saber=Golden Clouds Saber
+item.arena:stone_saber=Stone Clouds Saber
+item.arena:copper_saber=Copper Clouds Saber
+item.arena:iron_saber=Iron Clouds Saber
+item.arena:diamond_saber=Diamond Clouds Saber
+item.arena:netherite_saber=Netherite Clouds Saber
+
+item.arena:apollo_chestplate=§eApollo Chestplate
+item.arena:apollo_leggings=§eApollo Leggings
+item.arena:apollo_boots=§eApollo Boots
+
+item.arena:netherite_apollo_chestplate=§eNetherite Apollo Chestplate
+item.arena:netherite_apollo_leggings=§eNetherite Apollo Leggings
+item.arena:netherite_apollo_boots=§eNetherite Apollo Boots
+
+item.arena:nebulous_apollo_chestplate=§aNebulous Apollo Chestplate
+item.arena:nebulous_apollo_leggings=§aNebulous Apollo Leggings
+item.arena:nebulous_apollo_boots=§aNebulous Apollo Boots
+
+item.arena:paladin_helmet=§ePaladin Helmet
+item.arena:paladin_chestplate=§ePaladin Chestplate
+item.arena:paladin_leggings=§ePaladin Leggings
+item.arena:paladin_boots=§ePaladin Boots
+
+item.arena:hades_helmet=§bHades Helmet
+item.arena:hades_chestplate=§bHades Chestplate
+item.arena:hades_leggings=§bHades Leggings
+item.arena:hades_boots=§bHades Boots
+
+item.arena:artemis_helmet=§eArtemis Helmet
+item.arena:artemis_chestplate=§eArtemis Chestplate
+item.arena:artemis_leggings=§eArtemis Leggings
+item.arena:artemis_boots=§eArtemis Boots
+
+item.arena:zeus_helmet=§eZeus Helmet
+item.arena:zeus_chestplate=§eZeus Chestplate
+item.arena:zeus_leggings=§eZeus Leggings
+item.arena:zeus_boots=§eZeus Boots
+
+item.arena:poseidon_helmet=§bPoseidon Helmet
+item.arena:poseidon_chestplate=§bPoseidon Chestplate
+item.arena:poseidon_leggings=§bPoseidon Leggings
+item.arena:poseidon_boots=§bPoseidon Boots
+
+item.arena:ichor_helmet=§bIchor Helmet
+item.arena:ichor_chestplate=§bIchor Chestplate
+item.arena:ichor_leggings=§bIchor Leggings
+item.arena:ichor_boots=§bIchor Boots
+
+item.arena:ethereal_ichor_helmet=§bEthereal Ichor Helmet
+item.arena:ethereal_ichor_chestplate=§bEthereal Ichor Chestplate
+item.arena:ethereal_ichor_leggings=§bEthereal Ichor Leggings
+item.arena:ethereal_ichor_boots=§bEthereal Ichor Boots
+
+item.arena:broken_marble_helmet=Broken Marble Helmet
+item.arena:broken_marble_chestplate=Broken Marble Chestplate
+item.arena:broken_marble_leggings=Broken Marble Leggings
+item.arena:broken_marble_boots=Broken Marble Boots
+
+item.arena:restored_marble_helmet=Restored Marble Helmet
+item.arena:restored_marble_chestplate=Restored Marble Chestplate
+item.arena:restored_marble_leggings=Restored Marble Leggings
+item.arena:restored_marble_boots=Restored Marble Boots
+
+item.arena:fallen_marble_helmet=§uFallen Marble Helmet
+item.arena:fallen_marble_chestplate=§uFallen Marble Chestplate
+item.arena:fallen_marble_leggings=§uFallen Marble Leggings
+item.arena:fallen_marble_boots=§uFallen Marble Boots
+
+item.arena:impious_marble_helmet=§aImpious §uMarble Helmet
+item.arena:impious_marble_chestplate=§aImpious §uMarble Chestplate
+item.arena:impious_marble_leggings=§aImpious §uMarble Leggings
+item.arena:impious_marble_boots=§aImpious §uMarble Boots
+
+item.arena:zeta_hemlock_helmet=Hemlock §u(ζ)§f Helmet
+item.arena:zeta_hemlock_chestplate=Hemlock §u(ζ)§f Chestplate
+item.arena:zeta_hemlock_leggings=Hemlock §u(ζ)§f Leggings
+item.arena:zeta_hemlock_boots=Hemlock §u(ζ)§f Boots
+
+item.arena:delta_hemlock_helmet=Hemlock §u(δ)§f Helmet
+item.arena:delta_hemlock_chestplate=Hemlock §u(δ)§f Chestplate
+item.arena:delta_hemlock_leggings=Hemlock §u(δ)§f Leggings
+item.arena:delta_hemlock_boots=Hemlock §u(δ)§f Boots
+
+item.arena:ganma_hemlock_helmet=§uHemlock §c(γ)§u Helmet
+item.arena:ganma_hemlock_chestplate=§uHemlock §c(γ)§u Chestplate
+item.arena:ganma_hemlock_leggings=§uHemlock §c(γ)§u Leggings
+item.arena:ganma_hemlock_boots=§uHemlock §c(γ)§u Boots
+
+item.arena:stigma_hemlock_helmet=§aHemlock §c(ς)§a Helmet
+item.arena:stigma_hemlock_chestplate=§aHemlock §c(ς)§a Chestplate
+item.arena:stigma_hemlock_leggings=§aHemlock §c(ς)§a Leggings
+item.arena:stigma_hemlock_boots=§aHemlock §c(ς)§a Boots
+
+item.arena:alpha_hemlock_helmet=§aHemlock §c(α)§a Helmet
+item.arena:alpha_hemlock_chestplate=§aHemlock §c(α)§a Chestplate
+item.arena:alpha_hemlock_leggings=§aHemlock §c(α)§a Leggings
+item.arena:alpha_hemlock_boots=§aHemlock §c(α)§a Boots
+
+item.arena:arena_chestplate=§r§gHamleth Hood
+item.arena:doll_had=§r§gPlush-arena\nDo you like how my face\ndesintegrates into chalk?
+item.arena:alaniz_hat=§r§gPlush-Alaniz
+item.arena:angeloso_hat=§r§gPlush-Angeloso
+item.arena:extreme_hat=§r§gPlush-Extreme
+item.arena:system_hat=§r§gPlush-System
+item.arena:vulkan_hat=§r§gPlush-Vulkan
+
+item.arena:gold_hat=§r§gPlush-Gold
+item.arena:ice_hat=§r§gPlush-JrIce
+item.arena:jesus_hat=§r§gPlush-Jesus
+item.arena:kaiden_hat=§r§gPlush-Kaiden
+item.arena:straw_hat=§r§gplush-StrawBerry
+
+item.arena:alpha_hat=§r§gPlush-Alpha
+item.arena:milo_hat=§r§gPlush-Milo
+item.arena:biggamer_hat=§r§gPlush-BGamer
+item.arena:lotte_axolotle_hat=§r§gPlush-LotteAxolotl
+item.arena:drak_hat=§r§gPlush-Drak
+
+item.arena:iluminated_hat=§r§gIluminated-Plush
+item.arena:blaze_hat=§r§gBlaze-Plush
+item.arena:bee_hat=§r§gBee-Plush
+item.arena:shulked_hat=§r§gShulked-Plush
+item.arena:agustin_hat=§r§gAgustin-Plush
+item.arena:alylicia_hat=§r§gAlycia-Plush
+item.arena:cap_zweihander_hat=§r§gCapZweihander-Plush
+item.arena:laniraxia_hat=§r§gLaniraxia-Plush
+item.arena:melunch_hat=§r§gMelunch-Plush
+
+item.arena:masked_hat=§r§gMasked-Plush
+item.arena:armored_hat=§r§gArmored-Plush
+
+item.arena:extreme_chestplate=§mCannibal Hood
+item.arena:blood_hat=§mCannibal Hat
+item.arena:extreme_had=§gBlood Hat\n§r§7(Head slot)\n§o§8+ I, +5 lifesteal\nShe's a phantom, a glimmer
+
+item.arena:fox_helmet=§r§gFox Mask
+item.arena:cat_helmet=§r§gCat Mask
+item.arena:marble_helmet=§r§gMarble Mask
+item.arena:blaze_helmet=§r§gBlaze Skull Mask
+item.arena:ethereal_helmet=§r§gEthereal sights Mask
+item.arena:wither_helmet=§r§gWither Mask
+item.arena:axolotl_helmet=§r§gAxolotl Mask
+item.arena:end_hat=§r§uFeared Ender Hat
+
+item.arena:iron_crown=§r§eIron Crown
+item.arena:golden_crown=§r§eGolden Crown
+item.arena:prismarine_crown=§r§ePrismatic Crown
+item.arena:netherite_crown=§r§eNetherite Crown
+item.arena:ender_crown=§r§eEnder Crown
+item.arena:calamity_crown=§bCalamity Crown
+
+item.arena:marble_bracelets_chestplate=§r§aMarble Bracelet
+item.arena:wing_chestplate=§r§eMarble Wing
+item.arena:wing_fallen_chestplate=§r§uFallen Marble Wing
+item.arena:wing_hemlock_chestplate=§r§aHemlock Wing
+item.arena:piglin_bracelet_chestplate=§r§uPiglin Bracelet
+item.arena:aureola_helmet=§r§9Aureola
+
+tile.arena:cristal_gem_ore.name=Crystal Ore
+tile.arena:marble_ore.name=Marble Ore
+tile.arena:hemlock_stone_ore.name=Hemlock Ore
+tile.arena:chiseled_marble.name=Chiseled Marble
+tile.arena:marble_bricks.name=Marble Bricks
+tile.arena:marble_pilar.name=Marble Pillar
+tile.arena:marble_raws.name=Marble Tile
+tile.arena:pulished_marble.name=Large Marble Bricks
+tile.arena:pulish_marble.name=Polished Marble
+tile.arena:marble_ore_deepslate.name=Black Marble Ore
+tile.arena:chiseled_black_marble.name=Chiseled Black Marble
+tile.arena:black_marble_bricks.name=Black Marble Bricks
+tile.arena:black_marble_pillar.name=Black Marble Pillar
+tile.arena:black_marble_tile.name=Black Marble Tile
+tile.arena:large_black_marble_bricks.name=Large Black Marble Bricks
+tile.arena:polished_black_marble.name=Polished Black Marble
+tile.arena:shard_end_ore.name=Levitation Ore
+tile.arena:shard_fire_ore_blackstone.name=Flammable blackstone Ore
+tile.arena:shard_fire_ore_netherrack.name=Flammale netherrack Ore
+tile.arena:shard_light_ore.name=Electric deepslate Ore
+tile.arena:shard_poison_ore.name=Poisonous deepslate Ore
+tile.arena:shard_snow_ore.name=Cold deepslate Ore
+
+item.arena:skull_heart=§mSkull Heart\n§r§7(Hearts charm slot)\n§o§8+3 , +Immunity to 
+item.arena:demon_heart=§mTerraria Demoniac Heart\n§r§7(Hearts charm slot)\n§o§8+5 , +1 , -100 (fire)\n+Immunity to , 
+item.arena:angelical_heart=§mAngelical Heart\n§r§7(Hearts charm slot)\n§o§8+4 , +100 (fire)\n-10 (projectile)
+item.arena:iron_golem_heart=§mIron Golem Heart\n§r§7(Hearts charm slot)\n§o§8+1 \n\n§7Dropped by: 
+item.arena:sync_golem_heart=§mSync Golem Heart\n§r§7(Hearts charm slot)\n§o§8+5 , +5 (melee), -25 (falling)
+item.arena:infernal_heart=§mHeart's Inferno\n§r§7(Hearts charm slot)\n§o§8+2 , +, +40 \nSpells(use staff):\n+Fire AoE(1m 20s cooldown)\nExcuse me, sir
+item.arena:heart_of_judgment=§mHeart Of Judgment\n§r§7(Hearts charm slot)\n§o§8+Increase  12 of hurtentity health\n+Immunity to , , , \n-10 (melee), -10 (projectile)
+
+item.arena:iron_guantlet=§nIron Gauntlet\n§r§7(Hand slot)\n§o§8+1 , -2 , -10 (magic)
+item.arena:marble_guantlet=§nMarble Gauntlet\n§r§7(Hand slot)\n§o§8+2 , -5 , +10 (magic)
+item.arena:fallen_guantlet=§nFallen Marble Gauntlet\n§r§7(Hand slot)\n§o§8+2 , -4 , -15 (magic)
+item.arena:hemlock_guantlet=§nHemlock Gauntlet\n§r§7(Hand slot)\n§o§8+3 , -6 , -20 (magic)
+
+item.arena:spell_evocation=§eEvocation Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Summon evocation fangs\n(18s cooldown)
+item.arena:spell_area_lifesteal=§eBloodlust Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Apply damage & restaure health\n(1m, 20s cooldown)
+item.arena:spell_dead_teleport=§eRecall Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Teleport to your dead location(1m cooldown)\n+Teleport to your spawnpoint(1m cooldown)
+item.arena:spell_teleport=§eTeleport Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Teleport yourself\n(15s cooldown)
+item.arena:spell_light_bolt=§eThunder bolt chain Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Evoke a lightning level 2\n(40s cooldown)
+item.arena:spell_lightning_bolt=§eThunder bolt Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Evoke a lightning storm\n(20s cooldown)
+item.arena:spell_supersonic=§eSupersonic Spell Book\n§r§7(Book slot)\n§o§8+Spells(use staff):\n+Evoke a warden supersonic\n(30s cooldown)
+
+item.arena:spell_engine=§eSpell Engine\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Decrease cooldown 10
+item.arena:rotten_brain=§eRotten Engine Brain\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Decrease cooldown 20\nImaginary mind
+item.arena:mind_electric=§eMind Electric\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Decrease cooldown 25\nI've a good heart albeit enasnI
+item.arena:spell_strength_engine=§eSpell Strength Engine\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Increase spell strength +2 
+item.arena:spell_duration_engine=§eSpell Duration Engine\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Increase effect duration 20 
+
+item.arena:summoner_wand=§eSummoner Wand\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Increase max summons(+1)
+item.arena:marble_summoner_wand=§eMarble Summoner Wand\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Increase max summons(+2)
+item.arena:hemlock_summoner_wand=§eHemlock Summoner Wand\n§r§7(Amulet slot)\n§o§8+Spells bonus:\n+Increase max summons(+3)
+
+item.arena:murders_skull=§9Murderers Skull\n§r§7(Talisman slot)\n§o§8+, +20 \nShe found the earlking
+item.arena:sacret_pendant=§9Sacred Pendant\n§r§7(Talisman slot)\n§o§8+ II\nOur mission is to\nslay the sacred beast
+item.arena:villager_heart=§9Villager Heart\n§r§7(Talisman slot)\n§o§8+ I, +1 \nPumping heart\n\n§7Dropped by:  
+item.arena:angelic_aurea=§9Heaven Aurea\n§r§7(Talisman slot)\n§o§8+ II\nUn ensemble d'enfants\nLa galaxie s'étend
+item.arena:magnet=§9Magnet\n§r§7(Talisman slot)\n§o§8+Attracts nearby items
+item.arena:marble_feather=§9Marble Feather\n§r§7(Talisman slot)\n§o§8+
+item.arena:nautilus_star_pendant=§9Nautilus Star Pendant\n§r§7(Talisman slot)\n§o§8+20 
+item.arena:rabbit_feet_pendant=§9Lucky Rabbit Feet\n§r§7(Talisman slot)\n§o§8+ III
+item.arena:cat_eye=§9Cat Eye\n§r§7(Talisman slot)\n§o§8+
+item.arena:shadow_of_nobody=§9Shadow Of Nobody\n§r§7(Talisman slot)\n§o§8+\nFountain of infinite mirror
+item.arena:nefrite_bracelet=§9Nephrite Bracelet\n§r§7(Talisman slot)\n§o§8+Immunity To , 
+item.arena:extracted_heart=§9Extacted Heart\n§r§7(Talisman slot)\n§o§8+Reflect 25 \n+Immunity to , 
+item.arena:deformed_cross=§9Deformed Cross\n§r§7(Talisman slot)\n§o§8+15 chance dodge attacks
+item.arena:marble_emerald_pendant=§9Marble-emerald Pendant\n§r§7(Talisman slot)\n§o§8+ I
+item.arena:rhetoric_skull=§9Rhetoric Skull\n§r§7(Talisman slot)\n§o§8+1 \n(On kill: poison I)\nTo be, or not to be?
+item.arena:spectral_talisman=§9Spectral Talisman\n§r§7(Talisman slot)\n§o§8If you are in the dark\n+ I, + I (falling)
+item.arena:nefrite_edged_sword=§9Nephrite Edged Sword\n§r§7(Talisman slot)\n§o§8+5 (Hit counter, 6 hits)\n-5 (melee)
+item.arena:artemisa_deer_antler=§9Artemisa Deer Anklet\n§r§7(Talisman slot)\n§o§8+2 , -10 (melee)
+item.arena:deer_skull=§9Incandescent Skull\n§r§7(Talisman slot)\n§o§8+ arrows
+item.arena:midas_finger=§9Midas Finger\n§r§7(Talisman slot)\n§o§8+Obtained gold after killing
+item.arena:vexed_souls_lantern=§9Vexed Souls Lantern\n§r§7(Talisman slot)\n§o§8+Immunity to , , \nSummoner(Max of 3, 35 chance)\n(Summon vex after take damage)\nTell the truth and\nyour right hand
+item.arena:harmony_talisman=§9Harmony Talisman\n§r§7(Talisman slot)\n§o§8+Summoner(Max of 3, 10 chance)\n(Summon endermites after hit)\n+ II
+item.arena:sync_sculk_talisman=§9Sync Sculk Talisman\n§r§7(Talisman slot)\n§o§8+ I(still), -4 \n+Area of  II(half health)
+item.arena:nocturnal_hood=§9Nocturnal Hood\n§r§7(Talisman slot)\n§o§8+Inflict insomnia \n(4 , 6s, in night)\n+ in day
+item.arena:witches_emblem=§9Witches Emblem\n§r§7(Talisman slot)\n§o§8+Immunity to \n+ II(eat spider Eyes)
+item.arena:obsidian_knight_helmet=§9Murderers Knight Helmet\n§r§7(Talisman slot)\n§o§8+, +100 
+item.arena:fallen_feather=§9Fallen Marble Feather\n§r§7(Talisman slot)\n§o§8+Dash\n+Immunity to 
+item.arena:ornate_curio=§9Ornate Curio\n§r§7(Talisman slot)\n§o§8+Increases the Ornate stack by +2
+item.arena:sealing_talis=§9Sealing Debris\n§r§7(Talisman slot)\n§o§8-12 \n+Spells bonus:\n+Increase max summons(+2)
+
+item.arena:marble_hand=§uMarble Hand\n§r§7(Charm slot)\n§o§8+2 , + II\n-20 (melee), -20 (projectile)
+item.arena:dragonic_heart=§uDragonic Heart\n§r§7(Charm slot)\n§o§8+10 , -2 , -20 \n-20 
+item.arena:night_siege_eye=§uNight Siege Eye\n§r§7(Charm slot)\n§o§8+15 (melee), +15 (projectile), -40  
+item.arena:nefrite_crow=§uEarlking Crown\n§r§7(Charm slot)\n§o§8+Immunity to , , 
+item.arena:prismatic_heart_relic=§uOceanic Heart Relic\n§r§7(Charm slot)\n§o§8+ II, -20 (falling)
+item.arena:contracted_heart=§uContracted Heart\n§r§7(Charm slot)\n§o§8+15 lifesteal\n+Immunity to , \nMind control, restart
+item.arena:piglin_bracelet=§uPiglin Bracelet\n§r§7(Charm slot)\n§o§8+1 , +10 (melee)\n-30 (falling)\n\n§7Dropped by: 
+item.arena:marble_rune=§uMarble Rune\n§r§7(Charm slot)\n§o§8+ II nearby hostile mobs\n+20 , +5 (melee), +5 (projectile)
+item.arena:doble_edged=§uDouble-Edged Views\n§r§7(Charm slot)\n§o§8Cause critic  & \n(Hit counter, 8 hits)\n-10 (melee), -10 (projectile)
+item.arena:marble_skull=§uMarble Skull\n§r§7(Charm slot)\n§o§8+ I\nyou bury nearby monsters\n(kill entities)
+item.arena:netherite_rune=§uNetherite Rune\n§r§7(Charm slot)\n§o§8+2 (knockback)\n+ III &  II\n(To nearby iron golems)
+item.arena:piece_of_time=§uAnother Time Pice\n§r§7(Charm slot)\n§o§8+(over soul sand)\n+5 (projectile), +5 (melee)\nRinding the bell
+item.arena:artemisa_arrowhead=§uArtemisa Arrow Head\n§r§7(Charm slot)\n§o§8+Explosive arrows
+item.arena:cherry_blossom=§uCherry Blossom\n§r§7(Charm slot)\n§o§8+2-10 (after killing 7-34 mobs)\nColors that grow where u can
+item.arena:sacret_sword=§uSacred Sword\n§r§7(Charm slot)\n§o§8+Undeads slayer(+25  & )\n+10 (magic)\nWho has come to claim\nour innocence at least
+item.arena:blood_scythe=§uBlood Scythe\n§r§7(Charm slot)\n§o§8+5 lifesteal\n+10 chance of cause bleeding \n-10 (melee)
+item.arena:pandoras_bracelet=§uPandora's Bracelet\n§r§7(Charm slot)\n§o§8+Immunity to \n+10 , + I, II(half health)\n+Saturation(Eat rotten flesh)\nPandora's Skinner box
+item.arena:complexion_afinity_bracelet=§uComplexion Afinity Bracelet\n§r§7(Charm slot)\n§o§8+Hit counter(6 hits)\n(Inflict void damage)\n-5 (melee)\nPlato's bees in your bonnet
+item.arena:shrink_impressions_bracelet=§uShrink Impressions Bracelet\n§r§7(Charm slot)\n§o§8-10 , -40 \n+ II(Take 5 hits)
+item.arena:divine_orb=§uDivine Orb\n§r§7(Charm slot)\n§o§8+5 (magic)\n+Undeads slayer(+35 )\nSpells bonus:\n+Increase summons health +4 
+item.arena:tears_unshed=§uTears Unshed\n§r§7(Charm slot)\n§o§8+Inflict insomnia \n(40 chance, 6 , 10s, in night)\n+ I(still & sneak)
+item.arena:fallen_hand=§uFallen Marble Hand\n§r§7(Charm slot)\n§o§8+2 , + II\n-20 (melee), -20 (projectile)
+item.arena:end_of_the_time=§uEvery end of the time\n§r§7(Charm slot)\n§o§8+Reflect (area)\n-5 (projectile), -5 (melee)\nIs another begun
+item.arena:cursed_sword=§uCursed Sword\n§r§7(Charm slot)\n§o§8+Players slayer(+25  & )\n-10 (magic)
+item.arena:ornate_core=§uOrnate Core\n§r§7(Charm slot)\n§o§8+Decreases the Ornate stack debuff by -3
+item.arena:hellish_core=§uHellish Core\n§r§7(Charm slot)\n§o§8+Hits twice(50 )
+item.arena:cherry_sword=§uCherry Sword\n§r§7(Charm slot)\n§o§8Cause critic(+50 )\n+Area cures to allys\n(Hit counter, 8 hits)\n-10 (melee), -10 (projectile)
+item.arena:overflowing_core=§uOverFlowing Core\n§r§7(Charm slot)\n§o§8+Spells bonus:\n+Increase summons health +4 \n+Increase ranged summons speed +1 \n+Increase melee summons attack +1 \n+But increase cooldown +30 
+item.arena:malingnant_orb=§uMalingnant Orb\n§r§7(Charm slot)\n§o§8-5 (magic)\n+Players slayer(+35 )\nSpells bonus:\n+Increase ranged summons speed +1 \n+Increase melee summons attack +1 
+
+item.arena:apolo_quiver=§sApollo Quiver\n§r§7(Body slot)\n§o§8+50 area damage(arrows)\n-40 (melee)\nI was a victim of
+item.arena:apollo_replies_belt=§sApollo Replies Belt\n§r§7(Body slot)\n§o§8+Area damage(arrows) & \n-70 (melee), -3 ,  I\nCatching my breath as
+item.arena:tool_belt=§sTool Belt\n§r§7(Body slot)\n§o§8+ III\n+ (break blocks, max V)\n+Repair tools & armor
+item.arena:sighthood=§sSight-Hood\n§r§7(Body slot)\n§o§8+15 (melee), +15 (projectile), -20 (falling)\n+Immunity to \n+Undead protection +\n II, + III(Night)\nBye, hi, sight hawaii
+item.arena:nighthood=§sNight-Hood\n§r§7(Body slot)\n§o§8+15 (melee), +15 (projectile), -20 (falling)\n+Immunity to \n+Players protection +\n II, + III(day)
+item.arena:sculk_belt=§sSculk Belt\n§r§7(Body slot)\n§o§8+10 (melee)\n+Aura of ,  I(take damage)\n+Aura of  I to allys\n+ I(nearby kill)\n(consume xp)
+item.arena:dream_tatters_of_the_king=§sDream Tatters Of The King\n§r§7(Body slot)\n§o§8+10 (magic)\n+Kill counter(3 kills)\n(+50 , + II)\n+Instant dead(sleep)
+item.arena:ornate_belt=§sOrnate Belt\n§r§7(Body slot)\n§o§8+5 (melee)(max +30 ), -1 \n(Stacks per Ornate item)
+item.arena:extravagant_quiver=§sExtravagant Quiver\n§r§7(Body slot)\n§o§8+Increase loot from arrow kills
+item.arena:ifrits_mantle=§sIfrit's mantle\n§r§7(Body slot)\n§o§8+ (Under than 10 hearts, max II)\n+ (Above than 10 hearts)
+
+item.arena:spawner_breaker=§nSpawner Touch\n§r§7(Hand slot)\n§o§8+Mining spawner\n(Obtain spawner fragments)
+item.arena:axe_heater=§nAxe Teater\n§r§7(Hand slot)\n§o§8+Obtain Charcoal
+item.arena:shovel_heater=§nShovel Teater\n§r§7(Hand slot)\n§o§8+Obtain glass\n(Concrete & bricks too)
+item.arena:ornate_guantlet=§nOrnate Gauntlet\n§r§7(Hand slot)\n§o§8+1  (max +4), -2  (min -10 )\n(Stacks per Ornate item)
+item.arena:apollo_bracer=§nApollo Bracer\n§r§7(Hand slot)\n§o§8+Increase inflict punch\n+1 , -5 (melee)
+
+item.arena:archaic_cursed_book=§aΚαταραμένο βιβλίο\n§r§7(Αρχαϊκός charm slot)\n§o§8+ I, II, III(12-24-36 levels of xp)\n-30 , +30 (magic), + II\n+1  per 2 XP level(Max +50 )\n+Upgrade enchant books(hold the book)
+item.arena:archaic_cursed_skull=§aΚαταραμένο κρανίο\n§r§7(Αρχαϊκός charm slot)\n§o§8+ II, +4 , -15 , -50 (magic)\nWhy did murderers animals survived?
+item.arena:archaic_blessed_shield=§aΙερή ασπίδα\n§r§7(Αρχαϊκός charm slot)\n§o§8-20 , -2 \n+30 (melee), +30 (projectile)\n+30 (magic), +30 (explosions)\n+15 chance to reflect 10\nEquip shield in offhand
+item.arena:archaic_marble_wings=§aΦτερά του Ίκαρου\n§r§7(Αρχαϊκός charm slot)\n§o§8+10 , + III, + II\n(Equip elytras)\n+Undeads slayer(+50 )\n+(Cure zombie villagers)\n+3 jumps\n-200 (fire), -10 (melee)
+item.arena:archaic_incript_paper=§aΕργασία με μεταγραφή\n§r§7(Αρχαϊκός charm slot)\n§o§8+Immunity To \n§o§8+25 chance attacks gives \n+Recive 25 of  taken as experience
+item.arena:archaic_arnold=§aSelbstbildnis mit fiedelndem Tod\n§r§7(Αρχαϊκός charm slot)\n§o§8-10 (melee), -10 (projectile)\n+Death mark , + II, +30 , +2 , + III\n+Extra XP reward\nDeath whispers to you
+item.arena:archaic_light_cepter=§aβέλος του Δία\n§r§7(Αρχαϊκός charm slot)\n§o§8+35 chance of lightning attack\n+5 chance cause +150 \n-15 (melee), -10 (projectile)\n+50 (lightnings)
+item.arena:archaic_marble_bracelets=§aΜαρμάρινα βραχιόλια\n§r§7(Αρχαϊκός charm slot)\n§o§8+ III (golden axe in hand)\n+2 , +20 (melee)\n-60 (falling)
+item.arena:archaic_chained_soul=§aΑλυσοδεμένη μαραμένη ψυχή\n§r§7(Αρχαϊκός charm slot)\n§o§8+ II, + I, + II, inflict  I\n(When you are about to die)\n+80 
+item.arena:archaic_good_and_evil_flower=§aGood & Evil Flower\n§r§7(Αρχαϊκός charm slot)\n§o§8+ I, + II, +10 \n+Immunity to , \n+ II,  I (having less 7.5-2.5 )\n+Boss slayer(+80  & )\nI know a lady good & evil
+item.arena:archaic_soul_hand=§aΧέρι ψυχής\n§r§7(Αρχαϊκός charm slot)\n§o§8+3 , -9 \n+Immunity to , \n+ I, +, inflict  &  I\n(having less 5  )\n+Increase  12 of hurtentity health
+item.arena:archaic_ruler_of_prismas=§aRuler of colored things\n§r§7(Αρχαϊκός charm slot)\n§o§8+1 , +20 , + IV\n+ II,  I (In air), -80 (falling)\nYou understand the mechanicals hands are
+item.arena:archaic_dimensions_table=§aΠίνακας διαστάσεων\n§r§7(Αρχαϊκός charm slot)\n§o§8+10 chance cause critic \n+Attacks inflict  III(V in Nether)\n+Attacks cause \nAttacks inflict 6s (9s in End)\n+Attacks inflict  III(V in Overworld)\n+10 (melee), +10 (projectile)
+item.arena:archaic_dimensions_horn=§aΔιαστάσεις κόρνας\n§r§7(Αρχαϊκός charm slot)\n§o§8+4 lifesteal(8 in nether)\n+9 generate explosion\n+8 Piercing armor damage(+12 in End)\n+Immunity to , \n+2 , +2 knockback
+item.arena:archaic_sacret_skull=§aΙερό κρανίο\n§r§7(Αρχαϊκός charm slot)\n§o§8+After killing an entity\n20 chance to inflict +100 \nOnly truth is made of lies
+item.arena:archaic_triple_edged_sword=§aΤρίκοπο μαχαίρι\n§r§7(Αρχαϊκός charm slot)\n§o§8Cause +100 \n+Cause  your victim\n+ II\n(Hit counter, 9 hits)\n-15 (melee), -15 (projectile)
+item.arena:archaic_sacret_heart=§aΑρχαϊκή ιερή καρδιά\n§r§7(Αρχαϊκός charm slot)\n§o§8+Reflect 50 & steal 25 of received damage
+item.arena:archaic_warden_claws=§aΝύχια φύλακα\n§r§7(Αρχαϊκός charm slot)\n§o§8+Monsters slayer(+35 )\n-3 , +1 , Sonic hits\n-25 (melee), -30 (projectile)
+item.arena:archaic_hemlock_wings=§aΦτερά του Ίκαρου\n§r§7(Αρχαϊκός charm slot)\n§o§8+11 , + III, + II\n(Equip elytras)\n+Undeads slayer(+65 )\n+(Cure zombie villagers)\n+4 jumps\n-200 (fire), -10 (melee)
+item.arena:cursed_shield=§aΚαταραμένη ασπίδα\n§r§7(Αρχαϊκός charm slot)\n§o§8-20 , -2 \n+30 (melee), +30 (projectile)\n+30 (magic), +30 (explosions)\n+Reflect 15(To players) &  II (15 chance)\nEquip shield in offhand
+item.arena:fallen_wings=§aΠεσμένη μαρμάρινη πτέρυγα\n§r§7(Αρχαϊκός charm slot)\n§o§8-30 (melee), -30 (projectile)\n+3 , + II(Equip elytras)\n+Players slayer(+50 )\n+3 jumps
+item.arena:conscious_star=§aΑστέρι της ψυχής\n§r§7(Αρχαϊκός charm slot)\n§o§8+5 , -8 , + I\n-50 (melee), -50 (projectile)\n+Immunity to , , \n+Attacks inflict  & \n+20 chance gain \n+30 chance of lightning attack\n+50 multiplier critic \n+Cause sonic hit (+150 )\n(Hit counter, 10 hits)\n+Chift + Hold a item to active charging mode
+item.arena:archaic_reckless_archer=§sΑπερίσκεπτος τοξότης\n§r§7(Αρχαϊκός charm slot)\n§o§8+Increase +1  per impact\n(Max +75 )\n-25 (melee)
+item.arena:archaic_hemlock_shield=§aΑσπίδα από κώνειο\n§r§7(Αρχαϊκός charm slot)\n§o§8-20 , -2 \n+35 (melee), +35 (projectile)\n+35 (magic), +35 (explosions)\n+15 chance to reflect 12\nEquip shield in offhand
+
+item.arena:ethereal_sight_mask=§gEthereal Sights Mask\n§r§7(Face slot)\n§o§8, +1 , +100 (falling)\n+50 (projectile)\n-100 (fire)\nSurvives the void\n+Teleport
+item.arena:fox_mask=§gFox Mask\n§r§7(Face slot)\n§o§8, +50 (falling), +20 , -3 \n+20 (projectile)\n(Dash jumps)
+item.arena:blaze_skull_mask=§gBlaze Skull Mask\n§r§7(Face slot)\n§o§8, +100 (fire), +200 \n+Allergic to water\n+ II in nether\n+ II in overworld\n+ skin, +Immunity to \nSmelt ores
+item.arena:marble_mask=§gMarble Mask\n§r§7(Face slot)\n§o§8, +6 , -150 (falling)\n+20 (melee), +20 (projectile)\n+Immunity to \n+3 (knockback), +1 knockback
+item.arena:poseidon_mask=§gAxolotl Mask\n§r§7(Face slot)\n§o§8, +Breaths water, +50 , + II in water\n-50 (fire), -50 (falling)\n+Immunity to \n+  slayer(+60  & )
+item.arena:kitsume_mask=§gKitsume Mask\n§r§7(Face slot)\n§o§8, +Invisible to hostile mobs\n+Immunity to positive effects\n-9 
+item.arena:natural_butterfly_mask=§gNatural Butterfly Mask\n§r§7(Face slot)\n§o§8, + I, +10 \n+Attacks inflict  VI\n+Increased crop drops
+item.arena:unnatural_mask=§gChorus-Coral Mask\n§r§7(Face slot)\n§o§8, + III, +3 , +10 , + II\n-75 (magic), -20 (melee)\n+More agresive Mobs\n+Increased ore drops
+item.arena:demon_mask=§gDemon Mask\n§r§7(Face slot)\n§o§8, +2 , + I\n-50 (melee), -50 (projectile)\n-50 (magic), -50 (explosions)\n+burns in daylight\n+Hit counter(10 hits)\n(Inflicts +200  & )\n( II/ I)
+item.arena:cat_mask=§gCat Mask\n§r§7(Face slot)\n§o§8, -1 , -50 , +,  II\n+Natural agility( , )\nGive agility buff in darkness\n( when sneaking)\nRun is less tiring\nSwim is more tiring\n+1 jump
+item.arena:wither_mask=§gWither Mask\n§r§7(Face slot)\n§o§8, +25 (projectile)\n+100 (explosions)\n-75 (magic)\n+1 , + II, +2 (knockback)\n+ II,  I, , - II\n(having less life 5-4 )\n+Immunity to , , \n(summon wither skeletons after kill)\n+ arrows
+item.arena:necromancer_mask=§gNecromancer Mask\n§r§7(Face slot)\n§o§8, +burns in daylight\n+Summoner, -5 (melee), -2 \n(Summon skeleton after kill, 40)
+item.arena:feared_end_hat=§gFeared Ender Hat\n§r§7(Face slot)\n§o§8, +Allergic to water\n-10 (melee), +50 (projectile)\n-2 , +teleport\n+Void arrows\n+ I, II.+ I, II (Half health)
+item.arena:angelic_mask=§gAngelic Mask\n§r§7(Face slot)\n§o§8, +3 jumps, + II, -50 \n-25 (melee), -25 (projectile)\n+Undeads slayer(+40  + )\n+, ,  I(night)\n+Aura of (pets, invocations)
+item.arena:deep_knight_helmet=§gDeep Knight Helmet\n§r§7(Face slot)\n§o§8, -20 \n-220 (falling), +15 (magic)\n+30 (melee), +30 (projectile)\n+Immunity to \n+Detects nearby entitys\n(Sneaking, +)
+item.arena:witch_mask=§gEnchanted witch Hat\n§r§7(Face slot)\n§o§8, +50 (magic)\n-20 (melee), -20 (projectile)\n+Spells(use staff):\n+ III(30s cooldown)\n+(in area) II(35s cooldown)\n+(in area) II(30s cooldown)\n+(in area) II(30s cooldown)\n+(in area) II(30s cooldown)\n+Dash (10s cooldown)\n+ II (in area)(30s cooldown)
+item.arena:nights_devouring_mask=§gNights devouring Mask\n§r§7(Face slot)\n§o§8, +1 jump, +5 (melee), +1 \n+Unsleep nights counter(1-5)\n(+ I-II, + I-II, + I)\n+ III,  I,  I\n(in day)\n+Inflict insomnia \n(40 chance, 10 , .5s, in night)
+item.arena:evoker_mask=§gEvoker Mask\n§r§7(Face slot)\n§o§8, +50 (magic)\n-20 (melee), -20 (projectile)\n+Spells(use staff):\n+Summon vexes(2min cooldown)\n+Invoke circle fangs\n+Invoke line fangs\n+Area wind knockback\n+Summon fireball
+item.arena:deformed_mask=§gDeformed Mask\n§r§7(Face slot)\n§o§8, +Piglins avoid you\n+1 , -30 , -50 , +80 \n+Its impacts wear down durability\n+ I-II(still & shift)\n+Players slayer(+15 )
+item.arena:fallen_angel_mask=§gFallen angel Mask\n§r§7(Face slot)\n§o§8, +3 Dash, -20 \n-25 (melee), -25 (projectile)\n+Players slayer(+40  & )\n+, ,  I(day)\n+Aura of (players)
+item.arena:fallen_marble_mask=§gFallen Marble Mask\n§r§7(Face slot)\n§o§8, +6 , -150 (falling)\n+20 (melee), +20 (projectile)\n+Immunity to \n+3 (knockback), +1 knockback\n+Spells(use staff):\n+Gigantism(2min cooldown)
+item.arena:arcane_hood=§gArcane Hood\n§r§7(Face slot)\n§o§8, -10 (melee), -10 (projectile)\n+Spells(use staff):\n+Summon Arcane vexes(2min cooldown)\n+Arcane protection( III 10s)
+
+item.arena:depart_paladins_fate=§gDepart Paladin's Fate\n§r§7(Head slot)\n§o§8+Immunity to \n-10 (melee), +1 \n+Inflict cursed \n(75 chance, 5s)\nIn the fate of the stars.
+item.arena:blossom_crown=§gBlossom Crown\n§r§7(Head slot)\n§o§8+Area cures to alloys\n(after killing)
+item.arena:soul_taker=§gLobachevskian Crown\n§r§7(Head slot)\n§o§8+Steal souls\n(Only mobs of spawners)
+item.arena:deer_crown=§gDeer Crown\n§r§7(Head slot)\n§o§8+5 , -1 , + II\n-25 (melee)
+item.arena:ornate_helmet=§gOrnate Helmet\n§r§7(Head slot)\n§o§8+1 (max +7 ), -5 (melee)\n(Stacks per Ornate item)
+item.arena:crown_of_calamity=§gCrown Of Calamity\n§r§7(Head slot)\n§o§8+Spells(use staff):\n+Summon 2 Knight skeletons\n(2m cooldown)
+item.arena:robin_hat=§gRobin's Hat\n§r§7(Head slot)\n§o§8+6 , +20 , +15 (projectile)\n-25 (melee)
+item.arena:crown_of_expertise=§gCrown Of Expertise\n§r§7(Head slot)\n§o§8+Spells(use staff):\n+Summon 2 Angelic vexes\n(1m, 20s cooldown)
+
+item.arena:harena_doll=§cHamleth Doll\n§r§7(Doll slot)\n§o§8+2 , + I\nHello! It's me, i hope you liked the addon. \nExcuse me, I'm also hungry
+item.arena:illuminated_doll=§cIlluminated Doll\n§r§7(Doll slot)\n§o§8+ (eat food), + I
+item.arena:masked_doll=§cMasked Doll\n§r§7(Doll slot)\n§o§8+ I, + I
+item.arena:shulked_doll=§cShulked Doll\n§r§7(Doll slot)\n§o§8+1 , +Immunity to  
+item.arena:bee_doll=§cBee Doll\n§r§7(Doll slot)\n§o§8+10 , +Immunity to 
+item.arena:fire_doll=§cFire Doll\n§r§7(Doll slot)\n§o§8+ I, -2 
+item.arena:vulak_doll=§cVulak Doll\n§r§7(Doll slot)\n§o§8+5 (melee), +10 (magic)\n+Immunity to 
+item.arena:aplpha_doll=§cAlpharius Doll\n§r§7(Doll slot)\n§o§8+ I(Sneaking), + I
+item.arena:gentrix_doll=§cStraw Berries Doll\n§r§7(Doll slot)\n§o§8+10 \n+Immunity to 
+item.arena:zultinus_doll=§cMilo Doll\n§r§7(Doll slot)\n§o§8+Area effect of  I\n-10 
+item.arena:jesus_doll=§cJesus Doll\n§r§7(Doll slot)\n§o§8+ I, + I, + III\nI give you my force,\nbut my metabolism
+item.arena:alaniz_doll=§cAlaniz Doll\n§r§7(Doll slot)\n§o§8+ I(Sneaking)\n-15 (falling)
+item.arena:gold_doll=§cGold Doll\n§r§7(Doll slot)\n§o§8+ I(golden helmet equipped)\n+Immunity to 
+item.arena:angeloso_doll=§cAngeloso Doll\n§r§7(Doll slot)\n§o§8+10 (falling)\n+Immunity to 
+item.arena:jrice_doll=§cJr ice Doll\n§r§7(Doll slot)\n§o§8+ IV(having 10  )\n+ I,  I (having 5-2.5  )
+item.arena:sacronkaiden_doll=§cSacron Kaiden Doll\n§r§7(Doll slot)\n§o§8-1 , reflect 3 \n+Allergic to water
+item.arena:paladin_doll=§cExtreme Doll\n§r§7(Doll slot)\n§o§8+1 , +10 \n -1 , -5 (melee)\nHamleth, i love rpg
+item.arena:systemtv_doll=§cSystem tv Doll\n§r§7(Doll slot)\n§o§8+Area effect of  II, -1 
+item.arena:biggamer_doll=§cBig gamer Doll\n§r§7(Doll slot)\n§o§8+40 , +Immunity to 
+item.arena:agustin_doll=§cAgustin Doll\n§r§7(Doll slot)\n§o§8+Extra xp reward\n+ I
+item.arena:alylicia_doll=§cAlycia Doll\n§r§7(Doll slot)\n§o§8+1 extra jump\n+Immunity to 
+item.arena:lotte_axolotle_doll=§cLotte axolotl Doll\n§r§7(Doll slot)\n§o§8+5 chance of cause bleeding \nHamleth, fix your mmada
+item.arena:drak_doll=§cDraK Doll\n§r§7(Doll slot)\n§o§8+Inflict insomnia \n(2 , 3s, in night)\n+Immunity to 
+item.arena:cap_zweihander=§cCap Zweihander Doll\n§r§7(Doll slot)\n§o§8+2  (per 15 xp levels)\n+Immunity to , , \nUh, Hamleth i broke it again!
+item.arena:laniraxia_doll=§cLaniraxia Doll\n§r§7(Doll slot)\n§o§8+2 , -10 (melee)
+item.arena:melunch_doll=§cMelunch Doll\n§r§7(Doll slot)\n§o§8+Area attacks, 10 damage\n-5 (melee), -5 (projectile)
+
+item.arena:iron_vampiric_earring=§5Vampiric -Earring\n§r§7(Earring slot)\n§o§8+2 lifesteal\n+Immunity to , 
+item.arena:iron_spikes_earring=§5Spkies -Earring\n§r§7(Earring slot)\n§o§8+Reflects 5 of damage\n+Immunity to , 
+item.arena:iron_explosive_earring=§5Explosive -Earring\n§r§7(Earring slot)\n§o§8+3 generate explosion
+item.arena:iron_penetration_earring=§5Piercing -Earring\n§r§7(Earring slot)\n§o§8+4 Piercing armor damage
+item.arena:iron_bleeding_earring=§5Bleeding -Earring\n§r§7(Earring slot)\n§o§8+4 chance of cause bleeding 
+item.arena:iron_arrows_earring=§5Archer -Earring\n§r§7(Earring slot)\n§o§8+1 , -5 (melee)
+item.arena:iron_insomnia_earring=§5Insomnia -Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(5 chance, 4 , 15s, in night)\n+Immunity to , 
+
+item.arena:golden_vampiric_earring=§5Vampiric -Earring\n§r§7(Earring slot)\n§o§8+4 lifesteal\n+Immunity to , 
+item.arena:golden_spikes_earring=§5Spikes -Earring\n§r§7(Earring slot)\n§o§8+Reflects 10 of damage\n+Immunity to , 
+item.arena:golden_explosive_earring=§5Explosive -Earring\n§r§7(Earring slot)\n§o§8+6 generate explosion
+item.arena:golden_penetration_earring=§5Piercing -Earring\n§r§7(Earring slot)\n§o§8+8 Piercing armor damage
+item.arena:golden_bleeding_earring=§5Bleeding -Earring\n§r§7(Earring slot)\n§o§8+8 chance of cause bleeding 
+item.arena:golden_arrows_earring=§5Archer -Earring\n§r§7(Earring slot)\n§o§8+2 , -10 (melee)
+item.arena:golden_insomnia_earring=§5Insomnia -Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(10 chance, 6 , 12s, in night)\n+Immunity to , 
+
+item.arena:prismarine_vampiric_earring=§5Vampiric -Earring\n§r§7(Earring slot)\n§o§8+6 lifesteal\n+Immunity to , 
+item.arena:prismarine_spikes_earring=§5Spikes -Earring\n§r§7(Earring slot)\n§o§8+Reflects 15 of damage\n+Immunity to , 
+item.arena:prismarine_explosive_earring=§5Explosive -Earring\n§r§7(Earring slot)\n§o§8+9 generate explosion
+item.arena:prismarine_penetration_earring=§5Piercing -Earring\n§r§7(Earring slot)\n§o§8+12 Piercing armor damage
+item.arena:prismarine_bleeding_earring=§5Bleeding -Earring\n§r§7(Earring slot)\n§o§8+12 chance of cause bleeding 
+item.arena:prismarine_arrows_earring=§5Archer -Earring\n§r§7(Earring slot)\n§o§8+3 , -15 (melee)
+item.arena:prismarine_insomnia_earring=§5Insomnia -Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(15 chance, 8 , 9, in night)\n+Immunity to , 
+
+item.arena:netherite_vampiric_earring=§5Vampiric -Earring\n§r§7(Earring slot)\n§o§8+8 lifesteal\n+Immunity to , 
+item.arena:netherite_spikes_earring=§5Spikes -Earring\n§r§7(Earring slot)\n§o§8+Reflects 20 of damage\n+Immunity to , 
+item.arena:netherite_explosive_earring=§5Explosive -Earring\n§r§7(Earring slot)\n§o§8+12 generate explosion
+item.arena:netherite_penetration_earring=§5Piercing -Earring\n§r§7(Earring slot)\n§o§8+16 Piercing armor damage
+item.arena:netherite_bleeding_earring=§5Bleeding -Earring\n§r§7(Earring slot)\n§o§8+16 chance of cause bleeding 
+item.arena:netherite_arrows_earring=§5Archer -Earring\n§r§7(Earring slot)\n§o§8+4 , -20 (melee)
+item.arena:netherite_insomnia_earring=§5Insomnia -Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(20 chance, 10 , 6s, in night)\n+Immunity to , 
+
+item.arena:fallen_vampiric_earring=§5Vampiric Fallen-Earring\n§r§7(Earring slot)\n§o§8+10 lifesteal\n+Immunity to , 
+item.arena:fallen_spikes_earring=§5Spikes Fallen-Earring\n§r§7(Earring slot)\n§o§8+Reflects 25 of damage\n+Immunity to , 
+item.arena:fallen_explosive_earring=§5Explosive Fallen-Earring\n§r§7(Earring slot)\n§o§8+15 generate explosion
+item.arena:fallen_penetration_earring=§5Piercing Fallen-Earring\n§r§7(Earring slot)\n§o§8+20 Piercing armor damage
+item.arena:fallen_bleeding_earring=§5Bleeding Fallen-Earring\n§r§7(Earring slot)\n§o§8+20 chance of cause bleeding 
+item.arena:fallen_arrows_earring=§5Archer Fallen-Earring\n§r§7(Earring slot)\n§o§8+5 , -25 (melee)
+item.arena:fallen_insomnia_earring=§5Insomnia Fallen-Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(25 chance, 12 , 6s, in night)\n+Immunity to , 
+
+item.arena:iron_diamond_earring=§5Diamond -Earring\n§r§7(Earring slot)\n§o§8+1 chance cause critic 
+item.arena:golden_diamond_earring=§5Diamond -Earring\n§r§7(Earring slot)\n§o§8+2 chance cause critic 
+item.arena:prismarine_diamond_earring=§5Diamond -Earring\n§r§7(Earring slot)\n§o§8+3 chance cause critic 
+item.arena:netherite_diamond_earring=§5Diamond -Earring\n§r§7(Earring slot)\n§o§8+4 chance cause critic 
+item.arena:fallen_diamond_earring=§5Diamond Fallen-Earring\n§r§7(Earring slot)\n§o§8+5 chance cause critic 
+
+item.arena:iron_emerald_earring=§5Emerald -Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+1)
+item.arena:golden_emerald_earring=§5Emerald -Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+2)
+item.arena:prismarine_emerald_earring=§5Emerald -Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+3)
+item.arena:netherite_emerald_earring=§5Emerald -Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+4)
+item.arena:fallen_emerald_earring=§5Emerald Fallen-Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+5)
+
+item.arena:iron_slayer_earring=§5Assasin -Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+3 )
+item.arena:golden_slayer_earring=§5Assasin -Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+6 )
+item.arena:prismarine_slayer_earring=§5Assasin -Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+9 )
+item.arena:netherite_slayer_earring=§5Assasin -Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+12 )
+item.arena:fallen_slayer_earring=§5Assasin Fallen-Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+15 )
+
+item.arena:iron_hemlock_earring=§5Hemlock -Earring\n§r§7(Earring slot)\n§o§8+3 multiplier critic 
+item.arena:golden_hemlock_earring=§5Hemlock -Earring\n§r§7(Earring slot)\n§o§8+6 multiplier critic 
+item.arena:prismarine_hemlock_earring=§5Hemlock -Earring\n§r§7(Earring slot)\n§o§8+9 multiplier critic 
+item.arena:netherite_hemlock_earring=§5Hemlock -Earring\n§r§7(Earring slot)\n§o§8+12 multiplier critic 
+item.arena:fallen_hemlock_earring=§5Hemlock Fallen-Earring\n§r§7(Earring slot)\n§o§8+15 multiplier critic 
+
+item.arena:iron_paladin_earring=§5Paladin -Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+3 )
+item.arena:golden_paladin_earring=§5Paladin -Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+6 )
+item.arena:prismarine_paladin_earring=§5Paladin -Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+9 )
+item.arena:netherite_paladin_earring=§5Paladin -Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+12 )
+item.arena:fallen_paladin_earring=§5Paladin Fallen-Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+15 )
+
+item.arena:iron_cursebreaker_earring=§5Cursebreaker -Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+5 )
+item.arena:golden_cursebreaker_earring=§5Cursebreaker -Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+10 )
+item.arena:prismarine_cursebreaker_earring=§5Cursebreaker -Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+15 )
+item.arena:netherite_cursebreaker_earring=§5Cursebreaker -Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+20 )
+item.arena:fallen_cursebreaker_earring=§5Cursebreaker Fallen-Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+25 )
+
+item.arena:pure_marble_vampiric_earring=§5Vampiric Divine-Earring\n§r§7(Earring slot)\n§o§8+12 lifesteal\n+Immunity to , 
+item.arena:pure_marble_spikes_earring=§5Spikes Divine-Earring\n§r§7(Earring slot)\n§o§8+Reflects 30 of damage\n+Immunity to , 
+item.arena:pure_marble_explosive_earring=§5Explosive Divine-Earring\n§r§7(Earring slot)\n§o§8+18 generate explosion
+item.arena:pure_marble_penetration_earring=§5Piercing Divine-Earring\n§r§7(Earring slot)\n§o§8+24 Piercing armor damage
+item.arena:pure_marble_bleeding_earring=§5Bleeding Divine-Earring\n§r§7(Earring slot)\n§o§8+24 chance of cause bleeding 
+item.arena:pure_marble_arrows_earring=§5Archer Divine-Earring\n§r§7(Earring slot)\n§o§8+6 , -25 (melee)
+item.arena:pure_marble_insomnia_earring=§5Insomnia Divine-Earring\n§r§7(Earring slot)\n§o§8+Inflict insomnia \n(30 chance, 14 , 5s, in night)\n+Immunity to , 
+item.arena:pure_marble_diamond_earring=§5Diamond Divine-Earring\n§r§7(Earring slot)\n§o§8+6 chance cause critic 
+item.arena:pure_marble_emerald_earring=§5Emerald Divine-Earring\n§r§7(Earring slot)\n§o§8+Extra xp reward (+6)
+item.arena:pure_marble_slayer_earring=§5Assasin Divine-Earring\n§r§7(Earring slot)\n§o§8+Players slayer(+18 )
+item.arena:pure_marble_hemlock_earring=§5Hemlock Divine-Earring\n§r§7(Earring slot)\n§o§8+18 multiplier critic 
+item.arena:pure_marble_paladin_earring=§5Paladin Divine-Earring\n§r§7(Earring slot)\n§o§8+Undeads slayer(+18 )
+item.arena:pure_marble_cursebreaker_earring=§5Cursebreaker Divine-Earring\n§r§7(Earring slot)\n§o§8+Increase  to cursed players(+30 )
+
+item.arena:blazing_earring=§5Blazing Earring\n§r§7(Earring slot)\n§o§8+  slayer(+25 )
+item.arena:ornate_earring=§5Ornate Earring\n§r§7(Earring slot)\n§o§8+1 , -5 (projectile)\n(Stacks per Ornate item)
+item.arena:piercing_earring=§5Piercing Earring\n§r§7(Earring slot)\n§o§8+Pierce a extra nearby enemy
+item.arena:infused_earring=§5Infused Earring\n§r§7(Earring slot)\n§o§8+Spells bonus:\n+Increase spell strength +1
+
+item.arena:damage_copper_wither_ring=§jDamage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+1 , -2 , +4 multiplier critic 
+item.arena:damage_iron_wither_ring=§jDamage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+1 , -2 , +8 multiplier critic 
+item.arena:damage_golden_wither_ring=§jDamage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+2 , -4 , +12 multiplier critic 
+item.arena:damage_prismarine_wither_ring=§jDamage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+2 , -4 , +16 multiplier critic 
+item.arena:damage_marble_wither_ring=§jDamage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+3 , -6 , +20 multiplier critic 
+
+item.arena:hearts_copper_wither_ring=§jHearts Withered- Ring\n§r§7(Wither ring slot)\n§o§8+1 
+item.arena:hearts_iron_wither_ring=§jHearts Withered- Ring\n§r§7(Wither ring slot)\n§o§8+2 
+item.arena:hearts_golden_wither_ring=§jHearts Withered- Ring\n§r§7(Wither ring slot)\n§o§8+3 
+item.arena:hearts_prismarine_wither_ring=§jHearts Withered- Ring\n§r§7(Wither ring slot)\n§o§8+4 , -10 
+item.arena:hearts_marble_wither_ring=§jHearts Withered- Ring\n§r§7(Wither ring slot)\n§o§8+5 , -10 
+
+item.arena:movement_copper_wither_ring=§jMovement Withered- Ring\n§r§7(Wither ring slot)\n§o§8+10 , -5 (melee), -5 (projectile)
+item.arena:movement_iron_wither_ring=§jMovement Withered- Ring\n§r§7(Wither ring slot)\n§o§8+20 , -10 (melee), -10 (projectile)
+item.arena:movement_golden_wither_ring=§jMovement Withered- Ring\n§r§7(Wither ring slot)\n§o§8+30 , -15 (melee), -15 (projectile)
+item.arena:movement_prismarine_wither_ring=§jMovement Withered- Ring\n§r§7(Wither ring slot)\n§o§8+40 , -20 (melee), -20 (projectile)
+item.arena:movement_marble_wither_ring=§jMovement Withered- Ring\n§r§7(Wither ring slot)\n§o§8+50 , -25 (melee), -25 (projectile)
+
+item.arena:swiming_copper_wither_ring=§jSwming Withered- Ring\n§r§7(Wither ring slot)\n§o§8+30 , +60 , -5 (falling)
+item.arena:swiming_iron_wither_ring=§jSwming Withered- Ring\n§r§7(Wither ring slot)\n§o§8+40 , +80 , -10 (falling)
+item.arena:swiming_golden_wither_ring=§jSwming Withered- Ring\n§r§7(Wither ring slot)\n§o§8+50 , +100 , -15 (falling)
+item.arena:swiming_prismarine_wither_ring=§jSwming Withered- Ring\n§r§7(Wither ring slot)\n§o§8+60 , +120 , -20 (falling)
+item.arena:swiming_marble_wither_ring=§jSwming Withered- Ring\n§r§7(Wither ring slot)\n§o§8+70 , +140 , -25 (falling)
+
+item.arena:jump_copper_wither_ring=§jJump Withered- Ring\n§r§7(Wither ring slot)\n§o§8+ II
+item.arena:jump_iron_wither_ring=§jJump Withered- Ring\n§r§7(Wither ring slot)\n§o§8+ III
+item.arena:jump_golden_wither_ring=§jJump Withered- Ring\n§r§7(Wither ring slot)\n§o§8+ IV
+item.arena:jump_prismarine_wither_ring=§jJump Withered- Ring\n§r§7(Wither ring slot)\n§o§8+ V
+item.arena:jump_marble_wither_ring=§jJump Withered- Ring\n§r§7(Wither ring slot)\n§o§8+ VI
+
+item.arena:defense_copper_wither_ring=§jDefense Withered- Ring\n§r§7(Wither ring slot)\n§o§8+5 (melee), +5 (projectile), -10 
+item.arena:defense_iron_wither_ring=§jDefense Withered- Ring\n§r§7(Wither ring slot)\n§o§8+10 (melee), +10 (projectile), -10 
+item.arena:defense_golden_wither_ring=§jDefense Withered- Ring\n§r§7(Wither ring slot)\n§o§8+15 (melee), +15 (projectile), -20 
+item.arena:defense_prismarine_wither_ring=§jDefense Withered- Ring\n§r§7(Wither ring slot)\n§o§8+20 (melee), +20 (projectile), -20 
+item.arena:defense_marble_wither_ring=§jDefense Withered- Ring\n§r§7(Wither ring slot)\n§o§8+25 (melee), +25 (projectile), -30 
+
+item.arena:mage_copper_wither_ring=§jMage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+5 (magic), -5 (melee)
+item.arena:mage_iron_wither_ring=§jMage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+10 (magic), -5 (melee)
+item.arena:mage_golden_wither_ring=§jMage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+15 (magic), -10 (melee)
+item.arena:mage_prismarine_wither_ring=§jMage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+20 (magic), -10 (melee)
+item.arena:mage_marble_wither_ring=§jMage Withered- Ring\n§r§7(Wither ring slot)\n§o§8+25 (magic), -15 (melee)
+
+item.arena:fire_wither_ring=§jFire Withered-Ring\n§r§7(Wither ring slot)\n§o§8+2 , -4 , +14 multiplier critic \n+Attacks cause 
+item.arena:end_wither_ring=§jEnder Withered-Ring\n§r§7(Wither ring slot)\n§o§8+3 \nAttacks inflict 6s \n+4 chance cause critic 
+item.arena:light_wither_ring=§jLightning Withered-Ring\n§r§7(Wither ring slot)\n§o§8+30 , -15 (melee), -15 (projectile)\n+6 chance of lightning attack\n+8 chance cause critic 
+item.arena:snow_wither_ring=§jSnow Withered-Ring\n§r§7(Wither ring slot)\n§o§8+50 , +100 , -15 (falling)\n+Attacks inflict  III\n+4 chance cause critic 
+item.arena:poision_wither_ring=§jPoison Withered-Ring\n§r§7(Wither ring slot)\n§o§8+ IV\n+Attacks inflict  III
+item.arena:hemlock_wither_ring=§jHemlock Withered-Ring\n§r§7(Wither ring slot)\n§o§8+15 (melee), +15 (projectile), -20 \n+Attacks inflict  II
+item.arena:desert_wither_ring=§jDesert Withered-Ring\n§r§7(Wither ring slot)\n§o§8+15 (magic), -10 (melee)\n+Attacks inflict  III\n+4 chance cause critic 
+
+item.arena:silk_ring_jelewer=§dSilk Ring\n§r§7(Ring slot)\n§o§8+Immunity 
+item.arena:withered_ring_jelewer=§dWithered Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+item.arena:crimsom_amethyst_ring_jelewer=§dCrimson amethyst Ring\n§r§7(Ring slot)\n§o§8+Immunity to \nWoe oh the rot
+item.arena:crimson_ring_jelewer=§dCrimson Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+item.arena:shadow_step_ring_jelewer=§dShadow Steps Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+item.arena:obsidian_ring_jelewer=§dObsidian Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+item.arena:blinding_of_shinning_ring_jelewer=§dBlinding shining Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+item.arena:shulked_ring_jelewer=§dShulked Ring\n§r§7(Ring slot)\n§o§8+Immunity to 
+
+item.arena:haunted_ring=§dHaunted Ring\n§r§7(Ring slot)\n§o§8+Spells bonus:\n+Increase ranged summons speed +1 
+item.arena:hauled_ring=§dHauled Ring\n§r§7(Ring slot)\n§o§8+Spells bonus:\n+Increase melee summons attack +1 
+item.arena:blazing_ring=§dBlazing Ring\n§r§7(Ring slot)\n§o§8+Immunity to bleeding 
+item.arena:ornate_band=§dOrnate Band\n§r§7(Ring slot)\n§o§8+5 (melee) (max +20 )\n(Stacks per Ornate item)
+item.arena:ornate_ring=§dOrnate Ring\n§r§7(Ring slot)\n§o§8+10  (max +30 )\n(Stacks per Ornate item)
+item.arena:repeating_ring=§dRepeating Ring\n§r§7(Ring slot)\n§o§8+Increase bow damage(+25 )
+item.arena:spirit_ring=§dSpirit Ring\n§r§7(Ring slot)\n§o§8-5 (melee)\n+Spells bonus:\n+Decrease cooldown 10 
+
+item.arena:iron_blossom_ring=§dBlossom -Ring\n§r§7(Ring slot)\n§o§8+Increase Cherry Blossom limit +4 
+item.arena:golden_blossom_ring=§dBlossom -Ring\n§r§7(Ring slot)\n§o§8+Increase Cherry Blossom limit +6 
+item.arena:prismarine_blossom_ring=§dBlossom -Ring\n§r§7(Ring slot)\n§o§8+Increase Cherry Blossom limit +8 
+item.arena:netherite_blossom_ring=§dBlossom -Ring\n§r§7(Ring slot)\n§o§8+Increase Cherry Blossom limit +10 
+item.arena:marble_blossom_ring=§dBlossom -Ring\n§r§7(Ring slot)\n§o§8+Increase Cherry Blossom limit +12 
+
+item.arena:iron_sculk_ring=§dSculk -Ring\n§r§7(Ring slot)\n§o§8+Increase +1  per kill\n(Max +5 )\n-5 (melee)
+item.arena:golden_sculk_ring=§dSculk -Ring\n§r§7(Ring slot)\n§o§8+Increase +1  per kill\n(Max +10 )\n-10 (melee)
+item.arena:prismarine_sculk_ring=§dSculk -Ring\n§r§7(Ring slot)\n§o§8+Increase +1  per kill\n(Max +15 )\n-15 (melee)
+item.arena:netherite_sculk_ring=§dSculk -Ring\n§r§7(Ring slot)\n§o§8+Increase +1  per kill\n(Max +20 )\n-20 (melee)
+item.arena:marble_sculk_ring=§dSculk -Ring\n§r§7(Ring slot)\n§o§8+Increase +1  per kill\n(Max +25 )\n-25 (melee)
+
+item.arena:amethyst_earring_jelewer=§5Amethyst Earring\n§r§7(Earring slot)\n§o§8+Attacks inflict \n+Reflect 
+item.arena:crimsom_amethyst_earring_jelewer=§5Crimsom Amthyst Earring\n§r§7(Earring slot)\n§o§8+Attacks inflict \n+Reflect 
+item.arena:crimsom_earring_jelewer=§5Crimsom Earring\n§r§7(Earring slot)\n§o§8+Attacks inflict \n+Reflect 
+
+item.arena:iron_fire_necklace_jelewer=§b Fire Necklace\n§r§7(Necklace slot)\n§o§8+1 chance cause critic \n+Attacks cause 
+item.arena:golden_fire_necklace_jelewer=§b Fire Necklace\n§r§7(Necklace slot)\n§o§8+2 chance cause critic \n+Attacks cause 
+item.arena:prismarine_fire_necklace_jelewer=§b Fire Necklace\n§r§7(Necklace slot)\n§o§8+3 chance cause critic \n+Attacks cause 
+item.arena:netherite_fire_necklace_jelewer=§b Fire Necklace\n§r§7(Necklace slot)\n§o§8+4 chance cause critic \n+Attacks cause 
+item.arena:fallen_fire_necklace=§bFallen Fire Necklace\n§r§7(Necklace slot)\n§o§8+5 chance cause critic \n+Attacks cause 
+
+item.arena:iron_end_necklace_jelewer=§b Ender Necklace\n§r§7(Necklace slot)\n§o§8+2 chance cause critic \nAttacks inflict 3s 
+item.arena:golden_end_necklace_jelewer=§b Ender Necklace\n§r§7(Necklace slot)\n§o§8+4 chance cause critic \nAttacks inflict 6s 
+item.arena:prismarine_end_necklace_jelewer=§b Ender Necklace\n§r§7(Necklace slot)\n§o§8+6 chance cause critic \n+Attacks inflict 7s 
+item.arena:netherite_end_necklace_jelewer=§b Ender Necklace\n§r§7(Necklace slot)\n§o§8+8 chance cause critic \n+Attacks inflict 8s 
+item.arena:fallen_end_necklace=§bFallen Ender Necklace\n§r§7(Necklace slot)\n§o§8+10 chance cause critic \n+Attacks inflict 9s 
+
+item.arena:iron_light_necklace_jelewer=§b Lightning Necklace\n§r§7(Necklace slot)\n§o§8+3 chance cause critic \n+3 chance of lightning attack
+item.arena:golden_light_necklace_jelewer=§b Lightning Necklace\n§r§7(Necklace slot)\n§o§8+6 chance cause critic \n+6 chance of lightning attack
+item.arena:prismarine_light_necklace_jelewer=§b Lightning Necklace\n§r§7(Necklace slot)\n§o§8+9 chance cause critic \n+9 chance of lightning attack
+item.arena:netherite_light_necklace_jelewer=§b Lightning Necklace\n§r§7(Necklace slot)\n§o§8+12 chance cause critic \n+12 chance of lightning attack
+item.arena:fallen_light_necklace=§bFallen Lightning Necklace\n§r§7(Necklace slot)\n§o§8+15 chance cause critic \n+15 chance of lightning attack
+
+item.arena:iron_snow_necklace_jelewer=§b Snow Necklace\n§r§7(Necklace slot)\n§o§8+2 chance cause critic \n+Attacks inflict  II
+item.arena:golden_snow_necklace_jelewer=§b Snow Necklace\n§r§7(Necklace slot)\n§o§8+4 chance cause critic \n+Attacks inflict  III
+item.arena:prismarine_snow_necklace_jelewer=§b Snow Necklace\n§r§7(Necklace slot)\n§o§8+6 chance cause critic \n+Attacks inflict  IV
+item.arena:netherite_snow_necklace_jelewer=§b Snow Necklace\n§r§7(Necklace slot)\n§o§8+8 chance cause critic \n+Attacks inflict  V
+item.arena:fallen_snow_necklace=§bFallen Snow Necklace\n§r§7(Necklace slot)\n§o§8+10 chance cause critic \n+Attacks inflict  VI
+
+item.arena:iron_poison_necklace_jelewer=§b Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  II
+item.arena:golden_poison_necklace_jelewer=§b Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  III
+item.arena:prismarine_poison_necklace_jelewer=§b Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  IV
+item.arena:netherite_poison_necklace_jelewer=§b Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  V
+item.arena:fallen_poison_necklace=§bFallen Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  VI
+
+item.arena:iron_hemlock_necklace=§b Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  I
+item.arena:golden_hemlock_necklace=§b Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  II
+item.arena:prismarine_hemlock_necklace=§b Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  III
+item.arena:netherite_hemlock_necklace=§b Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  IV
+item.arena:fallen_hemlock_necklace=§bFallen Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  V
+
+item.arena:iron_desert_necklace_jelewer=§b Desert Necklace\n§r§7(Necklace slot)\n§o§8+2 chance cause critic \n+Attacks inflict  II
+item.arena:golden_desert_necklace_jelewer=§b Desert Necklace\n§r§7(Necklace slot)\n§o§8+4 chance cause critic \n+Attacks inflict  III
+item.arena:prismarine_desert_necklace_jelewer=§b Desert Necklace\n§r§7(Necklace slot)\n§o§8+6 chance cause critic \n+Attacks inflict  IV
+item.arena:netherite_desert_necklace_jelewer=§b Desert Necklace\n§r§7(Necklace slot)\n§o§8+8 chance cause critic \n+Attacks inflict  V
+item.arena:fallen_desert_necklace=§bFallen Desert Necklace\n§r§7(Necklace slot)\n§o§8+10 chance cause critic \n+Attacks inflict  VI
+
+item.arena:pure_marble_fire_necklace=§bDivine Fire Necklace\n§r§7(Necklace slot)\n§o§8+6 chance cause critic \n+Attacks cause 
+item.arena:pure_marble_end_necklace=§bDivine Ender Necklace\n§r§7(Necklace slot)\n§o§8+12 chance cause critic \n+Attacks inflict 10s 
+item.arena:pure_marble_light_necklace=§bDivine Lightning Necklace\n§r§7(Necklace slot)\n§o§8+18 chance cause critic \n+18 chance of lightning attack
+item.arena:pure_marble_snow_necklace=§bDivine Snow Necklace\n§r§7(Necklace slot)\n§o§8+12 chance cause critic \n+Attacks inflict  VII
+item.arena:pure_marble_poison_necklace=§bDivine Poison Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  VII
+item.arena:pure_marble_desert_necklace=§bDivine Desert Necklace\n§r§7(Necklace slot)\n§o§8+12 chance cause critic \n+Attacks inflict  VII
+item.arena:pure_marble_hemlock_necklace=§bDivine Hemlock Necklace\n§r§7(Necklace slot)\n§o§8+Attacks inflict  VI
+
+item.arena:diamond_necklace=§bDiamond Necklace\n§r§7(Necklace slot)\n§o§8+Area attacks, 25 damage\n-20 (melee), -20 (projectile)
+item.arena:cursed_pendant=§bCursed Pendant\n§r§7(Necklace slot)\n§o§8+Immunity to \n+5 (melee), +5 (projectile),-2 \n+Inflict cursed \n(20 chance, 4s)
+item.arena:thine_eyes_pendant=§bThine Eyes Pendant\n§r§7(Necklace slot)\n§o§8+Enderpearls doesn't consume\n-10 
+item.arena:catalyst_scarf=§bCatalyst Scarf\n§r§7(Necklace slot)\n§o§8+10 (melee), +10 (projectile)\n+1 (knockback), -20 
+item.arena:bewitched_pendant=§bBewitched Pendant\n§r§7(Necklace slot)\n§o§8+Spells(use staff):\n+Summon 4 skeletons\n(1m cooldown)
+item.arena:sweet_dreams_pendant=§bSweet Dreams Scarf\n§r§7(Necklace slot)\n§o§8+1 jump\n+ III(sleep)\nIn sea major
+item.arena:obsidian_pendant=§bObsidian Necklace\n§r§7(Necklace slot)\n§o§8+10 , + II(in lava)
+item.arena:ornate_pendant=§bOrnate Pendant\n§r§7(Necklace slot)\n§o§8+2 chance cause critic \n(Stacks per Ornate item)
+
+item.arena:iron_crown_jelewer=§g-Crown\n§r§7(Head slot)\n§o§8+Apply I  to pets
+item.arena:golden_crown_jelewer=§g-Crown\n§r§7(Head slot)\n§o§8+Apply II  to pets
+item.arena:prismarine_crown_jelewer=§g-Crown\n§r§7(Head slot)\n§o§8+Apply  III to pets
+item.arena:netherite_crown_jelewer=§g-Crown\n§r§7(Head slot)\n§o§8+Apply  IV to pets
+
+item.arena:effect_cube=Effect Essence
+item.arena:archaic_stone=§2Αρχαϊκή πέτρα
+item.arena:marble_fragment=Marble Fragment
+
+item.arena:jelewer_upgrade_smithing_template_n=Marble Template\n§7(netherite)\n(Jelewer->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_p=Marble Template\n§7(prismarine)\n(Jelewer->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_g=Marble Template\n§7(Golden)\n(Jelewer->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_i=Marble Template\n§7(Iron)\n(->)
+
+item.arena:archaic_upgrade_smithing_template=§bΑρχαϊκός Template
+item.arena:template_fallen=§bFallen Angel Template
+item.arena:template_pure_marble=§ePure Marble Template
+
+item.arena:template_artemis=§eArtemis Template
+item.arena:template_hades=§bHades Template
+item.arena:template_poseidon=§bPoseidon Template
+item.arena:template_zeus=§eZeus Template
+
+item.arena:doll_base=§r§cDoll Base
+item.arena:mask_base=§bMask Base
+item.arena:elemental_wither_ring=§eElemental Withered Ring
+item.arena:witherring=§eWithered Ring
+item.arena:ring=§bRing
+
+item.arena:gembase=Empty Gem
+item.arena:gem_fire=§bFire Gem
+item.arena:gem_light=§bLight Gem
+item.arena:gem_poison=§bPoison Gem
+item.arena:gem_snow=§bSnow Gem
+item.arena:gem_void=§bEnd Gem
+item.arena:gem_desert=§bDesert Gem
+item.arena:gem_hemlock=§bHemlock Gem
+item.arena:cristal_gem=Impure Crystal
+item.arena:hemlock_stone=§bHemlock Stone
+item.arena:marble_dust=Marble Dust\n§7(raw marble)
+item.arena:raw_marble=Raw Marble\n§7(Smelt it)
+item.arena:chisel=Ore Chisel\n§7(Break marble & crystal ore)
+
+item.arena:fallen_marble=Fallen Marble Fragment
+item.arena:black_marble_dust=Black Marble Dust\n§7(raw Fallen Marble)
+item.arena:raw_black_marble=Raw Fallen marble\n§7(Smelt it)
+
+item.arena:ornate_fragment=§bOrnate Fragment
+
+item.arena:dragon_scale=§bDragon Scale\n\n§7Dropped by: 
+item.arena:wither_fire=§bWither Soul\n\n§7Dropped by: 
+item.arena:warden_heart=§bWarden Heart\n\n§7Dropped by: 
+
+item.arena:cold_shard=§eCold Shard\n\n§7Dropped by:  
+item.arena:flammable_shard=§eFlammable Shard\n\n§7Dropped by:  
+item.arena:electric_shard=§eElectric Shard\n\n§7Dropped by:   
+item.arena:poisonous_shard=§ePoisonous Shard\n\n§7Dropped by:    
+item.arena:levitation_shard=§eLevitation Shard\n\n§7Dropped by:  
+item.arena:arid_shard=§eArid Shard\n\n§7Dropped by:   
+item.arena:wither_fragment=§eWither Shard\n\n§7Dropped by:  
+
+item.arena:zombie_soul=Zombie Soul
+item.arena:skeleton_soul=Skeleton Soul
+item.arena:blaze_soul=Blaze Soul
+item.arena:spider_soul=Spider Soul
+item.arena:cave_spider_soul=Cave spider Soul
+item.arena:magma_soul=Magma cube Soul
+
+item.arena:spawner_fragment=§bMob Spawner Fragment
+
+item.twm:scroll=Talisman Scroll\n§r§7(Open the Talismans inventory)
+item.arena:w=Debug Item

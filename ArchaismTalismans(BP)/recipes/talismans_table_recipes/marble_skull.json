@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_skull"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"CEC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:gold_block"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			},
+			"E": {
+				"item": "arena:marble_ore"
+			}
+		},
+		"result": {
+			"item": "arena:marble_skull"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:marble_ore"
+			}
+		]
+	}
+}

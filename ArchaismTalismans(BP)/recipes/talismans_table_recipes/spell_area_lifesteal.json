@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:spell_area_lifesteal"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCB",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "arena:blood_scythe"
+			},
+			"B": {
+				"item": "minecraft:leather"
+			},
+			"C": {
+				"item": "minecraft:book"
+			}
+		},
+		"result": {
+			"item": "arena:spell_area_lifesteal"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:echo_shard"
+			}
+		]
+	}
+}

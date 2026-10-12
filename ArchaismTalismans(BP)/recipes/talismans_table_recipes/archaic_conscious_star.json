@@ -1,0 +1,54 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:conscious_star"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GHI"
+		],
+		"key": {
+			"A": {
+				"item": "arena:archaic_incript_paper"
+			},
+			"B": {
+				"item": "arena:archaic_arnold"
+			},
+			"C": {
+				"item": "arena:archaic_light_cepter"
+			},
+			"D": {
+				"item": "arena:archaic_chained_soul"
+			},
+			"E": {
+				"item": "minecraft:dragon_egg"
+			},
+			"F": {
+				"item": "arena:archaic_soul_hand"
+			},
+			"G": {
+				"item": "arena:archaic_triple_edged_sword"
+			},
+			"H": {
+				"item": "arena:archaic_sacret_heart"
+			},
+			"I": {
+				"item": "arena:archaic_warden_claws"
+			}
+		},
+		"result": {
+			"item": "arena:conscious_star"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "minecraft:dragon_egg"
+			}
+		]
+	}
+}

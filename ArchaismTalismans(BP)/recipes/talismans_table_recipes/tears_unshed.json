@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:tears_unshed"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"FGF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			},
+			"E": {
+				"item": "arena:marble_feather"
+			},			
+			"F": {
+				"item": "minecraft:phantom_membrane"
+			},			
+			"G": {
+				"item": "minecraft:crying_obsidian"
+			}
+		},
+		"result": {
+			"item": "arena:tears_unshed"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

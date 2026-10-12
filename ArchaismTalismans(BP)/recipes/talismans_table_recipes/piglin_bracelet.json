@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:piglin_bracelet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			"ACD",
+			"EA "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:gilded_blackstone"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			},
+			"E": {
+				"item": "minecraft:golden_axe"
+			}
+		},
+		"result": {
+			"item": "arena:piglin_bracelet"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:flammable_shard"
+			}
+		]
+	}
+}

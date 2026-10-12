@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:doll_base"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"BFF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:leather"
+			},
+			"B": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"C": {
+				"item": "minecraft:spider_eye"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"E": {
+				"item": "minecraft:golden_apple"
+			},
+			"F": {
+				"item": "minecraft:rotten_flesh"
+			}
+		},
+		"result": {
+			"item": "arena:doll_base",
+			"count": 2
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond",
+				"item": "minecraft:lapis_lazuli",
+				"item": "minecraft:spider_eye"
+			}
+		]
+	}
+}

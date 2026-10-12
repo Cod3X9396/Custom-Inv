@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:doble_edged"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAB",
+			"BCC",
+			"DE "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			},
+			"C": {
+				"item": "minecraft:gold_block"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			},
+			"E": {
+				"item": "arena:extracted_heart"
+			}
+		},
+		"result": {
+			"item": "arena:doble_edged"
+		},
+		"unlock": [
+			{
+				"item": "arena:flammable_shard",
+				"item": "arena:extracted_heart"
+			}
+		]
+	}
+}

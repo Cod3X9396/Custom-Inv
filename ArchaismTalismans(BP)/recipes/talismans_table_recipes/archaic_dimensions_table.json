@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_dimensions_table"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"CDE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "arena:gem_void"
+			},
+			"D": {
+				"item": "arena:gem_fire"
+			},
+			"E": {
+				"item": "arena:gem_snow"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_dimensions_table"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

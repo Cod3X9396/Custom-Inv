@@ -1,0 +1,54 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:blaze_skull_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GHI"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:blaze_powder"
+			},
+			"B": {
+				"item": "minecraft:nether_wart"
+			},
+			"C": {
+				"item": "minecraft:blaze_rod"
+			},
+			"D": {
+				"item": "minecraft:warped_roots"
+			},
+			"E": {
+				"item": "arena:murders_skull"
+			},			
+			"F": {
+				"item": "minecraft:crimson_nylium"
+			},			
+			"G": {
+				"item": "minecraft:magma_cream"			
+			},			
+			"H": {
+				"item": "arena:mask_base"
+			},			
+			"I": {
+				"item": "arena:flammable_shard"
+			}
+		},
+		"result": {
+			"item": "arena:blaze_skull_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:murders_skull",
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

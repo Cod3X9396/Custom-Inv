@@ -1,0 +1,754 @@
+pack.name=Archaism Talismans (RP) 코레아노!
+pack.description=(고대 부적) v1.8.1 by Hamleth Arena #Hydra studio
+
+tile.arena:talismans_table.name=§9탈리스만 테이블
+tile.arena:reforgerd_jelewer.name=§d보석 테이블
+
+arena:itemGroup.name.equipment.hats=§r§gPlush's!
+arena:itemGroup.name.equipment.talisman=§9부적
+arena:itemGroup.name.equipment.charm=§u매력
+arena:itemGroup.name.equipment.archaic=§aΑρχαϊκός-매력
+arena:itemGroup.name.equipment.mask=§g마스크
+arena:itemGroup.name.equipment.doll=§c인형
+arena:itemGroup.name.equipment.witherring=§j위더-링
+arena:itemGroup.name.equipment.rings=§d반지
+arena:itemGroup.name.equipment.earrings=§5귀걸이
+arena:itemGroup.name.equipment.necklace=§b목걸이
+arena:itemGroup.equipment.items.materials=(재료)
+arena:itemGroup.name.items.arena_smithing_templates=(대장간 템플릿)
+arena:itemGroup.name.equipment.books=§e책
+
+entity.arena:ignited_explosion.name=점화 폭발
+entity.arena:wither_skeleton.name=Σκελετός ακρώμματος
+entity.arena:calamity_wither_skeleton.name=Σκελετός μαραμένου κακοκαιριού
+entity.arena:arcane_vex.name=Αρκέιν Βέξ
+entity.arena:angelic_vex.name=Αγγελική Βέξ
+entity.arena:vex.name=Ερεθίζω
+entity.arena:endermite.name=ενδερμίτης
+entity.arena:skeleton.name=Σκελετός
+entity.arena:skeleton_illager.name=Σκελετός ιλάγκερ
+entity.arena:skeleton_piglin.name=Σκελετός Χοίρος
+entity.arena:stray.name=Περιπλανώμενος
+entity.arena:parched.name=Κατάξηρος
+entity.arena:bogged.name=Βουλωμένος
+
+item.arena:scroll=§r§g회복 두루마리\n§r§7장착한 모든 부적을\n회복합니다.
+
+item.arena:marble_helmet_h=§2대리석 투구
+item.arena:marble_chestplate=§2대리석 흉갑
+item.arena:marble_leggings=§2대리석 레깅스
+item.arena:marble_boots=§2대리석 부츠
+item.arena:marble_axe=§2대리석 전투 도끼
+item.arena:marble_sword=§2대리석 검
+item.arena:marble_spear=§2대리석 창
+
+item.arena:pure_marble_helmet=§e신성한 대리석 투구
+item.arena:pure_marble_chestplate=§e신성한 대리석 흉갑
+item.arena:pure_marble_leggings=§e신성한 대리석 레깅스
+item.arena:pure_marble_boots=§e신성한 대리석 부츠
+
+item.arena:pure_marble_spear=§e신성한 대리석 창
+
+item.arena:cursed_axe=§a저주받은 도끼
+item.arena:blood_scythe_weapon=§m흡혈 낫
+item.arena:witch_hat=§u네크로맨서 모자
+item.arena:mage_chestplate=§u네크로맨서 후드
+item.arena:mage_leggings=§u네크로맨서 레깅스
+item.arena:witch_staff=§u촛대 지팡이
+item.arena:marble_staff=§e대리석 지팡이
+item.arena:hemlock_staff=§u헴록 지팡이
+
+item.arena:runic_zweihander=§u룬 츠바이핸더
+item.arena:incandecent_zweihander=§c백열 §u룬 츠바이핸더
+item.arena:frozen_zweihander=§b얼어붙은 §u룬 츠바이핸더
+item.arena:electric_zweihander=§6전기 §u룬 츠바이핸더
+item.arena:ender_zweihander=§5부유 §u룬 츠바이핸더
+item.arena:venemous_zweihander=§2독 §u룬 츠바이핸더
+item.arena:hemlock_zweihander=§a헴록 §u룬 츠바이핸더
+item.arena:desertic_zweihander=§a사막 §u룬 츠바이핸더
+item.arena:runic_twohanded_sword=§u헴록 대검
+item.arena:bamboo_bo=대나무
+
+item.arena:wooden_saber=나무 구름 사브르
+item.arena:golden_saber=황금 구름 사브르
+item.arena:stone_saber=돌 구름 사브르
+item.arena:copper_saber=구리 구름 사브르
+item.arena:iron_saber=철 구름 사브르
+item.arena:diamond_saber=다이아몬드 구름 사브르
+item.arena:netherite_saber=네더라이트 구름 사브르
+
+item.arena:apollo_chestplate=§e아폴로 흉갑
+item.arena:apollo_leggings=§e아폴로 레깅스
+item.arena:apollo_boots=§e아폴로 부츠
+
+item.arena:netherite_apollo_chestplate=§e네더라이트 아폴로 흉갑
+item.arena:netherite_apollo_leggings=§e네더라이트 아폴로 레깅스
+item.arena:netherite_apollo_boots=§e네더라이트 아폴로 부츠
+
+item.arena:nebulous_apollo_chestplate=§a네뷸러스 아폴로 흉갑
+item.arena:nebulous_apollo_leggings=§a네뷸러스 아폴로 레깅스
+item.arena:nebulous_apollo_boots=§a네뷸러스 아폴로 부츠
+
+item.arena:paladin_helmet=§e팔라딘 투구
+item.arena:paladin_chestplate=§e팔라딘 흉갑
+item.arena:paladin_leggings=§e팔라딘 레깅스
+item.arena:paladin_boots=§e팔라딘 부츠
+
+item.arena:hades_helmet=§b하데스 투구
+item.arena:hades_chestplate=§b하데스 흉갑
+item.arena:hades_leggings=§b하데스 레깅스
+item.arena:hades_boots=§b하데스 부츠
+
+item.arena:artemis_helmet=§e아르테미스 투구
+item.arena:artemis_chestplate=§e아르테미스 흉갑
+item.arena:artemis_leggings=§e아르테미스 레깅스
+item.arena:artemis_boots=§e아르테미스 부츠
+
+item.arena:zeus_helmet=§e제우스 투구
+item.arena:zeus_chestplate=§e제우스 흉갑
+item.arena:zeus_leggings=§e제우스 레깅스
+item.arena:zeus_boots=§e제우스 부츠
+
+item.arena:poseidon_helmet=§b포세이돈 투구
+item.arena:poseidon_chestplate=§b포세이돈 흉갑
+item.arena:poseidon_leggings=§b포세이돈 레깅스
+item.arena:poseidon_boots=§b포세이돈 부츠
+
+item.arena:ichor_helmet=§b이코르 투구
+item.arena:ichor_chestplate=§b이코르 흉갑
+item.arena:ichor_leggings=§b이코르 레깅스
+item.arena:ichor_boots=§b이코르 부츠
+
+item.arena:ethereal_ichor_helmet=§b에테리얼 이코르 투구
+item.arena:ethereal_ichor_chestplate=§b에테리얼 이코르 흉갑
+item.arena:ethereal_ichor_leggings=§b에테리얼 이코르 레깅스
+item.arena:ethereal_ichor_boots=§b에테리얼 이코르 부츠
+
+item.arena:broken_marble_helmet=부서진 대리석 투구
+item.arena:broken_marble_chestplate=부서진 대리석 흉갑
+item.arena:broken_marble_leggings=깨진 대리석 레깅스
+item.arena:broken_marble_boots=깨진 대리석 부츠
+
+item.arena:restored_marble_helmet=복원된 대리석 투구
+item.arena:restored_marble_chestplate=복원된 대리석 흉갑
+item.arena:restored_marble_leggings=복원된 대리석 레깅스
+item.arena:restored_marble_boots=복원된 대리석 부츠
+
+item.arena:fallen_marble_helmet=§u폴른 대리석 헬멧
+item.arena:fallen_marble_chestplate=§u폴른 대리석 흉갑
+item.arena:fallen_marble_leggings=§u폴른 대리석 레깅스
+item.arena:fallen_marble_boots=§u폴른 대리석 부츠
+
+item.arena:impious_marble_helmet=§e불경스러운 §u대리석 헬멧
+item.arena:impious_marble_chestplate=§e불경스러운 §u대리석 흉갑
+item.arena:impious_marble_leggings=§e불경스러운 §u대리석 레깅스
+item.arena:impious_marble_boots=§e불경스러운 §u대리석 부츠
+
+item.arena:zeta_hemlock_helmet=헴록 §u(ζ)§f 헬멧
+item.arena:zeta_hemlock_chestplate=헴록 §u(ζ)§f 흉갑
+item.arena:zeta_hemlock_leggings=헴록 §u(ζ)§f 레깅스
+item.arena:zeta_hemlock_boots=헴록 §u(ζ)§f 부츠
+
+item.arena:delta_hemlock_helmet=헴록 §u(δ)§f 헬멧
+item.arena:delta_hemlock_chestplate=헴록 §u(δ)§f 흉갑
+item.arena:delta_hemlock_leggings=헴록 §u(δ)§f 레깅스
+item.arena:delta_hemlock_boots=헴록 §u(δ)§f 부츠
+
+item.arena:ganma_hemlock_helmet=§u헴록 §c(γ)§u 헬멧
+item.arena:ganma_hemlock_chestplate=§u헴록 §c(γ)§u 흉갑
+item.arena:ganma_hemlock_leggings=§u헴록 §c(γ)§u 레깅스
+item.arena:ganma_hemlock_boots=§u헴록 §c(γ)§u 부츠
+
+item.arena:stigma_hemlock_helmet=§a헴록 §c(ς)§a 헬멧
+item.arena:stigma_hemlock_chestplate=§a헴록 §c(ς)§a 흉갑
+item.arena:stigma_hemlock_leggings=§a헴록 §c(ς)§a 레깅스
+item.arena:stigma_hemlock_boots=§a헴록 §c(ς)§a 부츠
+
+item.arena:alpha_hemlock_helmet=§a헴록 §c(α)§a 헬멧
+item.arena:alpha_hemlock_chestplate=§a헴록 §c(α)§a 흉갑
+item.arena:alpha_hemlock_leggings=§a헴록 §c(α)§a 레깅스
+item.arena:alpha_hemlock_boots=§a헴록 §c(α)§a 부츠
+
+item.arena:arena_chestplate=§r§g아레나 후드
+item.arena:doll_had=§r§g플러시-hamleth'\n내 얼굴이 분필로\n분쇄되는 게 마음에 들어?
+item.arena:alaniz_hat=§r§g플러시-alaniz
+item.arena:angeloso_hat=§r§g플러시-angeloso
+item.arena:extreme_hat=§r§g플러시-extreme
+item.arena:system_hat=§r§g플러시-systemTV
+item.arena:vulkan_hat=§r§g플러시-불칸
+
+item.arena:gold_hat=§r§g플러시-Gold
+item.arena:ice_hat=§r§g플러시-JRice
+item.arena:jesus_hat=§r§g러시-jesus
+item.arena:kaiden_hat=§r§g러시-kaiden
+item.arena:straw_hat=§r§g러시-straw
+
+item.arena:alpha_hat=§r§g러시-alpha
+item.arena:milo_hat=§r§g러시-milo
+item.arena:biggamer_hat=§r§g러시-gamer
+item.arena:lotte_axolotle_hat=§r§g러시-axolotl
+item.arena:drak_hat=§r§g러시-draK
+
+item.arena:iluminate d_hat=§r§gIluminated-러시
+item.arena:blaze_hat=§r§gBlaze-러시
+item.arena:bee_hat=§r§gBee-러시
+item.arena:shulked_hat=§r§gShulked-러시
+item.arena:agustin_hat=§r§gAgustin-러시
+item.arena:alylicia_hat=§r§gAlycia-러시
+item.arena:cap_zweihander_hat=§r§gCapZweihander-러시
+item.arena:laniraxia_hat=§r§g라니락시아-플러시
+item.arena:melunch_hat=§r§gMelunch-플러시
+
+item.arena:masked_hat=§r§gMasked-러시
+item.arena:armored_hat=§r§gArmored-러시
+
+item.arena:extreme chestplate=§식인종 후드
+item.arena:blood_hat=§m 식인종 모자
+item.arena:extreme_had=§g식인종\n§r§7(머리 슬롯)\n§o§8+ I, +5 출혈 유발 확률 
+
+item.arena:fox_helmet=§r§g여우 가면
+item.arena:cat_helmet=§r§g고양이 가면
+item.arena:marble_helmet=§r§g대리석 가면
+item.arena:blaze_helmet=§r§g블레이즈 해골 가면
+item.arena:ethereal_helmet=§r§g에테리얼 조준 가면
+item.arena:wither_helmet=§r§g위더 가면
+item.arena:axolotl_helmet=§r§g아홀로틀 가면\n(없음 효과)
+item.arena:end_hat=§r§u두려운 엔더 모자
+
+item.arena:iron_crown=§r§e아이언 크라운
+item.arena:golden_crown=§r§e골든 크라운
+item.arena:prismarine_crown=§r§e프리즘 크라운
+item.arena:netherite_crown=§r§e네더라이트 크라운
+item.arena:ender_crown=§r§e엔더 크라운
+item.arena:calamity crown=§재앙의 크라운
+
+item.arena:marble_bracelets_chestplate=§r§a대리석 팔찌
+item.arena:wing_chestplate=§r§e대리석 날개
+item.arena:wing_fallen_chestplate=§r§u타락한 대리석 날개
+item.arena:wing_hemlock_chestplate=§r§a독미나리 날개
+item.arena:piglin_bracelet_chestplate=§r§u피글린 팔찌
+item.arena:aureola_helmet=§r§9오레올라
+
+tile.arena:cristal_gem_ore.name=크리스탈 보석 광석
+tile.arena:marble_ore.name=대리석 광석
+tile.arena:hemlock_stone_ore.name=헴록 광석
+tile.arena:chiseled_marble.name=깎은 대리석
+tile.arena:marble_bricks.name=대리석 벽돌
+tile.arena:marble_pilar.name=대리석 필라르
+tile.arena:marble_raws.name=대리석 타일
+tile.arena:pulished_marble.name=대형 대리석 벽돌
+tile.arena:pulish_marble.name=광택 처리된 대리석
+tile.arena:marble_ore_deepslate.name=흑색 대리석 광석
+tile.arena:chiseled_black_marble.name=깎은 검은색 대리석
+tile.arena:black_marble_bricks.name=검은색 대리석 벽돌
+tile.arena:black_marble_pillar.name=검은색 대리석 필라르
+tile.arena:black_marble_tile.name=검은색 대리석 타일
+tile.arena:large_black_marble_bricks.name=대형 검은색 대리석 벽돌
+tile.arena:polished_black_marble.name=광택 처리된 검은색 대리석
+tile.arena:shard_end_ore.name=공중 부양 광석
+tile.arena:shard_fire_ore_blackstone.name=가연성 흑석 광석
+tile.arena:shard_fire_ore_netherrack.name=불타는 네더랙 광석
+tile.arena:shard_light_ore.name=전기 심층 점판암 광석
+tile.arena:shard_poison_ore.name=독성 심층 점판암 광석
+tile.arena:shard_snow_ore.name=차가운 심층 점판암 광석
+
+item.arena:skull_heart=§m해골 heart\n§r§7(하트 참 슬롯)\n§o§8+3 , + 면역
+item.arena:demon_heart=§m테라리아 악마의 심장\n§r§7(하트 참 슬롯)\n§o§8+5 , +1 , -100 (화염)\n+,  면역
+item.arena:angelical_heart=§m천사의 심장\n§r§7(하트 참 슬롯)\n§o§8+4 , +100 (화염)\n-10 (투사체)
+item.arena:iron_golem_heart=§m철 골렘 심장\n§r§7(하트 참 슬롯)\n§o§8+1 \n\n§7살인을 통해 획득: 
+item.arena:sync_golem_heart=§m동기화 골렘 하트\n§r§7(하트 참 슬롯)\n§o§8+5 , +5 (근접), -25 (낙하)
+item.arena:infernal_heart=§m지옥의 열기\n§r§7(하트 참 슬롯)\n§o§8+2 , +, +40 \마법(지팡이 사용):\n+화염 광역 공격(재사용 대기시간 1분 20초)
+item.arena:heart_of_judgment=§m심판의 심장\n§r§7(하트 참 슬롯)\n§o§8+피해 체력  12 증가\n+, , ,  면역\n-10 (근접), -10 (투사체)
+
+item.arena:iron_guantlet=§n철 관틀릿\n§r§7(손 슬롯)\n§o§8+1 , -2 , -10 (마법)
+item.arena:marble_guantlet=§n마블 건틀릿\n§r§7(손 슬롯)\n§o§8+2 , -5 , +10 (마법)
+item.arena:fallen gauntlet=§n떨어진 대리석 건틀릿\n§r§7(손 슬롯)\n§o§8+2 , -4 , -1y (마법)
+item.arena:hemlock_guantlet=§n헴록 건틀릿\n§r§7(손 슬롯)\n§o§8+3 , -7 , -20 (마법)
+
+item.arena:spell_evocation=§e소환 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+소환 송곳니 소환\n(재사용 대기시간 18초)
+item.arena:spell_area_lifesteal=§e피의 욕망 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+피해를 주고 체력을 회복\n(1분, 재사용 대기시간 20초)
+item.arena:spell_dead_teleport=§e소환 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+사망 위치로 순간 이동(재사용 대기시간 1분)\n+생존 지점으로 순간 이동(재사용 대기시간 1분)
+item.arena:spell_teleport=§e순간 이동 마법 책\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+순간 이동\n(재사용 대기시간 15초)
+item.arena:spell_light_bolt=§e번데기 번개 연쇄 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+2레벨 번개 소환\n(재사용 대기시간 40초)
+item.arena:spell_lightning_bolt=§e번데기 번개 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+번개 폭풍 소환\n(재사용 대기시간 20초)
+item.arena:spell_supersonic=§e초음속 마법서\n§r§7(책 슬롯)\n§o§8+마법(지팡이 사용):\n+수호자 초음속 소환\n(재사용 대기시간 30초)
+
+item.arena:spell_engine=§e주문 엔진\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+재사용 대기시간 10 감소
+item.arena:rotten_brain=§e썩은 엔진 두뇌\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+재사용 대기시간 20 감소
+item.arena:mind_electric=§e마인드 일렉트릭\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+재사용 대기시간 25 감소
+item.arena:spell_strength_engine=§e주문 강도 엔진\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+효과 레벨 +2 증가
+item.arena:spell_duration_engine=§e주문 지속 시간 엔진\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+효과 지속 시간 증가 20
+
+item.arena:summoner_wand=§e소환사 지팡이 목걸이\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+최대 소환수 증가(+1)
+item.arena:marble_summoner_wand=§e마블 소환 지팡이\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+최대 소환수 증가(+2)
+item.arena:hemlock_summoner_wand=§e헴록 소환 지팡이\n§r§7(마법 부적 슬롯)\n§o§8+마법 보너스:\n+최대 소환수 증가(+3)
+
+item.arena:murders_skull=§9살인 해골\n§r§7(부적 슬롯)\n§o§8+, +20 
+item.arena:sacret_pendant=§9신성한 펜던트\n§r§7(부적 슬롯)\n§o§8+ II
+item.arena:villager_heart=§9주민의 심장\n§r§7(부적 슬롯)\n§o§8+ I, +1 \n\n§7살인을 통해 획득:  
+item.arena:angelic_aurea=§9천사의 아우레아\n§r§7(부적 슬롯)\n§o§8+ II
+item.arena:magnet=§9자석\n§r§7(부적 슬롯)\n§o§8+주변 아이템을 끌어당깁니다.
+item.arena:marble_feather=§9대리석 깃털\n§r§7(부적 슬롯)\n§o§8+
+item.arena:nautilus_star_pendant=§9노틸러스 별 펜던트\n§r§7(부적 슬롯)\n§o§8+20 
+item.arena:rabbit_feet_pendant=§9행운의 토끼 발\n§r§7(부적 슬롯)\n§o§8+ III
+item.arena:cat_eye=§9고양이 눈\n§r§7(부적 슬롯)\n§o§8+
+item.arena:shadow_of_nobody=§9아무도 없는 그림자\n§r§7(부적 슬롯)\n§o§8+
+item.arena:nefrite_bracelet=§9네프리어 팔찌\n§r§7(부적 슬롯)\n§o§8+면역 , 
+item.arena:extracted_heart=§9추출된 심장\n§r§7(부적 슬롯)\n§o§8+반사 25 \n+ 면역, 
+item.arena:deformed_cross=§9변형된 십자가\n§r§7(부적 슬롯)\n§o§8+15 확률로 공격 회피
+item.arena:marble_emerald_pendant=§9대리석 에메랄드 펜던트\n§r§7(부적 슬롯)\n§o§8+ I
+item.arena:rhetoric_skull=§9수사학 두개골\n§r§7(부적 슬롯)\n§o§8+1 \n(독을 맞은 적을 처치할 때)\n존재할 것인가, 아니면 존재하지 않을 것인가?
+item.arena:spectral_talisman=§9스펙트럼 부적\n§r§7(부적 슬롯)\n§o§8어둠 속에 있을 경우\n+ I, + I (낙하 시)
+item.arena:nefrite_edged_sword=§9네프라이트 날 검\n§r§7(부적 슬롯)\n§o§8+5  (히트 카운터, 6회 타격)\n-5 (근접)
+item.arena:artemisa_deer_antler=§9아르테미사 사슴 뿔 보호대\n§r§7(부적 슬롯)\n§o§8+2 , -10 (근접)
+item.arena:deer_skull=§9백열 두개골\n§r§7(부적 슬롯)\n§o§8+ 화살
+item.arena:midas_finger=§9미다스 손가락\n§r§7(부적 슬롯)\n§o§8+사냥 후 골드 획득
+item.arena:vexed_souls_lantern=§9괴로운 영혼의 등불\n§r§7(부적 슬롯)\n§o§8+, ,  면역\n소환사(최대 3개, 35 확률)\n(획득 후 괴로움 소환) 데미지)
+item.arena:harmony_talisman=§9조화의 부적\n§r§7(부적 슬롯)\n§o§8+소환사(최대 3개, 10초/. 확률)\n(공격 후 엔더마이트 소환)\n+ II
+item.arena:sync_sculk_talisman=§9동기화 스컬크 부적\n§r§7(부적 슬롯)\n§o§8+ I(정지), -4 \n+ II 영역(5 보유)
+item.arena:nocturnal_hood=§9야행성 후드\n§r§7(부적 슬롯)\n§o§8+불면증 유발 \n(4 , 6초, 밤에)\n+ in 일
+item.arena:witches_emblem=§9마녀의 엠블럼\n§r§7(부적 슬롯)\n§o§8+피 면역\n+피 II(거미 눈 먹기)
+item.arena:obsidian_knight_helmet=§9살인 기사 투구\n§r§7(부적 슬롯)\n§o§8+, +100 
+item.arena:fallen_feather=§9타락한 대리석 깃털\n§r§7(부적 슬롯)\n§o§8+대시\n+ 면역
+item.arena:ornate_curio=§9장식된 장신구\n§r§7(부적 슬롯)\n§o§8+장식 스택을 +2만큼 증가시킵니다.
+item.arena:sealing_talis=§9잔해물 밀봉\n§r§7(부적 슬롯)\n§o§8-12 \n+마법 보너스:\n+최대 소환수 증가(+2)
+
+item.arena:marble_hand=§u대리석 손\n§r§7(매력 슬롯)\n§o§8+2 , + II\n-20 (근접), -20 (투사체)
+item.arena:dragonic_heart=§u드래곤 하트\n§r§7(매력 슬롯)\n§o§8+10 , -2 , -20 \n-20 
+item.arena:night_siege_eye=§u야간 공성 눈\n§r§7(매력 슬롯)\n§o§8+15 (근접), +15 (투사체), -40  
+item.arena:nefrite_crow=§u백작 왕관\n§r§7(매력 슬롯)\n§o§8+, ,  면역
+item.arena:prismatic_heart_relic=§u프리스태틱 심장 유물\n§r§7(매력 슬롯)\n§o§8+ II, -20 (낙하)
+item.arena:contracted_heart=§u수축된 심장\n§r§7(매력 슬롯)\n§o§8+15 출혈 유발 확률 \n+,  면역
+item.arena:piglin_bracelet=§u피글린 팔찌\n§r§7(매력 슬롯)\n§o§8+1 , +10 (근접)\n-30 (낙하)\n\n§7살인을 통해 획득: 
+item.arena:marble_rune=§u대리석 룬\n§r§7(매력 슬롯)\n§o§8+ II 근처의 적대적인 무리\n+20 , +5 (근접), +5 (투사체)
+item.arena:doble_edged=§u양날의 전망\n§r§7(매력 슬롯)\n§o§8x1.4배의 피해 \n+대상에게  유발\n(히트 카운터, 8회 타격)\n-10 (근접), -10 (투사체)
+item.arena:marble_skull=§u대리석 두개골\n§r§7(매력 슬롯)\n§o§8+ I\n주변 몬스터를 묻을 경우\n(엔티티 처치)
+item.arena:netherite_rune=§u네더라이트 룬\n§r§7(매력 슬롯)\n§o§8+2 (넉백)\n+ III &  II\n(주변 철 골렘에게)
+item.arena:piece_of_time=§u또 다른 시간 조각\n§r§7(매력 슬롯)\n§o§8+(오버 영혼 모래)\n+5 (투사체), +5 (근접)
+item.arena:artemisa_arrowhead=§u아르테미사 화살촉\n§r§7(매력 슬롯)\n§o§8+폭발 화살
+item.arena:cherry_blossom=§u벚꽃\n§r§7(매력 슬롯)\n§o§8+2-10 (몹 7-34마리 처치 후)
+item.arena:sacret_sword=§u신성한 검\n§r§7(매력 슬롯)\n§o§8+25 언데드 피해 & \n+10 (마법)
+item.arena:blood_scythe=§u블러드 낫\n§r§7(매력 슬롯)\n§o§8+5 출혈 유발 확률 \n+10 출혈  발생 확률\n-10 (근접)
+item.arena:pandoras_bracelet=§u판도라의 팔찌\n§r§7(매력 슬롯)\n§o§8+면역력 \n+10 , + I, II(5 보유)\n+포화(썩은 살 섭취)
+item.arena:complexion_afinity_bracelet=§u피부색 친화 팔찌\n§r§7(매력 슬롯)\n§o§8+히트 카운터(6회 타격)\n(공허 피해 부여)\n-5 (근접)
+item.arena:shrink_impressions_bracelet=§u수축 인상 팔찌\n§r§7(매력 슬롯)\n§o§8-10 , -40 \n+ II(5회 타격 흡수)
+item.arena:divine_orb=§u신성한 구체\n§r§7(매력 슬롯)\n§o§8+5 (마법)\n+35 언데드 피해\n+마법 보너스:\n+소환수, 체력 +4 
+item.arena:tears_unshed=§u눈물 흘리지 않은\n§r§7(매력 슬롯)\n§o§8+불면증 유발 \n(40확률, 6 , 10초, 밤에)\n+ I(정지 및 은신)
+item.arena:fallen_hand=§u떨어진 대리석 손\n§r§7(매력 슬롯)\n§o§8+2 , + II\n-20 (근접), -20 (투사체)
+item.arena:end_of_the_time=§u매번 시간의 끝\n§r§7(매력 슬롯)\n§o§8+반사 (범위)\n-5 (투사체), -5 (근접)
+item.arena:cursed_sword=§u저주받은 검\n§r§7(매력 슬롯)\n§o§8+플레이어 처치(25 & )\n-10 (마법)
+item.arena:ornate_core=§u장식의 핵\n§r§7(매력 슬롯)\n§o§8+장식 중첩 디버프를 -3 감소시킵니다.
+item.arena:hellish_core=§u지옥의 핵\n§r§7(매력 슬롯)\n§o§8+두 번 공격합니다(50 ).
+item.arena:cherry_sword=§u체리 검\n§r§7(매력 슬롯)\n§o§8치명타를 발생시킵니다(+50 ).\n+합금으로 범위 치유\n(타격 횟수, 8회)\n-10 (근접), -10 (투사체)
+item.arena:overflowing_core=§u넘치는 핵\n§r§7(매력 슬롯)\n§o§8+마법 보너스:\n+소환수, 체력 +4 \n+근접 소환수, +1 \n+원거리 소환수, 재충전 +1 \n+단, 재사용 대기시간 +30 증가
+item.arena:malingnant_orb=§u악의적인 오브\n§r§7(매력 슬롯)\n§o§8-5 (마법)\n+플레이어 슬레이어(+35 )\n마법 보너스:\n+근접 소환수, +1 \n+원거리 소환수, 재충전 +1 
+
+item.arena:apolo_quiver=§s아폴로 화살통\n§r§7(몸 슬롯)\n§o§8+50 광역 피해(화살표)\n-40 (근접)
+item.arena:apollo_replies_belt=§s아폴로의 답장 벨트\n§r§7(몸 슬롯)\n§o§8+광역 피해(화살) +\n-70 (근접), -3 ,  I
+item.arena:tool_belt=§s도구 벨트\n§r§7(몸 슬롯)\n§o§8+ III\n+(블록 파괴, 최대 V)\n+도구 및 갑옷 수리
+item.arena:sighthood=§s시야의 후드\n§r§7(몸 슬롯)\n§o§8+15 (근접), +15 (투사체), -20 (낙하)\n+면역력 \n언데드 보호 +\n II, + III(밤)
+item.arena:nighthood=§s나이트후드\n§r§7(몸 슬롯)\n§o§8+15 (근접), +15 (투사체), -20 (낙하)\n+에 대한 면역\n+플레이어 보호 +\n II, + III(낮)
+item.arena:sculk_belt=§s스컬크 벨트\n§r§7(몸 슬롯)\n§o§8+10 (근접)\n,  I의 오라(피해 감소)\n+아군에게  I의 오라 부여\n+ I(근처 처치 시)\n(경험치 소모)
+item.arena:dream_tatters_of_the_king=§s왕의 꿈의 누더기\n§r§7(몸 슬롯)\n§o§8+킬 카운터(3킬)\n(x1.5 , + II)\n+즉사(수면)
+item.arena:ornate_belt=§s화려한 벨트\n§r§7(몸 슬롯)\n§o§8+5 (근접 공격력)(최대 +30 ), -1 \n(화려한 아이템당 중첩)
+item.arena:extravagant_quiver=§s화려한 화살통\n§r§7(몸 슬롯)\n§o§8+화살로 처치 시 획득하는 전리품 증가
+item.arena:ifrits_mantle=§s이프리트의 망토\n§r§7(몸 슬롯)\n§o§8+ (하트 10개 미만, 최대 II)\n+ (하트 10개 이상)
+
+item.arena:spawner_breaker=§n스포너 터치\n§r§7(손 슬롯)\n§o§8+채굴 스포너\n(스포너 조각 획득)
+item.arena:axe_heater=§n도끼 히터\n§r§7(손 슬롯)\n§o§8+획득 숯
+item.arena:shovel_heater=§n삽 난로\n§r§7(손 슬롯)\n§o§8+유리 획득\n(콘크리트 및 벽돌도 획득 가능)
+item.arena:ornate_guantlet=§n장식 건틀릿\n§r§7(손 슬롯)\n§o§8+1  (최대 +4), -2  (최소 -10 )\n(장식 아이템당 중첩)
+item.arena:apollo_bracer=§n아폴로 브레이서\n§r§7(손 슬롯)\n§o§8+펀치 피해 증가\n+1 , -5 (근접)
+
+item.arena:archaic_cursed_book=§aΚαταραμένο βιβλιο\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+ I, II, III(12-24-36 레벨의 XP)\n-30 , +30 (마법), + II\n+1  XP 2단계당(최대 +50 )\n+인챈트 북 업그레이드(책 보관)
+item.arena:archaic_cursed_skull=§aΚαταραμένο κρανιο\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+ II, +4 , -15 , -50 (마법)
+item.arena:archaic_blessed_shield=§aΙερή ασπιδα\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8-20 , -2 \n+30 (근접), +30 (투사체)\n+30 (마법), +30 (폭발)\n+15 10 반사 확률\n오프핸드에 방패 장착
+item.arena:archaic_marble_wings=§aΦτερά του Ίκαρου\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+10 , + III, + II\n(장비 딱지날개)\n+언데드 슬레이어(+50 )\n+(좀비 주민 치료)\n+3 점프\n-200 (화재), -10 (근접)
+item.arena:archaic_incript_paper=§aΕργασια με μεταγραϊή\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+면역 \n§o§8+25 확률 공격은 \n+25 의 경험치를 획득합니다.
+item.arena:archaic_arnold=§aSelbstbildnis mit fiedelndem Tod\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8-10 (근접), -10 (투사체)\n+죽음의 표식 , + II, +30 , +2 , + III\n+추가 경험치 보상\n죽음이 당신에게 속삭입니다
+item.arena:archaic_light_cepter=§aβέλος του Δία\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+35 번개 공격 확률\n+5 확률 +150 \n-15 (근접), -10 (투사체)\n+50 (번개)
+item.arena:archaic_marble_bracelets=§aΜαρμάρινα βραχιόλια\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+ III (손에 있는 황금 도끼)\n+2 , +20 (근접)\n-60 (떨어짐)
+item.arena:archaic_chained_soul=§aΑλυσοδεμένι μαραμένι ψυχή\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+ II, + I, + II,  I 을 가합니다\n(당신이 죽음을 앞두고 있을 때)\n+80 
+item.arena:archaic_good_and_evil_flower=§a선과 악의 꽃\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+ I, + II, +10 \n+, 에 대한 면역\n+ II,  I (7.5-2.5  미만 보유)\n+보스 슬레이어(+80  & )
+item.arena:archaic_soul_hand=§aΧέρι ψυχής\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+3 , -9 \n+, 에 대한 면역\n+ I, +,  &  I를 가함\n(5  미만 보유 시)\n+부상 체력  12 증가
+item.arena:archaic_ruler_of_prismas=§a색깔 있는 것들의 지배자\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+1 , +20 , + IV\n+ II,  I (공중에서)\n-80 (낙하 시)
+item.arena:archaic_dimensions_table=§aΠίνακας διαστάσεων\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+10 확률로 인해 비판가 \n+공격으로 인해  III(V in Nether)\n+공격으로 인해 \n공격으로 인해 6초 (9초)\n+공격으로 인해  III(오버월드에서 V)\n+10 (근접), +10 (투사체)
+item.arena:archaic_dimensions_horn=§aΔιαστάσεις κόρνας\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+4 흡혈(네더에서 8)\n+9 생성 폭발\n+8 관통 갑옷 피해(End에서 +12)\n+, \n+2 , +2 밀쳐내기에 면역
+item.arena:archaic_sacret_skull=§aΙερό κρανιο\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+엔티티를 죽인 후\n20 확률 +100 
+item.arena:archaic_triple_edged_sword=§aΤρικοπο μαχαιρι\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8Cause +100 \n+Cause  피해자\n+ II\n(히트 카운터, 9 명중)\n-15 (근접), -15 (투사체)
+item.arena:archaic_sacret_heart=§aΑρχαϊκή ιερή καρδιά\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+받은 피해를 50 반사하고 25 훔칩니다.
+item.arena:archaic_warden_claws=§aΝύχια ύλακα\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+몬스터 슬레이어(+35 )\n-3 , +1 , 소닉 히트\n-25 (근접), -30 (발사체)
+item.arena:archaic_hemlock_wings=§aΦτερά του Ίκαρου\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+11 , + III, + II\n(겉날개 장착)\n+언데드 슬레이어(+65 )\n+(좀비 주민 치료)\n+4 점프\n-200 (화재), -10 (근접)
+item.arena:cursed_shield=§aΚαταραμένenna ασπιδα\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8-20 , -2 \n+30 (근접), +30 (투사체)\n+30 (마법), +30 (폭발)\n+15(플레이어에게) 반사 및  II(15 확률)\n오프핸드에 방패 장착
+item.arena:fallen_wings=§aΠεσμένι μαρμάρινι πτέρυγα\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8-30 (근접), -30 (투사체)\n+3 , + II(장비 딱지날개)\n+플레이어 슬레이어(+50 )\n+3 점프
+item.arena:conscious_star=§aΑστέρι της ψυχής\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+5 , -8 , + I\n-50 (근접), -50 (투사체)\n+, , 에 대한 면역\n+공격 시  &  피해\n+20 확률로  획득\n+30 확률로 번개 공격\n+50 배율 치명타 \n+음파 공격 발생 (+150 )\n(히트 카운터, 10회)\n+치프트 + 아이템을 들고 있으면 충전 활성화 방법
+item.arena:archaic_reckless_archer=§sΑπερισκεπτος τοξότις\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8+충격당 +1  증가\n(최대 +75 )\n-25 (근접 공격)
+item.arena:archaic_hemlock_shield=§aΑσπιδα από κώνειο\n§r§7(Αρχαϊκός 참 슬롯)\n§o§8-20 , -2 \n+35 (근접), +35 (투사체)\n+35 (마법), +35(폭발)\n+15(12 반사 확률)\n보조 무기에 방패 장착
+
+item.arena:ethereal_sight_mask=§g에테리얼 조준경 마스크\n§r§7(얼굴 슬롯)\n§o§8, +1 , +100(낙하)\n+50(투사체)\n-100(화염)\n공허에서 생존\n+순간이동
+item.arena:fox_mask=§g여우 마스크\n§r§7(얼굴 슬롯)\n§o§8, +50(낙하), +20(피해), -3(피해)\n+20(피해)\n(대시 점프)
+item.arena:blaze_skull_mask=§g블레이즈 해골 가면\n§r§7(얼굴 슬롯)\n§o§8, +100(피해), +200(피해)\n+물 알레르기\n+네더에서  II\n+오버월드에서  II\n+ 피부, +에 면역\n광석 제련
+item.arena:marble_mask=§g대리석 가면\n§r§7(얼굴 슬롯)\n§o§8, +6(피해), -150(피해)\n+20(피해) 근접 공격력 +20, 투사체 공격력 +20, 투사체 공격력 +20, 투사체 공격력 +20, 투사체 공격력 +20, 투사체 공격력 +3, 넉백 +1
+item.arena:poseidon_mask=§gAxolotl Mask\n§r§7(얼굴 슬롯)\n§o§8, 투사체 공격력 +수중 호흡, 방어력 +50, 수중 방어력 +20, 불 공격력 -50, 낙하 방어력 -50, 낙하 방어력 +50, 투사체 공격력 +50, 투사체 공격력 +6 ...7, 투사체 공격력 +8, 투사체 공격력 +8, 투사체 공격력 +적대적에게 투명화 몹\n+긍정적인 효과에 대한 면역\n-9 
+item.arena:natural_butterfly_mask=§g자연 나비 가면\n§r§7(얼굴 슬롯)\n§o§8, + I, +10 \n+공격 시  VI 피해\n+작물 드롭 증가
+item.arena:unnatural_mask=§g코러스 산호 가면\n§r§7(얼굴 슬롯)\n§o§8, + III, +3 , +10 , + II\n-75 (마법), -20 (근접)\n+더 공격적인 몹\n+광물 드롭 증가
+item.arena:demon_mask=§g악마 마스크\n§r§7(얼굴 슬롯)\n§o§8, +2 , + I\n-50 (근접), -50 (투사체)\n-50 (마법), -50 (폭발)\n+낮에 화상\n+타격 횟수(10회)\n(+200  &  부여)\n( II/ I)
+item.arena:cat_mask=§g고양이 마스크\n§r§7(얼굴 슬롯)\n§o§8, -1 , -50 , +,  II\n+자연적인 민첩성( , )\n민첩성 부여 어둠 속에서 버프\n(은신 시 )\n달리기가 덜 피곤해짐\n수영이 더 피곤해짐\n+1 점프
+item.arena:wither_mask=§g위더 마스크\n§r§7(얼굴 슬롯)\n§o§8, +25 (투사체)\n+100 (폭발)\n-75 (마법)\n+1 , + II, +2 (넉백)\n+ II,  I, , - II\n(생명력 5-4  감소)\n+, , 에 면역\n(처치 후 위더 스켈레톤 소환)\n+ 화살
+item.arena:necromancer_mask=§g네크로맨서 가면\n§r§7(얼굴 슬롯)\n§o§8, +낮에 화상\n+소환사, -5 (근접), -2 \n(처치 후 해골 소환, 40)
+item.arena:feared_end_hat=§g두려움에 휩싸인 엔더 모자\n§r§7(얼굴 슬롯)\n§o§8, +물 알레르기\n-10 (근접), +50 (투사체)\n-2 , +순간이동\n+공허 화살\n+ I, II.+ I, II (체력 절반)
+item.arena:angelic_mask=§g천사 가면\n§r§7(얼굴 슬롯)\n§o§8, +3 점프, + II, -50 \n-25 (근접), -25 (투사체)\n+언데드 슬레이어(+40  + )\n+, ,  I(밤)\n+의 오라(펫, 소환)
+item.arena:deep_knight_helmet=§g딥 나이트 헬멧\n§r§7(얼굴 슬롯)\n§o§8, -20 \n-220 (낙하), +15 (마법)\n+30 (근접), +30 (투사체)\n+에 대한 면역\n+주변 개체 감지\n(은신, +)
+item.arena:witch_mask=§g마법 부여된 마녀 모자\n§r§7(얼굴 슬롯)\n§o§8, +50 (마법)\n-20 (근접), -20 (투사체)\n+주문(지팡이 사용):\n+ III(30초 재사용 대기시간)\n+(범위 내) II(35초 재사용 대기시간)\n+(범위 내) II(30초 재사용 대기시간)\n+(범위 내) II(30초 재사용 대기시간)\n+(범위 내) II(30초 재사용 대기시간)\n+대시(10초 재사용 대기시간)\n+ II(범위 내) 지역)(30초 쿨다운)
+item.arena:nights_devouring_mask=§g밤을 삼키는 가면\n§r§7(얼굴 슬롯)\n§o§8, 점프 +1, 근접 공격력 +5, +1 \n+불면증 유발(1-5)\n(+ I-II, + I-II, + I)\n+ III,  I,  I\n(낮)\n+불면증 유발 \n(40 확률, 10 , 0.5초, 밤)
+item.arena:evoker_mask=§g소환사 가면\n§r§7(얼굴 슬롯)\n§o§8, +50 (마법)\n-20 (근접), -20 (투사체)\n+주문(지팡이 사용):\n+벡스 소환(재사용 대기시간 2분)\n+원형 송곳니 소환\n+선형 송곳니 소환\n+광역 바람 넉백\n+화염구 소환
+item.arena:deformed_mask=§g변형된 가면\n§r§7(얼굴 슬롯)\n§o§8, +피글린이 당신을 피합니다\n+1 , -30 , -50 , +80 \n+충격 시 내구도가 소모됩니다\n+ I-II(정지 및 이동)\n+플레이어 슬레이어(+15 )
+item.arena:fallen_angel_mask=§g타락한 천사 가면\n§r§7(얼굴 슬롯)\n§o§8, +3 대시, -20 \n-25 (근접), -25 (투사체)\n+플레이어 슬레이어(+40  & )\n+, ,  I(낮)\n+(플레이어)의 오라
+item.arena:fallen_marble_mask=§g타락한 대리석 가면\n§r§7(얼굴 슬롯)\n§o§8, +6 , -150 (낙하)\n+20 (근접), +20 (투사체)\n+에 대한 면역\n+3 (넉백), +1 넉백\n+주문(지팡이 사용):\n+거대화(재사용 대기시간 2분)
+item.arena:arcane_hood=§g아케인 후드\n§r§7(얼굴 슬롯)\n§o§8, -10 (근접), -10 (투사체)\n+주문(지팡이 사용):\n+아케인 벡스 소환(재사용 대기시간 2분)\n+아케인 보호( III 10초)
+
+item.arena:blossom_crown=§g꽃 왕관\n§r§7(머리 슬롯)\n§o§8+합금으로 치유되는 지역\n(사냥 후)
+item.arena:soul_taker=§g로바체프스키 왕관\n§r§7(머리 슬롯)\n§o§8+영혼 훔치기\n(소환 몬스터에게만 적용)
+item.arena:depart_paladins_fate=§g성기사의 운명에서 벗어나기\n§r§7(머리 슬롯)\n§o§8+ 면역\n-10 (근접), +1 \n+저주 부여 \n(75 확률, 5초)
+item.arena:deer_crown=§g사슴 왕관\n§r§7(머리 슬롯)\n§o§8+5 , -1 , + II\n-25 (근접)
+item.arena:ornate_helmet=§g화려한 투구\n§r§7(머리 슬롯)\n§o§8+1 (최대 +7 ), -5 (근접)\n(장식 아이템당 중첩)
+item.arena:crown_of_calamity=§g재앙의 왕관\n§r§7(머리 슬롯)\n§o§8+마법(지팡이 사용):\n+기사 해골 2마리 소환\n(재사용 대기시간 2분)
+item.arena:robin_hat=§g로빈의 모자\n§r§7(머리 슬롯)\n§o§8+6 , +20 , +15 (투사체)\n-25 (근접)
+item.arena:crown_of_expertise=§g전문 지식의 왕관\n§r§7(머리 확장)\n§o§8+마법(지팡이 사용):\n+엔젤릭 벡스 2마리 소환\n(1분, 20초 쿨다운)
+
+item.arena:harena_doll=§c하레나 인형\n§r§7(인형 슬롯)\n§o§8+2 , + I\n안녕하세요! 저예요.\n 애드온이 마음에 드셨으면 좋겠네요.\n 실례합니다. 저도 배가 고파서요.
+item.arena:illuminated_doll=§c빛나는 인형\n§r§7(인형 슬롯)\n§o§8+ (음식 먹기), + I
+item.arena:masked_doll=§c가면을 쓴 인형\n§r§7(인형 슬롯)\n§o§8+ I, + I
+item.arena:shulked_doll=§c껍질을 쓴 인형\n§r§7(인형 슬롯)\n§o§8+1 , + 면역
+item.arena:bee_doll=§c벌 인형\n§r§7(인형 슬롯)\n§o§8+10 , + 면역
+item.arena:fire_doll=§c불 인형\n§r§7(인형 슬롯)\n§o§8+ I, -2 
+item.arena:vulak_doll=§c불락 인형\n§r§7(인형 슬롯)\n§o§8+5 (근접), +10 (마법)\n+ 면역
+item.arena:aplpha_doll=§c알파리우스 인형\n§r§7(인형 슬롯)\n§o§8+ I(은신), + I
+item.arena:gentrix_doll=§c딸기 열매 인형\n§r§7(인형 슬롯)\n§o§8+10 \n+면역 
+item.arena:zultinus_doll=§c밀로 인형\n§r§7(인형 슬롯)\n§o§8+ I의 영역 효과\n-10 
+item.arena:jesus_doll=§c예수 인형\n§r§7(인형 슬롯)\n§o§8+ I, + I, + III\n내 힘을 주지만\n내 신진대사는
+item.arena:alaniz_doll=§c알라니즈 인형\n§r§7(인형 슬롯)\n§o§8+ I(은신)\n-15 (낙하)
+item.arena:gold_doll=§c금색 인형\n§r§7(인형 슬롯)\n§o§8+ I(금색 투구 장착)\n+ 면역
+item.arena:angeloso_doll=§c안젤로소 인형\n§r§7(인형 슬롯)\n§o§8+10 (떨어짐)\n+ 면역
+item.arena:jrice_doll=§cJr 얼음 인형\n§r§7(인형 슬롯)\n§o§8+ IV(10  보유)\n+ I,  I (5-2.5  보유)
+item.arena:sacronkaiden_doll=§c세이크론 카이덴 인형\n§r§7(인형 슬롯)\n§o§8-1 \반사 3 \n+물 알레르기
+item.arena:paladin_doll=§c극단적 인형\n§r§7(인형 슬롯)\n§o§8+1 , +10 \n -1 , -5 (근접)
+item.arena:systemtv_doll=§c시스템 TV 인형\n§r§7(인형 슬롯)\n§o§8+ II의 영역 효과, -1 
+item.arena:biggamer_doll=§c빅 게이머 인형\n§r§7(인형 슬롯)\n§o§8+40 , + 면역
+item.arena:agustin_doll=§c아구스틴 인형\n§r§7(인형 슬롯)\n§o§8+추가 경험치 레드워드\n+ I
+item.arena:alylicia_doll=§c앨리시아 인형\n§r§7(인형 슬롯)\n§o§8+추가 점프 1회\n+ 면역
+item.arena:lotte_axolotle_doll=§c롯테 아홀로틀 인형\n§r§7(인형 슬롯)\n§o§8+5 출혈 유발 확률 
+item.arena:drak_doll=§c드락 인형\n§r§7(인형 슬롯)\n§o§8+불면증 유발 \n(2 , 3초, 밤)\n+ 면역
+item.arena:cap_zweihander=§c캡 츠바이한더 인형\n§r§7(인형 슬롯)\n§o§8+2  (15 경험치 레벨당)\n+, ,  면역
+item.arena:laniraxia_doll=§c라니라시아 인형\n§r§7(인형 슬롯)\n§o§8+2 , -10 (근접)
+item.arena:melunch_doll=§c멜런치 인형\n§r§7(인형 슬롯)\n§o§8+광역 공격, 10 피해\n-5 (근접), -5 (투사체)
+
+item.arena:iron_vampiric_earring=§5뱀파이어 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+2 출혈 유발 확률 \n+,  면역
+item.arena:iron_spikes_earring=§5스파이크 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+5의 피해 반사\n+,  면역
+item.arena:iron_explosive_earring=§5폭발성 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+3 폭발 생성
+item.arena:iron_penetration_earring=§5관통형 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+4 관통 방어구 피해
+item.arena:iron_bleeding_earring=§5출혈 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+4 출혈  발생 확률
+item.arena:iron_arrows_earring=§5궁수 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+1 , -5 (근접)
+item.arena:iron_insomnia_earring=§5불면증 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발\n(5분/확률, 4 , 15초, 밤 시간)\n+,  면역
+
+item.arena:golden_vampiric_earring=§5뱀파이어 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+4 출혈 유발 확률 \n+,  면역
+item.arena:golden_spikes_earring=§5스파이크 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+10의 피해 반사\n+,  면역
+item.arena:golden_explosive_earring=§5폭발성 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+6 폭발 생성
+item.arena:golden_penetration_earring=§5관통형 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+8 관통 방어구 피해
+item.arena:golden_bleeding_earring=§5출혈 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+8 출혈  발생 확률
+item.arena:golden_arrows_earring=§5궁수 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+2 , -10 (근접)
+item.arena:golden_insomnia_earring=§5불면증 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발\n(10분/확률, 6 , 12초, 밤 시간)\n+,  면역
+
+item.arena:prismarine_vampiric_earring=§5뱀파이어 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+6 출혈 유발 확률 \n+,  면역
+item.arena:prismarine_spikes_earring=§5스파이크 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+15의 피해 반사\n+,  면역
+item.arena:prismarine_explosive_earring=§5폭발성 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+9 폭발 생성
+item.arena:prismarine_penetration_earring=§5피어싱 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+12 관통 방어구 피해
+item.arena:prismarine_bleeding_earring=§5출혈 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+12 출혈  발생 확률
+item.arena:prismarine_arrows_earring=§5궁수 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+3 , -15 (근접)
+item.arena:prismarine_insomnia_earring=§5불면증 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발 \n(15확률, 8 , 9, 밤 시간)\n+,  면역
+
+item.arena:netherite_vampiric_earring=§5뱀파이어 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+8 출혈 유발 확률 \n+,  면역
+item.arena:netherite_spikes_earring=§5스파이크 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+20의 피해 반사\n+,  면역
+item.arena:netherite_explosive_earring=§5폭발성 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+12 폭발 생성
+item.arena:netherite_penetration_earring=§5관통형 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+16 관통 방어구 피해
+item.arena:netherite_bleeding_earring=§5Bleeding -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+16 출혈  발생 확률
+item.arena:netherite_arrows_earring=§5궁수 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+4 , -20 (근접)
+item.arena:netherite_insomnia_earring=§5불면증 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발 \n(20확률, 10 , 6초, 밤 시간)\n+,  면역 
+
+item.arena:fallen_vampiric_earring=§5흡혈 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+10 출혈 유발 확률 \n+,  면역
+item.arena:fallen_spikes_earring=§5가시 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+25의 피해 반사\n+,  면역
+item.arena:fallen_explosive_earring=§5폭발 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+15 폭발 생성
+item.arena:fallen_penetration_earring=§5관통 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+20 관통 방어구 피해
+item.arena:fallen_bleeding_earring=§5출혈 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+20 출혈  발생 확률
+item.arena:fallen_arrows_earring=§5궁수 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+5 , -25 (근접)
+item.arena:fallen_insomnia_earring=§5불면증 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발 \n(25확률, 12 , 6초, 밤 시간)\n+,  면역
+
+item.arena:iron_diamond_earring=§5다이아몬드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+1 치명적인 피해를 입힐 확률
+item.arena:golden_diamond_earring=§5다이아몬드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+2 치명적인 피해를 입힐 확률
+item.arena:prismarine_diamond_earring=§5다이아몬드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+3 치명적인 피해를 입힐 확률
+item.arena:netherite_diamond_earring=§5다이아몬드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+4 치명적인 피해를 입힐 확률
+item.arena:fallen_diamond_earring=§5다이아몬드 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+5 치명적인 피해를 입힐 확률
+
+item.arena:iron_emerald_earring=§5에메랄드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+1)
+item.arena:golden_emerald_earring=§5에메랄드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+2)
+item.arena:prismarine_emerald_earring=§5에메랄드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+3)
+item.arena:netherite_emerald_earring=§5에메랄드 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+4)
+item.arena:fallen_emerald_earring=§5에메랄드 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+5)
+
+item.arena:iron_slayer_earring=§5암살자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+3 )
+item.arena:golden_slayer_earring=§5암살자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+6 )
+item.arena:prismarine_slayer_earring=§5암살자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+9 )
+item.arena:netherite_slayer_earring=§5암살자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+12 )
+item.arena:fallen_slayer_earring=§5암살자 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+15 )
+
+item.arena:iron_hemlock_earring=§5헤믈록 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+3 치명타 배율 
+item.arena:golden_hemlock_earring=§5헤믈록 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+6 치명타 배율 
+item.arena:prismarine_hemlock_earring=§5헤믈록 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+9 치명타 배율 
+item.arena:netherite_hemlock_earring=§5헤믈록 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+12 치명타 배율 
+item.arena:fallen_hemlock_earring=§5헤믈록 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+15 치명타 배율 
+
+item.arena:iron_paladin_earring=§5팔라딘 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+3 )
+item.arena:golden_paladin_earring=§5팔라딘 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+6 )
+item.arena:prismarine_paladin_earring=§5팔라딘 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+9 )
+item.arena:netherite_paladin_earring=§5팔라딘 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+12 )
+item.arena:fallen_paladin_earring=§5폴른 팔라딘 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+15 )
+
+item.arena:iron_cursebreaker_earring=§5저주 파괴자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+5 )
+item.arena:golden_cursebreaker_earring=§5저주 파괴자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+10 )
+item.arena:prismarine_cursebreaker_earring=§5저주파괴자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+15 )
+item.arena:netherite_cursebreaker_earring=§5저주파괴자 -귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+20 )
+item.arena:fallen_cursebreaker_earring=§5저주파괴자 타락한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+25 )
+
+item.arena:pure_marble_vampiric_earring=§5뱀파이어 신성한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+12 출혈 유발 확률 \n+,  면역
+item.arena:순수 대리석 가시 귀걸이=§5가시 신성한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+30 피해 반사\n+,  면역
+item.arena:순수 대리석 폭발 귀걸이=§5폭발 신성한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+18 폭발 생성
+item.arena:순수 대리석 관통 귀걸이=§5관통 신성한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+24 방어력 관통 피해
+item.arena:pure_marble_bleeding_earring=§5출혈 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+24 출혈 유발 확률 
+item.arena:pure_marble_arrows_earring=§5궁수 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+6 , -25 (근접)
+item.arena:pure_marble_insomnia_earring=§5불면증 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+불면증 유발 \n(30 확률, 14 , 5초, 밤)\n+,  면역
+item.arena:pure_marble_diamond_earring=§5다이아몬드 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+6 치명타 확률 증가 
+item.arena:pure_marble_emerald_earring=§5에메랄드 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+추가 경험치 보상 (+6)
+item.arena:pure_marble_slayer_earring=§5암살자 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+플레이어 슬레이어(+18 )
+item.arena:pure_marble_hemlock_earring=§5헴록 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+18 치명타 배율 증가 
+item.arena:pure_marble_paladin_earring=§5팔라딘 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+언데드 슬레이어(+18 )
+item.arena:pure_marble_cursebreaker_earring=§5저주 파괴자 신성 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+저주에 걸린 플레이어에게 주는 피해 증가(+30 )
+
+item.arena:blazing_earring=§5블레이징 이어링\n§r§7(귀걸이 슬롯)\n§o§8+25 화염 몹 
+item.arena:ornate_earring=§5화려한 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+1 , -5 (투사체)\n(장식 아이템당 중첩)
+item.arena:piercing_earring=§5피어싱 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+근처 적 한 명을 추가로 관통
+item.arena:infused_earring=§5강화된 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+마법 보너스:\n+주문 위력 +1 증가
+
+item.arena:damage_copper_wither_ring=§j데미지 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+1 , -2 , +4 치명타 배율 
+item.arena:damage_iron_wither_ring=§j데미지 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+1 , -2 , +8 치명타 배율 
+item.arena:damage_golden_wither_ring=§j데미지 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+2 , -4 , +12 치명타 배율 
+item.arena:damage_prismarine_wither_ring=§j데미지 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+2 , -4 , +16 치명타 배율 
+item.arena:damage_marble_wither_ring=§j데미지 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+3 , -6 , +20 치명타 배율 
+
+item.arena:hearts_copper_wither_ring=§j하트 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+1 
+item.arena:hearts_iron_wither_ring=§j하트 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+2 
+item.arena:hearts_golden_wither_ring=§j하트 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+3 
+item.arena:hearts_prismarine_wither_ring=§j하트 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+4 , -10 
+item.arena:hearts_marble_wither_ring=§j하트 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+5 , -10 
+
+item.arena:movement_copper_wither_ring=§j시든 무브먼트- 반지\n§r§7(위더 반지 슬롯)\n§o§8+10 , -5 (근접), -5 (투사체)
+item.arena:movement_iron_wither_ring=§j시든 무브먼트- 반지\n§r§7(위더 반지 슬롯)\n§o§8+20 , -10 (근접), -10 (투사체)
+item.arena:movement_golden_wither_ring=§j시든 무브먼트- 반지\n§r§7(위더 반지 슬롯)\n§o§8+30 , -15 (근접), -15 (투사체)
+item.arena:movement_prismarine_wither_ring=§j시든 무브먼트- 반지\n§r§7(위더 반지 슬롯)\n§o§8+40 , -20 (근접), -20 (투사체)
+item.arena:movement_marble_wither_ring=§j시든 무브먼트- 반지\n§r§7(위더 반지 슬롯)\n§o§8+50 , -25 (근접), -25 (투사체)
+
+item.arena:swiming_copper_wither_ring=§j스윙 시든- 링\n§r§7(위더 반지 슬롯)\n§o§8+30 , +60 , -5 (낙하)
+item.arena:swiming_iron_wither_ring=§j스윙 시든- 링\n§r§7(위더 반지 슬롯)\n§o§8+40 , +80 , -10 (낙하)
+item.arena:swiming_golden_wither_ring=§j스윙 시든- 링\n§r§7(위더 반지 슬롯)\n§o§8+50 , +100 , -15 (낙하)
+item.arena:swiming_prismarine_wither_ring=§j스윙 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+60 , +120 , -20 (낙하)
+item.arena:swiming_marble_wither_ring=§j스윙 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+70 , +140 , -25 (낙하)
+
+item.arena:jump_copper_wither_ring=§j점프 위더드- 링\n§r§7(위더 반지 슬롯)\n§o§8+ II
+item.arena:jump_iron_wither_ring=§j점프 위더드- 링\n§r§7(위더 반지 슬롯)\n§o§8+ III
+item.arena:jump_golden_wither_ring=§j점프 위더드- 링\n§r§7(위더 반지 슬롯)\n§o§8+ IV
+item.arena:jump_prismarine_wither_ring=§j점프 위더드- 링\n§r§7(위더 반지 슬롯)\n§o§8+ V
+item.arena:jump_marble_wither_ring=§j점프 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+ VI
+
+item.arena:defense_copper_wither_ring=§j방어력 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+5 (근접), +5 (투사체), -10 
+item.arena:defense_iron_wither_ring=§j방어력 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+10 (근접), +10 (투사체), -10 
+item.arena:defense_golden_wither_ring=§j방어력 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+15 (근접), +15 (투사체), -20 
+item.arena:defense_prismarine_wither_ring=§j방어력 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§820 (근접), +20 (투사체), -20 
+item.arena:defense_marble_wither_ring=§j방어력 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+25 (근접), +25 (투사체), -30 
+
+item.arena:mage_copper_wither_ring=§j마법사 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+5 (마법), -5 (근접)
+item.arena:mage_iron_wither_ring=§j마법사 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+10 (마법), -5 (근접)
+item.arena:mage_golden_wither_ring=§j마법사 시든- 반지\n§r§7(위더 반지 슬롯)\n§o§8+15 (마법), -10 (근접)
+item.arena:mage_prismarine_wither_ring=§j마법사 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+20 (마법), -10 (근접)
+item.arena:mage_marble_wither_ring=§j마법사 위더드- 반지\n§r§7(위더 반지 슬롯)\n§o§8+25 (마법), -15 (근접)
+
+item.arena:fire_wither_ring=§j불꽃 시든 반지\n§r§7(위더 반지 슬롯)\n§o§8+2 , -4 , +14 치명타 배율 \n+공격 시 
+item.arena:end_wither_ring=§j엔더 시든 반지\n§r§7(위더 반지 슬롯)\n§o§8+3 \n공격 시 6초 피해 \n+4 치명적인 피해를 입힐 확률
+item.arena:light_wither_ring=§j번개 시든 반지\n§r§7(위더 반지 슬롯)\n§o§8+30 , -15 (근접), -15 (투사체)\n+6 번개 공격 확률\n+8 치명적인 피해를 입힐 확률
+item.arena:snow_wither_ring=§j눈 위더링\n§r§7(위더 반지 슬롯)\n§o§8+50 , +100 , -15 (낙하)\n+공격 시  III 피해\n+4 치명적인 피해를 입힐 확률
+item.arena:poision_wither_ring=§j독 위더링\n§r§7(위더 반지 슬롯)\n§o§8+ IV\n+공격 시  III 피해
+item.arena:hemlock_wither_ring=§j헴록 위더링\n§r§7(위더 반지 슬롯)\n§o§8+15 (근접), +15 (투사체), -20 \n+공격 시  II 피해
+item.arena:desert_wither_ring=§j사막 시든 반지\n§r§7(위더 반지 슬롯)\n§o§8+15 (마법), -10 (근접)\n+공격 시 III 피해\n+4 치명적인 피해를 입힐 확률
+
+item.arena:silk_ring_jelewer=§d실크 반지\n§r§7(반지 슬롯)\n§o§8+면역력 
+item.arena:withered_ring_jelewer=§d위더드 반지\n§r§7(반지 슬롯)\n§o§8+면역력 
+item.arena:crimsom_amethyst_ring_jelewer=§d진홍색 자수정 반지\n§r§7(반지 슬롯)\n§o§8+면역력 
+item.arena:crimson_ring_jelewer=§d진홍색 반지\n§r§7(반지 슬롯)\n§o§8+면역 
+item.arena:shadow_step_ring_jelewer=§d섀도우 스텝 반지\n§r§7(반지 슬롯)\n§o§8+면역 
+item.arena:obsidian_ring_jelewer=§d흑요석 반지\n§r§7(반지 슬롯)\n§o§8+면역 
+item.arena:blinding_of_shinning_ring_jelewer=§dB빛나는 반지의 눈\n§r§7(반지 슬롯)\n§o§8+면역 
+item.arena:shulked_ring_jelewer=§d껍질 반지\n§r§7(반지 슬롯)\n§o§8+면역 
+
+item.arena:haunted_ring=§d유령 반지\n§r§7(반지 슬롯)\n§o§8+마법 보너스:\n+소환수, 체력 +1 
+item.arena:hauled_ring=§d운반된 반지\n§r§7(반지 슬롯)\n§o§8+마법 보너스:\n+근접 소환수, +1 
+item.arena:blazing_ring=§dBlazing ring\n§r§7(반지 슬롯)\n§o§8+출혈 면역 
+item.arena:ornate_band=§d장식 밴드\n§r§7(반지 슬롯)\n§o§8+5 (근접 공격력) (최대 +20 )\n(장식 아이템당 중첩)
+item.arena:ornate_ring=§d장식 반지\n§r§7(반지 슬롯)\n§o§8+10  (최대 +30 )\n(장식 아이템당 중첩)
+item.arena:repeating_ring=§d반복 반지\n§r§7(반지 슬롯)\n§o§8+활 공격력 증가(+25 )
+item.arena:spirit_ring=§d정령 반지\n§r§7(반지 슬롯)\n§o§8-5 (근접 공격력)\n+마법 보너스: 재사용 대기시간 10 감소
+
+item.arena:amethyst_earring_jelewer=§5자수정 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+공격 시 \n+반사 
+item.arena:crimsom_amethyst_earring_jelewer=§5진홍색 자수정 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+공격 시 \n+반사 
+item.arena:crimsom_earring_jelewer=§5진홍색 귀걸이\n§r§7(귀걸이 슬롯)\n§o§8+공격 시 \n+반사 
+
+item.arena:iron_blossom_ring=§d꽃 -반지\n§r§7(반지 슬롯)\n§o§8+벚꽃 착용 한도 +4  증가 
+item.arena:golden_blossom_ring=§d꽃 -반지\n§r§7(반지 슬롯)\n§o§8+벚꽃 착용 한도 +6  증가 
+item.arena:prismarine_blossom_ring=§d꽃 -반지\n§r§7(반지 슬롯)\n§o§8+벚꽃 착용 한도 +8  증가 
+item.arena:netherite_blossom_ring=§d꽃 -반지\n§r§7(반지 슬롯)\n§o§8+벚꽃 착용 한도 +10  증가 
+item.arena:marble_blossom_ring=§d꽃 -반지\n§r§7(반지 슬롯)\n§o§8+벚꽃 제한 +12  증가 
+
+item.arena:iron_sculk_ring=§d스컬크 -반지\n§r§7(반지 슬롯)\n§o§8+킬당 증가 킬당 +1 (최대 +5 )\n-5 (근접)
+item.arena:golden_sculk_ring=§d스컬크 -반지\n§r§7(반지 슬롯)\n§o§8+킬당 증가 킬당 +1 (최대 +10 )\n-10 (근접)
+item.arena:prismarine_sculk_ring=§d스컬크 -반지\n§r§7(반지 슬롯)\n§o§8+킬당 증가 킬당 +1 (최대 +15)\n-15 (근접)
+item.arena:netherite_sculk_ring=§d스컬크 -반지\n§r§7(반지 슬롯)\n§o§8+킬당 증가 킬당 +1 (최대 +20)\n-20 (근접)
+item.arena:marble_sculk_ring=§d스컬크 -반지\n§r§7(반지 슬롯)\n§o§8+킬당 증가 킬당 +1 (최대 +25 )\n-25 (근접)
+
+item.arena:iron_fire_necklace_jelewer=§b 화염 목걸이\n§r§7(목걸이 슬롯)\n§o§8+1 부여 치명적인 피해를 입힐 확률\n+공격 시  피해
+item.arena:golden_fire_necklace_jelewer=§b 화염 목걸이\n§r§7(목걸이 슬롯)\n§o§8+2 부여 치명적인 피해를 입힐 확률\n+공격 시  피해
+item.arena:prismarine_fire_necklace_jelewer=§b 화염 목걸이\n§r§7(목걸이 슬롯)\n§o§8+3 치명적인 피해를 입힐 확률\n+공격 시  피해
+item.arena:netherite_fire_necklace_jelewer=§b 화염 목걸이\n§r§7(목걸이 슬롯)\n§o§8+4 치명적인 피해를 입힐 확률\n+공격 시  피해
+item.arena:fallen_fire_necklace=§b타락한 화염 목걸이\n§r§7(목걸이 슬롯)\n§o§8+5 치명적인 피해를 입힐 확률\n+공격 시  피해
+
+item.arena:iron_end_necklace_jelewer=§b 끝의 목걸이\n§r§7(목걸이 슬롯)\n§o§8+2 치명적인 피해를 입힐 확률\n공격 시 3초간 지속 
+item.arena:golden_end_necklace_jelewer=§b 끝의 목걸이\n§r§7(목걸이 슬롯)\n§o§8+4 치명적인 피해를 입힐 확률\n공격 시 6초간 지속 
+item.arena:prismarine_end_necklace_jelewer=§b 끝의 목걸이\n§r§7(목걸이 슬롯)\n§o§8+6 치명적인 피해를 입힐 확률\n+공격 시 7초간 지속 
+item.arena:netherite_end_necklace_jelewer=§b 끝의 목걸이\n§r§7(목걸이 슬롯)\n§o§8+8 치명적인 피해를 입힐 확률\n+공격 시 8초 
+item.arena:fallen_end_necklace=§b타락한 끝의 목걸이\n§r§7(목걸이 슬롯)\n§o§8+10 치명적인 피해를 입힐 확률\n+공격 시 9초 
+
+item.arena:iron_light_necklace_jelewer=§b 빛 목걸이\n§r§7(목걸이 슬롯)\n§o§8+3 치명적인 피해를 입힐 확률\n+3 번개 공격 확률
+item.arena:golden_light_necklace_jelewer=§b 빛 목걸이\n§r§7(목걸이 슬롯)\n§o§8+6 치명적인 피해를 입힐 확률\n+6 번개 공격 확률
+item.arena:prismarine_light_necklace_jelewer=§b 빛 목걸이\n§r§7(목걸이 슬롯)\n§o§8+9 치명적인 피해를 입힐 확률\n+9 번개 공격 확률
+item.arena:netherite_light_necklace_jelewer=§b 빛 목걸이\n§r§7(목걸이 슬롯)\n§o§8+12 치명적인 피해를 입힐 확률\n+12 번개 공격 확률
+item.arena:fallen_light_necklace=§b타락한 빛 목걸이\n§r§7(목걸이 슬롯)\n§o§8+15 치명적인 피해를 입힐 확률\n+15 번개 공격 확률
+
+item.arena:iron_snow_necklace_jelewer=§b 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+2 치명적인 피해를 입힐 확률\n+공격 시  II 피해
+item.arena:golden_snow_necklace_jelewer=§b 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+4 치명적인 피해를 입힐 확률\n+공격 시  III 피해
+item.arena:prismarine_snow_necklace_jelewer=§b 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+6 치명적인 피해를 입힐 확률\n+공격 시  IV 피해
+item.arena:netherite_snow_necklace_jelewer=§b 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+8 치명적인 피해를 입힐 확률\n+공격 시  V 피해
+item.arena:fallen_snow_necklace=§b낙설 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+10 치명적인 피해를 입힐 확률\n+공격 시  VI 피해
+
+item.arena:iron_poison_necklace_jelewer=§b 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  II 피해
+item.arena:golden_poison_necklace_jelewer=§b 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  III 피해
+item.arena:prismarine_poison_necklace_jelewer=§b 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  IV 피해
+item.arena:netherite_poison_necklace_jelewer=§b 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  V 피해
+item.arena:fallen_poison_necklace=§b낙설 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  VI 피해
+
+item.arena:iron_hemlock_necklace=§b 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  I 피해
+item.arena:golden_hemlock_necklace=§b 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  II 피해
+item.arena:prismarine_hemlock_necklace=§b 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  III 피해
+item.arena:netherite_hemlock_necklace=§b 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  IV 피해
+item.arena:fallen_hemlock_necklace=§b낙설 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  V 피해
+
+item.arena:iron_desert_necklace_jelewer=§b 사막 목걸이\n§r§7(목걸이 슬롯)\n§o§8+2 치명적인 피해를 입힐 확률\n+공격 시  II 피해
+item.arena:golden_desert_necklace_jelewer=§b 사막 목걸이\n§r§7(목걸이 슬롯)\n§o§8+4 치명적인 피해를 입힐 확률\n+공격 시  III 피해
+item.arena:prismarine_desert_necklace_jelewer=§b 사막 목걸이\n§r§7(목걸이 슬롯)\n§o§8+6 치명적인 피해를 입힐 확률\n+공격 시  IV 피해
+item.arena:netherite_desert_necklace_jelewer=§b 사막 목걸이\n§r§7(목걸이 슬롯)\n§o§8+8 치명적인 피해를 입힐 확률\n+공격 시  V 피해
+item.arena:fallen_desert_necklace=§b타락한 사막 목걸이\n§r§7(목걸이 슬롯)\n§o§8+10 치명적인 피해를 입힐 확률\n+공격 시  VI 피해
+
+item.arena:pure_marble_fire_necklace=§b신성한 불꽃 목걸이\n§r§7(목걸이 슬롯)\n§o§8+6 치명적인 피해를 입힐 확률\n+공격 시  피해
+item.arena:pure_marble_end_necklace=§b신성한 엔더 목걸이\n§r§7(목걸이 슬롯)\n§o§8+12 치명적인 피해를 입힐 확률\n+공격 10초 동안 지속 피해 
+item.arena:pure_marble_light_necklace=§b신성한 번개 목걸이\n§r§7(목걸이 슬롯)\n§o§8+18 치명적인 피해를 입힐 확률\n+18 번개 공격 확률
+item.arena:pure_marble_snow_necklace=§b신성한 눈 목걸이\n§r§7(목걸이 슬롯)\n§o§8+12 치명적인 피해를 입힐 확률\n+공격 시  VII 피해
+item.arena:pure_marble_poison_necklace=§b신성한 독 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  VII 피해
+item.arena:pure_marble_desert_necklace=§b신성한 사막 목걸이\n§r§7(목걸이 슬롯) 슬롯)\n§o§8+12 치명적인 피해를 입힐 확률\n+공격 시  VII 피해
+item.arena:pure_marble_hemlock_necklace=§b신성한 헴록 목걸이\n§r§7(목걸이 슬롯)\n§o§8+공격 시  VI 피해
+
+item.arena:diamond_necklace=§b다이아몬드 목걸이\n§r§7(목걸이 슬롯)\n§o§8+광역 공격, 25 피해\n-20 (근접), -20 (투사체)
+item.arena:cursed_pendant=§b저주받은 펜던트\n§r§7(목걸이 슬롯)\n§o§8+ 면역\n+5 (근접), +5 (투사체),-1 \n+저주를 부여 \n(20 확률, 4초)
+item.arena:thine_eyes_pendant=§bThine eyes 펜던트\n§r§7(목걸이 슬롯)\n§o§8+엔더 진주를 소모하지 않음\n-10 
+item.arena:catalyst_scarf=§b촉매 스카프\n§r§7(목걸이 슬롯)\n§o§8+10 (근접), +10 (투사체)\n+1 (넉백), -20 
+item.arena:bewitched_pendant=§b마법의 펜던트\n§r§7(목걸이 슬롯)\n§o§8+마법(지팡이 사용):\n+해골 4마리 소환\n(재사용 대기시간 1분)
+item.arena:sweet_dreams_pendant=§b스위트 드림 스카프\n§r§7(목걸이 슬롯)\n§o§8+1 점프\n+ III(수면)\n바다 메이저에서
+item.arena:obsidian_pendant=§b흑요석 목걸이\n§r§7(목걸이 슬롯)\n§o§8+10 , + II(용암 속에서)
+item.arena:ornate_pendant=§b장식 펜던트\n§r§7(목걸이 슬롯)\n§o§8+2 치명적인 피해를 입힐 확률\n(장식 아이템당 중첩)
+
+item.arena:iron_crown_jelewer=§g철 왕관\n§r§7(머리 슬롯)\n§o§8+반려동물에게 I  적용
+item.arena:golden_crown_jelewer=§g황금 왕관\n§r§7(머리 슬롯)\n§o§8+반려동물에게 II  적용
+item.arena:prismarine_crown_jelewer=§g프리즈마린 왕관\n§r§7(머리 슬롯)\n§o§8+반려동물에게 III  적용
+item.arena:netherite_crown_jelewer=§g네더라이트 왕관\n§r§7(머리 슬롯)\n§o§8+반려동물에게 IV  적용
+
+item.arena:effect_cube=효과 에센스
+item.arena:archaic_stone=§2Αρχαϊκός 석
+item.arena:marble_fragment=대리석 조각
+
+item.arena:jelewer_upgrade_smithing_template_n=대리석 템플릿\n§r§7(네더라이트)\n(Jelewer->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_p=대리석 템플릿\n§r§7(프리즈마린)\n(Jelewer->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_g=대리석 템플릿\n§r§7(황금)\n(보석 제작->)\n(->)
+item.arena:jelewer_upgrade_smithing_template_i=대리석 템플릿\n§r§7(철)\n(->)
+
+item.arena:archaic_upgrade_smithing_template=§b아르카이코스 템플릿
+item.arena:template_fallen=§b타락한 천사 템플릿
+item.arena:template_pure_marble=§e순수 대리석 템플릿
+
+item.arena:template_artemis=§e아르테미스 템플릿
+item.arena:template_hades=§b하데스 템플릿
+item.arena:template_poseidon=§b포세이돈 템플릿
+item.arena:template_zeus=§e제우스 템플릿
+
+item.arena:doll_base=§r§c인형
+item.arena:mask_base=§b마스크 받침대
+item.arena:elemental_wither_ring=§e엘리멘탈 위더드 링
+item.arena:witherring=§e시든 반지
+item.arena:ring=§b반지
+
+item.arena:gembase=보석 베이스
+item.arena:gem_fire=§b불 보석
+item.arena:gem_light=§b빛 보석
+item.arena:gem_poison=§b독 보석
+item.arena:gem_snow=§b눈 보석
+item.arena:gem_void=§b최종 보석
+item.arena:gem_desert=§b사막 보석
+item.arena:gem_hemlock=§b독미나리 보석
+item.arena:hemlock_stone=§b독미나리 돌
+item.arena:cristal_gem=불순한 수정
+item.arena:marble_dust=대리석 가루\n§7(원석)
+item.arena:raw_marble=원석\n§r§7(제련)
+item.arena:chisel=광석 끌\n§r§7(대리석 광석 깨기)\n§7§o(수정 광석 깨기)
+
+item.arena:fallen_marble=떨어진 대리석 조각
+item.arena:black_marble_dust=검은 대리석 가루\n§7§o(가공되지 않은 떨어진 대리석)
+item.arena:raw_black_marble=가공되지 않은 떨어진 대리석\n§7§o(제련)
+
+item.arena:ornate_fragment=§b장식 조각
+
+item.arena:dragon_scale=§b드래곤 비늘\n\n§7살인을 통해 획득: 
+item.arena:wither_fire=§b위더의 영혼\n\n§7살인을 통해 획득: 
+item.arena:warden_heart=§b감시자의 심장\n\n§7살인을 통해 획득: 
+
+item.arena:cold_shard=§e차가운 파편\n\n§7살인을 통해 획득:  
+item.arena:flammable_shard=§e불타는 파편\n\n§7살인을 통해 획득:  
+item.arena:electric_shard=§e전기 파편\n\n§7살인을 통해 획득:   
+item.arena:poisonous_shard=§e독성 파편\n\n§7살인을 통해 획득:    
+item.arena:levitation_shard=§e부상 파편\n\n§7살인을 통해 획득:  
+item.arena:arid_shard=§e건조한 파편\n\n§7살인을 통해 획득:   
+item.arena:wither_fragment=§e위더 파편\n\n§7살인을 통해 획득:  
+
+item.arena:zombie_soul=좀비 영혼
+item.arena:skeleton_soul=해골 영혼
+item.arena:blaze_soul=블레이즈 영혼
+item.arena:spider_soul=거미 영혼
+item.arena:cave_spider_soul=동굴 거미 영혼
+item.arena:magma_soul=마그마 큐브 영혼
+
+item.arena:spawner_fragment=§b몹 스포너 조각
+
+item.twm:scroll=부적 스크롤\n§r§7(부적 인벤토리 열기)
+item.arena:w=Debug item

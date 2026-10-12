@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:laniraxia_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:basalt"
+			},
+			"D": {
+				"item": "minecraft:bamboo"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"G": {
+				"item": "minecraft:arrow"
+			},
+			"H": {
+				"item": "minecraft:chain"
+			}
+		},
+		"result": {
+			"item": "arena:laniraxia_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

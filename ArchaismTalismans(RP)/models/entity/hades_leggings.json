@@ -1,0 +1,197 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hades_leggings",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Legging_Body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.2525, "uv": [66, 0]}
+					]
+				},
+				{
+					"name": "Legging_Body_Parts",
+					"parent": "Legging_Body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Legging_Body_Tassets",
+					"parent": "Legging_Body_Parts",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Legging_Body_Tasset_Front",
+					"parent": "Legging_Body_Tassets",
+					"pivot": [0, 12, -4],
+					"rotation": [-17.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 10, -4], "size": [4, 4, 2], "pivot": [0, 12, -3], "rotation": [0, 0, 45], "uv": [104, 32]}
+					]
+				},
+				{
+					"name": "Legging_Body_Tasset_Back",
+					"parent": "Legging_Body_Tassets",
+					"pivot": [0, 12, 4],
+					"rotation": [17.5, 0, 0],
+					"cubes": [
+						{"origin": [-2, 10, 2], "size": [4, 4, 2], "pivot": [0, 12, 3], "rotation": [0, 0, 45], "uv": [104, 38]}
+					]
+				},
+				{
+					"name": "Legging_Body_Skirt",
+					"parent": "Legging_Body_Parts",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Legging_Body_Skirt_Front",
+					"parent": "Legging_Body_Skirt",
+					"pivot": [0, 12, -3.5],
+					"rotation": [-7.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 2, -3.5], "size": [5, 10, 0], "uv": [102, 95]}
+					]
+				},
+				{
+					"name": "Legging_Body_Skirt_Back",
+					"parent": "Legging_Body_Skirt",
+					"pivot": [0, 12, 3.5],
+					"rotation": [7.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 2, 3.5], "size": [5, 10, 0], "uv": [84, 103]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [90, 60]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Parts",
+					"parent": "Legging_RightLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_SupTasset",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [4.25, 14, 1],
+					"rotation": [0, 0, -37.5],
+					"cubes": [
+						{"origin": [0.25, 6, -3.5], "size": [4, 8, 7], "uv": [44, 67]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Tasset",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [4.25, 13, 0],
+					"rotation": [0, 0, -15],
+					"cubes": [
+						{"origin": [0.25, 1, -3], "size": [4, 12, 6], "uv": [24, 67]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Skirt",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament_Left_Front",
+					"parent": "Legging_RightLeg_Ornament",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament_Left_Back",
+					"parent": "Legging_RightLeg_Ornament",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [90, 0]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Parts",
+					"parent": "Legging_LeftLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_SupTasset",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-4.25, 14, 1],
+					"rotation": [0, 0, 37.5],
+					"cubes": [
+						{"origin": [-4.25, 6, -3.5], "size": [4, 8, 7], "uv": [66, 34]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Tasset",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-4.25, 13, 0],
+					"rotation": [0, 0, 15],
+					"cubes": [
+						{"origin": [-4.25, 1, -3], "size": [4, 12, 6], "uv": [66, 16]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Skirt",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament_Front",
+					"parent": "Legging_LeftLeg_Ornament",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament_Back",
+					"parent": "Legging_LeftLeg_Ornament",
+					"pivot": [-2, 12, 0]
+				}
+			]
+		}
+	]
+}

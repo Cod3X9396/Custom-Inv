@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_furnace": {
+	  "description": {
+	  "identifier": "marble_fragment"
+	  },
+	  "tags": [
+			"blast_furnace",
+			"furnace"
+		],
+	  "input": "arena:raw_marble",
+	  "output": "arena:marble_fragment"
+	}
+  }

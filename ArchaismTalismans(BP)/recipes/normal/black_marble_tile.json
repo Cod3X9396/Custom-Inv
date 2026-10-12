@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "black_marble_tile"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "arena:marble_ore_deepslate"
+      }
+    ],
+    "result": {
+      "item": "arena:black_marble_tile",
+      "count": 4
+    }
+  }
+  
+}

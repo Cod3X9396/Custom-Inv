@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:gembase"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"result": {
+			"item": "arena:gembase"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]	
+	}
+}

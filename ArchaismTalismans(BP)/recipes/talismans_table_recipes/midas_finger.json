@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:midas_finger"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AB ",
+			"CAA",
+			" DE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "minecraft:gold_block"
+			},
+			"D": {
+				"item": "arena:jelewer_upgrade_smithing_template_g"
+			},
+			"E": {
+				"item": "arena:electric_shard"
+			}
+		},
+		"result": {
+			"item": "arena:midas_finger"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:electric_shard"
+			}
+		]
+	}
+}

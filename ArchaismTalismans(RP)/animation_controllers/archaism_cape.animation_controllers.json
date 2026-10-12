@@ -1,0 +1,49 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.archaism_cape.default": {
+			"states": {
+				"default": {
+					"animations": ["default"],
+					"transitions": [
+						{"falling": "!query.is_on_ground"},
+						{"walking": "query.is_moving && !query.is_sprinting && query.is_on_ground"},
+						{"sprinting": "query.is_sprinting && query.is_on_ground"}
+					],
+					"blend_transition": 1,
+					"blend_via_shortest_path": true
+				},
+				"walking": {
+					"animations": ["walking"],
+					"transitions": [
+						{"falling": "!query.is_on_ground"},
+						{"sprinting": "query.is_sprinting && query.is_on_ground "},
+						{"default": "!query.is_moving && !query.is_sprinting && query.is_on_ground"}
+					],
+					"blend_transition": 1,
+					"blend_via_shortest_path": true
+				},
+				"falling": {
+					"animations": ["falling"],
+					"transitions": [
+						{"walking": "query.is_moving && !query.is_sprinting && query.is_on_ground"},
+						{"sprinting": "query.is_sprinting && query.is_on_ground"},
+						{"default": "!query.is_moving && !query.is_sprinting && query.is_on_ground"}
+					],
+					"blend_transition": 1,
+					"blend_via_shortest_path": true
+				},
+				"sprinting": {
+					"animations": ["sprinting"],
+					"transitions": [
+						{"falling": "!query.is_on_ground"},
+						{"walking": "query.is_moving && !query.is_sprinting && query.is_on_ground"},
+						{"default": "!query.is_moving && !query.is_sprinting && query.is_on_ground"}
+					],
+					"blend_transition": 1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

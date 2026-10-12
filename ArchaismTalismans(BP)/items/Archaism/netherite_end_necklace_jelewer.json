@@ -1,0 +1,16 @@
+{
+  	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+      		"menu_category": {
+      		  "category": "items"
+      		},
+			"identifier": "arena:netherite_end_necklace_jelewer"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "j28",
+      		"minecraft:fire_resistant": { "value": true }
+		}
+	}
+}

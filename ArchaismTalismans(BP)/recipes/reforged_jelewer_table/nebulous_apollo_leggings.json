@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nebulous_apollo_leggings"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:netherite_apollo_leggings"
+			}
+		},
+		"result": {
+			"item": "arena:nebulous_apollo_leggings"
+		},
+		"unlock": [
+			{
+				"item": "arena:netherite_apollo_leggings"
+			}
+		]
+	}
+}

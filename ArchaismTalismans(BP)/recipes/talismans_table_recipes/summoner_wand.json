@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:summoner_wand"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			" B ",
+			"C  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:summoner_wand"
+		},
+		"unlock": [
+			{
+				"item": "arena:spawner_fragment"
+			}
+		]
+	}
+}

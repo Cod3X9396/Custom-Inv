@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:jump_copper_wither_ring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AB ",
+			" C ",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:gem_poison"
+			},
+			"B": {
+				"item": "arena:wither_fire"
+			},
+			"C": {
+				"item": "arena:witherring"
+			}
+		},
+		"result": {
+			"item": "arena:jump_copper_wither_ring"
+		},
+		"unlock": [
+			{
+				"item": "arena:witherring"
+			}
+		]
+	}
+}

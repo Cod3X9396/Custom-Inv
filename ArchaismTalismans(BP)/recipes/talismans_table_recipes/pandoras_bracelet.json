@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:pandoras_bracelet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"BDE",
+			"BEF"
+		],
+		"key": {
+			"A": {
+				"item": "arena:harena_doll"
+			},
+			"B": {
+				"item": "arena:wither_fragment"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			},
+			"E": {
+				"item": "arena:poisonous_shard"
+			},
+			"F": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:pandoras_bracelet"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

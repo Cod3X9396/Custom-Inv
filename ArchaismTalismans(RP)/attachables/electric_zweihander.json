@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "arena:electric_zweihander",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "w_00": "angyt/electric_hander/w_00",
+        "w_01": "angyt/electric_hander/w_01",
+        "w_02": "angyt/electric_hander/w_02",
+        "w_03": "angyt/electric_hander/w_03",
+        "w_04": "angyt/electric_hander/w_04",
+        "w_05": "angyt/electric_hander/w_05",
+        "w_06": "angyt/electric_hander/w_06",
+        "w_07": "angyt/electric_hander/w_07",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.elemental_zweihander"
+      },
+        "animations":{
+          "hold_first_person":"animation.marble_render.general"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.angytw = 1;"
+        ],
+        "animate": [
+          "hold_first_person"
+        ]
+      },
+      "render_controllers": [ "controller.render.hander_element" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fallen_marble_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"BDE",
+			"CBB"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:dragon_scale"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "minecraft:gilded_blackstone"
+			}
+		},
+		"result": {
+			"item": "arena:fallen_marble_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:milo_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:zultinus_doll"
+			}
+		},
+		"result": {
+			"item": "arena:milo_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:zultinus_doll"
+			}
+		]
+	}
+}

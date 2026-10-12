@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:crown_of_expertise"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:ghast_tear"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:netherite_crown_jelewer"
+			},
+			"D": {
+				"item": "arena:cristal_gem"
+			},
+			"E": {
+				"item": "arena:archaic_stone"
+			}
+		},
+		"result": {
+			"item": "arena:crown_of_expertise"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

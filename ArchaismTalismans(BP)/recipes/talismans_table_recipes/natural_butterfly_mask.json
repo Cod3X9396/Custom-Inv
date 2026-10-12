@@ -1,0 +1,54 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:natural_butterfly_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GHI"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:azure_bluet"
+			},
+			"B": {
+				"item": "minecraft:lily_of_the_valley"
+			},
+			"C": {
+				"item": "minecraft:blue_orchid"
+			},
+			"D": {
+				"item": "minecraft:orange_tulip"
+			},
+			"E": {
+				"item": "arena:mask_base"
+			},
+			"F": {
+				"item": "minecraft:oxeye_daisy"
+			},
+			"G": {
+				"item": "minecraft:wither_rose"
+			},
+			"H": {
+				"item": "minecraft:lilac"
+			},
+			"I": {
+				"item": "minecraft:bee_nest"
+			}
+		},
+		"result": {
+			"item": "arena:natural_butterfly_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "minecraft:wither_rose"
+			}
+		]
+	}
+}

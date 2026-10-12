@@ -1,0 +1,75 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.marble_wings.default": {
+			"states": {
+				"default": {
+					"animations": ["default"],
+					"transitions": [
+						{"flutter": "!query.is_on_ground"},
+						{"sneaking": "query.is_sneaking"},
+						{"sleeping": "query.is_sleeping"},
+						{"swimming": "query.is_swimming"},
+						{"sprinting": "query.is_sprinting"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"flutter": {
+					"animations": ["flutter"],
+					"transitions": [
+						{"default": "query.is_on_ground"},
+						{"sleeping": "query.is_sleeping"},
+						{"swimming": "query.is_swimming"}
+					]
+				},
+				"sneaking": {
+					"animations": ["sneaking"],
+					"transitions": [
+						{"sleeping": "query.is_sleeping"},
+						{"swimming": "query.is_swimming"},
+						{"default": "!query.is_sneaking"},
+						{"sprinting": "query.is_sprinting"},
+						{"flutter": "!query.is_on_ground && !query.is_jumping"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"sleeping": {
+					"animations": ["sleeping"],
+					"transitions": [
+						{"sneaking": "query.is_sneaking"},
+						{"swimming": "query.is_swimming"},
+						{"default": "!query.is_sleeping"},
+						{"sprinting": "query.is_sprinting"},
+						{"flutter": "!query.is_on_ground && !query.is_jumping"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"swimming": {
+					"animations": ["swimming"],
+					"transitions": [
+						{"sneaking": "query.is_sneaking"},
+						{"sleeping": "query.is_sleeping"},
+						{"default": "!query.is_swimming"},
+						{"sprinting": "query.is_sprinting"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"sprinting": {
+					"animations": ["swimming"],
+					"transitions": [
+						{"sneaking": "query.is_sneaking"},
+						{"swimming": "query.is_swimming"},
+						{"sleeping": "query.is_sleeping"},
+						{"default": "!query.is_sprinting"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

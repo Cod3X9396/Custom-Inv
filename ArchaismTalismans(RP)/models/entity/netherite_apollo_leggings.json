@@ -1,0 +1,150 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.netherite_apollo_leggings",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "legging_body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.255, "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "legging_body_parts",
+					"parent": "legging_body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "legging_body_tassets",
+					"parent": "legging_body_parts",
+					"pivot": [0, 13, 0]
+				},
+				{
+					"name": "legging_body_tasset_Front",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 13, -3],
+					"rotation": [-16.32495, 15.69986, 42.73421],
+					"cubes": [
+						{"origin": [-2, 11, -4.3], "size": [4, 4, 2], "uv": [71, 122]},
+						{"origin": [0, 15, -4.3], "size": [2, 2, 2], "uv": [63, 120]},
+						{"origin": [-4, 11, -4.3], "size": [2, 2, 2], "uv": [63, 124]}
+					]
+				},
+				{
+					"name": "legging_body_tasset_back",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 13, 3],
+					"rotation": [16.32495, -15.69986, 42.73421],
+					"cubes": [
+						{"origin": [-2, 11, 2.3], "size": [4, 4, 2], "uv": [71, 116]},
+						{"origin": [0, 15, 2.3], "size": [2, 2, 2], "uv": [63, 113]},
+						{"origin": [-4, 11, 2.3], "size": [2, 2, 2], "uv": [63, 117]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "legging_rightleg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "legging_rightleg_parts",
+					"parent": "legging_rightleg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "legging_rightleg_suptasset",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 15, 0.5],
+					"rotation": [0, 0, -20],
+					"cubes": [
+						{"origin": [1.25, 6, -3.5], "size": [3, 9, 7], "uv": [54, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "legging_rightleg_skirt",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 14, 0],
+					"rotation": [0, 0, -15],
+					"cubes": [
+						{"origin": [-0.75, 0.25, -3], "size": [5, 14, 6], "uv": [25, 35]}
+					]
+				},
+				{
+					"name": "legging_body_skirt_back",
+					"parent": "legging_rightleg_parts",
+					"pivot": [0, 13.75, 3],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [0, -0.25, 1], "size": [4, 14, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg_parts",
+					"parent": "legging_leftleg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg_suptasset",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 15, 0.5],
+					"rotation": [0, 0, 20],
+					"cubes": [
+						{"origin": [-4.25, 6, -3.5], "size": [3, 9, 7], "uv": [54, 0]}
+					]
+				},
+				{
+					"name": "legging_leftleg_skirt",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 14, 0],
+					"rotation": [0, 0, 15],
+					"cubes": [
+						{"origin": [-4.25, 0.25, -3], "size": [5, 14, 6], "uv": [25, 15]}
+					]
+				},
+				{
+					"name": "legging_body_skirt_back2",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4, 13.75, 3],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [-4, -0.25, 1], "size": [4, 14, 2], "uv": [12, 16]}
+					]
+				}
+			]
+		}
+	]
+}

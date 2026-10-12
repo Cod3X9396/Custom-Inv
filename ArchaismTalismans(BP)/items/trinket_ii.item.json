@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "menu_category": {
+                "category": "equipment"
+            },
+            "identifier": "arena:trinket_ii"
+        },
+        "components": {
+            "minecraft:icon": "trinket_tome_ii",
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": false,
+            "minecraft:glint": false,
+            "minecraft:display_name": {
+                "value": "§o§eDamaged book\n§9Stats: §7+10'/. defense \n§aLearn: §7+15'/. defense , +1 \n§aUnlock: §7Necklace, ring, guantlet\n§4Required: §724 Levels of Experience\n(Sneaking to upgrade)"
+            },
+            "minecraft:custom_components": [
+                "arena:learn"
+            ],
+            "minecraft:use_modifiers": {
+                "use_duration": 32
+            }
+        }
+    }
+}

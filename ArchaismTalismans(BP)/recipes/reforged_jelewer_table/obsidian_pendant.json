@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:obsidian_pendant"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AA",
+			"BBA",
+			"CBA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "minecraft:blaze_rod"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:obsidian_pendant"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

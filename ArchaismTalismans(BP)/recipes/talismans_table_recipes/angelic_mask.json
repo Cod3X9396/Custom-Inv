@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:angelic_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ECA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:angelic_aurea"
+			},
+			"C": {
+				"item": "arena:marble_feather"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:sacret_sword"
+			}
+		},
+		"result": {
+			"item": "arena:angelic_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

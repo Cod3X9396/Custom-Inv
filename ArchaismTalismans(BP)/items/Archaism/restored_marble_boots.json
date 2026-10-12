@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "arena:restored_marble_boots",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transformable_items",
+          "minecraft:is_armor"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_feet"
+      },
+      "minecraft:durability": {
+        "max_durability": 1154,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:icon": {
+        "texture": "marble_boots2"
+      },
+      "minecraft:wearable": {
+        "protection": 3,
+        "slot": "slot.armor.feet"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "arena:restored_marble_boots"
+            ],
+            "repair_amount": "query.max_durability * 1"
+          }
+        ]
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:aplpha_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:lantern"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:leather"
+			},
+			"D": {
+				"item": "minecraft:mossy_cobblestone"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"G": {
+				"item": "minecraft:dried_kelp_block"
+			},
+			"H": {
+				"item": "minecraft:bamboo"
+			}
+		},
+		"result": {
+			"item": "arena:aplpha_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

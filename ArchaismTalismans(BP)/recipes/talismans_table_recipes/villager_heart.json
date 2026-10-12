@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:villager_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DED",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "arena:levitation_shard"
+			},
+			"B": {
+				"item": "minecraft:gold_block"
+			},
+			"C": {
+				"item": "minecraft:ghast_tear"
+			},
+			"D": {
+				"item": "minecraft:netherite_scrap"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:villager_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:levitation_shard"
+			}
+		]
+	}
+}

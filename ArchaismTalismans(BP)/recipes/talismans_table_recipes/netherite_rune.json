@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:netherite_rune"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AB ",
+			"ACA",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot"
+			},
+			"B": {
+				"item": "minecraft:netherite_ingot"
+			},
+			"C": {
+				"item": "arena:marble_rune"
+			},
+			"C": {
+				"item": "minecraft:compass"
+			}
+		},
+		"result": {
+			"item": "arena:netherite_rune"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_rune",
+				"item": "minecraft:netherite_ingot"
+			}
+		]
+	}
+}

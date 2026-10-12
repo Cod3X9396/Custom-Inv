@@ -1,0 +1,126 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.poseidon_boots",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 6, 4], "inflate": 0.55, "uv": [12, 85]}
+					]
+				},
+				{
+					"name": "Boot_RightLeg_Parts",
+					"parent": "Boot_RightLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Ornaments",
+					"parent": "Boot_RightLeg_Parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Ornament_Left",
+					"parent": "Boot_RightLeg_Ornaments",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Ornament_Right",
+					"parent": "Boot_RightLeg_Ornaments",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Coral",
+					"parent": "Boot_RightLeg_Ornaments",
+					"pivot": [2, 0, -2.5],
+					"rotation": [-45, 0, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Coral_X",
+					"parent": "Boot_RightLeg_Coral",
+					"pivot": [2, 0, -6],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [2, 0, -6.5], "size": [2, 2, 4], "uv": [0, 97]},
+						{"origin": [4, 0, -6.5], "size": [2, 2, 2], "uv": [104, 46]},
+						{"origin": [2, 2, -6.5], "size": [2, 2, 2], "uv": [104, 50]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 6, 4], "inflate": 0.55, "uv": [82, 68]}
+					]
+				},
+				{
+					"name": "Boot_LeftLeg_Parts",
+					"parent": "Boot_LeftLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornaments",
+					"parent": "Boot_LeftLeg_Parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornament_Left",
+					"parent": "Boot_LeftLeg_Ornaments",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornament_Right",
+					"parent": "Boot_LeftLeg_Ornaments",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornaments2",
+					"parent": "Boot_LeftLeg_Parts",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Coral",
+					"parent": "Boot_LeftLeg_Ornaments2",
+					"pivot": [-2, 0, -2.5],
+					"rotation": [-45, 0, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Coral_X",
+					"parent": "Boot_LeftLeg_Coral",
+					"pivot": [-2, 0, -6],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [-4, 0, -6.5], "size": [2, 2, 4], "uv": [90, 95]},
+						{"origin": [-6, 0, -6.5], "size": [2, 2, 2], "uv": [104, 33]},
+						{"origin": [-4, 2, -6.5], "size": [2, 2, 2], "uv": [104, 37]}
+					]
+				}
+			]
+		}
+	]
+}

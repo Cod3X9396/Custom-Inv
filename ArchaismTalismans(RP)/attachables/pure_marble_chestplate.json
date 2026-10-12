@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "arena:pure_marble_chestplate",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "w_00": "angyt/marble_armor/marble_armor_0",
+                "w_01": "angyt/marble_armor/marble_armor_1",
+                "w_02": "angyt/marble_armor/marble_armor_2",
+                "w_03": "angyt/marble_armor/marble_armor_3",
+                "w_04": "angyt/marble_armor/marble_armor_4",
+                "w_05": "angyt/marble_armor/marble_armor_5",
+                "w_06": "angyt/marble_armor/marble_armor_6",
+                "w_07": "angyt/marble_armor/marble_armor_7",
+                "w_08": "angyt/marble_armor/marble_armor_8",
+                "w_09": "angyt/marble_armor/marble_armor_9",
+                "w_10": "angyt/marble_armor/marble_armor_10",
+                "w_11": "angyt/marble_armor/marble_armor_11",
+                "w_12": "angyt/marble_armor/marble_armor_12",
+                "w_13": "angyt/marble_armor/marble_armor_13",
+                "w_14": "angyt/marble_armor/marble_armor_14",
+                "w_15": "angyt/marble_armor/marble_armor_15",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.pure_marble_chestplate"
+            },
+            "scripts": {
+                "parent_setup": "variable.chest_layer_visible=0.0;",
+                "animate": ["wings"],
+                "initialize": [
+                  "variable.angytw = 0;"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.marble_armor"
+            ],
+            "animations": {
+                "default": "animation.pure_marble_wings.default",
+                "flutter": "animation.pure_marble_wings.gliding",
+                "swimming": "animation.pure_marble_wings.swimming",
+                "sneaking": "animation.pure_marble_wings.sneaking",
+                "sleeping": "animation.pure_marble_wings.sleeping",
+                "wings": "controller.animation.marble_wings.default"
+            }
+        }
+    }
+}

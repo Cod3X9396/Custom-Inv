@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:template_fallen"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"ACA",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			},
+			"C": {
+				"item": "arena:dragon_scale"
+			}
+		},
+		"result": {
+			"item": "arena:template_fallen"
+		},
+		"unlock": [
+			{
+				"item": "arena:dragon_scale",
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

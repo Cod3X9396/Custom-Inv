@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:gem_hemlock"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABB",
+			"BCB",
+			"BBD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:levitation_shard"
+			},
+			"B": {
+				"item": "arena:hemlock_stone"
+			},
+			"C": {
+				"item": "arena:gembase"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			}
+		},
+		"result": {
+			"item": "arena:gem_hemlock"
+		},
+		"unlock": [
+			{
+				"item": "arena:hemlock_stone"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:spirit_ring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			" CA",
+			"D  "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:ring"
+			},
+			"D": {
+				"item": "arena:levitation_shard"
+			}
+		},
+		"result": {
+			"item": "arena:spirit_ring"
+		},
+		"unlock": [
+			{
+				"item": "arena:ring"
+			}
+		]
+	}
+}

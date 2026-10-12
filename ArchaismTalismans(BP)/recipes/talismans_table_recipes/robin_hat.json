@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:robin_hat"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ECE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:artemisa_arrowhead"
+			},
+			"B": {
+				"item": "minecraft:bow"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:deer_crown"
+			},
+			"E": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "arena:robin_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:deer_crown"
+			}
+		]
+	}
+}

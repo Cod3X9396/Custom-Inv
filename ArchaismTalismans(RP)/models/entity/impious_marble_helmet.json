@@ -1,0 +1,162 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.impious_marble_helmet",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "helmet",
+					"parent": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.75, "uv": [116, 0]},
+						{"origin": [-4, 24, 5.5], "size": [8, 8, 8], "inflate": 0.75, "uv": [116, 16]},
+						{"origin": [-4, 14.5, -4], "size": [8, 8, 8], "inflate": 0.75, "uv": [52, 116]},
+						{"origin": [-4, 33.5, -4], "size": [8, 8, 8], "inflate": 0.75, "uv": [0, 120]}
+					]
+				},
+				{
+					"name": "helmet_parts",
+					"parent": "helmet",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "helmet_ornaments",
+					"parent": "helmet_parts",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "helmet_ornament_center",
+					"parent": "helmet_ornaments",
+					"pivot": [0, 31.25, -4.75],
+					"rotation": [-27.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 27.75, -6], "size": [7, 7, 2], "pivot": [0, 31.25, -5], "rotation": [0, 0, 45], "uv": [94, 154]},
+						{"origin": [-6.5, 27.75, -6], "size": [10, 10, 3], "pivot": [0, 31.25, -5], "rotation": [0, 0, 45], "uv": [124, 99]}
+					]
+				},
+				{
+					"name": "helmet_wings",
+					"parent": "helmet_ornaments",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "helmet_wing_left",
+					"parent": "helmet_wings",
+					"pivot": [-4.75, 29, -1.25],
+					"rotation": [52.5, 22.5, 52.5],
+					"cubes": [
+						{"origin": [-10.75, 27, -1.25], "size": [8, 2, 1], "uv": [156, 118]},
+						{"origin": [-18.75, 23, -0.75], "size": [16, 8, 0], "uv": [64, 48]}
+					]
+				},
+				{
+					"name": "helmet_wing_center",
+					"parent": "helmet_wings",
+					"pivot": [0, 32.75, -1.25],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 30.75, -3.25], "size": [1, 2, 8], "uv": [0, 154]},
+						{"origin": [0, 24.75, -3.25], "size": [0, 10, 18], "uv": [52, 88]}
+					]
+				},
+				{
+					"name": "helmet_wing_right",
+					"parent": "helmet_wings",
+					"pivot": [4.75, 29, -1.25],
+					"rotation": [52.5, -22.5, -52.5],
+					"cubes": [
+						{"origin": [2.75, 27, -1.25], "size": [8, 2, 1], "uv": [166, 74]},
+						{"origin": [2.75, 23, -0.75], "size": [16, 8, 0], "uv": [116, 123]}
+					]
+				},
+				{
+					"name": "helmet_horns",
+					"parent": "helmet",
+					"pivot": [-1, 24, 0]
+				},
+				{
+					"name": "helmet_left_horn",
+					"parent": "helmet_horns",
+					"pivot": [-5.75, 32.75, 0],
+					"rotation": [-15, 37.5, 0],
+					"cubes": [
+						{"origin": [-4.75, 28.75, -6], "size": [3, 4, 8], "uv": [212, 0]},
+						{"origin": [-4.75, 28.75, -14], "size": [3, 4, 8], "uv": [234, 0]}
+					]
+				},
+				{
+					"name": "helmet_left_horn_2",
+					"parent": "helmet_left_horn",
+					"pivot": [-4.75, 29.75, -6],
+					"rotation": [-42.5, -27.5, 0],
+					"cubes": [
+						{"origin": [-3.75, 29.75, -12], "size": [2, 3, 6], "uv": [224, 33]},
+						{"origin": [-3.75, 29.75, -18], "size": [2, 3, 6], "uv": [240, 33]}
+					]
+				},
+				{
+					"name": "helmet_left_horn_3",
+					"parent": "helmet_left_horn_2",
+					"pivot": [-4.25, 30.75, -12],
+					"rotation": [-37.5, -22.5, 10],
+					"cubes": [
+						{"origin": [-3.25, 30.75, -18], "size": [2, 2, 7], "uv": [238, 44]},
+						{"origin": [-3.25, 30.75, -21], "size": [2, 2, 3], "uv": [202, 0]}
+					]
+				},
+				{
+					"name": "helmet_right_horn",
+					"parent": "helmet_horns",
+					"pivot": [3.75, 32.75, -1],
+					"rotation": [-15, -37.5, 0],
+					"cubes": [
+						{"origin": [1.75, 28.75, -15], "size": [3, 4, 8], "uv": [212, 12]},
+						{"origin": [1.75, 28.75, -7], "size": [3, 4, 8], "uv": [234, 12]}
+					]
+				},
+				{
+					"name": "helmet_right_horn_2",
+					"parent": "helmet_right_horn",
+					"pivot": [1.75, 29.75, -6],
+					"rotation": [-42.5, 27.5, 0],
+					"cubes": [
+						{"origin": [1.75, 29.75, -12], "size": [2, 3, 6], "uv": [224, 24]},
+						{"origin": [1.75, 29.75, -18], "size": [2, 3, 6], "uv": [240, 24]}
+					]
+				},
+				{
+					"name": "helmet_right_horn_3",
+					"parent": "helmet_right_horn_2",
+					"pivot": [1.25, 31.75, -12],
+					"rotation": [-37.5, 22.5, -10],
+					"cubes": [
+						{"origin": [1.25, 31.75, -16.5], "size": [2, 2, 7], "uv": [238, 53]},
+						{"origin": [1.25, 31.75, -19.5], "size": [2, 2, 3], "uv": [202, 5]}
+					]
+				}
+			]
+		}
+	]
+}

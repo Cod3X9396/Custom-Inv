@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "arena:marble_spear",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/models/weapons/marble_spear",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.marble_spear"
+      },
+         "animations":{
+            "hold_first_person":"animation.marble_render.general",
+            "root": "controller.animation.angyt.weapon_attack",
+            "attack_fps": "animation.knight_spear.first_person_attack",
+            "attack_tps": "animation.arena_spear.hit"
+         },
+         "scripts":{
+            "pre_animation": [
+              "v.attack_time = c.owning_entity-> v.attack_time;"
+            ],
+            "initialize": [
+              "v.attack_time = 0.0;"
+            ],
+            "animate":[
+              "hold_first_person",
+              "root"
+            ]
+         },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

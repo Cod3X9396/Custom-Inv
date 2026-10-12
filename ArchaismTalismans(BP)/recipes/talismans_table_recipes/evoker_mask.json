@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:evoker_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABB",
+			"CDB",
+			"EEE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			},
+			"C": {
+				"item": "minecraft:totem_of_undying"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:cold_shard"
+			}
+		},
+		"result": {
+			"item": "arena:evoker_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

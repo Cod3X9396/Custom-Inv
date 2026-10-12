@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:paladin_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"BEC"
+		],
+		"key": {
+			"A": {
+				"item": "arena:flammable_shard"
+			},
+			"B": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"C": {
+				"item": "minecraft:lapis_block"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": {
+			"item": "arena:paladin_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base",
+				"item": "arena:flammable_shard"
+			}
+		]
+	}
+}

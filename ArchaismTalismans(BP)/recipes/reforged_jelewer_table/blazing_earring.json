@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:blazing_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"A A",
+			"CB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:obsidian"
+			},
+			"B": {
+				"item": "minecraft:blaze_rod"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:blazing_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

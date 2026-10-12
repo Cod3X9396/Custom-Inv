@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:lotte_axolotle_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:tropical_fish_bucket"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:fishing_rod"
+			},
+			"D": {
+				"item": "minecraft:chain"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"G": {
+				"item": "minecraft:water_bucket"
+			},
+			"H": {
+				"item": "minecraft:bamboo"
+			}
+		},
+		"result": {
+			"item": "arena:lotte_axolotle_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:iron_light_necklace_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"B B",
+			" C "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_nugget"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "arena:gem_light"
+			}
+		},
+		"result": {
+			"item": "arena:iron_light_necklace_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:gem_light"
+			}
+		]
+	}
+}

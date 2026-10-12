@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:extracted_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"BEB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:quartz"
+			},
+			"B": {
+				"item": "minecraft:calcite"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			},
+			"E": {
+				"item": "minecraft:glow_ink_sac"
+			}
+		},
+		"result": {
+			"item": "arena:extracted_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ganma_hemlock_boots"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"A B",
+			"ACA",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "arena:delta_hemlock_boots"
+			}
+		},
+		"result": {
+			"item": "arena:ganma_hemlock_boots"
+		},
+		"unlock": [
+			{
+				"item": "arena:delta_hemlock_boots"
+			}
+		]
+	}
+}

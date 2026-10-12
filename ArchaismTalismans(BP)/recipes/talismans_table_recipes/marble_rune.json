@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_rune"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:extracted_heart"
+			}
+		},
+		"result": {
+			"item": "arena:marble_rune"
+		},
+		"unlock": [
+			{
+				"item": "arena:extracted_heart"
+			}
+		]
+	}
+}

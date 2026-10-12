@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "arena:marble_staff",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "w_00": "angyt/marble_staff/w_00",
+        "w_01": "angyt/marble_staff/w_01",
+        "w_02": "angyt/marble_staff/w_02",
+        "w_03": "angyt/marble_staff/w_03",
+        "w_04": "angyt/marble_staff/w_04",
+        "w_05": "angyt/marble_staff/w_05",
+        "w_06": "angyt/marble_staff/w_06",
+        "w_07": "angyt/marble_staff/w_07",
+        "w_08": "angyt/marble_staff/w_08",
+        "w_09": "angyt/marble_staff/w_09",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.marble_staff"
+      },
+        "animations":{
+          "hold_first_person":"animation.marble_render.general"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.angytw = 1;"
+        ],
+        "animate": [
+          "hold_first_person"
+        ]
+      },
+      "render_controllers": [ "controller.render.candle_fire" ]
+    }
+  }
+}

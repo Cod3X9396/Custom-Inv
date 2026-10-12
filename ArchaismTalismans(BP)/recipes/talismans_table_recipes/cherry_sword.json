@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cherry_sword"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DED",
+			"CDA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cherry_blossom"
+			},
+			"B": {
+				"item": "minecraft:cherry_sapling"
+			},
+			"C": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"D": {
+				"item": "arena:fallen_marble"
+			},
+			"E": {
+				"item": "arena:doble_edged"
+			}
+		},
+		"result": {
+			"item": "arena:cherry_sword"
+		},
+		"unlock": [
+			{
+				"item": "arena:doble_edged"
+			}
+		]
+	}
+}

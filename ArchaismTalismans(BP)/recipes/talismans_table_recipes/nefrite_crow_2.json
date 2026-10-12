@@ -1,0 +1,43 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nefrite_crow_2"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCD",
+			" EA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald"
+			},
+			"B": {
+				"item": "arena:crimsom_amethyst_ring_jelewer"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:withered_ring_jelewer"
+			},
+			"E": {
+				"item": "arena:silk_ring_jelewer"
+			}
+		},
+		"result": {
+			"item": "arena:nefrite_crow"
+		},
+		"unlock": [
+			{
+				"item": "arena:silk_ring_jelewer",
+				"item": "arena:withered_ring_jelewer",
+				"item": "arena:crimsom_amethyst_ring_jelewer"
+			}
+		]
+	}
+}

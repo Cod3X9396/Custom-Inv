@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:stigma_hemlock_helmet"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AAA",
+			"BCB",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:dragon_scale"
+			},
+			"C": {
+				"item": "arena:ganma_hemlock_helmet"
+			}
+		},
+		"result": {
+			"item": "arena:stigma_hemlock_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:ganma_hemlock_helmet"
+			}
+		]
+	}
+}

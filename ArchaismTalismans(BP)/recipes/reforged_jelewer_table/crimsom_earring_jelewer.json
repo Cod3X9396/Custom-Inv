@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:crimsom_earring_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"ACA",
+			"DB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nether_wart"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:poisonous_shard"
+			},
+			"D": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:crimsom_earring_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:poisonous_shard"
+			}
+		]
+	}
+}

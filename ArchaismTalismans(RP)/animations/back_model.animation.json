@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.back_model.swim": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root": {
+					"rotation": ["90+query.ride_head_x_rotation", 0, 0],
+					"position": [0, "(math.sin(query.ride_head_x_rotation) * 17.0 + 5.0)", "(math.cos(query.ride_head_x_rotation) * 17.0)"]
+				}
+			}
+		},
+		"animation.back_model.setup": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root": {
+					"position": [-6.5, -24, -1.5]
+				}
+			}
+		},
+		"animation.back_model.glide": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root": {
+					"rotation": ["90+query.ride_head_x_rotation", 0, 0]
+				}
+			}
+		},
+		"animation.back_model.crawl": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root": {
+					"rotation": [90, 0, 0],
+					"position": [0, 5, 17]
+				}
+			}
+		}
+	}
+}

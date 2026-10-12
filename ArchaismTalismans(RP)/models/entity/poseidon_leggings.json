@@ -1,0 +1,168 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.poseidon_leggings",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Legging_Body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.255, "uv": [0, 51]}
+					]
+				},
+				{
+					"name": "Legging_Body_Parts",
+					"parent": "Legging_Body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Legging_Body_Tassets",
+					"parent": "Legging_Body_Parts",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Legging_Body_Tasset_Front",
+					"parent": "Legging_Body_Tassets",
+					"pivot": [0, 14, -3.5],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 5, -3.5], "size": [5, 9, 3], "uv": [72, 47]}
+					]
+				},
+				{
+					"name": "Legging_Body_Tasset_Front2",
+					"parent": "Legging_Body_Tassets",
+					"pivot": [0, 14, 3.5],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 5, 0.5], "size": [5, 9, 3], "uv": [64, 81]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [48, 70]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Parts",
+					"parent": "Legging_RightLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Tasset",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [4.25, 14, -1],
+					"rotation": [0, 0, -27.5],
+					"cubes": [
+						{"origin": [-0.75, 4, -3.5], "size": [5, 10, 7], "uv": [24, 40]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Tasset_Coral",
+					"parent": "Legging_RightLeg_Tasset",
+					"pivot": [4.25, 9, 0],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{"origin": [1.25, 1, -1.5], "size": [3, 8, 3], "uv": [88, 22]},
+						{"origin": [1.25, 3, -3], "size": [2, 4, 2], "uv": [44, 102]},
+						{"origin": [1.25, 4, 1], "size": [2, 3, 2], "uv": [20, 103]}
+					]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament",
+					"parent": "Legging_RightLeg_Parts",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament_Left_Front",
+					"parent": "Legging_RightLeg_Ornament",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Legging_RightLeg_Ornament_Left_Back",
+					"parent": "Legging_RightLeg_Ornament",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [32, 69]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Parts",
+					"parent": "Legging_LeftLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Tasset",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-4.25, 14, -1],
+					"rotation": [0, 0, 27.5],
+					"cubes": [
+						{"origin": [-4.25, 4, -3.5], "size": [5, 10, 7], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Tasset_Coral",
+					"parent": "Legging_LeftLeg_Tasset",
+					"pivot": [-4.25, 9, 0],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{"origin": [-4.25, 1, -1.5], "size": [3, 8, 3], "uv": [88, 11]},
+						{"origin": [-3.25, 3, -3], "size": [2, 4, 2], "uv": [98, 101]},
+						{"origin": [-3.25, 4, 1], "size": [2, 3, 2], "uv": [0, 103]}
+					]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament",
+					"parent": "Legging_LeftLeg_Parts",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament_Front",
+					"parent": "Legging_LeftLeg_Ornament",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Legging_LeftLeg_Ornament_Back",
+					"parent": "Legging_LeftLeg_Ornament",
+					"pivot": [-2, 12, 0]
+				}
+			]
+		}
+	]
+}

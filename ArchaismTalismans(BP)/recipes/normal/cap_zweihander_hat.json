@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cap_zweihander_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:cap_zweihander"
+			}
+		},
+		"result": {
+			"item": "arena:cap_zweihander_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:cap_zweihander"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:crimsom_amethyst_earring_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"ACA",
+			"DB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nether_wart"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:arid_shard"
+			},
+			"D": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "arena:crimsom_amethyst_earring_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:arid_shard"
+			}
+		]
+	}
+}

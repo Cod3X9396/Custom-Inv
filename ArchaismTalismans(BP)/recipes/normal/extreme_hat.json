@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:extreme_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:paladin_doll"
+			}
+		},
+		"result": {
+			"item": "arena:extreme_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:paladin_doll"
+			}
+		]
+	}
+}

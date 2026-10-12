@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:amethyst_earring_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"ACA",
+			"DB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_nugget"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:cold_shard"
+			},
+			"D": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "arena:amethyst_earring_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:cold_shard"
+			}
+		]
+	}
+}

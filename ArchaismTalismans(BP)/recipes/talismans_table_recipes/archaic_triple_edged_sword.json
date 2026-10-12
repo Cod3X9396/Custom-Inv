@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_triple_edged_sword"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			"ACA",
+			"DAE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:poisonous_shard"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:doble_edged"
+			},
+			"D": {
+				"item": "arena:archaic_stone"
+			},
+			"E": {
+				"item": "arena:angelic_aurea"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_triple_edged_sword"
+		},
+		"unlock": [
+			{
+				"item": "arena:doble_edged",
+				"item": "arena:archaic_stone"
+			}
+		]
+	}
+}

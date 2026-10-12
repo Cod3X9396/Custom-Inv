@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "arena:shard_fire_ore_netherrack",
+        "menu_category": {
+            "category": "Nature",
+            "group": "itemGroup.name.ore"
+        }
+	   },
+	   "components": {
+		"tag:iron_pick_diggable": {},
+		"tag:ore_t3": {},
+		"minecraft:map_color": "#302A37",
+		"minecraft:loot": "loot_tables/blocks/shard_fire_ore.json",
+		"minecraft:destructible_by_mining":{
+			"item_specific_speeds": [
+				{
+					"item": "iron_pickaxe",
+					"destroy_speed": 100
+				}
+			],
+			"seconds_to_destroy": 7
+		},
+        "minecraft:destructible_by_explosion": {
+            "explosion_resistance": 200
+          }
+	}
+}
+}

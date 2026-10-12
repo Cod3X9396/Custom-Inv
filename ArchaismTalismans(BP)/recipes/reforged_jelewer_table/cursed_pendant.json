@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:cursed_pendant"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AAA",
+			"BCD",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "arena:poisonous_shard"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:marble_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:cursed_pendant"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

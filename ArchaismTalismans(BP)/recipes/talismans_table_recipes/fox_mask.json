@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fox_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"FGF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sweet_berries"
+			},
+			"B": {
+				"item": "minecraft:experience_bottle"
+			},
+			"C": {
+				"item": "arena:angelic_aurea"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "arena:marble_feather"
+			},			
+			"F": {
+				"item": "minecraft:soul_lantern"
+			},			
+			"G": {
+				"item": "minecraft:spruce_sapling"
+			}
+		},
+		"result": {
+			"item": "arena:fox_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:angelic_aurea",
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}

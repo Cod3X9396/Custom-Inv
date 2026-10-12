@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ornate_helmet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:flammable_shard"
+			},
+			"B": {
+				"item": "arena:gembase"
+			},
+			"C": {
+				"item": "arena:ornate_fragment"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			}
+		},
+		"result": {
+			"item": "arena:ornate_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base"
+			}
+		]
+	}
+}

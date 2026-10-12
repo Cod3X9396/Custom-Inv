@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:infused_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"B B",
+			"ABC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:infused_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

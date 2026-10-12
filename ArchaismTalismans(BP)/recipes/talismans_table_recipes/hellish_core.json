@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hellish_core"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DED",
+			"CDA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "arena:dragon_scale"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			},
+			"E": {
+				"item": "minecraft:heavy_core"
+			}
+		},
+		"result": {
+			"item": "arena:hellish_core"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

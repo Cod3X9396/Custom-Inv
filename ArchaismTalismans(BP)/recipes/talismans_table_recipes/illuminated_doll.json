@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:illuminated_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ECE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:glowstone_dust"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "arena:illuminated_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

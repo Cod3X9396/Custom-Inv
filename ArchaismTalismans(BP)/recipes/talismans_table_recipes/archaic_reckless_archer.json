@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_reckless_archer"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:archaic_stone"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_reckless_archer"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

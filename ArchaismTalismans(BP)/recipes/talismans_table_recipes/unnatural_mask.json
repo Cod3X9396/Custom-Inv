@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:unnatural_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"CBD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"B": {
+				"item": "minecraft:dragon_breath"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "minecraft:shulker_shell"
+			},
+			"E": {
+				"item": "arena:mask_base"
+			},
+			"F": {
+				"item": "arena:dragon_scale"
+			}
+		},
+		"result": {
+			"item": "arena:unnatural_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:dragon_scale"
+			}
+		]
+	}
+}

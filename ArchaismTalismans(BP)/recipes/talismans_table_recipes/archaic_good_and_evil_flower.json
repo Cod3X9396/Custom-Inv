@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_good_and_evil_flower"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCD",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:villager_heart"
+			},
+			"B": {
+				"item": "minecraft:dandelion"
+			},
+			"C": {
+				"item": "arena:wither_fire"
+			},
+			"D": {
+				"item": "minecraft:wither_rose"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_good_and_evil_flower"
+		},
+		"unlock": [
+			{
+				"item": "arena:villager_heart",
+				"item": "arena:wither_fire"
+			}
+		]
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.artemis_boots",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [4, 5, 4], "inflate": 0.55, "uv": [92, 11]}
+					]
+				},
+				{
+					"name": "Boot_RightLeg_Parts",
+					"parent": "Boot_RightLeg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Ornaments",
+					"parent": "Boot_RightLeg_Parts",
+					"pivot": [2, 1, 0]
+				},
+				{
+					"name": "Boot_RightLeg_Ornament_Left",
+					"parent": "Boot_RightLeg_Ornaments",
+					"pivot": [4.5, 1.25, 0],
+					"rotation": [0, 0, 17.5],
+					"cubes": [
+						{"origin": [3.5, 2, -2], "size": [1, 4, 4], "pivot": [4, 4, 0], "rotation": [45, 0, 0], "uv": [0, 96]}
+					]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornament_Left2",
+					"parent": "Boot_RightLeg_Ornaments",
+					"pivot": [-0.5, 1.25, 0],
+					"rotation": [0, 0, -17.5],
+					"cubes": [
+						{"origin": [-0.5, 2, -2], "size": [1, 4, 4], "pivot": [0, 4, 0], "rotation": [-45, 0, 0], "uv": [32, 96]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 5, 4], "inflate": 0.55, "uv": [0, 87]}
+					]
+				},
+				{
+					"name": "Boot_LeftLeg_Parts",
+					"parent": "Boot_LeftLeg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornaments",
+					"parent": "Boot_LeftLeg_Parts",
+					"pivot": [-2, 1, 0]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornament_Left",
+					"parent": "Boot_LeftLeg_Ornaments",
+					"pivot": [-4.5, 1.25, 0],
+					"rotation": [0, 0, -17.5],
+					"cubes": [
+						{"origin": [-4.5, 2, -2], "size": [1, 4, 4], "pivot": [-4, 4, 0], "rotation": [45, 0, 0], "uv": [94, 61]}
+					]
+				},
+				{
+					"name": "Boot_LeftLeg_Ornament_Right",
+					"parent": "Boot_LeftLeg_Ornaments",
+					"pivot": [0.5, 1.25, 0],
+					"rotation": [0, 0, 17.5],
+					"cubes": [
+						{"origin": [-0.5, 2, -2], "size": [1, 4, 4], "pivot": [0, 4, 0], "rotation": [-45, 0, 0], "uv": [94, 69]}
+					]
+				}
+			]
+		}
+	]
+}

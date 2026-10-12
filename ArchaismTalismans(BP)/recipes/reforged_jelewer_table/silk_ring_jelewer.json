@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:silk_ring_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AB",
+			"CD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:gembase"
+			},
+			"B": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"C": {
+				"item": "minecraft:spider_eye"
+			},
+			"D": {
+				"item": "arena:ring"
+			}
+		},
+		"result": {
+			"item": "arena:silk_ring_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:ring"
+			}
+		]
+	}
+}

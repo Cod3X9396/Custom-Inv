@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:extreme_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"BCB",
+			"ADA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nether_wart"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			},
+			"C": {
+				"item": "minecraft:golden_chestplate"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:extreme_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "arena:flammable_shard",
+				"item": "minecraft:golden_chestplate"
+			}
+		]
+	}
+}

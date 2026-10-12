@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sacret_pendant"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			" DB",
+			"E A"
+		],
+		"key": {
+			"A": {//
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "minecraft:gold_block"
+			},
+			"E": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:sacret_pendant"
+		},
+		"unlock": [
+			{
+				"item": "arena:gembase",
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

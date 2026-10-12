@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:rhetoric_skull"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCB",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"B": {
+				"item": "minecraft:bone_block"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:poisonous_shard"
+			}
+		},
+		"result": {
+			"item": "arena:rhetoric_skull"
+		},
+		"unlock": [
+			{
+				"item": "arena:poisonous_shard",
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ornate_pendant"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "arena:ornate_fragment"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			}
+		},
+		"result": {
+			"item": "arena:ornate_pendant"
+		},
+		"unlock": [
+			{
+				"item": "arena:ornate_fragment"
+			}
+		]
+	}
+}

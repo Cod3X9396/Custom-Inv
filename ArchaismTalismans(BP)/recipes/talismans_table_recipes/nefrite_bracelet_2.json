@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nefrite_bracelet_2"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			" CD",
+			"  A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald"
+			},
+			"B": {
+				"item": "arena:crimson_ring_jelewer"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:obsidian_ring_jelewer"
+			}
+		},
+		"result": {
+			"item": "arena:nefrite_bracelet"
+		},
+		"unlock": [
+			{
+				"item": "arena:crimson_ring_jelewer",
+				"item": "arena:obsidian_ring_jelewer"
+			}
+		]
+	}
+}

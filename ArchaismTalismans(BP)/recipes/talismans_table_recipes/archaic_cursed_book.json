@@ -1,0 +1,43 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_cursed_book"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCB",
+			"EFE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:archaic_stone"
+			},
+			"B": {
+				"item": "minecraft:glow_ink_sac"
+			},
+			"C": {
+				"item": "minecraft:writable_book"
+			},
+			"D": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"E": {
+				"item": "arena:villager_heart"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_cursed_book"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:villager_heart",
+				"item": "minecraft:writable_book"
+			}
+		]
+	}
+}

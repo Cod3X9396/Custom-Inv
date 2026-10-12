@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:blossom_crown"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAB",
+			"ACA",
+			"BAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cherry_leaves"
+			},
+			"B": {
+				"item": "minecraft:cherry_log"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:blossom_crown"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

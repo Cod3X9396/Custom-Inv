@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:broken_marble_chestplate"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"A A",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:broken_marble_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

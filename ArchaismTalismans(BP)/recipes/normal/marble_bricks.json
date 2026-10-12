@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "marble_bricks"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "arena:marble_ore"
+      }
+    ],
+    "result": {
+      "item": "arena:marble_bricks",
+      "count": 4
+    }
+  }
+  
+}

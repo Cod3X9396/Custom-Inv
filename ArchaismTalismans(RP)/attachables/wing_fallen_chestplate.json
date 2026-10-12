@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "arena:wing_fallen_chestplate",
+			"materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/models/armor/fallen_marble_armor",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.fallen_marble_wing"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;",
+                "animate": [
+                    "wings"
+                ]
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			],
+            "animations": {
+                "default": "animation.fallen_marble_wings.default",
+                "flutter": "animation.fallen_marble_wings.gliding",
+                "swimming": "animation.fallen_marble_wings.swimming",
+                "sneaking": "animation.fallen_marble_wings.sneaking",
+                "sleeping": "animation.fallen_marble_wings.sleeping",
+                "wings": "controller.animation.marble_wings.default"
+            }
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nighthood"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEA",
+			"FGA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "arena:extracted_heart"
+			},
+			"C": {
+				"item": "arena:flammable_shard"
+			},
+			"D": {
+				"item": "arena:cursed_sword"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			},
+			"F": {
+				"item": "arena:fallen_feather"
+			},
+			"G": {
+				"item": "arena:end_of_the_time"
+			}
+		},
+		"result": {
+			"item": "arena:nighthood"
+		},
+		"unlock": [
+			{
+				"item": "arena:cursed_sword"
+			}
+		]
+	}
+}

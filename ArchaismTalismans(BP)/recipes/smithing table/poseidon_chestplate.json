@@ -1,0 +1,15 @@
+{
+	"format_version": "1.26.30",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:poseidon_chestplate_smithing_table"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "arena:template_poseidon",
+	  "base": "arena:restored_marble_chestplate",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:poseidon_chestplate"
+	}
+}

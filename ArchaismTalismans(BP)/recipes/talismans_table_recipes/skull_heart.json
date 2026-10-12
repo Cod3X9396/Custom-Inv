@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:skull_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" B ",
+			"BCB",
+			"DDD"
+		],
+		"key": {
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:villager_heart"
+			},
+			"D": {
+				"item": "minecraft:rose_bush"
+			}
+		},
+		"result": {
+			"item": "arena:skull_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:villager_heart",
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

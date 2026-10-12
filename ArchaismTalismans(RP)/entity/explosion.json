@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "arena:explosion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/explosion"
+      },
+      "geometry": {
+        "default": "geometry.tnt"
+      },
+      "spawn_egg": {
+        "texture": "arena:explosion",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ]
+    }
+  }
+}

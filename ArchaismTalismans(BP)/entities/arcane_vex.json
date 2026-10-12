@@ -1,0 +1,213 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "arena:arcane_vex",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:vex"
+    },
+    "component_groups": {
+      "minecraft:start_damage_timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "randomInterval": true,
+          "time": [ 360, 630 ],
+          "time_down_event": {
+            "event": "minecraft:add_periodic_damage"
+          }
+        }
+      },
+      "arena:health+2": { "minecraft:health": { "value": 18, "max": 18 } },
+      "arena:health+4": { "minecraft:health": { "value": 22, "max": 22 } },
+      "arena:health+6": { "minecraft:health": { "value": 26, "max": 26 } },
+      "arena:health+8": { "minecraft:health": { "value": 30, "max": 30 } },
+      "arena:health+10": { "minecraft:health": { "value": 34, "max": 34 } },
+      "arena:health+12": { "minecraft:health": { "value": 38, "max": 38 } },
+      "arena:health+14": { "minecraft:health": { "value": 42, "max": 42 } },
+      "arena:health+16": { "minecraft:health": { "value": 46, "max": 46 } },
+      "arena:health+18": { "minecraft:health": { "value": 50, "max": 50 } },
+      "arena:health+20": { "minecraft:health": { "value": 54, "max": 54 } },
+      "arena:health+22": { "minecraft:health": { "value": 58, "max": 58 } },
+      "arena:health+24": { "minecraft:health": { "value": 62, "max": 62 } },
+      "arena:health+26": { "minecraft:health": { "value": 66, "max": 66 } },
+      "arena:health+28": { "minecraft:health": { "value": 70, "max": 70 } },
+      "arena:health+30": { "minecraft:health": { "value": 74, "max": 74 } },
+      "arena:health+32": { "minecraft:health": { "value": 78, "max": 78 } },
+      "arena:health+34": { "minecraft:health": { "value": 82, "max": 82 } },
+      "arena:health+36": { "minecraft:health": { "value": 86, "max": 86 } },
+      "arena:health+38": { "minecraft:health": { "value": 90, "max": 90 } },
+      "arena:health+40": { "minecraft:health": { "value": 94, "max": 94 } },
+
+      "arena:attack+1": { "minecraft:attack": { "damage": 3 } },
+      "arena:attack+2": { "minecraft:attack": { "damage": 4 } },
+      "arena:attack+3": { "minecraft:attack": { "damage": 5 } },
+      "arena:attack+4": { "minecraft:attack": { "damage": 6 } },
+      "arena:attack+5": { "minecraft:attack": { "damage": 7 } },
+      "arena:attack+6": { "minecraft:attack": { "damage": 8 } },
+      "arena:attack+7": { "minecraft:attack": { "damage": 9 } },
+      "arena:attack+8": { "minecraft:attack": { "damage": 10 } },
+      "arena:attack+9": { "minecraft:attack": { "damage": 11 } },
+      "arena:attack+10": { "minecraft:attack": { "damage": 12 } },
+      "minecraft:periodic_damage": {
+        "minecraft:damage_over_time": {
+          "damage_per_hurt": 2,
+          "time_between_hurt": 1.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:ambient_sound_interval": {
+        "value": 3.0,
+        "range": 8.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "damage_multiplier": 0.7
+          }
+        ]
+      },
+      "minecraft:tameable": {
+        "probability": 0.0
+      },
+      "minecraft:is_tamed": {},
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1,
+        "max_dist": 64
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2,
+        "max_dist": 64
+      },
+      "minecraft:behavior.follow_owner": {
+        "priority": 6,
+        "speed_multiplier": 1.0,
+        "start_distance": 8,
+        "stop_distance": 4
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "vex", "mob", "summon" ]
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/vex_gear.json"
+      },
+      "minecraft:health": {
+        "value": 14,
+        "max": 14
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:collision_box": {
+        "width": 0.4,
+        "height": 0.8
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.basic": {
+
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:fire_immune": {
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.charge_attack": {
+        "priority": 4
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 9,
+        "look_distance": 6.0,
+        "probability": 0.02,
+        "filters": { "test" :  "is_family", "subject" : "other", "value" :  "mob"}
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:game_event_movement_tracking": {
+        "emit_move": false,
+        "emit_swim": false
+      }
+    },
+    "events": {
+      "arena:health+2": { "add": { "component_groups": [ "arena:health+2" ] } },
+      "arena:health+4": { "add": { "component_groups": [ "arena:health+4" ] } },
+      "arena:health+6": { "add": { "component_groups": [ "arena:health+6" ] } },
+      "arena:health+8": { "add": { "component_groups": [ "arena:health+8" ] } },
+      "arena:health+10": { "add": { "component_groups": [ "arena:health+10" ] } },
+      "arena:health+12": { "add": { "component_groups": [ "arena:health+12" ] } },
+      "arena:health+14": { "add": { "component_groups": [ "arena:health+14" ] } },
+      "arena:health+16": { "add": { "component_groups": [ "arena:health+16" ] } },
+      "arena:health+18": { "add": { "component_groups": [ "arena:health+18" ] } },
+      "arena:health+20": { "add": { "component_groups": [ "arena:health+20" ] } },
+      "arena:health+22": { "add": { "component_groups": [ "arena:health+22" ] } },
+      "arena:health+24": { "add": { "component_groups": [ "arena:health+24" ] } },
+      "arena:health+26": { "add": { "component_groups": [ "arena:health+26" ] } },
+      "arena:health+28": { "add": { "component_groups": [ "arena:health+28" ] } },
+      "arena:health+30": { "add": { "component_groups": [ "arena:health+30" ] } },
+      "arena:health+32": { "add": { "component_groups": [ "arena:health+32" ] } },
+      "arena:health+34": { "add": { "component_groups": [ "arena:health+34" ] } },
+      "arena:health+36": { "add": { "component_groups": [ "arena:health+36" ] } },
+      "arena:health+38": { "add": { "component_groups": [ "arena:health+38" ] } },
+      "arena:health+40": { "add": { "component_groups": [ "arena:health+40" ] } },
+
+      "arena:attack+1": { "add": { "component_groups": [ "arena:attack+1" ] } },
+      "arena:attack+2": { "add": { "component_groups": [ "arena:attack+2" ] } },
+      "arena:attack+3": { "add": { "component_groups": [ "arena:attack+3" ] } },
+      "arena:attack+4": { "add": { "component_groups": [ "arena:attack+4" ] } },
+      "arena:attack+5": { "add": { "component_groups": [ "arena:attack+5" ] } },
+      "arena:attack+6": { "add": { "component_groups": [ "arena:attack+6" ] } },
+      "arena:attack+7": { "add": { "component_groups": [ "arena:attack+7" ] } },
+      "arena:attack+8": { "add": { "component_groups": [ "arena:attack+8" ] } },
+      "arena:attack+9": { "add": { "component_groups": [ "arena:attack+9" ] } },
+      "arena:attack+10": { "add": { "component_groups": [ "arena:attack+10" ] } },
+
+      "minecraft:add_damage_timer": {
+        "add": {
+          "component_groups": [ "minecraft:start_damage_timer" ]
+        }
+      },
+      "minecraft:add_periodic_damage": {
+        "add": {
+          "component_groups": [ "minecraft:periodic_damage" ]
+        },
+        "remove": {
+          "component_groups": [ "minecraft:start_damage_timer" ]
+        }
+      }
+    }
+  }
+}

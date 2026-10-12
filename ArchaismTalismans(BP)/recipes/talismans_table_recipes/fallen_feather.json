@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fallen_feather"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AB ",
+			"BC ",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:feather"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:fallen_feather"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fallen_paladin_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:netherite_paladin_earring"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:template_fallen"
+			}
+		},
+		"result": {
+			"item": "arena:fallen_paladin_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:netherite_paladin_earring"
+			}
+		]
+	}
+}

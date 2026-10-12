@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_marble_bracelets"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABC",
+			"CAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "arena:piglin_bracelet"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_marble_bracelets"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:piglin_bracelet"
+			}
+		]
+	}
+}

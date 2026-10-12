@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:calamity_crown"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AB"
+		],
+		"key": {
+			"A": {
+				"item": "arena:netherite_crown"
+			},
+			"B": {
+				"item": "arena:wither_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:calamity_crown"
+		},
+		"unlock": [
+			{
+				"item": "arena:netherite_crown"
+			}
+		]
+	}
+}

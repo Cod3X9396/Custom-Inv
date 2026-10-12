@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"name": "pack.name",
+		"uuid": "57d308d4-c36f-46c8-9802-673a5e833d7d",
+		"version": [ 1, 8, 1 ],
+		"min_engine_version": [
+			1,
+			20,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "pack.description",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "0617d9f1-ddd1-43b4-9d3c-2bda2245508d",
+			"version": [ 1, 8, 1 ],
+			"entry": "scripts/main.js"
+		},
+		{
+			"type": "data",
+			"uuid": "56b80803-e02d-4ec2-979b-7ee251d6baea",
+			"version": [ 1, 8, 1 ]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "dfe1e274-3422-4cbb-8815-15d08453d529",
+			"version": [ 1, 8, 1 ]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		},
+		{
+            "module_name": "@minecraft/server-ui",
+            "version": "1.3.0"
+        }
+	],
+	"metadata": {
+    	"product_type": "addon",
+    	"description": "pack.description",
+		"authors": ["Hamleth Arena"]
+  		}
+	}
+}

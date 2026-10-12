@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:angeloso_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:angeloso_doll"
+			}
+		},
+		"result": {
+			"item": "arena:angeloso_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:angeloso_doll"
+			}
+		]
+	}
+}

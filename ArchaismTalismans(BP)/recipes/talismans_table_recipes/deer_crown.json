@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:deer_crown"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"A A",
+			"BCB",
+			"DBD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:artemisa_deer_antler"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "minecraft:glow_ink_sac"
+			},
+			"D": {
+				"item": "arena:cristal_gem"
+			}
+		},
+		"result": {
+			"item": "arena:deer_crown"
+		},
+		"unlock": [
+			{
+				"item": "arena:artemisa_deer_antler"
+			}
+		]
+	}
+}

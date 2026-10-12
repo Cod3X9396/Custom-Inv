@@ -1,0 +1,15 @@
+{
+   "format_version":"1.10.0",
+   "animations":{
+      "animation.marble_render.general":{
+         "loop":true,
+         "bones":{
+            "rightitem": {
+               "rotation": ["c.is_first_person ? -125 : 90", "c.is_first_person ? 120 : 0", "c.is_first_person ? 100 : 1"],
+               "position": ["c.is_first_person ? -6 : 0.3", "c.is_first_person ? 4.5 : -1", "c.is_first_person ? -5 : 1"],
+               "scale": "c.is_first_person ? 0.5 : 1"
+            }
+         }
+      }
+   }
+}

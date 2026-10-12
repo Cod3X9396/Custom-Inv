@@ -1,0 +1,15 @@
+{
+	"format_version": "1.17",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:netherite_apollo_chestplate"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "minecraft:netherite_upgrade_smithing_template",
+	  "base": "arena:apollo_chestplate",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:netherite_apollo_chestplate"
+	}
+}

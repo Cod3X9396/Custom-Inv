@@ -1,0 +1,17 @@
+{
+  	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+      		"menu_category": {
+      		  "category": "items"
+      		},
+			"identifier": "arena:archaic_dimensions_horn"
+		},
+		"components": {
+			"minecraft:glint": true,
+			"minecraft:max_stack_size": 1,
+      		"minecraft:icon": "n14",
+      		"minecraft:fire_resistant": { "value": true }
+		}
+	}
+}

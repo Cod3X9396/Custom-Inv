@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "arena:chiseled_black_marble",
+        "menu_category": {
+            "category": "construction"
+        }
+	   },
+	   "components": {
+		"tag:iron_pick_diggable": {},
+		"tag:ore_t3": {},
+		"minecraft:map_color": "#302A37",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 7.5
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:stone": {},
+        "minecraft:destructible_by_explosion": {
+            "explosion_resistance": 1
+      }
+		}
+	}
+}

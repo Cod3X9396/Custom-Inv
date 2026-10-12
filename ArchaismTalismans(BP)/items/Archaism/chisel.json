@@ -1,0 +1,265 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "arena:chisel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.pickaxe"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+					"minecraft:is_tool",
+                    "minecraft:is_pickaxe",
+                    "minecraft:netherite_tier"
+                ]
+            },
+			"minecraft:repairable": {
+				"repair_items": [
+				  {
+					"items": [
+					  "minecraft:iron_ingot"
+					],
+					"repair_amount": 75
+				  },
+				  {
+					"items": [
+					  "arena:chisel"
+					],
+					"repair_amount": "query.max_durability"
+				  }
+				]
+			  },
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 3,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:crying_obsidian",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:obsidian",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					//tags
+					{
+                        "block": {
+                            "tags": "(query.any_tag('ore_t1','ore_t2','ore_t3'))"
+                        },
+                        "speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+                    },
+					//archaism
+					{
+						"block": "arena:marble_ore",
+						"speed": 20,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "arena:cristal_gem_ore",
+						"speed": 20,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+                    //ore stone
+					{
+						"block": "minecraft:lit_redstone_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:copper_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:iron_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:ancient_debris",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:emerald_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:quartz_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:diamond_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:redstone_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:lapis_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:coal_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:gold_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					//ameethyst
+					{
+						"block": "minecraft:calcite",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:amethyst_block",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:budding_amethyst",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					//deepslate
+					{
+						"block": "minecraft:deepslate_lapis_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_copper_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_iron_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_coal_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:lit_deepslate_redstone_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_redstone_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_diamond_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_emerald_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:deepslate_gold_ore",
+						"speed": 8,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 230
+			},
+			"minecraft:icon": {
+				"texture": "chisel"
+			}
+		}
+	}
+}

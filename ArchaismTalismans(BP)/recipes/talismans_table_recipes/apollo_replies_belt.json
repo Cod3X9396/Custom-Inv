@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:apollo_replies_belt"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DED",
+			"FDG"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cold_shard"
+			},
+			"B": {
+				"item": "arena:apolo_quiver"
+			},
+			"C": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"D": {
+				"item": "arena:levitation_shard"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			},
+			"F": {
+				"item": "arena:gem_snow"
+			},
+			"G": {
+				"item": "minecraft:chorus_flower"
+			}
+		},
+		"result": {
+			"item": "arena:apollo_replies_belt"
+		},
+		"unlock": [
+			{
+				"item": "arena:apolo_quiver"
+			}
+		]
+	}
+}

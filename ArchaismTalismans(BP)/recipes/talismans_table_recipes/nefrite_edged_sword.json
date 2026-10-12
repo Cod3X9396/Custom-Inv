@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nefrite_edged_sword"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AB",
+			"CDD",
+			"DD "
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "arena:poisonous_shard"
+			}
+		},
+		"result": {
+			"item": "arena:nefrite_edged_sword"
+		},
+		"unlock": [
+			{
+				"item": "arena:poisonous_shard",
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

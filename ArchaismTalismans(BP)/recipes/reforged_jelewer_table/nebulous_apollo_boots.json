@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:nebulous_apollo_boots"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:netherite_apollo_boots"
+			}
+		},
+		"result": {
+			"item": "arena:nebulous_apollo_boots"
+		},
+		"unlock": [
+			{
+				"item": "arena:netherite_apollo_boots"
+			}
+		]
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hauled_ring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABB",
+			"BCB",
+			"BDE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:ring"
+			},
+			"B": {
+				"item": "minecraft:obsidian"
+			},
+			"C": {
+				"item": "arena:gembase"
+			},
+			"D": {
+				"item": "arena:cold_shard"
+			},
+			"D": {
+				"item": "arena:flammable_shard"
+			}
+		},
+		"result": {
+			"item": "arena:hauled_ring"
+		},
+		"unlock": [
+			{
+				"item": "arena:ring"
+			}
+		]
+	}
+}

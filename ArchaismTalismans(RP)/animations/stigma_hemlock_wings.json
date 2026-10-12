@@ -1,0 +1,92 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.stigma_hemlock_wings.default": {
+			"loop": true,
+			"animation_length": 7.2917,
+			"bones": {
+				"chestplate_body_wings": {
+					"scale": 1
+				},
+				"chestplate_body_wing_right": {
+					"rotation": [0, 0, 0]
+				},
+				"chestplate_body_wing_left": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.stigma_hemlock_wings.gliding": {
+			"loop": true,
+			"animation_length": 2.04,
+			"bones": {
+				"chestplate_body_wings": {
+					"scale": 1
+				},
+				"chestplate_body_wing_right": {
+					"rotation": {
+						"0.0": [0, -26, 0],
+						"0.72": [-15, 20, 10],
+						"1.0": [-10, 35, 10],
+						"2.0": [0, -26, 0]
+					}
+				},
+				"chestplate_body_wing_left": {
+					"rotation": {
+						"0.0": [0, 26, 0],
+						"0.72": [-15, -20, -10],
+						"1.0": [-10, -35, -10],
+						"2.0": [0, 26, 0]
+					}
+				}
+			}
+		},
+		"animation.stigma_hemlock_wings.swimming": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"chestplate_body_wings": {
+					"rotation": [-10, 0, 0],
+					"position": [0, 3, 1],
+					"scale": 1
+				},
+				"chestplate_body_wing_right": {
+					"rotation": [0, 0, 45]
+				},
+				"chestplate_body_wing_left": {
+					"rotation": [0, 0, -45]
+				}
+			}
+		},
+		"animation.stigma_hemlock_wings.sneaking": {
+			"loop": true,
+			"bones": {
+				"chestplate_body_wings": {
+					"rotation": [-15, 0, 0],
+					"position": [0, -0.2, 0],
+					"scale": 1
+				},
+				"chestplate_body_wing_right": {
+					"rotation": [15, -10, 15]
+				},
+				"chestplate_body_wing_left": {
+					"rotation": [15, 10, -15]
+				}
+			}
+		},
+		"animation.stigma_hemlock_wings.sleeping": {
+			"loop": true,
+			"bones": {
+				"chestplate_body_wings": {
+					"scale": 1
+				},
+				"chestplate_body_wing_right": {
+					"rotation": [0, 15, 0]
+				},
+				"chestplate_body_wing_left": {
+					"rotation": [0, -15, 0]
+				}
+			}
+		}
+	}
+}

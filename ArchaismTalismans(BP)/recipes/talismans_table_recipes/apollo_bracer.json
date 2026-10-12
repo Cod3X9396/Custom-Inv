@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:apollo_bracer"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"DBD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:iron_guantlet"
+			},
+			"D": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"result": {
+			"item": "arena:apollo_bracer"
+		},
+		"unlock": [
+			{
+				"item": "arena:iron_guantlet"
+			}
+		]
+	}
+}

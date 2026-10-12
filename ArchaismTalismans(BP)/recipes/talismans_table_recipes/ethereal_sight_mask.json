@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ethereal_sight_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"EFE"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_feather"
+			},
+			"B": {
+				"item": "minecraft:soul_soil"
+			},
+			"C": {
+				"item": "minecraft:gold_ingot"
+			},
+			"D": {
+				"item": "arena:mask_base"
+			},
+			"E": {
+				"item": "minecraft:soul_campfire"
+			},
+			"F": {
+				"item": "arena:deformed_cross"
+			}
+		},
+		"result": {
+			"item": "arena:ethereal_sight_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:deformed_cross"
+			}
+		]
+	}
+}

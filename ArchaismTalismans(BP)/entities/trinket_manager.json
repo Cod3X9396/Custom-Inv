@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twm:trinket_manager",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": false
+			},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": false,
+				"container_type": "minecart_chest",
+				"inventory_size": 19,
+				"private": false
+			},
+			"minecraft:tameable": {
+				"probability": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
+			}
+		},
+		"events": {}
+	}
+}

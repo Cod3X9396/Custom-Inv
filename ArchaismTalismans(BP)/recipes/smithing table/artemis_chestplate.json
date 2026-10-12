@@ -1,0 +1,15 @@
+{
+	"format_version": "1.26.30",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:artemis_chestplate_smithing_table"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "arena:template_artemis",
+	  "base": "arena:apollo_chestplate",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:artemis_chestplate"
+	}
+}

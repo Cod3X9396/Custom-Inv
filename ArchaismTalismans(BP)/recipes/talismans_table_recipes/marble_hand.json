@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_hand"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"  A",
+			"ABA",
+			"CA "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "arena:sacret_pendant"
+			},
+			"C": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+		"result": {
+			"item": "arena:marble_hand"
+		},
+		"unlock": [
+			{
+				"item": "arena:sacret_pendant",
+				"item": "minecraft:netherite_ingot"
+			}
+		]
+	}
+}

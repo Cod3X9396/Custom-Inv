@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:pure_marble_hemlock_necklace"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_hemlock_necklace"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:template_pure_marble"
+			}
+		},
+		"result": {
+			"item": "arena:pure_marble_hemlock_necklace"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_hemlock_necklace"
+			}
+		]
+	}
+}

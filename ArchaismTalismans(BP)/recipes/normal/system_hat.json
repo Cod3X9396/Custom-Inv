@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:system_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:systemtv_doll"
+			}
+		},
+		"result": {
+			"item": "arena:system_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:systemtv_doll"
+			}
+		]
+	}
+}

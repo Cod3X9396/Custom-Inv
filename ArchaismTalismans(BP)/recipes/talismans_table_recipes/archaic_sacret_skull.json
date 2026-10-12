@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_sacret_skull"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_ore"
+			},
+			"B": {
+				"item": "arena:marble_skull"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:archaic_stone"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_sacret_skull"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_skull",
+				"item": "arena:archaic_stone"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:zeus_leggings"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:restored_marble_leggings"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:template_zeus"
+			}
+		},
+		"result": {
+			"item": "arena:zeus_leggings"
+		},
+		"unlock": [
+			{
+				"item": "arena:restored_marble_leggings"
+			}
+		]
+	}
+}

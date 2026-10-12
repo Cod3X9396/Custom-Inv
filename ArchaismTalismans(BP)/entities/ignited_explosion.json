@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "arena:ignited_explosion",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "burning"
+        ]
+      },
+      "animations": {
+        "burning": "controller.animation.fuse"
+      },
+      "category": "none"
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "tnt"
+        ]
+      },
+      "minecraft:explode": {
+        "fuseLength": 0,
+        "fuseLit": true,
+        "power": 1,
+        "causesFire": false,
+        "destroyAffectedByGriefing": true
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

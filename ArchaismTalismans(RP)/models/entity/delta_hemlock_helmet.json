@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.delta_hemlock_helmet",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "armor_helmet",
+					"parent": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "helmet",
+					"parent": "armor_helmet",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.75, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "helmet_parts",
+					"parent": "helmet",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-3.5, 27.75, -5.75], "size": [7, 7, 2], "pivot": [0, 31.25, -4.75], "rotation": [0, 0, 45], "uv": [64, 13]},
+						{"origin": [3.75, 26.75, -2], "size": [3, 12, 5], "uv": [0, 42]},
+						{"origin": [-6.75, 26.75, -2], "size": [3, 12, 5], "uv": [48, 10]},
+						{"origin": [-3.5, 27.75, -5.75], "size": [7, 7, 2], "pivot": [0, 31.25, -4.75], "rotation": [0, 0, -45], "uv": [18, 64]}
+					]
+				}
+			]
+		}
+	]
+}

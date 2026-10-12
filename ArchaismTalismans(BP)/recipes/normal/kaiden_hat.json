@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:kaiden_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:sacronkaiden_doll"
+			}
+		},
+		"result": {
+			"item": "arena:kaiden_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:sacronkaiden_doll"
+			}
+		]
+	}
+}

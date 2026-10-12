@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_cursed_skull"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"BDB",
+			"ABE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald"
+			},
+			"B": {
+				"item": "arena:marble_fragment"
+			},
+			"C": {
+				"item": "arena:archaic_stone"
+			},
+			"D": {
+				"item": "arena:fallen_hand"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_cursed_skull"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:fallen_hand"
+			}
+		]
+	}
+}

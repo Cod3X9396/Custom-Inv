@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:talisman_scroll"
+		},
+		"tags": [
+			"crafting_table",
+			"talismans_table",
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			" AA",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:paper"
+			}
+		},
+		"result": {
+			"item": "twm:scroll"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:paper"
+			}
+		]
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:crown_of_calamity"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:netherite_crown_jelewer"
+			},
+			"D": {
+				"item": "arena:cristal_gem"
+			},
+			"E": {
+				"item": "arena:archaic_stone"
+			}
+		},
+		"result": {
+			"item": "arena:crown_of_calamity"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_marble"
+			}
+		]
+	}
+}

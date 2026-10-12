@@ -1,0 +1,22 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.arena_weapon_hit.default": {
+			"states": {
+                "hold_first_person": {
+                    "animations": ["hold_first_person"],
+                    "transitions": [
+                        {"attack": "v.attack_time"}
+                    ],
+                    "blend_transition": 0.01
+                },
+                "attack": {
+                    "animations": ["attack"],
+                    "transitions": [
+                        {"hold_first_person": "!v.attack_time"}
+                    ]
+                }
+            }
+        }
+    }
+}

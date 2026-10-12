@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sync_sculk_talisman"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCB",
+			"BDE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk_sensor"
+			},
+			"B": {
+				"item": "minecraft:sculk"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			},
+			"D": {
+				"item": "minecraft:sculk_catalyst"
+			},
+			"E": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"result": {
+			"item": "arena:sync_sculk_talisman"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

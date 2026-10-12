@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ichor_helmet"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"BCB",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			},
+			"C": {
+				"item": "minecraft:diamond_helmet"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:ichor_helmet"
+		},
+		"unlock": [
+			{
+				"item": "arena:wither_fragment"
+			}
+		]
+	}
+}

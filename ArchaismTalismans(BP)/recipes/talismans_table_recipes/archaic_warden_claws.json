@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_warden_claws"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABB",
+			"CDB",
+			"CAE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "minecraft:bone"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "arena:warden_heart"
+			},
+			"E": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_warden_claws"
+		},
+		"unlock": [
+			{
+				"item": "arena:warden_heart",
+				"item": "minecraft:echo_shard"
+			}
+		]
+	}
+}

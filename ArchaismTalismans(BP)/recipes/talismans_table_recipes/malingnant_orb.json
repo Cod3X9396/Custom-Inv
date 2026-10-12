@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:malingnant_orb"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABC",
+			"ACD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "arena:cat_eye"
+			},
+			"C": {
+				"item": "minecraft:iron_ingot"
+			},
+			"D": {
+				"item": "arena:fallen_feather"
+			}
+		},
+		"result": {
+			"item": "arena:malingnant_orb"
+		},
+		"unlock": [
+			{
+				"item": "arena:cat_eye"
+			}
+		]
+	}
+}

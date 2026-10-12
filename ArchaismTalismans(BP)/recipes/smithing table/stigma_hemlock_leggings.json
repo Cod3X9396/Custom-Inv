@@ -1,0 +1,15 @@
+{
+	"format_version": "1.26.30",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:stigma_hemlock_leggings_smithing_table"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "arena:template_fallen",
+	  "base": "arena:ganma_hemlock_leggings",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:stigma_hemlock_leggings"
+	}
+}

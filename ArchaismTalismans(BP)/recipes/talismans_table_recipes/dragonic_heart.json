@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:dragonic_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" AA",
+			"ABC",
+			"AC "
+		],
+		"key": {
+			"A": {
+				"item": "arena:dragon_scale"
+			},
+			"B": {
+				"item": "arena:villager_heart"
+			},
+			"C": {
+				"item": "minecraft:dragon_breath"
+			}
+		},
+		"result": {
+			"item": "arena:dragonic_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:villager_heart",
+				"item": "arena:dragonic_heart"
+			}
+		]
+	}
+}

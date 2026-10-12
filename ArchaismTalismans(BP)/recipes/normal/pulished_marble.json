@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "pulished_marble"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "ingredients": [
+      {
+        "item": "arena:marble_ore"
+      }
+    ],
+    "result": {
+      "item": "arena:pulished_marble",
+      "count": 4
+    }
+  }
+  
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:magnet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAB",
+			"C A",
+			" CA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:redstone"
+			},
+			"B": {
+				"item": "arena:effect_cube"
+			},
+			"C": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "arena:magnet"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

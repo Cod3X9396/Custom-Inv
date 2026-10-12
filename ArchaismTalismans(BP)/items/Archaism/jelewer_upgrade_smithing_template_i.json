@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "arena:jelewer_upgrade_smithing_template_i",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+					"minecraft:transform_templates",
+					"minecraft:netherite_ingot",
+					"minecraft:transform_materials"
+                ]
+            },
+			"minecraft:icon": {
+				"texture": "template_i"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			}
+		}
+	}
+}

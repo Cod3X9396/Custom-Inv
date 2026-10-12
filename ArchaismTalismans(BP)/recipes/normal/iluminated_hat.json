@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:iluminated_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:illuminated_doll"
+			}
+		},
+		"result": {
+			"item": "arena:iluminated_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:illuminated_doll"
+			}
+		]
+	}
+}

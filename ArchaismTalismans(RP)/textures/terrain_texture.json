@@ -1,0 +1,138 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "vanilla",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+      "marble_ore": { 
+        "textures": [
+          "textures/blocks/marble_ore"
+         ]
+      },
+      "marble_ore_d": { 
+        "textures": [
+          "textures/blocks/fallen_marble_ore"
+         ]
+      },
+    "talismans_table": {
+      "textures": [
+      "textures/blocks/talismans_table"
+          ]
+      },
+    "reforgerd_jelewer": {
+      "textures": [
+      "textures/blocks/reforgerd_jelewer"
+          ]
+      },
+      "cristal_ore": { 
+        "textures": [
+          "textures/blocks/cristal_ore"
+        ]
+      },
+      "pulished_marble": { 
+        "textures": [
+          "textures/blocks/pulished_marble"
+         ]
+      },
+      "pulish_marble": { 
+        "textures": [
+          "textures/blocks/pulish_marble"
+         ]
+      },
+      "marble_pilar_top": { 
+        "textures": [
+          "textures/blocks/marble_pilar_top"
+         ]
+      },
+      "marble_pilar_side": { 
+        "textures": [
+          "textures/blocks/marble_pilar_side"
+         ]
+      },
+      "marble_bricks": { 
+        "textures": [
+          "textures/blocks/marble_bricks"
+         ]
+      },
+      "chiseled_marble": { 
+        "textures": [
+          "textures/blocks/chiseled_marble"
+         ]
+      },
+      "marble_raws": { 
+        "textures": [
+          "textures/blocks/marble_raws"
+         ]
+      },
+      "polished_black_marble": { 
+        "textures": [
+          "textures/blocks/polished_black_marble"
+         ]
+      },
+      "large_black_marble_bricks": { 
+        "textures": [
+          "textures/blocks/large_black_marble_bricks"
+         ]
+      },
+      "black_marble_pillar_top": { 
+        "textures": [
+          "textures/blocks/black_marble_pillar_top"
+         ]
+      },
+      "black_marble_pillar_side": { 
+        "textures": [
+          "textures/blocks/black_marble_pillar_side"
+         ]
+      },
+      "black_marble_bricks": { 
+        "textures": [
+          "textures/blocks/black_marble_bricks"
+         ]
+      },
+      "chiseled_black_marble": { 
+        "textures": [
+          "textures/blocks/chiseled_black_marble"
+         ]
+      },
+      "black_marble_tile": { 
+        "textures": [
+          "textures/blocks/black_marble_tile"
+         ]
+      },
+      "hemlock_stone_ore": { 
+        "textures": [
+          "textures/blocks/hemlock_ore"
+         ]
+      },
+      "shard_fire_ore_n": { 
+        "textures": [
+          "textures/blocks/fire_ore_n"
+         ]
+      },
+      "shard_fire_ore_b": { 
+        "textures": [
+          "textures/blocks/fire_ore_b"
+         ]
+      },
+      "shard_snow_ore": { 
+        "textures": [
+          "textures/blocks/snow_ore"
+         ]
+      },
+      "shard_end_ore": { 
+        "textures": [
+          "textures/blocks/end_ore"
+         ]
+      },
+      "shard_poison_ore": { 
+        "textures": [
+          "textures/blocks/poison_ore"
+         ]
+      },
+      "shard_light_ore": { 
+        "textures": [
+          "textures/blocks/light_ore"
+        ]
+      }
+    }
+  }

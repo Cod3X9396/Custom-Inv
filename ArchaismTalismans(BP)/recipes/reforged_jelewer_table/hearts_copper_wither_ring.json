@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hearts_copper_wither_ring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AB ",
+			" C ",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:gem_void"
+			},
+			"B": {
+				"item": "arena:wither_fire"
+			},
+			"C": {
+				"item": "arena:witherring"
+			}
+		},
+		"result": {
+			"item": "arena:hearts_copper_wither_ring"
+		},
+		"unlock": [
+			{
+				"item": "arena:witherring"
+			}
+		]
+	}
+}

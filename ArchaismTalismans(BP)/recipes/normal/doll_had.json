@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:doll_had"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:harena_doll"
+			}
+		},
+		"result": {
+			"item": "arena:doll_had"
+		},
+		"unlock": [
+			{
+				"item": "arena:harena_doll"
+			}
+		]
+	}
+}

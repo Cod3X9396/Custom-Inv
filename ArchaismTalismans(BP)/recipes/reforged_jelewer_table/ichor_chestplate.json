@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ichor_chestplate"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"A A",
+			"BCB",
+			"ADA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			},
+			"C": {
+				"item": "minecraft:diamond_chestplate"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:ichor_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "arena:wither_fragment"
+			}
+		]
+	}
+}

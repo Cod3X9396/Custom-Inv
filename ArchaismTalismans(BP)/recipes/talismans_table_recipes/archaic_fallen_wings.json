@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:fallen_wings"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"CBA",
+			" DA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_feather"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "arena:demon_heart"
+			},
+			"D": {
+				"item": "arena:angelical_heart"
+			}
+		},
+		"result": {
+			"item": "arena:fallen_wings"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:shrink_impressions_bracelet"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEB",
+			" CC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk_shrieker"
+			},
+			"B": {
+				"item": "minecraft:sculk_catalyst"
+			},
+			"C": {
+				"item": "minecraft:sculk"
+			},
+			"D": {
+				"item": "arena:piece_of_time"
+			},
+			"E": {
+				"item": "arena:sync_sculk_talisman"
+			}
+		},
+		"result": {
+			"item": "arena:shrink_impressions_bracelet"
+		},
+		"unlock": [
+			{
+				"item": "arena:sync_sculk_talisman"
+			}
+		]
+	}
+}

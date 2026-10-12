@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:spell_supersonic"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:cristal_gem"
+			},
+			"B": {
+				"item": "arena:warden_heart"
+			},
+			"C": {
+				"item": "minecraft:echo_shard"
+			},
+			"D": {
+				"item": "minecraft:book"
+			}
+		},
+		"result": {
+			"item": "arena:spell_supersonic"
+		},
+		"unlock": [
+			{
+				"item": "arena:warden_heart"
+			}
+		]
+	}
+}

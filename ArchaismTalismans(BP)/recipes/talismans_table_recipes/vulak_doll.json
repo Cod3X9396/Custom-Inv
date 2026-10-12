@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:vulak_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"FGD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:mossy_cobblestone"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:slime_ball"
+			},
+			"D": {
+				"item": "minecraft:lantern"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"G": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"result": {
+			"item": "arena:vulak_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

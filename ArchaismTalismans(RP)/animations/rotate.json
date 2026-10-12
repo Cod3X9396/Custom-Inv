@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.entity.rotate": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						0,
+						"q.rotation_to_camera(1)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

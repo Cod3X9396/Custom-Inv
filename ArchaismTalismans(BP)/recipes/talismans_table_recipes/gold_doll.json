@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:gold_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GFH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:lantern"
+			},
+			"B": {
+				"item": "minecraft:gold_block"
+			},
+			"C": {
+				"item": "minecraft:leather"
+			},
+			"D": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"E": {
+				"item": "arena:doll_base"
+			},
+			"F": {
+				"item": "minecraft:gold_ingot"
+			},
+			"G": {
+				"item": "minecraft:string"
+			},
+			"H": {
+				"item": "minecraft:bamboo"
+			}
+		},
+		"result": {
+			"item": "arena:gold_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

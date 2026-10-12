@@ -1,0 +1,17 @@
+{
+  	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+      		"menu_category": {
+      		  "category": "items"
+      		},
+			"identifier": "arena:pure_marble_cursebreaker_earring"
+		},
+		"components": {
+			"minecraft:glint": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "pure_marble_cursebreaker_earring",
+      		"minecraft:fire_resistant": { "value": true }
+		}
+	}
+}

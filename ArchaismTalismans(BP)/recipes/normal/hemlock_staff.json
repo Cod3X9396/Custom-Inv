@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:hemlock_staff"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:hemlock_stone"
+			},
+			"B": {
+				"item": "arena:witch_staff"
+			}
+		},
+		"result": {
+			"item": "arena:hemlock_staff"
+		},
+		"unlock": [
+			{
+				"item": "arena:witch_staff"
+			}
+		]
+	}
+}

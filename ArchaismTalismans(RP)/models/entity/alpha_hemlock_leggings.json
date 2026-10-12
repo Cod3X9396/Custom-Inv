@@ -1,0 +1,207 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.alpha_hemlock_leggings",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "legging_body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.255, "uv": [144, 28]}
+					]
+				},
+				{
+					"name": "legging_body_parts",
+					"parent": "legging_body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "legging_body_tassets",
+					"parent": "legging_body_parts",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "legging_body_tasset_front",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 13.5, -2.5],
+					"rotation": [-17.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 11, -3.5], "size": [5, 5, 2], "pivot": [0, 13.5, -2.5], "rotation": [0, 0, -45], "uv": [192, 147], "mirror": true}
+					]
+				},
+				{
+					"name": "legging_body_tasset_back",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 13.5, 2.5],
+					"rotation": [17.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 11, 1.5], "size": [5, 5, 2], "pivot": [0, 13.5, 2.5], "rotation": [0, 0, -45], "uv": [190, 192], "mirror": true}
+					]
+				},
+				{
+					"name": "legging_body_skirt",
+					"parent": "legging_body_parts",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "legging_body_skirt_front",
+					"parent": "legging_body_skirt",
+					"pivot": [0, 13, -2.75],
+					"rotation": [-12.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 6, -2.75], "size": [5, 7, 0], "uv": [198, 59]}
+					]
+				},
+				{
+					"name": "legging_body_skirt_back",
+					"parent": "legging_body_skirt",
+					"pivot": [0, 13, 2.75],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 6, 2.75], "size": [5, 7, 0], "uv": [188, 199]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 11, 0]
+				},
+				{
+					"name": "legging_rightleg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 0.75, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [126, 173]}
+					]
+				},
+				{
+					"name": "legging_rightleg_parts",
+					"parent": "legging_rightleg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "legging_rightleg_tasset",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 14.5, 0],
+					"rotation": [0, 0, -42.5],
+					"cubes": [
+						{"origin": [1.25, 8.5, -3.5], "size": [3, 6, 7], "uv": [164, 112]},
+						{"origin": [2.25, 5.5, -3.5], "size": [2, 3, 7], "uv": [176, 97]},
+						{"origin": [3.25, 1.5, -5.5], "size": [0, 12, 11], "uv": [22, 124]},
+						{"origin": [3.25, 1.5, -2], "size": [5, 12, 0], "uv": [190, 168]},
+						{"origin": [3.25, 1.5, 2], "size": [5, 12, 0], "uv": [190, 180]}
+					]
+				},
+				{
+					"name": "legging_rightleg_subtasset",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.5, 14.25, 0],
+					"rotation": [0, 0, -20],
+					"cubes": [
+						{"origin": [1.5, 4.25, -3], "size": [3, 10, 6], "inflate": 0.007, "uv": [158, 12]},
+						{"origin": [2.5, 1.25, -3], "size": [2, 3, 6], "uv": [30, 181]},
+						{"origin": [3.5, -2.75, 1.5], "size": [5, 16, 0], "uv": [180, 70]},
+						{"origin": [3.5, -2.75, -1.5], "size": [5, 16, 0], "uv": [180, 171]},
+						{"origin": [3.5, -2.75, -6], "size": [0, 16, 12], "uv": [80, 84]}
+					]
+				},
+				{
+					"name": "legging_rightleg_skirt",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 14, 0],
+					"rotation": [0, 0, -7.5],
+					"cubes": [
+						{"origin": [-0.75, 0, -3], "size": [5, 14, 6], "inflate": 0.001, "uv": [126, 137]}
+					]
+				},
+				{
+					"name": "legging_rightleg_kneebrace",
+					"parent": "legging_rightleg_parts",
+					"pivot": [2, 5.5, -1.75],
+					"cubes": [
+						{"origin": [-0.5, 5.75, -2.75], "size": [5, 3, 2], "uv": [40, 196]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0.75, -2], "size": [4, 12, 4], "inflate": 0.255, "uv": [164, 171]}
+					]
+				},
+				{
+					"name": "legging_leftleg_parts",
+					"parent": "legging_leftleg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg_tasset",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 14.5, 0],
+					"rotation": [0, 0, 42.5],
+					"cubes": [
+						{"origin": [-4.25, 8.5, -3.5], "size": [3, 6, 7], "uv": [144, 161]},
+						{"origin": [-4.25, 5.5, -3.5], "size": [2, 3, 7], "uv": [92, 176]},
+						{"origin": [-3.25, 1.5, -5.5], "size": [0, 12, 11], "uv": [0, 124]},
+						{"origin": [-8.25, 1.5, -2], "size": [5, 12, 0], "uv": [190, 70]},
+						{"origin": [-8.25, 1.5, 2], "size": [5, 12, 0], "uv": [190, 135]}
+					]
+				},
+				{
+					"name": "legging_leftleg_subtasset",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.5, 14.25, 0],
+					"rotation": [0, 0, 20],
+					"cubes": [
+						{"origin": [-4.5, 4.25, -3], "size": [3, 10, 6], "inflate": 0.007, "uv": [126, 157]},
+						{"origin": [-4.5, 1.25, -3], "size": [2, 3, 6], "uv": [180, 86]},
+						{"origin": [-8.5, -2.75, 1.5], "size": [5, 16, 0], "uv": [110, 176]},
+						{"origin": [-8.5, -2.75, -1.5], "size": [5, 16, 0], "uv": [76, 178]},
+						{"origin": [-3.5, -2.75, -6], "size": [0, 16, 12], "uv": [56, 84]}
+					]
+				},
+				{
+					"name": "legging_leftleg_skirt",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 14, 0],
+					"rotation": [0, 0, 7.5],
+					"cubes": [
+						{"origin": [-4.25, 0, -3], "size": [5, 14, 6], "inflate": 0.001, "uv": [104, 137]}
+					]
+				},
+				{
+					"name": "legging_leftleg_kneebrace",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-2, 5.5, -1.75],
+					"cubes": [
+						{"origin": [-4.5, 5.75, -2.75], "size": [5, 3, 2], "uv": [196, 12]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  	"format_version": "1.21.130",
+	"minecraft:item": {
+		"description": {
+      		"menu_category": {
+      		  "category": "items"
+      		},
+			"identifier": "arena:netherite_vampiric_earring"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "netherite_vampiric_earring",
+      		"minecraft:fire_resistant": { "value": true }
+		}
+	}
+}

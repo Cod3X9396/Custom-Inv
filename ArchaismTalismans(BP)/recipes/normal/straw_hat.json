@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:straw_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:gentrix_doll"
+			}
+		},
+		"result": {
+			"item": "arena:straw_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:gentrix_doll"
+			}
+		]
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fallen_marble_boots",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "boot_rightleg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, 2.5, -2], "size": [4, 4, 4], "inflate": 0.575, "pivot": [2, 2, -2.5], "rotation": [35, 0, 0], "uv": [12, 117]},
+						{"origin": [0, 2.5, 3], "size": [4, 4, 4], "inflate": 0.575, "pivot": [2, 2, 2.5], "rotation": [65, 0, 0], "uv": [28, 117]},
+						{"origin": [0, 0, -2], "size": [4, 4, 4], "inflate": 0.55, "uv": [120, 16]}
+					]
+				},
+				{
+					"name": "boot_rightleg_parts2",
+					"parent": "boot_rightleg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "boot_rightleg_wing2",
+					"parent": "boot_rightleg_parts2",
+					"pivot": [4, 1.25, -2],
+					"rotation": [-15, 32.5, 20],
+					"cubes": [
+						{"origin": [2, 0.25, -2], "size": [2, 5, 2], "uv": [64, 131]},
+						{"origin": [3, 1.25, -2], "size": [0, 10, 6], "uv": [80, 115]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "boot_leftleg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 4, 4], "inflate": 0.55, "uv": [116, 0]},
+						{"origin": [-4, 2.5, 3], "size": [4, 4, 4], "inflate": 0.575, "pivot": [-2, 2, 2.5], "rotation": [65, 0, 0], "uv": [116, 8]},
+						{"origin": [-4, 2.5, -2], "size": [4, 4, 4], "inflate": 0.575, "pivot": [-2, 2, -2.5], "rotation": [35, 0, 0], "uv": [48, 116]}
+					]
+				},
+				{
+					"name": "boot_leftleg_parts2",
+					"parent": "boot_leftleg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "boot_leftleg_wing2",
+					"parent": "boot_leftleg_parts2",
+					"pivot": [-4, 1.25, -2],
+					"rotation": [-15, -32.5, -20],
+					"cubes": [
+						{"origin": [-4, 0.25, -2], "size": [2, 5, 2], "uv": [18, 131]},
+						{"origin": [-3, 1.25, -2], "size": [0, 10, 6], "uv": [68, 115]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:shadow_of_nobody"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:soul_lantern"
+			},
+			"B": {
+				"item": "minecraft:potion",
+				"data": 8
+			},
+			"C": {
+				"item": "minecraft:soul_sand"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:shadow_of_nobody"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

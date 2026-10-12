@@ -1,0 +1,54 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bamboo_bo",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "rightitem",
+					"pivot": [0, -1, 3]
+				},
+				{
+					"name": "staff",
+					"parent": "rightitem",
+					"pivot": [0, -12, 3],
+					"rotation": [90, -90, -90],
+					"cubes": [
+						{
+							"origin": [-1.2, -17, 2],
+							"size": [2.2, 37, 2.2],
+							"uv": {
+								"north": {"uv": [44, 27], "uv_size": [2, 37]},
+								"east": {"uv": [46, 27], "uv_size": [2, 37]},
+								"south": {"uv": [44, 27], "uv_size": [2, 37]},
+								"west": {"uv": [46, 27], "uv_size": [2, 37]},
+								"up": {"uv": [44, 25], "uv_size": [2, 2]},
+								"down": {"uv": [48, 27], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-1.2, -17, 2],
+							"size": [2.2, 37, 2.2],
+							"inflate": 0.25,
+							"uv": {
+								"north": {"uv": [38, 27], "uv_size": [2, 37]},
+								"east": {"uv": [36, 27], "uv_size": [2, 37]},
+								"south": {"uv": [42, 27], "uv_size": [2, 37]},
+								"west": {"uv": [40, 27], "uv_size": [2, 37]},
+								"up": {"uv": [38, 24], "uv_size": [3, 3]},
+								"down": {"uv": [41, 27], "uv_size": [3, -3]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:wither_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"ACA",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "arena:wither_fragment"
+			},
+			"B": {
+				"item": "minecraft:wither_skeleton_skull"
+			},
+			"C": {
+				"item": "arena:mask_base"
+			},
+			"D": {
+				"item": "minecraft:soul_sand"
+			},
+			"E": {
+				"item": "arena:wither_fire"
+			}
+		},
+		"result": {
+			"item": "arena:wither_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:wither_fire"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:marble_spear"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"   ",
+			"ABC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:golden_spear"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "arena:archaic_upgrade_smithing_template"
+			}
+		},
+		"result": {
+			"item": "arena:marble_spear"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_upgrade_smithing_template"
+			}
+		]
+	}
+}

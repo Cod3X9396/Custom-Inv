@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_chained_soul"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:totem_of_undying"
+			},
+			"C": {
+				"item": "arena:wither_fire"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_chained_soul"
+		},
+		"unlock": [
+			{
+				"item": "arena:wither_fire",
+				"item": "minecraft:totem_of_undying"
+			}
+		]
+	}
+}

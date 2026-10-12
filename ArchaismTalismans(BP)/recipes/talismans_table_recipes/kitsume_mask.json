@@ -1,0 +1,51 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:kitsume_mask"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEA",
+			"FGH"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sweet_berries"
+			},
+			"B": {
+				"item": "arena:shadow_of_nobody"
+			},
+			"C": {
+				"item": "minecraft:soul_sand"
+			},
+			"D": {
+				"item": "arena:marble_fragment"
+			},
+			"E": {
+				"item": "arena:mask_base"
+			},
+			"F": {
+				"item": "arena:dragon_scale"
+			},
+			"G": {
+				"item": "arena:archaic_stone"
+			},
+			"H": {
+				"item": "minecraft:cherry_leaves"
+			}
+		},
+		"result": {
+			"item": "arena:kitsume_mask"
+		},
+		"unlock": [
+			{
+				"item": "arena:mask_base",
+				"item": "arena:dragon_scale"
+			}
+		]
+	}
+}

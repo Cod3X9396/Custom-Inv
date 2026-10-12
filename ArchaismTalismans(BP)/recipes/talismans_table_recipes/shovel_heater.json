@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:shovel_heater"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" BA",
+			" CD",
+			"AA "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:charcoal"
+			},
+			"B": {
+				"item": "minecraft:iron_shovel"
+			},
+			"C": {
+				"item": "minecraft:lava_bucket"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:shovel_heater"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

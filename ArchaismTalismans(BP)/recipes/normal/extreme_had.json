@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:extreme_had"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:golden_helmet"
+			},
+			"B": {
+				"item": "minecraft:nether_wart"
+			},
+			"C": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:extreme_had"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "minecraft:nether_wart"
+			}
+		]
+	}
+}

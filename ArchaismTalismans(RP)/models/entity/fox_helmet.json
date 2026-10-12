@@ -1,0 +1,38 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arena.fox_helmet",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 2, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 23.85, 0],
+					"cubes": [
+						{"origin": [-1.2, 21, -5.3], "size": [7, 13, 0], "inflate": 0.6, "pivot": [-1, 25.35, 0], "rotation": [0, -16, 0], "uv": [22, 0]},
+						{"origin": [-6, 21, -5.3], "size": [7, 13, 0], "inflate": 0.6, "pivot": [1, 25.35, 0], "rotation": [0, 16, 0], "uv": [42, 0]},
+						{"origin": [3, 32, -5.3], "size": [6, 5, 0], "inflate": 0.55, "pivot": [8.9, 36.35, -3.3], "rotation": [8, 8, 8], "uv": [22, 15]},
+						{"origin": [-9, 32.85, -4.3], "size": [6, 5, 0], "inflate": 0.55, "pivot": [-3.1, 37.35, -2.3], "rotation": [8, -8, -8], "uv": [35, 15]},
+						{"origin": [-4, 24.85, -4], "size": [8, 8, 8], "inflate": 0.45, "uv": [20, 24]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:prismatic_heart_relic"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GHI"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:bubble_coral"
+			},
+			"B": {
+				"item": "minecraft:brain_coral"
+			},
+			"C": {
+				"item": "minecraft:sea_pickle"
+			},
+			"D": {
+				"item": "minecraft:fire_coral"
+			},
+			"E": {
+				"item": "arena:nautilus_star_pendant"
+			},
+			"F": {
+				"item": "minecraft:iron_block"
+			},
+			"G": {
+				"item": "minecraft:gold_block"
+			},
+			"H": {
+				"item": "minecraft:tube_coral"
+			},
+			"I": {
+				"item": "minecraft:horn_coral"
+			}
+		},
+		"result": {
+			"item": "arena:prismatic_heart_relic"
+		},
+		"unlock": [
+			{
+				"item": "arena:nautilus_star_pendant"
+			}
+		]
+	}
+}

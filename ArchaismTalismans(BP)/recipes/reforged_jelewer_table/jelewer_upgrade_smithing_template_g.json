@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:jelewer_upgrade_smithing_template_g"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "minecraft:raw_gold"
+			},
+			"D": {
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		},
+		"result": {
+			"item": "arena:jelewer_upgrade_smithing_template_g"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sacret_sword"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"BCB",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_block"
+			},
+			"B": {
+				"item": "arena:marble_feather"
+			},
+			"C": {
+				"item": "minecraft:golden_sword"
+			},
+			"D": {
+				"item": "minecraft:iron_ingot"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:sacret_sword"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube",
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}

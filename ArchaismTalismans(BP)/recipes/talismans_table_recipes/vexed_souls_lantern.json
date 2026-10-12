@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:vexed_souls_lantern"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABC",
+			"DEF",
+			"GDD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:soul_lantern"
+			},
+			"B": {
+				"item": "minecraft:iron_sword"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:fallen_marble"
+			},
+			"E": {
+				"item": "arena:effect_cube"
+			},			
+			"F": {
+				"item": "minecraft:emerald"
+			},			
+			"G": {
+				"item": "arena:wither_fragment"			
+			}
+		},
+		"result": {
+			"item": "arena:vexed_souls_lantern"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

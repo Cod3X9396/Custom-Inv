@@ -1,0 +1,15 @@
+{
+	"format_version": "1.26.30",
+	"minecraft:recipe_smithing_transform": {
+	 "description": {
+	   "identifier": "arena:zeus_helmet_smithing_table"
+	  },
+	 
+	 "tags": [ "smithing_table" ],
+	 
+	  "template": "arena:template_zeus",
+	  "base": "arena:restored_marble_helmet",
+	  "addition": "minecraft:netherite_ingot",
+	  "result": "arena:zeus_helmet"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ender_crown"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AB"
+		],
+		"key": {
+			"A": {
+				"item": "arena:netherite_crown"
+			},
+			"A": {
+				"item": "arena:levitation_shard"
+			}
+		},
+		"result": {
+			"item": "arena:ender_crown"
+		},
+		"unlock": [
+			{
+				"item": "arena:netherite_crown"
+			}
+		]
+	}
+}

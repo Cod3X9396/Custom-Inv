@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_upgrade_smithing_template"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"ACA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_fragment"
+			},
+			"B": {
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			},
+			"C": {
+				"item": "arena:archaic_stone"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_upgrade_smithing_template"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "minecraft:netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_furnace": {
+	  "description": {
+	  "identifier": "fallen_marble"
+	  },
+	  "tags": [
+			"blast_furnace",
+			"furnace"
+		],
+	  "input": "arena:raw_black_marble",
+	  "output": "arena:fallen_marble"
+	}
+  }

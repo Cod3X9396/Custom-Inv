@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:ornate_belt"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"BAB",
+			"BCB"
+		],
+		"key": {
+			"A": {
+				"item": "arena:ornate_fragment"
+			},
+			"B": {
+				"item": "arena:flammable_shard"
+			},
+			"C": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:ornate_belt"
+		},
+		"unlock": [
+			{
+				"item": "arena:gembase"
+			}
+		]
+	}
+}

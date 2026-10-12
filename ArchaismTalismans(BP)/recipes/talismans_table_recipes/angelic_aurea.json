@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:angelic_aurea"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCB",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:marble_feather"
+			},
+			"C": {
+				"item": "minecraft:diamond"
+			},
+			"D": {
+				"item": "minecraft:glow_ink_sac"
+			}
+		},
+		"result": {
+			"item": "arena:angelic_aurea"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}

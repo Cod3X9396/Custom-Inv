@@ -1,0 +1,7 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "supersonic_explosion",
+        "metalness_emissive_roughness": "supersonic_explosion_mer"
+    }
+}

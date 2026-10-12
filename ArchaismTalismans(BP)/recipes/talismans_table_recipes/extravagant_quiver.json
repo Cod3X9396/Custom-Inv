@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:extravagant_quiver"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABC",
+			"ACD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:apolo_quiver"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			},
+			"D": {
+				"item": "arena:gembase"
+			}
+		},
+		"result": {
+			"item": "arena:extravagant_quiver"
+		},
+		"unlock": [
+			{
+				"item": "arena:apolo_quiver"
+			}
+		]
+	}
+}

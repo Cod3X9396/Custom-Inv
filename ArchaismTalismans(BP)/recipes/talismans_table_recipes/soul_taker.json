@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:soul_taker"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "minecraft:sculk_catalyst"
+			},
+			"C": {
+				"item": "minecraft:echo_shard"
+			},
+			"D": {
+				"item": "arena:effect_cube"
+			}
+		},
+		"result": {
+			"item": "arena:soul_taker"
+		},
+		"unlock": [
+			{
+				"item": "arena:effect_cube"
+			}
+		]
+	}
+}

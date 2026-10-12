@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:mind_electric"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "arena:electric_shard"
+			},
+			"B": {
+				"item": "arena:rotten_brain"
+			}
+		},
+		"result": {
+			"item": "arena:mind_electric"
+		},
+		"unlock": [
+			{
+				"item": "arena:rotten_brain"
+			}
+		]
+	}
+}

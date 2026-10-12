@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:iron_arrows_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"A A",
+			"CB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_nugget"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "arena:marble_fragment"
+			}
+		},
+		"result": {
+			"item": "arena:iron_arrows_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_fragment"
+			}
+		]
+	}
+}

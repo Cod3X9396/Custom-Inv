@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:laniraxia_hat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A ",
+			"  "
+		],
+		"key": {
+			"A": {
+				"item": "arena:laniraxia_doll"
+			}
+		},
+		"result": {
+			"item": "arena:laniraxia_hat"
+		},
+		"unlock": [
+			{
+				"item": "arena:laniraxia_doll"
+			}
+		]
+	}
+}

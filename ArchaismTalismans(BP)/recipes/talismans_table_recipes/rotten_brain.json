@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:rotten_brain"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			"CBC",
+			"DCD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "arena:spell_engine"
+			},
+			"C": {
+				"item": "arena:hemlock_stone"
+			},
+			"D": {
+				"item": "minecraft:rotten_flesh"
+			}
+		},
+		"result": {
+			"item": "arena:rotten_brain"
+		},
+		"unlock": [
+			{
+				"item": "arena:spell_engine"
+			}
+		]
+	}
+}

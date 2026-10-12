@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arena.marble_helmet",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 2, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 23.85, 0],
+					"cubes": [
+						{"origin": [-1.05, 23, -5.5], "size": [6, 12, 0], "inflate": 0.55, "pivot": [0, 27, -0.5], "rotation": [0, -16, 0], "uv": [22, 1]},
+						{"origin": [-4.95, 23, -5.5], "size": [6, 12, 0], "inflate": 0.55, "pivot": [0, 27, -0.5], "rotation": [0, 16, 0], "uv": [7, 1]},
+						{"origin": [-4, 24.85, -4], "size": [8, 8, 8], "inflate": 0.45, "uv": [20, 24]}
+					]
+				}
+			]
+		}
+	]
+}

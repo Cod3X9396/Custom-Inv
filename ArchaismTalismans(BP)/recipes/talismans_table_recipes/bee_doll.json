@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:bee_doll"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDE",
+			"FGC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:fermented_spider_eye"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			},
+			"C": {
+				"item": "minecraft:honey_bottle"
+			},
+			"D": {
+				"item": "arena:doll_base"
+			},
+			"E": {
+				"item": "minecraft:lapis_block"
+			},
+			"F": {
+				"item": "minecraft:leather"
+			},
+			"G": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": {
+			"item": "arena:bee_doll"
+		},
+		"unlock": [
+			{
+				"item": "arena:doll_base"
+			}
+		]
+	}
+}

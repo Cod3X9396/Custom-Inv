@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "arena:pure_marble_spear",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "w_00": "angyt/marble_spear/marble_spear_0",
+        "w_01": "angyt/marble_spear/marble_spear_1",
+        "w_02": "angyt/marble_spear/marble_spear_2",
+        "w_03": "angyt/marble_spear/marble_spear_3",
+        "w_04": "angyt/marble_spear/marble_spear_4",
+        "w_05": "angyt/marble_spear/marble_spear_5",
+        "w_06": "angyt/marble_spear/marble_spear_6",
+        "w_07": "angyt/marble_spear/marble_spear_7",
+        "w_08": "angyt/marble_spear/marble_spear_8",
+        "w_09": "angyt/marble_spear/marble_spear_9",
+        "w_10": "angyt/marble_spear/marble_spear_10",
+        "w_11": "angyt/marble_spear/marble_spear_11",
+        "w_12": "angyt/marble_spear/marble_spear_12",
+        "w_13": "angyt/marble_spear/marble_spear_13",
+        "w_14": "angyt/marble_spear/marble_spear_14",
+        "w_15": "angyt/marble_spear/marble_spear_15",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.pure_marble_spear"
+      },
+      "animations":{
+         "hold_first_person":"animation.marble_render.general",
+         "root": "controller.animation.angyt.weapon_attack",
+         "attack_fps": "animation.knight_spear.first_person_attack",
+         "attack_tps": "animation.arena_spear.hit"
+      },
+      "scripts":{
+         "pre_animation": [
+           "v.attack_time = c.owning_entity-> v.attack_time;"
+         ],
+         "initialize": [
+           "variable.angytw = 0;",
+           "v.attack_time = 0.0;"
+         ],
+         "animate":[
+           "hold_first_person",
+           "root"
+         ]
+      },
+      "render_controllers": [ "controller.render.marble_armor" ]
+    }
+  }
+}

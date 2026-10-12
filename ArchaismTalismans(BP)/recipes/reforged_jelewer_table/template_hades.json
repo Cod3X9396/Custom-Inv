@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:template_hades"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "arena:fallen_marble"
+			},
+			"B": {
+				"item": "arena:fallen_marble"
+			},
+			"C": {
+				"item": "arena:cristal_gem"
+			},
+			"D": {
+				"item": "arena:jelewer_upgrade_smithing_template_n"
+			}
+		},
+		"result": {
+			"item": "arena:template_hades"
+		},
+		"unlock": [
+			{
+				"item": "arena:jelewer_upgrade_smithing_template_n"
+			}
+		]
+	}
+}

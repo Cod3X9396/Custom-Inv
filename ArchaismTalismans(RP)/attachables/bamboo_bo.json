@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "arena:bamboo_bo",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/models/weapons/bamboo_bo",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.bamboo_bo"
+      },
+         "animations":{
+            "hold_first_person":"animation.marble_render.general",
+            "root": "controller.animation.angyt.weapon_attack",
+            "attack": "animation.knight_sword.first_person_attack"
+         },
+         "scripts":{
+            "animate":[
+               "hold_first_person",
+               "root"
+            ],
+            "pre_animation": [
+              "v.attack_time = c.owning_entity->v.attack_time;",
+              "v.smoothed_attack_time = v.attack_time;"
+            ],
+            "initialize": [
+              "v.attack_time = 0.0;",
+              "v.smoothed_attack_time = 0.0;"
+            ]
+         },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

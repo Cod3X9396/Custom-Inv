@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:withered_ring_jelewer"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			"AB",
+			"CD"
+		],
+		"key": {
+			"A": {
+				"item": "arena:gembase"
+			},
+			"B": {
+				"item": "minecraft:bone"
+			},
+			"C": {
+				"item": "minecraft:skull",
+				"data": 1
+			},
+			"D": {
+				"item": "arena:ring"
+			}
+		},
+		"result": {
+			"item": "arena:withered_ring_jelewer"
+		},
+		"unlock": [
+			{
+				"item": "arena:ring"
+			}
+		]
+	}
+}

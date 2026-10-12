@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:iron_slayer_earring"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" AB",
+			"A A",
+			"CB "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_nugget"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "arena:fallen_marble"
+			}
+		},
+		"result": {
+			"item": "arena:iron_slayer_earring"
+		},
+		"unlock": [
+			{
+				"item": "arena:fallen_marble"
+			}
+		]
+	}
+}

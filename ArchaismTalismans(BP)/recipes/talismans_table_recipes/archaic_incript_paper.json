@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:archaic_incript_paper"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			" A ",
+			" BC",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "twm:scroll"
+			},
+			"B": {
+				"item": "arena:archaic_stone"
+			},
+			"C": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+		"result": {
+			"item": "arena:archaic_incript_paper"
+		},
+		"unlock": [
+			{
+				"item": "arena:archaic_stone",
+				"item": "minecraft:echo_shard"
+			}
+		]
+	}
+}

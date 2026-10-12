@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:catalyst_scarf"
+		},
+		"tags": [
+			"reforgerd_jelewer"
+		],
+		"pattern": [
+			" A ",
+			"B B",
+			"CBC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:sculk"
+			},
+			"B": {
+				"item": "arena:cristal_gem"
+			},
+			"C": {
+				"item": "minecraft:sculk_catalyst"
+			}
+		},
+		"result": {
+			"item": "arena:catalyst_scarf"
+		},
+		"unlock": [
+			{
+				"item": "arena:cristal_gem"
+			}
+		]
+	}
+}

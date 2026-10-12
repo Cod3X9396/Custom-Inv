@@ -1,0 +1,96 @@
+{
+	"format_version": [1, 1, 0],
+	"arena:marble_ore": {
+		"textures": "marble_ore",
+		"sound": "stone"
+	},
+  "arena:talismans_table": {
+    "sound": "wood"
+  },
+	"arena:reforgerd_jelewer": {
+		"sound": "metal"
+	},
+	"arena:pulish_marble": {
+		"textures": "pulish_marble",
+		"sound": "stone"
+	},
+	"arena:pulished_marble": {
+		"textures": "pulished_marble",
+		"sound": "stone"
+	},
+	"arena:marble_raws": {
+		"textures": "marble_raws",
+		"sound": "stone"
+	},
+	"arena:marble_pilar": {
+		"sound": "stone"
+	},
+	"arena:marble_bricks": {
+		"textures": "marble_bricks",
+		"sound": "stone"
+	},
+	"arena:chiseled_marble": {
+		"textures": "chiseled_marble",
+		"sound": "stone"
+	},
+	"arena:marble_ore_deepslate": {
+		"textures": "marble_ore_d",
+		"sound": "deepslate"
+	},
+	"arena:polished_black_marble": {
+		"textures": "polished_black_marble",
+		"sound": "deepslate"
+	},
+	"arena:large_black_marble_bricks": {
+		"textures": "large_black_marble_bricks",
+		"sound": "deepslate"
+	},
+	"arena:black_marble_pillar": {
+		"textures": "black_marble_pillar",
+		"sound": "deepslate"
+	},
+	"arena:black_marble_bricks": {
+		"textures": "black_marble_bricks",
+		"sound": "deepslate"
+	},
+	"arena:chiseled_black_marble": {
+		"textures": "chiseled_black_marble",
+		"sound": "deepslate"
+	},
+	"arena:black_marble_tile": {
+		"textures": "black_marble_tile",
+		"sound": "deepslate"
+	},
+	"arena:cristal_gem_ore": {
+		"textures": "cristal_ore",
+		"sound": "deepslate"
+	},
+	"arena:hemlock_stone_ore": {
+		"textures": "hemlock_stone_ore",
+		"sound": "end_sotne"
+	},
+	"arena:shard_fire_ore_netherrack": {
+		"textures": "shard_fire_ore_n",
+		"sound": "netherrack"
+	},
+	"arena:shard_fire_ore_blackstone": {
+		"textures": "shard_fire_ore_b",
+		"sound": "blackstone"
+	},
+	"arena:shard_snow_ore": {
+		"textures": "shard_snow_ore",
+		"sound": "deepslate"
+	},
+	"arena:shard_end_ore": {
+		"textures": "shard_end_ore",
+		"sound": "end_sotne"
+	},
+	"arena:shard_poison_ore": {
+		"textures": "shard_poison_ore",
+		"sound": "deepslate"
+	},
+	"arena:shard_light_ore": {
+		"textures": "shard_light_ore",
+		"sound": "deepslate"
+	}
+}

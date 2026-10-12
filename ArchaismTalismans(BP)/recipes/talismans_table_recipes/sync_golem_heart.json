@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:sync_golem_heart"
+		},
+		"tags": [
+			"talismans_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:blaze_powder"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "arena:flammable_shard"
+			},
+			"D": {
+				"item": "arena:iron_golem_heart"
+			}
+		},
+		"result": {
+			"item": "arena:sync_golem_heart"
+		},
+		"unlock": [
+			{
+				"item": "arena:iron_golem_heart"
+			}
+		]
+	}
+}

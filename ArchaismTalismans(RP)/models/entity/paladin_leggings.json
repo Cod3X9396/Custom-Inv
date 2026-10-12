@@ -1,0 +1,151 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.paladin_leggings",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "legging_body",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.2555, "uv": [48, 16]}
+					]
+				},
+				{
+					"name": "legging_body_parts",
+					"parent": "legging_body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "legging_body_tassets",
+					"parent": "legging_body_parts",
+					"pivot": [0, 11.5, 0]
+				},
+				{
+					"name": "legging_body_tasset_front",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 12.5, -2.5],
+					"rotation": [-12.5, 0, 0],
+					"cubes": [
+						{"origin": [-1.58579, 11.91421, -3.87986], "size": [3, 3, 2], "pivot": [0, 13.5, -2.75], "rotation": [0, 0, -45], "uv": [118, 32]},
+						{"origin": [-2, 3.5, -3.4], "size": [4, 10, 1], "pivot": [0, 11.5, -3.8], "rotation": [5, 0, 0], "uv": [89, 67]}
+					]
+				},
+				{
+					"name": "legging_body_tasset_back",
+					"parent": "legging_body_tassets",
+					"pivot": [0, 12.5, 2.5],
+					"rotation": [17.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.04253, 10.45747, 1.94074], "size": [4, 4, 2], "pivot": [0, 12.5, 2.75], "rotation": [0, 0, -45], "uv": [116, 38]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "waist",
+					"pivot": [2, 11, 0]
+				},
+				{
+					"name": "legging_rightleg",
+					"parent": "leftLeg",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [0, -1, -2], "size": [4, 14, 4], "inflate": 0.255, "uv": [44, 58], "mirror": true}
+					]
+				},
+				{
+					"name": "legging_rightleg_parts",
+					"parent": "legging_rightleg",
+					"pivot": [2, 12, 0]
+				},
+				{
+					"name": "legging_rightleg_tasset",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 15.5, 0],
+					"rotation": [0, 0, -27.5],
+					"cubes": [
+						{"origin": [1.25, 7.5, -3.5], "size": [3, 7, 7], "uv": [0, 59]}
+					]
+				},
+				{
+					"name": "legging_rightleg_skirt",
+					"parent": "legging_rightleg_parts",
+					"pivot": [4.25, 14, 0],
+					"rotation": [0, 0, -12.5],
+					"cubes": [
+						{"origin": [-1.75, -1, -3], "size": [6, 14, 6], "inflate": 0.005, "uv": [24, 29]}
+					]
+				},
+				{
+					"name": "legging_rightleg_kneebrace",
+					"parent": "legging_rightleg_parts",
+					"pivot": [2, 12, 0],
+					"cubes": [
+						{"origin": [-0.5, 5.5, -2.5], "size": [5, 3, 3], "inflate": 0.125, "uv": [18, 76]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "waist",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg",
+					"parent": "rightLeg",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [4, 14, 4], "inflate": 0.255, "uv": [44, 58]}
+					]
+				},
+				{
+					"name": "legging_leftleg_parts",
+					"parent": "legging_leftleg",
+					"pivot": [-2, 12, 0]
+				},
+				{
+					"name": "legging_leftleg_kneebrace",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-4.5, 6.5, -2.5], "size": [5, 3, 3], "inflate": 0.125, "uv": [76, 8]}
+					]
+				},
+				{
+					"name": "legging_leftleg_tasset",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 15.5, 0],
+					"rotation": [0, 0, 27.5],
+					"cubes": [
+						{"origin": [-4.25, 8.5, -3.5], "size": [3, 7, 7], "uv": [56, 0]}
+					]
+				},
+				{
+					"name": "legging_leftleg_skirt",
+					"parent": "legging_leftleg_parts",
+					"pivot": [-4.25, 14, 0],
+					"rotation": [0, 0, 12.5],
+					"cubes": [
+						{"origin": [-4.25, 0, -3], "size": [6, 14, 6], "inflate": 0.005, "uv": [0, 29]}
+					]
+				}
+			]
+		}
+	]
+}

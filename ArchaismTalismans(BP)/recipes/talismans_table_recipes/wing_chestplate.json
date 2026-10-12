@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "arena:wing_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA ",
+			"  A",
+			"   "
+		],
+		"key": {
+			"A": {
+				"item": "arena:marble_feather"
+			}
+		},
+		"result": {
+			"item": "arena:wing_chestplate"
+		},
+		"unlock": [
+			{
+				"item": "arena:marble_feather"
+			}
+		]
+	}
+}
